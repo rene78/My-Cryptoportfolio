@@ -992,7 +992,7 @@ function postPortfolio() {
     .then(res => res.json()) // parses response
     .then(response => {
       //console.log(response);
-      window.location.href = "#" + response._id; //Azure Function returns id of created portfolio
+      window.location.href = "" + "#" + response._id; //Azure Function returns id of created portfolio
       portfolio = response;
       //console.log(portfolio);
 
