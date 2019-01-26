@@ -1048,7 +1048,7 @@ function deletePortfolio() {
   }).then(res => res.text()) // parses response
     .then(response => {
       console.log(response);
-      window.location.href = "http://127.0.0.1:5500/index.html#"; //Remove hash value from URL
+      window.location.href = "" + "#"; //Remove hash value from URL
       //Get hash
       hash = window.location.href.split('#')[1] || '';
       //Display demoportfolio
