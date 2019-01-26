@@ -320,26 +320,26 @@ const demoportfolio = {
       {
         "cryptoTicker": "BTC",
         "cryptoName": "Bitcoin",
-        "cryptoQty": "5",
-        "cryptoInvestedSum": "9000"
+        "cryptoQty": "0.5",
+        "cryptoInvestedSum": "2000"
       },
       {
         "cryptoTicker": "ADA",
         "cryptoName": "Cardano",
-        "cryptoQty": "30000",
-        "cryptoInvestedSum": "400"
+        "cryptoQty": "25000",
+        "cryptoInvestedSum": "1000"
       },
       {
         "cryptoTicker": "ETH",
         "cryptoName": "Ethereum",
-        "cryptoQty": "300",
-        "cryptoInvestedSum": "4000"
+        "cryptoQty": "15",
+        "cryptoInvestedSum": "1500"
       },
       {
-        "cryptoTicker": "LTC",
-        "cryptoName": "Litecoin",
-        "cryptoQty": "300",
-        "cryptoInvestedSum": "4000"
+        "cryptoTicker": "XMR",
+        "cryptoName": "Monero",
+        "cryptoQty": "50",
+        "cryptoInvestedSum": "1000"
       }
     ]
 };
