@@ -1,0 +1,518 @@
+/* #region CSS RELATED TO GENERAL PAGE LAYOUT */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Droid Serif', serif; */
+  /* background-color: linen; */
+}
+
+main {
+  padding: 8px;
+}
+
+a {
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+}
+/* #endregion */
+
+/* #region CSS RELATED TO ALERT MESSAGES*/
+#alert {
+  padding: 20px;
+  color: white;
+  opacity: 0;
+  display: none;
+  transition: opacity 0.3s;
+  margin-bottom: 15px;
+}
+
+.fail {background-color: #f44336;}
+.success {background-color: #4CAF50;}
+.info {background-color: #2196F3;}
+.warning {background-color: #ff9800;}
+
+.alert-close-btn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.alert-close-btn:hover {
+  color: black;
+}
+
+/* #endregion */
+
+/* #region CSS RELATED TO NAVIGATION MENU */
+
+/* header */
+
+.header {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+  /* position: fixed; */
+  display: inline-block;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.header li a:hover {
+  background-color: #f4f4f4;
+}
+
+#edit-portfolio-link:hover {
+  background-color: khaki;
+}
+
+#faq-link:hover {
+  background-color: rgb(167, 199, 224);
+}
+
+#forum-link:hover {
+  background-color: #f1c5c2;
+}
+
+.header .logo {
+  /* display: block; */
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  /* display: inline-block; */
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+/*Center line of the hamburger*/
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+/*After: Upper line, Before: Lower line of the hamburger*/
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked~.menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before,
+.header .menu-btn:checked~.menu-icon .navicon:after {
+  top: 0;
+}
+
+/* Original setting, which I don't understand and thus replaced with the above
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+  top: 0;
+} */
+
+@media (min-width: 600px) {
+  .header li {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+/* #endregion */
+
+/* #region CSS RELATED TO PORTFOLIO DISPLAY */
+
+/* Change mouse cursor to hand when hovering over table headings*/
+#portfolio-table th {
+  cursor: pointer;
+}
+
+/* Align everything in the table header except the one with id=coin-name to the right*/
+#portfolio-table th:not(#coin-name) {
+  text-align: right;
+}
+
+/* Align text in table cell with id=coin-name to the left */
+#coin-name {
+  text-align: left;
+}
+
+/* Select all td elements except those, who are the first child of something */
+#portfolio-table td:not(:first-child) {
+  text-align: right;
+}
+
+.cryptoUp {
+  color:  green;
+}
+
+.cryptoDown  {
+  color: red;
+}
+
+#portfolio-table thead, tfoot {
+  background-color: #F0F8FF;
+  font-weight: bold;
+}
+
+#portfolio-table tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+#portfolio-table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*Extend display table to */
+@media (min-width: 600px) {
+  #portfolio-table {
+    width: 70%;
+  }
+}
+
+.watermark {
+  position: relative;
+  top: -85px;
+  left: calc(50% - 150px);
+  transform: rotate(15deg);
+  font-size: 3em;
+  font-family: Impact, Charcoal, sans-serif;
+  color: gray;
+  opacity: 0.3;
+  pointer-events: none;
+  display: none;
+}
+/* #endregion */
+
+/* #region CSS RELATED TO EDIT TABLE */
+
+#edit-portfolio {
+  display: none;
+  background-color: khaki;
+  /* width: 70%; */
+  margin: 0 auto;
+}
+
+/*Extend display table to 70%*/
+@media (min-width: 600px) {
+  #edit-portfolio {
+    width: 70%;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  font-size: 28px;
+  font-weight: bold;
+/*   position: absolute;
+  right: 8px; */
+  float: right;
+  margin: 5px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* #my-form {
+  clear: both;
+} */
+
+input {
+  /* background-color: red; */
+  width: 100%;
+}
+
+/*Hide the 2 table columns with ticker symbol and name */
+#portfolio-update-form tr > *:nth-child(5),
+#portfolio-update-form tr > *:nth-child(6) {
+  display: none;
+}
+
+#portfolio-update-form tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+#portfolio-update-form tr:nth-child(odd) {
+  background-color: white;
+}
+
+#portfolio-update-form td:not(#add-token),
+#portfolio-update-form th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#add-token {
+  text-align: center;
+  background-color: darkslategray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  font-size: 2em;
+  color: white;
+}
+
+#add-token:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#delete-cell {
+  cursor: pointer;
+}
+
+#delete-cell:hover > #dustbin {
+  fill: red;
+}
+
+#dustbin {
+  /* fill:grey; */
+  width: 30px;
+  height: 30px;
+}
+
+/* .dustbin:hover {
+  fill: red;
+} */
+
+#portfolio-update-form {
+  margin: 0 auto;
+  /* width: 70%; */
+  border-collapse: collapse;
+  /* background-color: lightgrey; */
+}
+
+#edit-portfolio th {
+  background-color: #F0F8FF;
+}
+
+/*Coin selection dropdown*/
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.arrows-name {
+  display: inline-block
+}
+
+.triangle-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #555;
+}
+
+.triangle-up {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #555;
+}
+
+.fiat {
+  float: right;
+  margin: 0px 8px 5px;
+}
+
+.fiat-label {
+  padding: 8px;
+  background-color: #F0F8FF;
+}
+
+.fiat-select {
+  padding: 8px;
+  background-color: white;
+}
+
+.save-button, .delete-portfolio-button {
+  padding: 8px 25px;
+  margin: 8px;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 7px;
+  border-color: gray;
+}
+
+.save-button {
+  float: right;
+  clear: both;
+  background-color: green;
+}
+
+.save-button:hover {
+  background-color: darkgreen;
+}
+
+#upload-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+/* #token-operation-delete {
+  color: red;
+} */
+
+.delete-portfolio-button {
+  float: left;
+  background-color: red;
+}
+
+.delete-portfolio-button:hover {
+  background-color: darkred;
+}
+
+/*Increase width of delete and save button to 100% on really small displays*/
+@media (max-width: 370px) {
+  .save-button, .delete-portfolio-button {
+    float: none;
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+  }
+}
+
+#edit-table-foot {
+  clear: both;
+}
+/* #endregion */
+
+/* #region CSS RELATED TO FAQ AND FORUM */
+#faq {
+  display: none;
+  margin: 0 auto;
+  background-color: rgb(167, 199, 224)
+}
+
+#faq h2,
+#faq p {
+  padding: 5px;
+}
+
+#faq li {
+  overflow-wrap: break-word; /*needed due to the long bitcoin address*/
+}
+
+#forum {
+  display: none;
+  margin: 0 auto;
+  background-color: #f1c5c2;
+}
+
+/*Extend display table to 70%*/
+@media (min-width: 600px) {
+  #faq, #forum {
+    width: 70%;
+  }
+}
+/* #endregion */
