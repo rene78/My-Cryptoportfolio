@@ -223,6 +223,29 @@ h1 {
   text-align: right;
 }
 
+/*Sort arrows*/
+#portfolio-table .arrows-name {
+  display: inline-block
+}
+
+#portfolio-table .triangle-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #555;
+}
+
+#portfolio-table .triangle-up {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #555;
+}
+
 /* Align text in table cell with id=coin-name to the left */
 #coin-name {
   text-align: left;
@@ -310,10 +333,6 @@ h1 {
   cursor: pointer;
 }
 
-/* #my-form {
-  clear: both;
-} */
-
 input {
   /* background-color: red; */
   width: 100%;
@@ -368,10 +387,6 @@ input {
   height: 30px;
 }
 
-/* .dustbin:hover {
-  fill: red;
-} */
-
 #portfolio-update-form {
   margin: 0 auto;
   /* width: 70%; */
@@ -385,38 +400,78 @@ input {
 
 /*Coin selection dropdown*/
 /* Dropdown Content (Hidden by Default) */
+.dropdown-button {
+  background-color: inherit;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  padding-right: 30px;
+}
+
+.dropdown-button:hover, .dropdown-button:focus {
+  background-color: #f1f7f1;
+}
+
+.my-input {
+  background-image: url('https://www.w3schools.com/howto/searchicon.png');
+  background-position: 14px center;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.my-input:focus {outline: 3px solid #ddd;}
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
   border: 1px solid #ddd;
   z-index: 1;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-.arrows-name {
-  display: inline-block
+.dropdown-content a:not(.nothing-found) {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
-.triangle-down {
-  display: inline-block;
+.dropdown-content a:hover {background-color: #ddd;}
+
+.active {
+  background-color: #ddd;
+}
+
+.nothing-found {
+  pointer-events: none;
+  cursor: default;
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-button .triangle-down {
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 8px solid #555;
+  position: absolute;
+  top: 0.4em;
+  right: 5px;
 }
 
-.triangle-up {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 8px solid #555;
-}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 .fiat {
   float: right;
@@ -458,10 +513,6 @@ input {
   height: 30px;
   vertical-align: middle;
 }
-
-/* #token-operation-delete {
-  color: red;
-} */
 
 .delete-portfolio-button {
   float: left;

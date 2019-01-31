@@ -350,6 +350,9 @@ var portfolio = {};
 //Fill out coin list for search filter array with all coin options on load
 var coinlistFiltered = coinlist;
 
+//Counter for up/down arrow coin selection
+var locNumber;
+
 //Display Portfolio on load
 getPortfolioFromDB();
 
@@ -673,8 +676,8 @@ function createEditTable() {
   tableHTML += '<tbody id="token">';
 
   for (let i = 0; i < portfolio.token.length; i++) {
-    tableHTML += "<tr>";
-    tableHTML += '<td><input type="text" onclick="toggleDropdownVisibility(this);createOptions(this)" onfocusout="hideDropdown(this)" class="filter-coins" placeholder="Select coin..." onkeyup="filterCoins(this)" autocomplete="off"><div id="myDropdown" class="dropdown-content"><select class="select-coin" size="5"> </select></div></td>';
+    tableHTML += "<tr class='token-row'>";
+    tableHTML += '<td><button onclick="showHideDropdown(this); createOptions(this)" class="dropdown-button">Select coin...<div class="triangle-down"></div></button><div class="dropdown-content"><input class="my-input" type="text" placeholder="Search.." onkeyup="filterCoins(this)" autocomplete="off"><div class="all-token"></div></div></td>';
     tableHTML += '<td><input type="number" name="cryptoQty" class="crypto-qty" value="" min="0" placeholder="e.g. 5" title="Overall number of coins in your possession" required="true"></td>';
     tableHTML += '<td><input type="number" class="crypto-invested-sum" value="" min="0" placeholder="e.g. 1000" title="How much fiat did you invest to buy this coin?" required="true"></td>';
     tableHTML += '<td id="delete-cell" onclick="deleteRow(this)" title="Click to delete coin"><svg id="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
@@ -760,14 +763,14 @@ function fillOutTable() {
     // console.log(portfolio);
     // console.log(n);
     // console.log(coinlist[n]);
-    var selectCoin = document.getElementsByClassName("filter-coins")[i];
+    var selectCoin = document.getElementsByClassName("dropdown-button")[i];
     var ticker = document.getElementsByClassName("crypto-ticker")[i];
     var name = document.getElementsByClassName("crypto-name")[i];
     var quantity = document.getElementsByClassName("crypto-qty")[i];
     var investedSum = document.getElementsByClassName("crypto-invested-sum")[i];
 
     //Write values from coinlist/portfolio into input fields. Do a simple input sanitization beforehand in order to prevent XSS attacks.
-    selectCoin.setAttribute("value", sanitizeHTML(coinlist[n].FullName));
+    selectCoin.innerHTML = sanitizeHTML(coinlist[n].FullName) + "<div class='triangle-down'></div>";
     ticker.setAttribute("value", sanitizeHTML(coinlist[n].Symbol));
     name.setAttribute("value", sanitizeHTML(coinlist[n].CoinName));
     quantity.setAttribute("value", sanitizeHTML(portfolio.token[i].cryptoQty));
@@ -777,19 +780,61 @@ function fillOutTable() {
 
 //Filter and display coins while typing
 function filterCoins(e) {
-  //delete this arrow stuff, if you don't know how to use this to navigate in results.
-  var event = window.event ? window.event : e;
+
+  //console.log(window.event);
+  // var event = window.event
+  // var event = window.event ? window.event : e;
+  //console.log(event);
+  var allToken = window.event.path[0].nextElementSibling.children;
+  //console.log(allToken);
   //console.log(event.keyCode)
   if (event.keyCode == '38') {
     console.log("Up arrow");
+    if (locNumber > 0) {
+      locNumber--;
+      console.log("locNumber", locNumber);
+      // allToken[locNumber].style.backgroundColor = "#ddd";
+      allToken[locNumber].classList.add("active");
+      if (locNumber < allToken.length) {
+        // allToken[locNumber + 1].style.backgroundColor = null;
+        allToken[locNumber + 1].classList.remove("active");
+      }
+    }
     return;
   }
   else if (event.keyCode == '40') {
     console.log("Down arrow");
+    if (locNumber < allToken.length - 1) {
+      locNumber++;
+      console.log("locNumber", locNumber);
+      // allToken[locNumber].style.backgroundColor = "#ddd";
+      allToken[locNumber].classList.add("active");
+      if (locNumber > 0) {
+        // allToken[locNumber - 1].style.backgroundColor = null;
+        allToken[locNumber - 1].classList.remove("active");
+      }
+    }
     return;
   }
-  //console.log(e.value);
+  else if (event.keyCode == '13') {
+    console.log("Enter");
+    console.log(allToken[locNumber])
+    //If Arrow up/down has not been used: Select uppermost coin. Else forward the selected coin.
+    if (locNumber > -1) {
+      writeToNameField(allToken[locNumber], locNumber);
+    } else {
+      writeToNameField(allToken[0], 0);
+    }
+
+    return;
+  }
+  else if (event.keyCode == '27') {
+    console.log("Escape");
+    showHideDropdown(e.parentElement);
+  }
+
   var input = e.value.toUpperCase();
+  // console.log(input);
   coinlistFiltered = coinlist.filter(function (coin) {
     if (coin.FullName.toUpperCase().indexOf(input) > -1) {
       return coin;
@@ -797,32 +842,44 @@ function filterCoins(e) {
   });
   //console.log(coinlistFiltered);
   createOptions(e);
-  showDropdown(e); //show dropdown in case it has been hidden again by clicking on input field a second time
+  locNumber = -1; //Reset counter so that after typing the first press of Arrow down starts at the top
 }
 
 //Create options for dropdown menu.
 function createOptions(e) {
   var option = "";
-  for (index in coinlistFiltered) {
-    option += "<option onclick='writeToNameField(this)'>" + coinlistFiltered[index].FullName + "</option>";
+  if (coinlistFiltered.length > 0) {
+    for (index in coinlistFiltered) {
+      option += "<a href='javascript:void(0)' onclick='writeToNameField(this, " + index + ")'>" + coinlistFiltered[index].FullName + "</option>";
+      //Limit amount of tokens shown to 6
+      if (index >= 5) {
+        break;
+      }
+    }
+  } else {
+    option = "<a href='javascript:void(0)' class='nothing-found'>Nothing found...</option>";
   }
-  e.parentElement.lastElementChild.lastElementChild.innerHTML = option;
+
+  var tokenContainer = e.closest(".token-row").querySelector('.all-token');
+  //console.log(tokenContainer);
+  tokenContainer.innerHTML = option;
 }
 
 //On selection write full name, symbol and coin name into fields of edit table
-function writeToNameField(e) {
-  var selectedCoinIndex = e.parentElement.selectedIndex;
-  var inputField = e.parentElement.parentElement.parentElement.firstElementChild;
-  var cryptoTicker = e.parentElement.parentElement.parentElement.parentElement.children.item(4).firstElementChild;
-  var cryptoName = e.parentElement.parentElement.parentElement.parentElement.children.item(5).firstElementChild;
+function writeToNameField(e, index) {
+  /*var fullName = coinlistFiltered[index].FullName;
+  console.log(fullName);*/
+  var dropdownName = e.closest(".token-row").querySelector(".dropdown-button");
+  var cryptoTicker = e.closest(".token-row").querySelector('.crypto-ticker');
+  var cryptoName = e.closest(".token-row").querySelector('.crypto-name');
 
-  inputField.value = coinlistFiltered[selectedCoinIndex].FullName;
-  cryptoTicker.value = coinlistFiltered[selectedCoinIndex].Symbol;
-  cryptoName.value = coinlistFiltered[selectedCoinIndex].CoinName;
-  toggleDropdownVisibility(e); //hide dropdown after selecting coin
-  //console.log(inputField);
+  dropdownName.innerHTML = coinlistFiltered[index].FullName + "<div class='triangle-down'></div>";
+  cryptoTicker.value = coinlistFiltered[index].Symbol;
+  cryptoName.value = coinlistFiltered[index].CoinName;
+  showHideDropdown(e.closest(".token-row").querySelector(".dropdown-button"));
 }
 
+/*
 //Hide dropdown. Timeout needed. Else "writeToNameField()" not executed, when selecting token
 function hideDropdown(e) {
   var dropdown = e.parentElement.lastElementChild;
@@ -835,11 +892,27 @@ function showDropdown(e) {
   dropdown.classList.add("show");
 }
 
+
 //When the user clicks on the text field, toggle between hiding and showing the dropdown content
 function toggleDropdownVisibility(e) {
   var dropdown = e.parentElement.lastElementChild;
   dropdown.classList.toggle("show");
   //document.getElementById("myDropdown").classList.toggle("show");
+}
+*/
+
+
+//When the user clicks on the text field, toggle between hiding and showing the dropdown content. Remove old text in input field
+function showHideDropdown(e) {
+  var dropDownContent = e.closest(".token-row").querySelector(".dropdown-content");
+  dropDownContent.classList.toggle("show");
+  var searchField = e.closest(".token-row").querySelector(".my-input");
+  //console.log(searchField);
+  searchField.value = "";
+  searchField.focus();
+  searchField.scrollIntoView();
+  coinlistFiltered = coinlist; //Reset coinlistFiltered
+  locNumber = -1; //Reset arrow up/down counter
 }
 
 //Write form input into portfolio variable. Do some validation checks beforehand. Sort it alphabetically
@@ -1113,5 +1186,3 @@ function showAlert(text, colorClass) {
   setTimeout(function () { alert.style.opacity = "1"; }, 10); //fade-in does not work without timeout
   alert.scrollIntoView();
 }
-
-//temp stuff
