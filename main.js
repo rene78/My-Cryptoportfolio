@@ -724,7 +724,7 @@ function createEditTable() {
 function insertRow() {
   //First check, if a token has been selected in last input field. If no: cancel! We don't want empty rows.
   var lastInputField = document.getElementById("token").lastElementChild.querySelector(".crypto-ticker").value;
-  console.log(lastInputField);
+  //console.log(lastInputField);
   if (lastInputField === "") {
     showAlert("Select a coin in the previous input field first.", "fail");
     console.log("Select a coin in the previous input field first.");

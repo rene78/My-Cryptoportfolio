@@ -408,7 +408,7 @@ input {
   width: 100%;
   text-align: left;
   position: relative;
-  padding-right: 30px;
+  padding: 10px 30px 10px 10px;
 }
 
 .dropdown-button:hover, .dropdown-button:focus {
@@ -416,13 +416,14 @@ input {
 }
 
 .my-input {
-  background-image: url('https://www.w3schools.com/howto/searchicon.png');
+  background-image: url('img/searchicon.png');
   background-position: 14px center;
   background-repeat: no-repeat;
   font-size: 16px;
   padding: 14px 20px 12px 45px;
   border: none;
   border-bottom: 1px solid #ddd;
+  width: inherit;
 }
 
 .my-input:focus {outline: 3px solid #ddd;}
@@ -466,7 +467,7 @@ input {
   border-right: 5px solid transparent;
   border-top: 8px solid #555;
   position: absolute;
-  top: 0.4em;
+  top: 40%;
   right: 5px;
 }
 
