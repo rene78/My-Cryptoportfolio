@@ -720,7 +720,7 @@ function createEditTable() {
   }
 }
 
-//Insert row in edit table
+//Insert row in edit table and open coin selection menu
 function insertRow() {
   //First check, if a token has been selected in last input field. If no: cancel! We don't want empty rows.
   var lastInputField = document.getElementById("token").lastElementChild.querySelector(".crypto-ticker").value;
@@ -742,6 +742,10 @@ function insertRow() {
   tableHTML += "</tr>";
 
   entries.insertAdjacentHTML("beforeend", tableHTML);
+  SelectCoinButton = document.querySelector("#token").lastElementChild.querySelector(".dropdown-button");
+  console.log(SelectCoinButton);
+  createOptions(SelectCoinButton);
+  showHideDropdown(SelectCoinButton);
 }
 
 //Delete row in edit table
@@ -1059,7 +1063,7 @@ function postPortfolio() {
       } else {
         //Update hash variable
         hash = window.location.href.split('#')[1] || '';
-        infotext = "<span><strong>Portfolio has been created</strong><br>It can be accessed under <a href=" + window.location.href + ">#" + hash + "</a>. Please <strong>bookmark this URL</strong> in order to access it in the future.<span>";
+        infotext = "<span><strong>Portfolio has been created</strong><br>It can be accessed in the future via the URL that is currently in the address bar <a href=" + window.location.href + ">#" + hash + "</a>. Please <strong>bookmark this URL</strong>.<span>";
         showAlert(infotext, "success");
       }
       downloadCoinPrices();
