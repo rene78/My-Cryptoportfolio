@@ -723,7 +723,8 @@ function createEditTable() {
 //Insert row in edit table
 function insertRow() {
   //First check, if a token has been selected in last input field. If no: cancel! We don't want empty rows.
-  var lastInputField = document.getElementById("token").lastElementChild.firstElementChild.firstElementChild.value;
+  var lastInputField = document.getElementById("token").lastElementChild.querySelector(".crypto-ticker").value;
+  console.log(lastInputField);
   if (lastInputField === "") {
     showAlert("Select a coin in the previous input field first.", "fail");
     console.log("Select a coin in the previous input field first.");
@@ -731,8 +732,8 @@ function insertRow() {
   };
 
   var entries = document.getElementById("token");
-  var tableHTML = "<tr>";
-  tableHTML += '<td><input type="text" onclick="toggleDropdownVisibility(this);createOptions(this)" onfocusout="hideDropdown(this)" class="filter-coins" placeholder="Select coin..." onkeyup="filterCoins(this)" autocomplete="off"><div id="myDropdown" class="dropdown-content"><select class="select-coin" size="5"> </select></div></td>';
+  var tableHTML = "<tr class='token-row'>";
+  tableHTML += '<td><button onclick="showHideDropdown(this); createOptions(this)" class="dropdown-button">Select coin...<div class="triangle-down"></div></button><div class="dropdown-content"><input class="my-input" type="text" placeholder="Search.." onkeyup="filterCoins(this)" autocomplete="off"><div class="all-token"></div></div></td>';
   tableHTML += '<td><input type="number" name="cryptoQty" class="crypto-qty" value="" min="0" placeholder="e.g. 5" title="Overall number of coins in your possession" required="true"></td>';
   tableHTML += '<td><input type="number" class="crypto-invested-sum" value="" min="0" placeholder="e.g. 1000" title="How much fiat did you invest to buy this coin?" required="true"></td>';
   tableHTML += '<td id="delete-cell" onclick="deleteRow(this)" title="Click to delete coin"><svg id="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
@@ -878,29 +879,6 @@ function writeToNameField(e, index) {
   cryptoName.value = coinlistFiltered[index].CoinName;
   showHideDropdown(e.closest(".token-row").querySelector(".dropdown-button"));
 }
-
-/*
-//Hide dropdown. Timeout needed. Else "writeToNameField()" not executed, when selecting token
-function hideDropdown(e) {
-  var dropdown = e.parentElement.lastElementChild;
-  setTimeout(function () { dropdown.classList.remove("show"); }, 100)
-}
-
-function showDropdown(e) {
-  var dropdown = e.parentElement.lastElementChild;
-  //console.log(dropdown);
-  dropdown.classList.add("show");
-}
-
-
-//When the user clicks on the text field, toggle between hiding and showing the dropdown content
-function toggleDropdownVisibility(e) {
-  var dropdown = e.parentElement.lastElementChild;
-  dropdown.classList.toggle("show");
-  //document.getElementById("myDropdown").classList.toggle("show");
-}
-*/
-
 
 //When the user clicks on the text field, toggle between hiding and showing the dropdown content. Remove old text in input field
 function showHideDropdown(e) {
