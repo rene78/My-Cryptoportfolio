@@ -816,7 +816,9 @@ function filterCoins(e) {
   // var event = window.event
   // var event = window.event ? window.event : e;
   //console.log(event);
-  var allToken = window.event.path[0].nextElementSibling.children;
+  //var allToken = window.event.path[0].nextElementSibling.children;
+  var allToken = window.event.composedPath()[0].nextElementSibling.children;
+  console.log(allToken);
   //console.log(allToken);
   //console.log(event.keyCode)
   if (event.keyCode == '38') {
