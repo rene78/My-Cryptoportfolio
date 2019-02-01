@@ -620,8 +620,8 @@ function sortTable(n) {
           xGreaterThanY = true;
         }
       } else {
-        x = rows[i].getElementsByTagName("TD")[n].innerText.replace(/[^-1-9]/g, '');
-        y = rows[i + 1].getElementsByTagName("TD")[n].innerText.replace(/[^-1-9]/g, '');
+        x = rows[i].getElementsByTagName("TD")[n].innerText.replace(/[^-0-9]/g, '');
+        y = rows[i + 1].getElementsByTagName("TD")[n].innerText.replace(/[^-0-9]/g, '');
         if (Number(x) > Number(y)) {
           //if (x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
           //if so, mark as a switch and break the loop:
