@@ -405,7 +405,7 @@ function getPortfolioFromDB() {
       //Compare portfolio from local storage with version in DB to check whether LS version is up-to-date
       if (retrievedStringFromLocalStorage != null) {
         if (portfolioFromLocalStorage.updatedAt == data.updatedAt) {
-          console.log("updatedAt is SIMILAR with version in local storage. No need to update display.");
+          console.log("'updatedAt' from portfolio in DB is SIMILAR with the one in local storage. No need to update display.");
           return;
         }
       }
@@ -620,8 +620,8 @@ function sortTable(n) {
           xGreaterThanY = true;
         }
       } else {
-        x = rows[i].getElementsByTagName("TD")[n].innerText.replace(/\D/g, '');
-        y = rows[i + 1].getElementsByTagName("TD")[n].innerText.replace(/\D/g, '');
+        x = rows[i].getElementsByTagName("TD")[n].innerText.replace(/[^-1-9]/g, '');
+        y = rows[i + 1].getElementsByTagName("TD")[n].innerText.replace(/[^-1-9]/g, '');
         if (Number(x) > Number(y)) {
           //if (x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
           //if so, mark as a switch and break the loop:
