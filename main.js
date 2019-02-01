@@ -372,9 +372,26 @@ function getPortfolioFromDB() {
     return;
   }
 
-  //Else download from database via Azure Function
+  //Else download from database via Azure Function and - if available - from local storage (LS) first
+
+  // Try to retrieve from LS
+  const retrievedStringFromLocalStorage = localStorage.getItem("5c3c8b7893902f2004a421a3");
+  //console.log(retrievedStringFromLocalStorage);
+
+  //Is portfolio with given ID available in LS?
+  //If yes: Use this data to display portfolio on website immediately. Cold start time of Azure Functions won't impact user experience
+  if (retrievedStringFromLocalStorage != null) {
+    console.log("Portfolio found in local storage! I will use this data to display the portfolio first. In the meantime the version from the DB is downloaded as well (Takes 10s, if Azure function is cold-started).");
+    portfolioFromLocalStorage = JSON.parse(retrievedStringFromLocalStorage);
+    portfolio = portfolioFromLocalStorage;
+    downloadCoinPrices();
+    createEditTable();
+  } else {
+    console.log("Portfolio NOT available in local storage! Load it as usual from DB and save a copy in LS.");
+  }
+
   // var url = "http://localhost:7071/api/getPortfolio?id=" + hash; //Local Function URL - !!Make sure to remove the Cors entry in local_settings of Function before uploading to Azure
-  var url = "https://cryptoportfolio-functions-rene78.azurewebsites.net/api/GetPortfolio?id=" +hash; //Azure Function URL
+  var url = "https://cryptoportfolio-functions-rene78.azurewebsites.net/api/GetPortfolio?id=" + hash; //Azure Function URL
   fetch(url)
     .then(handleErrors)
     .then(res => {
@@ -385,9 +402,18 @@ function getPortfolioFromDB() {
     })
     .then(data => {
       //console.log(data);
+      //Compare portfolio from local storage with version in DB to check whether LS version is up-to-date
+      if (retrievedStringFromLocalStorage != null) {
+        if (portfolioFromLocalStorage.updatedAt == data.updatedAt) {
+          console.log("updatedAt is SIMILAR with version in local storage. No need to update display.");
+          return;
+        }
+      }
+      console.log("DB version of portfolio is NEWER as the one in local storage or local storage is empty! Update display & Update local storage.");
       portfolio = data;
       downloadCoinPrices();
       createEditTable();
+      localStorage.setItem(hash, JSON.stringify(portfolio));
     })
     .catch(error => {
       console.error('There was an error:', error.message)
@@ -1050,6 +1076,7 @@ function postPortfolio() {
       window.location.href = "" + "#" + response._id; //Azure Function returns id of created portfolio
       portfolio = response;
       //console.log(portfolio);
+      localStorage.setItem(hash, JSON.stringify(portfolio)); //Update local storage with new portfolio
 
       //Close edit table (closeSegment function cannot be used, cause no "this")
       document.getElementById("edit-portfolio").style.display = "none";
