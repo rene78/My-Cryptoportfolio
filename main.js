@@ -313,6 +313,7 @@ const coinpricesExample = {
   }
 };
 
+//The demoportfolio which is shown on the start page
 const demoportfolio = {
   "fiat": "EUR",
   "token":
@@ -777,9 +778,16 @@ function insertRow() {
 //Delete row in edit table
 function deleteRow(b) {
   //console.log(b);
-  var i = b.parentNode.rowIndex;
-  //console.log("b.parentNode.rowIndex: "+ i);
-  document.getElementById("portfolio-update-form").deleteRow(i);
+  var nRows = document.getElementById("portfolio-update-form").rows.length;
+  //console.log(nRows);
+  //Only delete row, if at least 2 token are there.
+  if (nRows > 3) {
+    var i = b.parentNode.rowIndex;
+    //console.log("b.parentNode.rowIndex: "+ i);
+    document.getElementById("portfolio-update-form").deleteRow(i);
+  } else {
+    console.log("Last token row cannot be deleted!");
+  }
 }
 
 //On load write fiat, full name, symbol and coin name into fields of edit table. Take ticker from DB, the rest comes from coinlist
@@ -817,8 +825,8 @@ function filterCoins(e) {
   // var event = window.event ? window.event : e;
   //console.log(event);
   //var allToken = window.event.composedPath()[0].nextElementSibling.children;
-  var allToken =e.closest(".dropdown-content").querySelector(".all-token").children;
-  console.log(allToken);
+  var allToken = e.closest(".dropdown-content").querySelector(".all-token").children;
+  //console.log(allToken);
   //console.log(event.keyCode)
   if (event.keyCode == '38') {
     console.log("Up arrow");
