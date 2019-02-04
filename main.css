@@ -97,11 +97,11 @@ th {
 }
 
 #faq-link:hover {
-  background-color: rgb(167, 199, 224);
+  background-color: #a7c7e0;
 }
 
 #forum-link:hover {
-  background-color: #f1c5c2;
+  background-color: #D6D5B2;
 }
 
 .header .logo {
@@ -580,22 +580,80 @@ input {
 #faq {
   display: none;
   margin: 0 auto;
-  background-color: rgb(167, 199, 224)
+  background-color: #a7c7e0;
 }
 
-#faq h2,
+
 #faq p {
   padding: 5px;
 }
+
+#faq h2 {
+  padding: 5px 20px 5px 5px;
+}
+
 
 #faq li {
   overflow-wrap: break-word; /*needed due to the long bitcoin address*/
 }
 
+summary {
+  transition: background .75s ease;
+  width: 100%;
+  outline: 0;
+  font-size: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-top: 1px solid #D3D3D3;
+}
+
+details p {
+  padding: 0 25px 15px 25px;
+  margin: 0;
+  text-shadow: none;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+summary::after {
+  content: "";
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  right: 10px;
+  position: relative;
+}
+
+details[open] summary::after {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+details[open] summary:hover {
+  background: none;
+}
+
+summary:hover {
+  background: #d3d3d3;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
 #forum {
   display: none;
   margin: 0 auto;
-  background-color: #f1c5c2;
+  background-color: #D6D5B2;
+}
+
+#disqus_thread {
+  padding: 5px;
 }
 
 /*Extend display table to 70%*/
