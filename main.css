@@ -93,15 +93,15 @@ th {
 }
 
 #edit-portfolio-link:hover {
-  background-color: khaki;
+  background-color: #ffe6bc;
 }
 
 #faq-link:hover {
-  background-color: #a7c7e0;
+  background-color: #c9e7fc;
 }
 
 #forum-link:hover {
-  background-color: #D6D5B2;
+  background-color: #ededed;
 }
 
 .header .logo {
@@ -308,7 +308,7 @@ th {
 
 #edit-portfolio {
   display: none;
-  background-color: khaki;
+  background-color: #ffe6bc;
   /* width: 70%; */
   margin: 0 auto;
 }
@@ -580,7 +580,7 @@ input {
 #faq {
   display: none;
   margin: 0 auto;
-  background-color: #a7c7e0;
+  background-color: #c9e7fc;
 }
 
 
@@ -649,7 +649,7 @@ details summary::-webkit-details-marker {
 #forum {
   display: none;
   margin: 0 auto;
-  background-color: #D6D5B2;
+  background-color: #ededed;
 }
 
 #disqus_thread {
