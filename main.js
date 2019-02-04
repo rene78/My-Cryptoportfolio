@@ -456,18 +456,18 @@ function downloadCoinPrices() {
   //coinPrices = coinpricesExample;
   //displayPortfolio();
 
-    fetch(coinAPI)
-      .then(handleErrors)
-      .then(res => {
-        //console.log(res.clone());//res.json() cannot be used twice in the callback. Thus res.clone() (see https://stackoverflow.com/q/46742251/5263954)
-        return res.json();
-      })
-      .then(prices => {
-        //console.log(prices);
-        coinPrices = prices;
-        displayPortfolio();
-      })
-      .catch(error => console.error('There was an error while downloading coin prices:', error.message));
+  fetch(coinAPI)
+    .then(handleErrors)
+    .then(res => {
+      //console.log(res.clone());//res.json() cannot be used twice in the callback. Thus res.clone() (see https://stackoverflow.com/q/46742251/5263954)
+      return res.json();
+    })
+    .then(prices => {
+      //console.log(prices);
+      coinPrices = prices;
+      displayPortfolio();
+    })
+    .catch(error => console.error('There was an error while downloading coin prices:', error.message));
 }
 
 // Display portfolio on page
@@ -504,9 +504,9 @@ function displayPortfolio() {
     var change24H = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['CHANGE24HOUR'];
     var fiatSymbol = coinPrices['DISPLAY'][cryptoTicker][portfolio.fiat]['TOSYMBOL'];
 
-    var cryptoGainLoss = "";
-    var cryptoGainLossToday = "";
-    var cryptoBuyingPrice = "";
+    var cryptoGainLoss = 0;
+    var cryptoGainLossToday = 0;
+    var cryptoBuyingPrice = 0;
 
     //Some values on CryptoCompare return "null". That would break ".toFixed" below:
     if (changePct24H != null) {
