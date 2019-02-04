@@ -21,6 +21,11 @@ a {
 h1 {
   text-align: center;
 }
+
+/*Word break important for smaller screens to prevent overflow of table headers.*/
+th {
+  word-break: break-word;
+}
 /* #endregion */
 
 /* #region CSS RELATED TO ALERT MESSAGES*/
@@ -320,8 +325,6 @@ h1 {
   color: #aaaaaa;
   font-size: 28px;
   font-weight: bold;
-/*   position: absolute;
-  right: 8px; */
   float: right;
   margin: 5px;
 }
@@ -472,7 +475,7 @@ input {
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.show-dropdown-content {display:block;}
 
 .fiat {
   float: right;
@@ -490,7 +493,7 @@ input {
 }
 
 .save-button, .delete-portfolio-button {
-  padding: 8px 25px;
+  padding: 8px 25px 8px 30px;
   margin: 8px;
   color: white;
   font-size: 1.2em;
@@ -509,6 +512,39 @@ input {
   background-color: darkgreen;
 }
 
+.deactivate {
+  pointer-events: none;
+  filter: grayscale(100%) blur(1px);
+}
+
+.loading-animation {
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 14px;
+  height: 14px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display: none;
+  left: 4px;
+  top: 10px;
+  position: absolute;
+}
+
+.show {
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 #upload-icon {
   width: 30px;
   height: 30px;
@@ -516,6 +552,7 @@ input {
 }
 
 .delete-portfolio-button {
+  padding: 8px 25px;
   float: left;
   background-color: red;
 }

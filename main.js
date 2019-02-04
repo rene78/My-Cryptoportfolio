@@ -121,11 +121,11 @@ const coinpricesExample = {
         "IMAGEURL": "/media/20646/eth_logo.png"
       }
     },
-    "LTC": {
+    "XMR": {
       "EUR": {
         "TYPE": "5",
         "MARKET": "CCCAGG",
-        "FROMSYMBOL": "LTC",
+        "FROMSYMBOL": "XMR",
         "TOSYMBOL": "EUR",
         "FLAGS": "4",
         "PRICE": 27.39,
@@ -273,7 +273,7 @@ const coinpricesExample = {
         "IMAGEURL": "/media/20646/eth_logo.png"
       }
     },
-    "LTC": {
+    "XMR": {
       "EUR": {
         "FROMSYMBOL": "Ł",
         "TOSYMBOL": "€",
@@ -453,21 +453,21 @@ function downloadCoinPrices() {
   //console.log('coinAPI: ' + coinAPI);
 
   //Hide fetch and undhide 2 lines below to show portfolio with locally saved demo prices
-  // coinPrices = coinpricesExample;
-  // displayPortfolio();
+  //coinPrices = coinpricesExample;
+  //displayPortfolio();
 
-  fetch(coinAPI)
-    .then(handleErrors)
-    .then(res => {
-      //console.log(res.clone());//res.json() cannot be used twice in the callback. Thus res.clone() (see https://stackoverflow.com/q/46742251/5263954)
-      return res.json();
-    })
-    .then(prices => {
-      //console.log(prices);
-      coinPrices = prices;
-      displayPortfolio();
-    })
-    .catch(error => console.error('There was an error while downloading coin prices:', error.message));
+    fetch(coinAPI)
+      .then(handleErrors)
+      .then(res => {
+        //console.log(res.clone());//res.json() cannot be used twice in the callback. Thus res.clone() (see https://stackoverflow.com/q/46742251/5263954)
+        return res.json();
+      })
+      .then(prices => {
+        //console.log(prices);
+        coinPrices = prices;
+        displayPortfolio();
+      })
+      .catch(error => console.error('There was an error while downloading coin prices:', error.message));
 }
 
 // Display portfolio on page
@@ -728,7 +728,7 @@ function createEditTable() {
   }
   tableHTML += '</select>';
   tableHTML += '</div>';
-  tableHTML += '<button class="save-button" onclick="postPortfolio()" title="Save portfolio to database">Save <svg id="upload-icon"><use xlink:href="img/icons.svg#upload-logo"></use></svg></button>'
+  tableHTML += '<button class="save-button" onclick="postPortfolio()" title="Save portfolio to database"><div class="loading-animation"></div> Save <svg id="upload-icon"><use xlink:href="img/icons.svg#upload-logo"></use></svg></button>'
   // tableHTML += '<input type="button" value="Submit" class="submit-button" onclick="postPortfolio()">';
   // tableHTML += "</form>";
   tableHTML += '<button class="delete-portfolio-button" onclick="deletePortfolio()" title="Irrevocably delete portfolio from database">Delete Portfolio</button>';
@@ -922,7 +922,7 @@ function writeToNameField(e, index) {
 //When the user clicks on the text field, toggle between hiding and showing the dropdown content. Remove old text in input field
 function showHideDropdown(e) {
   var dropDownContent = e.closest(".token-row").querySelector(".dropdown-content");
-  dropDownContent.classList.toggle("show");
+  dropDownContent.classList.toggle("show-dropdown-content");
   var searchField = e.closest(".token-row").querySelector(".my-input");
   //console.log(searchField);
   searchField.value = "";
@@ -1064,6 +1064,10 @@ function postPortfolio() {
     urlPost = "https://cryptoportfolio-functions-rene78.azurewebsites.net/api/PostPortfolio";
     // urlPost = "http://localhost:7071/api/PostPortfolio";
   }
+
+  //Deactivate save button during save operation. Else the user could send the portfolio multiple times to the DB
+  deactivateSaveButton();
+
   // Default options are marked with *
   fetch(urlPost, {
     method: "POST", // *GET, POST, PUT, DELETE, etc.
@@ -1086,6 +1090,9 @@ function postPortfolio() {
       portfolio = response;
       //console.log(portfolio);
       localStorage.setItem(hash, JSON.stringify(portfolio)); //Update local storage with new portfolio
+
+      //Activate save button again
+      deactivateSaveButton();
 
       //Close edit table (closeSegment function cannot be used, cause no "this")
       document.getElementById("edit-portfolio").style.display = "none";
@@ -1110,7 +1117,17 @@ function postPortfolio() {
       console.error("There was an error while uploading the portfolio to the DB: ", error);
       var infotext = "<span>There was an error while uploading the portfolio to the DB: " + error + "</span>";
       showAlert(infotext, "fail");
+      //Activate save button again
+      deactivateSaveButton();
     });
+}
+
+//Deactivate Save button during write operation & grey out button
+function deactivateSaveButton() {
+  var saveButton = document.querySelector(".save-button");
+  saveButton.classList.toggle("deactivate");
+  document.querySelector(".loading-animation").classList.toggle("show");
+  // saveButton.classList.add("loading-animation");
 }
 
 // DELETE Portfolio from database
