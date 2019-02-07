@@ -27,9 +27,9 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a id="edit-portfolio-link" href="javascript:void(0)" onclick="showSegment('edit-portfolio')">Edit Portfolio</a></li>
-      <li><a id="faq-link" href="javascript:void(0)" onclick="showSegment('faq')">FAQ</a></li>
-      <li><a id="forum-link" href="javascript:void(0)" onclick="showSegment('forum')">Forum</a></li>
+      <li><a id="edit-portfolio-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.edit-portfolio')">Edit Portfolio</a></li>
+      <li><a id="faq-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.faq')">FAQ</a></li>
+      <li><a id="forum-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.forum')">Forum</a></li>
     </ul>
   </header>
   <main class="main">
@@ -38,9 +38,9 @@
       <span id=alert-text></span>
     </div>
     <div id="display-portfolio"></div>
-    <div id="edit-portfolio"></div>
-    <div id="faq">
-      <button onclick="closeSegment(this)" class="close" title="Close the FAQ" aria-label="Close the FAQ">&times;</button>
+    <div class="edit-portfolio"></div>
+    <div class="faq">
+      <button onclick="toggleSegmentDisplay('.faq')" class="close" title="Close the FAQ" aria-label="Close the FAQ">&times;</button>
       <h1>FAQ</h1>
 
       <details>
@@ -53,11 +53,17 @@
         </details>
         <details>
           <summary>
+            <h2>How to use the app?</h2>
+          </summary>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/aPPmpXDy4LM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </details>
+        <details>
+          <summary>
             <h2>Can I support the development?</h2>
           </summary>
           <p>This would be very much appreciated! There are three ways:
           <ol>
-            <li>Leave your suggestions in the forum below</li>
+            <li>Leave your suggestions in the forum on this site</li>
             <li>Even better: If you know some JS, HTML and CSS you can <a href="https://github.com/rene78/My-Cryptoportfolio">improve the app</a></li>
             <li>You can send me a tip. Bitcoin address: 13kGpAVk87XGRDm6ZscUFvGaTFyjPuKLTY </li>
           </ol>
@@ -77,8 +83,8 @@
               in general. And "moon" - as in "to the moon"...</p>
         </details>
     </div>
-    <div id="forum">
-      <button onclick="closeSegment(this)" class="close" title="Close the Forum" aria-label="Close the forum">&times;</button>
+    <div class="forum">
+      <button onclick="toggleSegmentDisplay('.forum')" class="close" title="Close the Forum" aria-label="Close the forum">&times;</button>
       <h1>Forum</h1>
       <div id="disqus_thread"></div>
       <script>

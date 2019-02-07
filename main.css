@@ -306,7 +306,7 @@ th {
 
 /* #region CSS RELATED TO EDIT TABLE */
 
-#edit-portfolio {
+.edit-portfolio {
   display: none;
   background-color: #ffe6bc;
   /* width: 70%; */
@@ -315,7 +315,7 @@ th {
 
 /*Extend display table to 70%*/
 @media (min-width: 600px) {
-  #edit-portfolio {
+  .edit-portfolio {
     width: 70%;
   }
 }
@@ -397,7 +397,7 @@ input {
   /* background-color: lightgrey; */
 }
 
-#edit-portfolio th {
+.edit-portfolio th {
   background-color: #F0F8FF;
 }
 
@@ -577,24 +577,26 @@ input {
 /* #endregion */
 
 /* #region CSS RELATED TO FAQ AND FORUM */
-#faq {
+.faq {
   display: none;
   margin: 0 auto;
   background-color: #c9e7fc;
 }
 
-
-#faq p {
+.faq p {
   padding: 5px;
 }
 
-#faq h2 {
+.faq h2 {
   padding: 5px 20px 5px 5px;
 }
 
-
-#faq li {
+.faq li {
   overflow-wrap: break-word; /*needed due to the long bitcoin address*/
+}
+
+iframe {
+  max-width: 100%;
 }
 
 summary {
@@ -646,7 +648,7 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-#forum {
+.forum {
   display: none;
   margin: 0 auto;
   background-color: #ededed;
@@ -658,8 +660,13 @@ details summary::-webkit-details-marker {
 
 /*Extend display table to 70%*/
 @media (min-width: 600px) {
-  #faq, #forum {
+  .faq, .forum {
     width: 70%;
   }
 }
 /* #endregion */
+
+/*Toggle display of 3 main segments of page*/
+.toggle-segment-display {
+  display: block;
+}

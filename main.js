@@ -686,7 +686,7 @@ function showAllArrows() {
 
 // Create portfolio edit table, fill it with values (i.e. names and numbers) from portfolio and create a search filter
 function createEditTable() {
-  var tableHTML = '<button onclick="closeSegment(this)" class="close" title="Close the edit table. Your changes are not saved to the server. Click Submit to save changes." aria-label="Close the portfolio edit table">&times;</button>'
+  var tableHTML = '<button onclick="toggleSegmentDisplay(\'.edit-portfolio\')" class="close" title="Close the edit table. Your changes are not saved to the server. Click Submit to save changes." aria-label="Close the portfolio edit table">&times;</button>'
   tableHTML += "<h1 id='edit-portfolio-heading'>Edit Portfolio</h1>";
   // tableHTML += '<form name="myForm" id="my-form" method="POST">';
   tableHTML += '<table id="portfolio-update-form">';
@@ -734,7 +734,7 @@ function createEditTable() {
   tableHTML += '<button class="delete-portfolio-button" onclick="deletePortfolio()" title="Irrevocably delete portfolio from database">Delete Portfolio</button>';
   // tableHTML += '<button onclick="writeToTable()">Write to table</button>';
   tableHTML += '<div id="edit-table-foot"></div>';
-  document.getElementById("edit-portfolio").innerHTML = tableHTML;
+  document.querySelector(".edit-portfolio").innerHTML = tableHTML;
   //Fill out table with values from DB
   fillOutTable();
 
@@ -858,7 +858,7 @@ function filterCoins(e) {
   }
   else if (event.keyCode == '13') {
     console.log("Enter");
-    console.log(allToken[locNumber])
+    //console.log(allToken[locNumber])
     //If Arrow up/down has not been used: Select uppermost coin. Else forward the selected coin.
     if (locNumber > -1) {
       writeToNameField(allToken[locNumber], locNumber);
@@ -1094,8 +1094,8 @@ function postPortfolio() {
       //Activate save button again
       deactivateSaveButton();
 
-      //Close edit table (closeSegment function cannot be used, cause no "this")
-      document.getElementById("edit-portfolio").style.display = "none";
+      //Close edit table
+      toggleSegmentDisplay('.edit-portfolio');
       document.getElementById("display-portfolio").scrollIntoView();
 
       /*Create success message*/
@@ -1165,8 +1165,8 @@ function deletePortfolio() {
       infotext = "<span><strong>Portfolio has been deleted</strong><br>It can no longer be accessed.<span>";
       showAlert(infotext, "success");
 
-      //Close edit table (closeSegment function cannot be used, cause no "this")
-      document.getElementById("edit-portfolio").style.display = "none";
+      //Close edit table
+      toggleSegmentDisplay('.edit-portfolio');
       document.getElementById("display-portfolio").scrollIntoView();
     })
     .catch(error => {
@@ -1187,20 +1187,13 @@ function sortPortfolio() {
 }
 
 //Open the portfolio edit table, FAQ or Forum when clicking on the link in menu
-function showSegment(segment) {
-  var div = document.getElementById(segment);
+function toggleSegmentDisplay(segment) {
+  var div = document.querySelector(segment);
   // console.log(segment);
-  div.style.display = "block";
+  div.classList.toggle("toggle-segment-display");
+  //div.style.display = "block";
   div.scrollIntoView();
   document.getElementById("menu-btn").checked = false; //hide menu again in mobile view
-}
-
-//Close the portfolio edit table, FAQ or Forum when clicking the cross
-function closeSegment(button) {
-  // console.log(button);
-  button.parentElement.style.display = "none";
-  // editPortfolioContainer.style.display = "none";
-  document.getElementById("display-portfolio").scrollIntoView();
 }
 
 //Close alert box
