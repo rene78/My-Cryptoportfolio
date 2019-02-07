@@ -1191,7 +1191,6 @@ function toggleSegmentDisplay(segment) {
   var div = document.querySelector(segment);
   // console.log(segment);
   div.classList.toggle("toggle-segment-display");
-  //div.style.display = "block";
   div.scrollIntoView();
   document.getElementById("menu-btn").checked = false; //hide menu again in mobile view
 }
