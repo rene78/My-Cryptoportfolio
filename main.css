@@ -664,9 +664,9 @@ details summary::-webkit-details-marker {
     width: 70%;
   }
 }
-/* #endregion */
 
-/*Toggle display of 3 main segments of page*/
+/*Toggle display of 3 main segments of page (edit table, faq and forum)*/
 .toggle-segment-display {
   display: block;
 }
+/* #endregion */
