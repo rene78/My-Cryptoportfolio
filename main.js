@@ -344,7 +344,40 @@ const demoportfolio = {
       }
     ]
 };
-const fiats = ["AUD", "BRL", "CAD", "CHF", "CLP", "CNY", "CZK", "DKK", "EUR", "GBP", "HKD", "HUF", "IDR", "ILS", "INR", "JPY", "KRW", "MXN", "MYR", "NOK", "NZD", "PHP", "PKR", "PLN", "RUB", "SEK", "SGD", "THB", "TRY", "TWD", "USD", "ZAR"];
+const fiats = [
+  {code: "AUD", name:"Australian Dollar"},
+  {code: "BRL", name:"Brazilian real"},
+  {code: "CAD", name:"Canadian dollar"},
+  {code: "CHF", name:"Swiss franc"},
+  {code: "CLP", name:"Chilean peso"},
+  {code: "CNY", name:"Chinese yuan"},
+  {code: "CZK", name:"Czech koruna"},
+  {code: "DKK", name:"Danish krone"},
+  {code: "EUR", name:"Euro"},
+  {code: "GBP", name:"Pound sterling"},
+  {code: "HKD", name:"Hong Kong dollar"},
+  {code: "HUF", name:"Hungarian forint"},
+  {code: "IDR", name:"Indonesian rupiah"},
+  {code: "ILS", name:"Israeli new shekel"},
+  {code: "INR", name:"Indian rupee"},
+  {code: "JPY", name:"Japanese yen"},
+  {code: "KRW", name:"South Korean won"},
+  {code: "MXN", name:"Mexican peso"},
+  {code: "MYR", name:"Malaysian ringgit"},
+  {code: "NOK", name:"Norwegian krone"},
+  {code: "NZD", name:"New Zealand dollar"},
+  {code: "PHP", name:"Philippine peso"},
+  {code: "PKR", name:"Pakistani rupee"},
+  {code: "PLN", name:"Polish złoty"},
+  {code: "RUB", name:"Russian ruble"},
+  {code: "SEK", name:"Swedish krona"},
+  {code: "SGD", name:"Singapore dollar"},
+  {code: "THB", name:"Thai baht"},
+  {code: "TRY", name:"Turkish lira"},
+  {code: "TWD", name:"New Taiwan dollar"},
+  {code: "USD", name:"United States dollar"},
+  {code: "ZAR", name:"South African rand"}
+];
 var coinPrices = {};
 var portfolio = {};
 
@@ -724,7 +757,7 @@ function createEditTable() {
   tableHTML += '<label for="fiat" class="fiat-label">Fiat </label>';
   tableHTML += '<select id="fiat" class="fiat-select" title="Select your fiat currency">';
   for (let i = 0; i < fiats.length; i++) {
-    tableHTML += '<option value="' + fiats[i] + '">' + fiats[i] + '</option>';
+    tableHTML += '<option value="' + fiats[i].code + '">' + fiats[i].code + ' - ' + fiats[i].name + '</option>';
   }
   tableHTML += '</select>';
   tableHTML += '</div>';
@@ -792,7 +825,8 @@ function deleteRow(b) {
 
 //On load write fiat, full name, symbol and coin name into fields of edit table. Take ticker from DB, the rest comes from coinlist
 function fillOutTable() {
-  var fiatIndex = fiats.indexOf(portfolio.fiat);
+  //var fiatIndex = fiats.indexOf(portfolio.fiat);
+  var fiatIndex = fiats.findIndex(i => i.code === portfolio.fiat);
   //console.log(fiatIndex);
   document.getElementById("fiat").selectedIndex = fiatIndex;
   for (i = 0; i < portfolio.token.length; i++) {
