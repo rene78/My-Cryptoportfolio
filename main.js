@@ -409,7 +409,7 @@ function getPortfolioFromDB() {
   //Else download from database via Azure Function and - if available - from local storage (LS) first
 
   // Try to retrieve from LS
-  const retrievedStringFromLocalStorage = localStorage.getItem("5c3c8b7893902f2004a421a3");
+  const retrievedStringFromLocalStorage = localStorage.getItem(hash);
   //console.log(retrievedStringFromLocalStorage);
 
   //Is portfolio with given ID available in LS?
@@ -430,7 +430,7 @@ function getPortfolioFromDB() {
     .then(handleErrors)
     .then(res => {
       //console.log(res.clone());//res.json() cannot be used twice in the callback. Thus res.clone() (see https://stackoverflow.com/q/46742251/5263954)
-      resStatus = res.status;
+      //resStatus = res.status;
       //console.log(resStatus);
       return res.json();
     })
