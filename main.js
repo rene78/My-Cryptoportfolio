@@ -451,7 +451,7 @@ function getPortfolioFromDB() {
     })
     .catch(error => {
       console.error('There was an error:', error.message)
-      window.location.href = "http://127.0.0.1:5500/index.html#"; //Remove hash value from URL
+      window.location.href = "/index.html#"; //Remove hash value from URL
       //Get hash
       hash = window.location.href.split('#')[1] || '';
       //Display demoportfolio
