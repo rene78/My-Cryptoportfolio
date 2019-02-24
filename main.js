@@ -1120,7 +1120,8 @@ function postPortfolio() {
     .then(res => res.json()) // parses response
     .then(response => {
       //console.log(response);
-      window.location.href = "" + "#" + response._id; //Azure Function returns id of created portfolio
+      hash = response._id;
+      window.location.href = "" + "#" + hash; //Azure Function returns id of created portfolio
       portfolio = response;
       //console.log(portfolio);
       localStorage.setItem(hash, JSON.stringify(portfolio)); //Update local storage with new portfolio
