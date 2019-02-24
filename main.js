@@ -451,9 +451,11 @@ function getPortfolioFromDB() {
     })
     .catch(error => {
       console.error('There was an error:', error.message)
-      window.location.href = "/index.html#"; //Remove hash value from URL
+      hash = "";
+      location.hash = "";
+      //window.location.href = "/index.html#"; //Remove hash value from URL
       //Get hash
-      hash = window.location.href.split('#')[1] || '';
+      //hash = window.location.href.split('#')[1] || '';
       //Display demoportfolio
       getPortfolioFromDB();
 
@@ -1120,11 +1122,10 @@ function postPortfolio() {
     .then(res => res.json()) // parses response
     .then(response => {
       //console.log(response);
-      hash = response._id;
-      window.location.href = "" + "#" + hash; //Azure Function returns id of created portfolio
+      window.location.href = "" + "#" + response._id; //Azure Function returns id of created portfolio
       portfolio = response;
       //console.log(portfolio);
-      localStorage.setItem(hash, JSON.stringify(portfolio)); //Update local storage with new portfolio
+      localStorage.setItem(response._id, JSON.stringify(portfolio)); //Update local storage with new portfolio
 
       //Activate save button again
       deactivateSaveButton();
@@ -1191,9 +1192,9 @@ function deletePortfolio() {
   }).then(res => res.text()) // parses response
     .then(response => {
       console.log(response);
-      window.location.href = "" + "#"; //Remove hash value from URL
-      //Get hash
-      hash = window.location.href.split('#')[1] || '';
+      window.location.hash = ""; //Remove hash value from URL
+      //Reset hash hash variable
+      hash = "";
       //Display demoportfolio
       getPortfolioFromDB();
 
