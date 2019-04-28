@@ -92,6 +92,10 @@ th {
   background-color: #f4f4f4;
 }
 
+#chart-link:hover {
+  background-color: #d0ddd2;
+}
+
 #edit-portfolio-link:hover {
   background-color: #ffe6bc;
 }
@@ -200,7 +204,7 @@ th {
   }
 
   .header li a {
-    padding: 20px 30px;
+    padding: 20px 25px;
   }
 
   .header .menu {
@@ -283,7 +287,7 @@ th {
   width: 100%;
 }
 
-/*Extend display table to */
+/*Set width to 70%*/
 @media (min-width: 600px) {
   #portfolio-table {
     width: 70%;
@@ -301,6 +305,23 @@ th {
   opacity: 0.3;
   pointer-events: none;
   display: none;
+}
+/* #endregion */
+
+/* #region CSS RELATED TO CHART DISPLAY */
+.chart {
+  display: none;
+  margin: 0 auto;
+  background-color: #d0ddd2;
+  /* width: 100px;
+  height: 100px; */
+}
+
+/*Set width to 40%*/
+@media (min-width: 600px) {
+  .chart {
+    width: 40%;
+  }
 }
 /* #endregion */
 
@@ -665,7 +686,7 @@ details summary::-webkit-details-marker {
   }
 }
 
-/*Toggle display of 3 main segments of page (edit table, faq and forum)*/
+/*Toggle display of 4 main segments of page (charts, edit table, faq and forum)*/
 .toggle-segment-display {
   display: block;
 }

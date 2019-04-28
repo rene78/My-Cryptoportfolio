@@ -33,41 +33,42 @@ const demoportfolio = {
     ]
 };
 const fiats = [
-  {code: "AUD", name:"Australian Dollar"},
-  {code: "BRL", name:"Brazilian real"},
-  {code: "CAD", name:"Canadian dollar"},
-  {code: "CHF", name:"Swiss franc"},
-  {code: "CLP", name:"Chilean peso"},
-  {code: "CNY", name:"Chinese yuan"},
-  {code: "CZK", name:"Czech koruna"},
-  {code: "DKK", name:"Danish krone"},
-  {code: "EUR", name:"Euro"},
-  {code: "GBP", name:"Pound sterling"},
-  {code: "HKD", name:"Hong Kong dollar"},
-  {code: "HUF", name:"Hungarian forint"},
-  {code: "IDR", name:"Indonesian rupiah"},
-  {code: "ILS", name:"Israeli new shekel"},
-  {code: "INR", name:"Indian rupee"},
-  {code: "JPY", name:"Japanese yen"},
-  {code: "KRW", name:"South Korean won"},
-  {code: "MXN", name:"Mexican peso"},
-  {code: "MYR", name:"Malaysian ringgit"},
-  {code: "NOK", name:"Norwegian krone"},
-  {code: "NZD", name:"New Zealand dollar"},
-  {code: "PHP", name:"Philippine peso"},
-  {code: "PKR", name:"Pakistani rupee"},
-  {code: "PLN", name:"Polish złoty"},
-  {code: "RUB", name:"Russian ruble"},
-  {code: "SEK", name:"Swedish krona"},
-  {code: "SGD", name:"Singapore dollar"},
-  {code: "THB", name:"Thai baht"},
-  {code: "TRY", name:"Turkish lira"},
-  {code: "TWD", name:"New Taiwan dollar"},
-  {code: "USD", name:"United States dollar"},
-  {code: "ZAR", name:"South African rand"}
+  { code: "AUD", name: "Australian Dollar" },
+  { code: "BRL", name: "Brazilian real" },
+  { code: "CAD", name: "Canadian dollar" },
+  { code: "CHF", name: "Swiss franc" },
+  { code: "CLP", name: "Chilean peso" },
+  { code: "CNY", name: "Chinese yuan" },
+  { code: "CZK", name: "Czech koruna" },
+  { code: "DKK", name: "Danish krone" },
+  { code: "EUR", name: "Euro" },
+  { code: "GBP", name: "Pound sterling" },
+  { code: "HKD", name: "Hong Kong dollar" },
+  { code: "HUF", name: "Hungarian forint" },
+  { code: "IDR", name: "Indonesian rupiah" },
+  { code: "ILS", name: "Israeli new shekel" },
+  { code: "INR", name: "Indian rupee" },
+  { code: "JPY", name: "Japanese yen" },
+  { code: "KRW", name: "South Korean won" },
+  { code: "MXN", name: "Mexican peso" },
+  { code: "MYR", name: "Malaysian ringgit" },
+  { code: "NOK", name: "Norwegian krone" },
+  { code: "NZD", name: "New Zealand dollar" },
+  { code: "PHP", name: "Philippine peso" },
+  { code: "PKR", name: "Pakistani rupee" },
+  { code: "PLN", name: "Polish złoty" },
+  { code: "RUB", name: "Russian ruble" },
+  { code: "SEK", name: "Swedish krona" },
+  { code: "SGD", name: "Singapore dollar" },
+  { code: "THB", name: "Thai baht" },
+  { code: "TRY", name: "Turkish lira" },
+  { code: "TWD", name: "New Taiwan dollar" },
+  { code: "USD", name: "United States dollar" },
+  { code: "ZAR", name: "South African rand" }
 ];
 let coinPrices = {};
 let portfolio = {};
+let portfolioChart;
 
 //Fill out coin list for search filter array with all coin options on load
 let coinlistFiltered = coinlist;
@@ -175,9 +176,10 @@ function downloadCoinPrices() {
   var coinAPI = "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=" + allTickers + "&tsyms=" + portfolio.fiat;
   //console.log('coinAPI: ' + coinAPI);
 
-  //Hide fetch and undhide 2 lines below to show portfolio with locally saved demo prices
-  //coinPrices = coinpricesExample;
-  //displayPortfolio();
+  //Hide fetch and undhide 3 lines below to show portfolio with locally saved demo prices
+  // coinPrices = coinpricesExample;
+  // displayPortfolio();
+  // createChartData();
 
   fetch(coinAPI)
     .then(handleErrors)
@@ -189,6 +191,7 @@ function downloadCoinPrices() {
       //console.log(prices);
       coinPrices = prices;
       displayPortfolio();
+      createChartData();
     })
     .catch(error => console.error('There was an error while downloading coin prices:', error.message));
 }
@@ -405,6 +408,90 @@ function showAllArrows() {
     arrowDown.classList.add("triangle-down");
     arrowUp.classList.add("triangle-up");
   }
+}
+
+//Render chart
+function createChartData() {
+  let chartLabels = [], coinOverallValue = [];
+
+  for (i = 0; i < Object.keys(coinPrices['RAW']).length; i++) {
+    var cryptoTicker = portfolio.token[i].cryptoTicker;
+    var cryptoQty = portfolio.token[i].cryptoQty;
+    var lastPrice = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['PRICE'];
+    var fiatSymbol = coinPrices['DISPLAY'][cryptoTicker][portfolio.fiat]['TOSYMBOL'];
+
+    chartLabels.push(portfolio.token[i].cryptoName);
+    coinOverallValue.push(Math.round(cryptoQty * lastPrice));
+  }
+  // console.log(chartLabels);
+  // console.log(coinOverallValue);
+
+  let chartData = {
+    type: 'pie', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+    data: {
+      labels: chartLabels,
+      datasets: [{
+        label: 'Overall Value',
+        data: coinOverallValue,
+        //backgroundColor:'green',
+        backgroundColor: [
+          'green',
+          'red',
+          'blue',
+          'yellow',
+          'brown',
+          'orange',
+          'violet',
+          'lime',
+          'darkcyan',
+          'wheat',
+          'mistyrose',
+          'slategray',
+          'goldenrod',
+          'olive',
+          'lavender',
+          'moccasin'
+        ],
+        borderWidth: 1,
+        borderColor: '#777',
+        hoverBorderWidth: 3,
+        hoverBorderColor: '#000'
+      }]
+    },
+    options: {
+      title: {
+        display: false,
+        text: 'Portfolio Weighting',
+        fontSize: 25
+      },
+      legend: {
+        display: true,
+        position: 'top',
+        labels: {
+          fontColor: '#000'
+        }
+      },
+      tooltips: {
+        // enabled: true,
+        callbacks: {
+          label: (tooltipItem, data) => {
+            // console.log(tooltipItem);
+            // console.log(data);
+            // console.log(tooltipItem.index);
+            let datasetLabel = data.labels[tooltipItem.index] || 'Other';
+            // console.log(datasetLabel);
+            let value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] || 'Other';
+            return datasetLabel + ": " + value + " " + fiatSymbol;
+          }
+        }
+      }
+    }
+  }
+  //In case there is an old graph: Remove it from the DOM in order to render the new graph
+  if (portfolioChart !== undefined) portfolioChart.destroy();
+  //Render chart
+  let myChart = document.getElementById('chart-canvas').getContext('2d');
+  portfolioChart = new Chart(myChart, chartData);
 }
 
 // Create portfolio edit table, fill it with values (i.e. names and numbers) from portfolio and create a search filter
@@ -910,7 +997,7 @@ function sortPortfolio() {
   //console.log(portfolio);
 }
 
-//Open the portfolio edit table, FAQ or Forum when clicking on the link in menu
+//Open the portfolio chart, edit table, FAQ or Forum when clicking on the link in menu
 function toggleSegmentDisplay(segment) {
   var div = document.querySelector(segment);
   // console.log(segment);

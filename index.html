@@ -27,9 +27,10 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a id="edit-portfolio-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.edit-portfolio')">Edit Portfolio</a></li>
-      <li><a id="faq-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.faq')">FAQ</a></li>
-      <li><a id="forum-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.forum')">Forum</a></li>
+      <li><a id="chart-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.chart')" title="Show the overall value of each cryptocurrency on a pie chart">Chart</a></li>
+      <li><a id="edit-portfolio-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.edit-portfolio')" title="Create/edit your own portfolio">Edit Portfolio</a></li>
+      <li><a id="faq-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.faq')" title="Some frequently asked questions">FAQ</a></li>
+      <li><a id="forum-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.forum')" title="A Disqus forum for questions">Forum</a></li>
     </ul>
   </header>
   <main class="main">
@@ -38,6 +39,11 @@
       <span id=alert-text></span>
     </div>
     <div id="display-portfolio"></div>
+    <div class="chart">
+      <button onclick="toggleSegmentDisplay('.chart')" class="close" title="Close the Chart" aria-label="Close the Chart">&times;</button>
+      <h1>Portfolio Weighting</h1>
+      <canvas id="chart-canvas"></canvas>
+    </div>
     <div class="edit-portfolio"></div>
     <div class="faq">
       <button onclick="toggleSegmentDisplay('.faq')" class="close" title="Close the FAQ" aria-label="Close the FAQ">&times;</button>
@@ -109,6 +115,7 @@
   </main>
   <script src="coinlist-min.js"></script>
   <script src="coinPricesExample.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
   <script src="main.js"></script>
   <script id="dsq-count-scr" src="//https-rene78-github-io-my-cryptoportfolio.disqus.com/count.js" async></script>
 </body>
