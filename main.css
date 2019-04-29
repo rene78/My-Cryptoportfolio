@@ -686,6 +686,12 @@ details summary::-webkit-details-marker {
   }
 }
 
+.faq img {
+  width: 95%;
+  max-width: 400px;
+  height: auto;
+}
+
 /*Toggle display of 4 main segments of page (charts, edit table, faq and forum)*/
 .toggle-segment-display {
   display: block;

@@ -27,10 +27,14 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a id="chart-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.chart')" title="Show the overall value of each cryptocurrency on a pie chart">Chart</a></li>
-      <li><a id="edit-portfolio-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.edit-portfolio')" title="Create/edit your own portfolio">Edit Portfolio</a></li>
-      <li><a id="faq-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.faq')" title="Some frequently asked questions">FAQ</a></li>
-      <li><a id="forum-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.forum')" title="A Disqus forum for questions">Forum</a></li>
+      <li><a id="chart-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.chart')"
+          title="Show the overall value of each cryptocurrency on a pie chart">Chart</a></li>
+      <li><a id="edit-portfolio-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.edit-portfolio')"
+          title="Create/edit your own portfolio">Edit Portfolio</a></li>
+      <li><a id="faq-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.faq')"
+          title="Some frequently asked questions">FAQ</a></li>
+      <li><a id="forum-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.forum')"
+          title="A Disqus forum for questions">Forum</a></li>
     </ul>
   </header>
   <main class="main">
@@ -40,77 +44,100 @@
     </div>
     <div id="display-portfolio"></div>
     <div class="chart">
-      <button onclick="toggleSegmentDisplay('.chart')" class="close" title="Close the Chart" aria-label="Close the Chart">&times;</button>
+      <button onclick="toggleSegmentDisplay('.chart')" class="close" title="Close the Chart"
+        aria-label="Close the Chart">&times;</button>
       <h1>Portfolio Weighting</h1>
       <canvas id="chart-canvas"></canvas>
     </div>
     <div class="edit-portfolio"></div>
     <div class="faq">
-      <button onclick="toggleSegmentDisplay('.faq')" class="close" title="Close the FAQ" aria-label="Close the FAQ">&times;</button>
+      <button onclick="toggleSegmentDisplay('.faq')" class="close" title="Close the FAQ"
+        aria-label="Close the FAQ">&times;</button>
       <h1>FAQ</h1>
 
       <details>
-          <summary>
-            <h2>Is it safe to enter my portfolio on this site?</h2>
-          </summary>
-          <p>As long as you don't share your personal portfolio URL your data should be safe. All portfolios are saved to
-              the database in a completely anonymous fashion. This web app does not collect any cookies (except Third-Party Cookies from Disqus), does not have ads and is
-              100% open source. The source code can be viewed and changed on Github (<a href="https://github.com/rene78/My-Cryptoportfolio">My Cryptoportfolio)</a>.</p>
-        </details>
-        <details>
-          <summary>
-            <h2>How to use the app?</h2>
-          </summary>
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aPPmpXDy4LM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </details>
-        <details>
-          <summary>
-            <h2>Can I support the development?</h2>
-          </summary>
-          <p>This would be very much appreciated! There are three ways:
+        <summary>
+          <h2>What are the advantages of this portfolio app compared to others?</h2>
+        </summary>
+        <ul>
+          <li>Works on all devices</li>
+          <img src="img/multi-devices.png" alt="Multi Devices">
+          <li>No login needed. Personal portfolio can be accessed via unique URL</li>
+          <li>No installation needed (web app)</li>
+          <li>Open source (on Github)</li>
+          <li>Ad-free</li>
+          <li>Cookie-free</li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          <h2>Is it safe to enter my portfolio on this site?</h2>
+        </summary>
+        <p>As long as you don't share your personal portfolio URL your data should be safe. All portfolios are saved to
+          the database in a completely anonymous fashion. This web app does not collect any cookies (except Third-Party
+          Cookies from Disqus), does not have ads and is
+          100% open source. The source code can be viewed and changed on Github (<a
+            href="https://github.com/rene78/My-Cryptoportfolio">My Cryptoportfolio)</a>.</p>
+      </details>
+      <details>
+        <summary>
+          <h2>How to use the app?</h2>
+        </summary>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aPPmpXDy4LM" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </details>
+      <details>
+        <summary>
+          <h2>Can I support the development?</h2>
+        </summary>
+        <p>This would be very much appreciated! There are three ways:
           <ol>
             <li>Leave your suggestions in the forum on this site</li>
-            <li>Even better: If you know some JS, HTML and CSS you can <a href="https://github.com/rene78/My-Cryptoportfolio">improve the app</a></li>
+            <li>Even better: If you know some JS, HTML and CSS you can <a
+                href="https://github.com/rene78/My-Cryptoportfolio">improve the app</a></li>
             <li>You can send me a tip. Bitcoin address: 13kGpAVk87XGRDm6ZscUFvGaTFyjPuKLTY </li>
           </ol>
-          </p>
-        </details>
-        <details>
-          <summary>
-            <h2>Where are the coin prices coming from?</h2>
-          </summary>
-          <p>From the <a href="https://min-api.cryptocompare.com/">Cryptocampare API</a>.</p>
-        </details>
-        <details>
-          <summary>
-            <h2>Why does this website have such a weird logo?</h2>
-          </summary>
-          <p>It is a celtic Triple Crescent Moon symbol. Triple moons symbolize change, just like the blockchain technology
-              in general. And "moon" - as in "to the moon"...</p>
-        </details>
+        </p>
+      </details>
+      <details>
+        <summary>
+          <h2>Where are the coin prices coming from?</h2>
+        </summary>
+        <p>From the <a href="https://min-api.cryptocompare.com/">Cryptocampare API</a>.</p>
+      </details>
+      <details>
+        <summary>
+          <h2>Why does this website have such a weird logo?</h2>
+        </summary>
+        <p>It is a celtic Triple Crescent Moon symbol. Triple moons symbolize change, just like the blockchain
+          technology
+          in general. And "moon" - as in "to the moon"...</p>
+      </details>
     </div>
     <div class="forum">
-      <button onclick="toggleSegmentDisplay('.forum')" class="close" title="Close the Forum" aria-label="Close the forum">&times;</button>
+      <button onclick="toggleSegmentDisplay('.forum')" class="close" title="Close the Forum"
+        aria-label="Close the forum">&times;</button>
       <h1>Forum</h1>
       <div id="disqus_thread"></div>
       <script>
-      
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-      var disqus_config = function () {
-      this.page.url = "https://rene78.github.io/My-Cryptoportfolio/";  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = 845739; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://https-rene78-github-io-my-cryptoportfolio.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+        var disqus_config = function () {
+          this.page.url = "https://rene78.github.io/My-Cryptoportfolio/";  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = 845739; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        (function () { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://https-rene78-github-io-my-cryptoportfolio.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
       </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+          Disqus.</a></noscript>
     </div>
   </main>
   <script src="coinlist-min.js"></script>
