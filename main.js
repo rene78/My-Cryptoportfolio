@@ -265,13 +265,13 @@ function downloadCoinPrices() {
   //console.log('coinAPI: ' + coinAPI);
 
   //Hide fetch and undhide 5 lines below to show portfolio with locally saved demo prices
-  coinPrices = coinpricesExample;
-  displayPortfolio();
-  createChartData();
-  let index = languages.indexOf(userLang);
-  changeAppLanguage(index);
+  // coinPrices = coinpricesExample;
+  // displayPortfolio();
+  // createChartData();
+  // let index = languages.indexOf(userLang);
+  // changeAppLanguage(index);
 
-/*
+///*
   fetch(coinAPI)
     .then(handleErrors)
     .then(res => {
@@ -292,7 +292,7 @@ function downloadCoinPrices() {
       let infotext = "<strong>" + translInfotextMessages.errorWhileDownloadingCoinPrices[languages.indexOf(userLang)] + "</strong><br>" + error.message;
       showAlert(infotext, "fail");
     });
-*/
+//*/
 }
 
 // Display portfolio on page
