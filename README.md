@@ -4,3 +4,7 @@ Website: [MyCryptoportfolio](https://my-cryptoportfolio.renek.cc/)
 A full-stack web app to maintain your cryptoportfolio. Frontend communicates with MongoDB Atlas database via Azure Functions.
 
 The repository for the backend functions: [My-Cryptoportfolio-Azure-Functions](https://github.com/rene78/My-Cryptoportfolio-Azure-Functions)
+
+![alt text][logo]
+
+[logo]: img/multi-devices.png "Multi Devices"
