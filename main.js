@@ -33,42 +33,48 @@ const demoportfolio = {
     ]
 };
 const fiats = [
-  { code: "AUD", name: "Australian Dollar" },
-  { code: "BRL", name: "Brazilian real" },
-  { code: "CAD", name: "Canadian dollar" },
-  { code: "CHF", name: "Swiss franc" },
-  { code: "CLP", name: "Chilean peso" },
-  { code: "CNY", name: "Chinese yuan" },
-  { code: "CZK", name: "Czech koruna" },
-  { code: "DKK", name: "Danish krone" },
-  { code: "EUR", name: "Euro" },
-  { code: "GBP", name: "Pound sterling" },
-  { code: "HKD", name: "Hong Kong dollar" },
-  { code: "HUF", name: "Hungarian forint" },
-  { code: "IDR", name: "Indonesian rupiah" },
-  { code: "ILS", name: "Israeli new shekel" },
-  { code: "INR", name: "Indian rupee" },
-  { code: "JPY", name: "Japanese yen" },
-  { code: "KRW", name: "South Korean won" },
-  { code: "MXN", name: "Mexican peso" },
-  { code: "MYR", name: "Malaysian ringgit" },
-  { code: "NOK", name: "Norwegian krone" },
-  { code: "NZD", name: "New Zealand dollar" },
-  { code: "PHP", name: "Philippine peso" },
-  { code: "PKR", name: "Pakistani rupee" },
-  { code: "PLN", name: "Polish złoty" },
-  { code: "RUB", name: "Russian ruble" },
-  { code: "SEK", name: "Swedish krona" },
-  { code: "SGD", name: "Singapore dollar" },
-  { code: "THB", name: "Thai baht" },
-  { code: "TRY", name: "Turkish lira" },
-  { code: "TWD", name: "New Taiwan dollar" },
-  { code: "USD", name: "United States dollar" },
-  { code: "ZAR", name: "South African rand" }
+  { code: "AUD", name: "Australian Dollar", symbol: "$" },
+  { code: "BRL", name: "Brazilian real", symbol: "R$" },
+  { code: "CAD", name: "Canadian dollar", symbol: "$" },
+  { code: "CHF", name: "Swiss franc", symbol: "Fr." },
+  { code: "CLP", name: "Chilean peso", symbol: "$" },
+  { code: "CNY", name: "Chinese yuan", symbol: "¥" },
+  { code: "CZK", name: "Czech koruna", symbol: "Kč" },
+  { code: "DKK", name: "Danish krone", symbol: "kr" },
+  { code: "EUR", name: "Euro", symbol: "€" },
+  { code: "GBP", name: "Pound sterling", symbol: "£" },
+  { code: "HKD", name: "Hong Kong dollar", symbol: "$" },
+  { code: "HUF", name: "Hungarian forint", symbol: "Ft" },
+  { code: "IDR", name: "Indonesian rupiah", symbol: "Rp" },
+  { code: "ILS", name: "Israeli new shekel", symbol: "₪" },
+  { code: "INR", name: "Indian rupee", symbol: "₹" },
+  { code: "JPY", name: "Japanese yen", symbol: "¥" },
+  { code: "KRW", name: "South Korean won", symbol: "₩" },
+  { code: "MXN", name: "Mexican peso", symbol: "$" },
+  { code: "MYR", name: "Malaysian ringgit", symbol: "RM" },
+  { code: "NOK", name: "Norwegian krone", symbol: "kr" },
+  { code: "NZD", name: "New Zealand dollar", symbol: "$" },
+  { code: "PHP", name: "Philippine peso", symbol: "₱" },
+  { code: "PKR", name: "Pakistani rupee", symbol: "Rs" },
+  { code: "PLN", name: "Polish złoty", symbol: "zł" },
+  { code: "RUB", name: "Russian ruble", symbol: "₽" },
+  { code: "SEK", name: "Swedish krona", symbol: "kr" },
+  { code: "SGD", name: "Singapore dollar", symbol: "S$" },
+  { code: "THB", name: "Thai baht", symbol: "฿" },
+  { code: "TRY", name: "Turkish lira", symbol: "₺" },
+  { code: "TWD", name: "New Taiwan dollar", symbol: "NT$" },
+  { code: "USD", name: "United States dollar", symbol: "$" },
+  { code: "ZAR", name: "South African rand", symbol: "R" }
 ];
 let coinPrices = {};
 let portfolio = {};
 let portfolioChart;
+
+//Preferred language of app user
+let userLang;
+
+//Available languages. Order has to be similar to the translations
+const languages = ["en", "de"];
 
 //Fill out coin list for search filter array with all coin options on load
 let coinlistFiltered = coinlist;
@@ -76,8 +82,90 @@ let coinlistFiltered = coinlist;
 //Counter for up/down arrow coin selection
 let locNumber;
 
+//Set user language on load
+setUserLang();
+
 //Display Portfolio on load
 getPortfolioFromDB();
+
+//Set the user language on page load
+function setUserLang() {
+  //default language: en
+  userLang = "en";
+  //First check, if a preferred language is saved in localstorage
+  let prefLanguage = localStorage.getItem("prefLanguage");
+  if (prefLanguage) userLang = prefLanguage;
+  //Else, i.e. no pref language saved in local storage
+  else {
+    // console.log(userLang);
+    console.log(navigator.languages);
+    let navigatorLanguage;
+    //Go through all preferred languages defined in the browser and take the first match, i.e. de or en
+    for (let i = 0; i < navigator.languages.length; i++) {
+      navigatorLanguage = navigator.languages[i].slice(0, 2); //Just keep the first 2 letters (e.g. en-US --> en)
+      // if (navigatorLanguage === "en" || navigatorLanguage === "de") {
+      if (languages.indexOf(navigatorLanguage) !== -1) {
+        userLang = navigatorLanguage;
+        localStorage.setItem("prefLanguage", userLang);
+        break;
+      }
+    }
+  }
+  // console.log(userLang);
+}
+
+//Get all relevant DOM elements and translate it according to selected language
+function changeAppLanguage(currLangIndex) {
+  // console.log(currLangIndex);
+  //If language has been selected from drop down
+  if (!currLangIndex) {
+    currLangIndex = document.getElementById("lang-selection").selectedIndex;
+    userLang = languages[currLangIndex];
+    //Write selected language to local storage
+    localStorage.setItem("prefLanguage", userLang);
+  }
+  //else: function started after page load (lang coming from browser/local storage)
+  else document.getElementById("lang-selection").selectedIndex = currLangIndex;//select language in drop down
+
+  //Go through all elements in "translations" and change strings in DOM
+  let numberOfTextElements = Object.keys(translations).length;
+  // console.log(currLangIndex);
+  for (let i = 0; i < numberOfTextElements; i++) {
+    let textToChange = document.getElementById(Object.keys(translations)[i]);
+    // console.log(textToChange);
+    // console.log(Object.values(translations)[i][currLangIndex][0]);
+
+    //Special case for "Create" Portfolio link: If hash is empty and the loop reaches the id "edit-portfolio-link" or "edit-portfolio-heading" take the translation for "Create Portfolio"
+    if (hash === "" && (Object.keys(translations)[i] === "edit-portfolio-link" || Object.keys(translations)[i] === "edit-portfolio-heading")) {
+      textToChange.childNodes[0].nodeValue = Object.values(translations)[i][currLangIndex][2];
+      //If there is a tooltip --> Translate as well:
+      if (textToChange.title) textToChange.title = Object.values(translations)[i][currLangIndex][1];
+      continue;
+    }
+
+    textToChange.childNodes[0].nodeValue = Object.values(translations)[i][currLangIndex][0];
+    //Check, if there is a tooltip. If yes: Translate!
+    if (textToChange.title) textToChange.title = Object.values(translations)[i][currLangIndex][1];
+  }
+
+  //Translate all the tooltips in the edit table
+  let cryptoQtyDom = document.querySelectorAll(".crypto-qty");
+  let cryptoInvestedSum = document.querySelectorAll(".crypto-invested-sum");
+  let editPortfolioDelete = document.querySelectorAll(".delete-cell");
+  // console.log(cryptoQtyDom[0]);
+  for (let i = 0; i < cryptoQtyDom.length; i++) {
+    cryptoQtyDom[i].title = translations["ncoins-heading"][currLangIndex][1];
+    cryptoInvestedSum[i].title = translations["edit-portfolio-invested-sum"][currLangIndex][1];
+    editPortfolioDelete[i].title = translations["edit-portfolio-delete"][currLangIndex][1];
+  }
+
+  //Now translate the FAQ's
+  for (let i = 0; i < Object.keys(translFAQ).length; i++) {
+    let textToReplace = document.getElementById(Object.keys(translFAQ)[i]);
+    // console.log(textToReplace);
+    textToReplace.innerHTML = Object.values(translFAQ)[i][currLangIndex];
+  }
+}
 
 /* GET Portfolio from database
 / Example for working URL: http://127.0.0.1:5500/index.html#5c3c8b7893902f2004a421a3
@@ -89,8 +177,8 @@ function getPortfolioFromDB() {
     console.log("Hash is empty --> Load Demoportfolio!");
     portfolio = demoportfolio;
     //console.log(portfolio);
-    downloadCoinPrices();
     createEditTable();
+    downloadCoinPrices();
 
     return;
   }
@@ -147,8 +235,8 @@ function getPortfolioFromDB() {
       //hash = window.location.href.split('#')[1] || '';
       //Display demoportfolio
       getPortfolioFromDB();
-
-      infotext = "<span><strong>An error occured</strong><br>" + error.message + "<span>";
+      let infotext = "<strong>" + translInfotextMessages.errorWhileDownloading[languages.indexOf(userLang)] + "</strong><br>" + error.message;
+      // infotext = "<strong>An error occured</strong><br>" + error.message;
       showAlert(infotext, "fail");
     });
 }
@@ -176,11 +264,14 @@ function downloadCoinPrices() {
   var coinAPI = "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=" + allTickers + "&tsyms=" + portfolio.fiat;
   //console.log('coinAPI: ' + coinAPI);
 
-  //Hide fetch and undhide 3 lines below to show portfolio with locally saved demo prices
-  // coinPrices = coinpricesExample;
-  // displayPortfolio();
-  // createChartData();
+  //Hide fetch and undhide 5 lines below to show portfolio with locally saved demo prices
+  coinPrices = coinpricesExample;
+  displayPortfolio();
+  createChartData();
+  let index = languages.indexOf(userLang);
+  changeAppLanguage(index);
 
+/*
   fetch(coinAPI)
     .then(handleErrors)
     .then(res => {
@@ -192,8 +283,16 @@ function downloadCoinPrices() {
       coinPrices = prices;
       displayPortfolio();
       createChartData();
+      //Once tables are fully rendered run the translate function to translate the app)
+      let index = languages.indexOf(userLang);
+      changeAppLanguage(index);
     })
-    .catch(error => console.error('There was an error while downloading coin prices:', error.message));
+    .catch(error => {
+      console.error('There was an error while downloading coin prices:', error.message);
+      let infotext = "<strong>" + translInfotextMessages.errorWhileDownloadingCoinPrices[languages.indexOf(userLang)] + "</strong><br>" + error.message;
+      showAlert(infotext, "fail");
+    });
+*/
 }
 
 // Display portfolio on page
@@ -205,11 +304,11 @@ function displayPortfolio() {
   thisHTML += "<table id='portfolio-table'>";
   thisHTML += "<thead>";
   thisHTML += "<tr>";
-  thisHTML += "<th id='coin-name' onclick='sortTable(0)' title='Select cryptotoken. Click here to sort alphabetically.'>Name <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
-  thisHTML += "<th onclick='sortTable(1)' title='Last price. Click here to sort.'>Last <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
-  thisHTML += "<th onclick='sortTable(2)' title='Change in percent in the last 24h. Click here to sort.'>Change <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
-  thisHTML += "<th onclick='sortTable(3)' title='Gain/loss in the last 24h. Click here to sort.'>G/L Today <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
-  thisHTML += "<th onclick='sortTable(4)' title='Overall gain/loss. Click here to sort.'>Gain / Loss <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
+  thisHTML += "<th id='coin-name' onclick='sortTable(0)' title='xxName of Cryptocurrency/Token. Click here to sort alphabetically'>xxName <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
+  thisHTML += "<th id='last-price' onclick='sortTable(1)' title='xxLast price. Click here to sort.'>xxLast <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
+  thisHTML += "<th id='change-perc' onclick='sortTable(2)' title='xxChange in percent in the last 24h. Click here to sort.'>xxChange <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
+  thisHTML += "<th id='gain-loss-24h' onclick='sortTable(3)' title='xxGain/loss in the last 24h. Click here to sort.'>xxG/L Today <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
+  thisHTML += "<th id='gain-loss' onclick='sortTable(4)' title='xxOverall gain/loss. Click here to sort.'>xxGain / Loss <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
   thisHTML += "</tr>";
   thisHTML += "</thead>";
 
@@ -217,8 +316,10 @@ function displayPortfolio() {
   var overallGainLoss = 0;
   var overallGainLossToday = 0;
   var cryptoStyle = "class='cryptoUp'";
+  var fiatSymbol = fiats.find(i => i.code === portfolio.fiat).symbol;
 
   thisHTML += "<tbody>";
+  thisHTML += "<tr>";
 
   for (i = 0; i < Object.keys(coinPrices['RAW']).length; i++) {
     var cryptoTicker = portfolio.token[i].cryptoTicker;
@@ -228,7 +329,7 @@ function displayPortfolio() {
     var lastPrice = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['PRICE'];
     var changePct24H = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['CHANGEPCT24HOUR'];
     var change24H = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['CHANGE24HOUR'];
-    var fiatSymbol = coinPrices['DISPLAY'][cryptoTicker][portfolio.fiat]['TOSYMBOL'];
+    // var fiatSymbol = coinPrices['DISPLAY'][cryptoTicker][portfolio.fiat]['TOSYMBOL'];
 
     var cryptoGainLoss = 0;
     var cryptoGainLossToday = 0;
@@ -236,7 +337,7 @@ function displayPortfolio() {
 
     //Some values on CryptoCompare return "null". That would break ".toFixed" below:
     if (changePct24H != null) {
-      changePct24H = changePct24H.toFixed(1).concat("%"); //Example: 2.36: toFixed: Only one digit after the comma (2.4). Concat: Add percentage sign (2.4%).
+      changePct24H = changePct24H.toFixed(1).concat(" %"); //Example: 2.36: toFixed: Only one digit after the comma (2.4). Concat: Add percentage sign (2.4%).
     }
 
     if (cryptoQty != 0) {
@@ -257,15 +358,15 @@ function displayPortfolio() {
     }
 
     thisHTML += "<td><a href='https://coinmarketcap.com/currencies/" + fullName + "' target=_blank>" + fullName + "</a></td>";
-    thisHTML += "<td>" + lastPrice + fiatSymbol + "</td>";
+    thisHTML += "<td>" + lastPrice + " " + fiatSymbol + "</td>";
 
-    //Change color of changePct24H and cryptoGainLossToday number according to value (-, 0, + - red, black, green)
+    //Change color of changePct24H and cryptoGainLossToday number according to value (-, 0, + -> red, black, green)
     cryptoStyle = redOrGreen(change24H);
 
     thisHTML += "<td " + cryptoStyle + ">" + changePct24H + "</td>";
-    thisHTML += "<td " + cryptoStyle + ">" + cryptoGainLossToday.toFixed(0) + fiatSymbol + "</td>";
+    thisHTML += "<td " + cryptoStyle + ">" + cryptoGainLossToday.toFixed(0) + " " + fiatSymbol + "</td>";
 
-    thisHTML += "<td " + redOrGreen(cryptoGainLoss) + ">" + cryptoGainLoss.toFixed(0) + fiatSymbol + "</td>";
+    thisHTML += "<td " + redOrGreen(cryptoGainLoss) + ">" + cryptoGainLoss.toFixed(0) + " " + fiatSymbol + "</td>";
     thisHTML += "</tr>";
   }
 
@@ -276,9 +377,9 @@ function displayPortfolio() {
   thisHTML += "<td></td>";
   thisHTML += "<td></td>";
 
-  thisHTML += "<td " + redOrGreen(overallGainLossToday) + ">" + overallGainLossToday.toFixed(0) + fiatSymbol + "</td>";
+  thisHTML += "<td " + redOrGreen(overallGainLossToday) + ">" + overallGainLossToday.toFixed(0) + " " + fiatSymbol + "</td>";
 
-  thisHTML += "<td " + redOrGreen(overallGainLoss) + ">" + overallGainLoss.toFixed(0) + fiatSymbol + "</td>";
+  thisHTML += "<td " + redOrGreen(overallGainLoss) + ">" + overallGainLoss.toFixed(0) + " " + fiatSymbol + "</td>";
   thisHTML += "</tr>";
   thisHTML += "</tfoot>";
   thisHTML += "</table>"
@@ -291,12 +392,11 @@ function displayPortfolio() {
     //Show watermark
     document.querySelector(".watermark").style.display = "inline-block";
     //Change link from "Edit Portfolio" to "Create Portfolio"
-    document.getElementById("edit-portfolio-link").innerText = "Create Portfolio";
+    document.getElementById("edit-portfolio-link").innerText = "xxCreate Portfolio";
   } else {
     //Only relevant after first upload from start page
-    document.getElementById("edit-portfolio-link").innerText = "Edit Portfolio";
+    document.getElementById("edit-portfolio-link").innerText = "xxEdit Portfolio";
   }
-
 }
 
 // If value fell: red, value rose: green
@@ -496,20 +596,19 @@ function createChartData() {
 
 // Create portfolio edit table, fill it with values (i.e. names and numbers) from portfolio and create a search filter
 function createEditTable() {
-  var tableHTML = '<button onclick="toggleSegmentDisplay(\'.edit-portfolio\')" class="close" title="Close the edit table. Your changes are not saved to the server. Click Submit to save changes." aria-label="Close the portfolio edit table">&times;</button>'
-  tableHTML += "<h1 id='edit-portfolio-heading'>Edit Portfolio</h1>";
-  // tableHTML += '<form name="myForm" id="my-form" method="POST">';
+  var tableHTML = '<button id="edit-portfolio-button" onclick="toggleSegmentDisplay(\'.edit-portfolio\')" class="close" title="xxxClose the edit tablexx" aria-label="Close the portfolio edit table">&times;</button>'
+  tableHTML += "<h1 id='edit-portfolio-heading'>xxEdit Portfolioxx</h1>";
   tableHTML += '<table id="portfolio-update-form">';
   tableHTML += "<thead>";
   tableHTML += "<tr>";
-  tableHTML += '<th title="Select coin">Selection</th>';
-  tableHTML += '<th id="ncoins-heading" title="Overall number of coins in your possession">Number of coins</th>';
-  tableHTML += '<th title="How much fiat did you invest to buy this coin?">Invested sum</th>';
-  tableHTML += "<th></th>";
-  tableHTML += "<th>Ticker Symbol</th>";
-  tableHTML += "<th>Name</th>";
-  tableHTML += "</tr>";
-  tableHTML += "</thead>";
+  tableHTML += '<th id="edit-portfolio-select-coin" title="xxSelect coinxx">xxSelectionxx</th>';
+  tableHTML += '<th id="ncoins-heading" title="xxOverall number of coins in your possessionxx">xxNumber of coinsxx</th>';
+  tableHTML += '<th id="edit-portfolio-invested-sum" title="xxHow much fiat did you invest to buy this coin?xx">xxInvested sumxx</th>';
+  tableHTML += '<th id="edit-portfolio-delete" title="xx">xx</th>';
+  tableHTML += '<th>Ticker Symbol</th>';
+  tableHTML += '<th>Name</th>';
+  tableHTML += '</tr>';
+  tableHTML += '</thead>';
   tableHTML += '<tbody id="token">';
 
   for (let i = 0; i < portfolio.token.length; i++) {
@@ -517,7 +616,7 @@ function createEditTable() {
     tableHTML += '<td><button onclick="showHideDropdown(this); createOptions(this)" class="dropdown-button">Select coin...<div class="triangle-down"></div></button><div class="dropdown-content"><input class="my-input" type="text" placeholder="Search.." onkeyup="filterCoins(this)" autocomplete="off"><div class="all-token"></div></div></td>';
     tableHTML += '<td><input type="number" name="cryptoQty" class="crypto-qty" value="" min="0" placeholder="e.g. 5" title="Overall number of coins in your possession" required="true"></td>';
     tableHTML += '<td><input type="number" class="crypto-invested-sum" value="" min="0" placeholder="e.g. 1000" title="How much fiat did you invest to buy this coin?" required="true"></td>';
-    tableHTML += '<td id="delete-cell" onclick="deleteRow(this)" title="Click to delete coin"><svg id="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
+    tableHTML += '<td class="delete-cell" onclick="deleteRow(this)" title="Click to delete coin"><svg id="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
     tableHTML += '<td><input type="text" class="crypto-ticker" value="" placeholder="e.g. BTC" title="Ticker symbol of cryptocurrency" name="cryptoTicker" required="true" disabled> </td>';
     tableHTML += '<td><input type="text" class="crypto-name" value="" placeholder="e.g. Bitcoin" title="Name of cryptocurrency" name="cryptoName" required="true" disabled> </td>';
     tableHTML += "</tr>";
@@ -526,32 +625,29 @@ function createEditTable() {
   tableHTML += "</tbody>";
   tableHTML += "<tfoot>"
   tableHTML += "<tr>";
-  tableHTML += '<td id="add-token" title="Add a new token" onclick="insertRow()">+</td>';
+  tableHTML += '<td id="add-token" title="xxAdd a new tokenxx" onclick="insertRow()">+</td>';
   tableHTML += "</tr>";
   tableHTML += "</tfoot>"
   tableHTML += "</table>";
   tableHTML += '<div class="fiat">';
   tableHTML += '<label for="fiat" class="fiat-label">Fiat </label>';
-  tableHTML += '<select id="fiat" class="fiat-select" title="Select your fiat currency">';
+  tableHTML += '<select id="fiat" class="fiat-select" title="xxSelect your fiat currencyxx">';
   for (let i = 0; i < fiats.length; i++) {
     tableHTML += '<option value="' + fiats[i].code + '">' + fiats[i].code + ' - ' + fiats[i].name + '</option>';
   }
   tableHTML += '</select>';
   tableHTML += '</div>';
-  tableHTML += '<button class="save-button" onclick="postPortfolio()" title="Save portfolio to database"><div class="loading-animation"></div> Save <svg id="upload-icon"><use xlink:href="img/icons.svg#upload-logo"></use></svg></button>'
-  // tableHTML += '<input type="button" value="Submit" class="submit-button" onclick="postPortfolio()">';
-  // tableHTML += "</form>";
-  tableHTML += '<button class="delete-portfolio-button" onclick="deletePortfolio()" title="Irrevocably delete portfolio from database">Delete Portfolio</button>';
-  // tableHTML += '<button onclick="writeToTable()">Write to table</button>';
+  tableHTML += '<button id="edit-portfolio-save-button" class="save-button" onclick="postPortfolio()" title="xxSave portfolio to databasexx"> xxSavexx <svg id="upload-icon"><use xlink:href="img/icons.svg#upload-logo"></use></svg><div class="loading-animation"></div></button>'
+  tableHTML += '<button id="edit-portfolio-delete-button" class="delete-portfolio-button" onclick="deletePortfolio()" title="xxIrrevocably delete portfolio from databasexx">xxDelete Portfolioxx</button>';
   tableHTML += '<div id="edit-table-foot"></div>';
   document.querySelector(".edit-portfolio").innerHTML = tableHTML;
   //Fill out table with values from DB
   fillOutTable();
 
   //If demoportfolio is shown:
-  if (hash == "") {
-    //Change heading from "Edit Portfolio" to "Create Portfolio"
-    document.getElementById("edit-portfolio-heading").innerText = "Create Portfolio";
+  if (hash === "") {
+    //Change heading from "Edit Portfolio" to "Create Portfolio" - Not necessary anymore. Translate function takes care of that
+    document.getElementById("edit-portfolio-heading").innerText = "xxCreate Portfolio";
     //Hide delete button
     document.querySelector(".delete-portfolio-button").style.display = "none";
   }
@@ -563,24 +659,25 @@ function insertRow() {
   var lastInputField = document.getElementById("token").lastElementChild.querySelector(".crypto-ticker").value;
   //console.log(lastInputField);
   if (lastInputField === "") {
-    showAlert("Select a coin in the previous input field first.", "fail");
+    showAlert(translInfotextMessages.selectCoinFirst[languages.indexOf(userLang)], "fail");
+    // showAlert("Select a coin in the previous input field first.", "fail");
     console.log("Select a coin in the previous input field first.");
     return;
   };
 
   var entries = document.getElementById("token");
   var tableHTML = "<tr class='token-row'>";
-  tableHTML += '<td><button onclick="showHideDropdown(this); createOptions(this)" class="dropdown-button">Select coin...<div class="triangle-down"></div></button><div class="dropdown-content"><input class="my-input" type="text" placeholder="Search.." onkeyup="filterCoins(this)" autocomplete="off"><div class="all-token"></div></div></td>';
-  tableHTML += '<td><input type="number" name="cryptoQty" class="crypto-qty" value="" min="0" placeholder="e.g. 5" title="Overall number of coins in your possession" required="true"></td>';
-  tableHTML += '<td><input type="number" class="crypto-invested-sum" value="" min="0" placeholder="e.g. 1000" title="How much fiat did you invest to buy this coin?" required="true"></td>';
-  tableHTML += '<td id="delete-cell" onclick="deleteRow(this)" title="Click to delete coin"><svg id="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
+  tableHTML += '<td><button onclick="showHideDropdown(this); createOptions(this)" class="dropdown-button">' + translations["edit-portfolio-select-coin"][languages.indexOf(userLang)][1] + '<div class="triangle-down"></div></button><div class="dropdown-content"><input class="my-input" type="text" placeholder="Search.." onkeyup="filterCoins(this)" autocomplete="off"><div class="all-token"></div></div></td>';
+  tableHTML += '<td><input type="number" name="cryptoQty" class="crypto-qty" value="" min="0" placeholder="e.g. 5" title="' + translations["ncoins-heading"][languages.indexOf(userLang)][1] + '" required="true"></td>';
+  tableHTML += '<td><input type="number" class="crypto-invested-sum" value="" min="0" placeholder="e.g. 1000" title="' + translations["edit-portfolio-invested-sum"][languages.indexOf(userLang)][1] + '" required="true"></td>';
+  tableHTML += '<td class="delete-cell" onclick="deleteRow(this)" title="' + translations["edit-portfolio-delete"][languages.indexOf(userLang)][1] + '"><svg id="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
   tableHTML += '<td><input type="text" class="crypto-ticker" value="" placeholder="e.g. BTC" title="Ticker symbol of cryptocurrency" name="cryptoTicker" required="true" disabled> </td>';
   tableHTML += '<td><input type="text" class="crypto-name" value="" placeholder="e.g. Bitcoin" title="Name of cryptocurrency" name="cryptoName" required="true" disabled> </td>';
   tableHTML += "</tr>";
 
   entries.insertAdjacentHTML("beforeend", tableHTML);
   SelectCoinButton = document.querySelector("#token").lastElementChild.querySelector(".dropdown-button");
-  console.log(SelectCoinButton);
+  // console.log(SelectCoinButton);
   createOptions(SelectCoinButton);
   showHideDropdown(SelectCoinButton);
 }
@@ -708,7 +805,7 @@ function createOptions(e) {
       }
     }
   } else {
-    option = "<a href='javascript:void(0)' class='nothing-found'>Nothing found...</option>";
+    option = "<a href='javascript:void(0)' class='nothing-found'>" + translInfotextMessages.nothingFound[languages.indexOf(userLang)] + "</option>";
   }
 
   var tokenContainer = e.closest(".token-row").querySelector('.all-token');
@@ -779,8 +876,8 @@ function createPortfolioObject() {
 
   for (var j = 0; j < ticker.length; j++) {
     if (ticker[j + 1] == ticker[j]) {
-      showAlert("Each and every coin can only be in the portfolio once! Please correct.", "fail");
-      // alert("Each and every coin can only be in the portfolio once! Please correct.");
+      // showAlert("Each and every coin can only be in the portfolio once! Please correct.", "fail");
+      showAlert(translInfotextMessages.eachCoinOnlyOnce[languages.indexOf(userLang)], "fail");
       return false;
       //results.push(ticker[j]);
     }
@@ -833,7 +930,8 @@ function createPortfolioObject() {
 
   //Return error if demoportfolio has not been changed
   if (JSON.stringify(portfolio) === JSON.stringify(demoportfolio)) {
-    showAlert("Create your personal portfolio first!", "fail");
+    // showAlert("Create your personal portfolio first!", "fail");
+    showAlert(translInfotextMessages.createPersonalPortfolio[languages.indexOf(userLang)], "fail");
     // alert("Create your personal portfolio first!");
     return false;
   }
@@ -912,12 +1010,14 @@ function postPortfolio() {
       /*Create success message*/
       var infotext;
       if (hash !== "") {
-        infotext = "<span><strong>Portfolio has been saved</strong><br>The URL is unchanged (<a href=" + window.location.href + ">#" + hash + "</a>). Please bookmark this URL if you have not done so already.<span>";
+        // infotext = "<strong>Portfolio has been saved</strong><br>The URL is unchanged (<a href=" + window.location.href + ">#" + hash + "</a>). Please bookmark this URL if you have not done so already.";
+        infotext = translInfotextMessages.uploadSuccessUpdate[languages.indexOf(userLang)];
         showAlert(infotext, "success");
       } else {
         //Update hash variable
         hash = window.location.href.split('#')[1] || '';
-        infotext = "<span><strong>Portfolio has been created</strong><br>It can be accessed in the future via the URL that is currently in the address bar <a href=" + window.location.href + ">#" + hash + "</a>. Please <strong>bookmark this URL</strong>.<span>";
+        // infotext = "<strong>Portfolio has been created</strong><br>It can be accessed and edited in the future via the URL in the address bar <a href=" + window.location.href + ">#" + hash + "</a>. Please <strong>bookmark this URL</strong>.";
+        infotext = translInfotextMessages.uploadSuccessCreate[languages.indexOf(userLang)];
         showAlert(infotext, "success");
       }
       downloadCoinPrices();
@@ -926,7 +1026,8 @@ function postPortfolio() {
     .catch(error => {
       //console.log(error);
       console.error("There was an error while uploading the portfolio to the DB: ", error);
-      var infotext = "<span>There was an error while uploading the portfolio to the DB: " + error + "</span>";
+      let infotext = translInfotextMessages.errorWhileUploading[languages.indexOf(userLang)] + " " + error;
+      // var infotext = "There was an error while uploading the portfolio to the DB: " + error;
       showAlert(infotext, "fail");
       //Activate save button again
       deactivateSaveButton();
@@ -943,7 +1044,7 @@ function deactivateSaveButton() {
 
 // DELETE Portfolio from database
 function deletePortfolio() {
-  if (confirm("Do you really want to delete the portfolio?") == false) {
+  if (confirm(translInfotextMessages.deleteConfirm[languages.indexOf(userLang)]) == false) {
     return;
   }
   //Get hash
@@ -973,7 +1074,8 @@ function deletePortfolio() {
       //Display demoportfolio
       getPortfolioFromDB();
 
-      infotext = "<span><strong>Portfolio has been deleted</strong><br>It can no longer be accessed.<span>";
+      let infotext = translInfotextMessages.deleteSuccess[languages.indexOf(userLang)];
+      // infotext = "<strong>Portfolio has been deleted</strong><br>It can no longer be accessed.";
       showAlert(infotext, "success");
 
       //Close edit table
@@ -981,7 +1083,8 @@ function deletePortfolio() {
       document.getElementById("display-portfolio").scrollIntoView();
     })
     .catch(error => {
-      var infotext = "<span>There was an error while deleting the portfolio from the DB: " + error + "</span>";
+      let infotext = translInfotextMessages.deleteFail[languages.indexOf(userLang)] + " " + error;
+      // let infotext = "There was an error while deleting the portfolio from the DB: " + error;
       showAlert(infotext, "fail");
       console.error('Error:', error)
     });

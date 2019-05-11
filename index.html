@@ -30,14 +30,18 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a id="chart-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.chart')"
-          title="Show the overall value of each cryptocurrency on a pie chart">Chart</a></li>
+      <li><a id="chart-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.chart')" title="xx">xxChartxx</a>
+      </li>
       <li><a id="edit-portfolio-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.edit-portfolio')"
-          title="Create/edit your own portfolio">Edit Portfolio</a></li>
-      <li><a id="faq-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.faq')"
-          title="Some frequently asked questions">FAQ</a></li>
-      <li><a id="forum-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.forum')"
-          title="A Disqus forum for questions">Forum</a></li>
+          title="xx">xxEdit Portfolioxx</a></li>
+      <li><a id="faq-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.faq')" title="xx">xxFAQxx</a></li>
+      <li><a id="forum-link" href="javascript:void(0)" onclick="toggleSegmentDisplay('.forum')" title="xx">xxForumxx</a>
+      </li>
+      <!-- <li><a href="javascript:void(0)">de</a></li> -->
+      <li> <select id="lang-selection" onchange="changeAppLanguage()">
+          <option value="en">en</option>
+          <option value="de">de</option>
+        </select></li>
     </ul>
   </header>
   <main class="main">
@@ -47,36 +51,39 @@
     </div>
     <div id="display-portfolio"></div>
     <div class="chart">
-      <button onclick="toggleSegmentDisplay('.chart')" class="close" title="Close the Chart"
+      <button id="chart-button" onclick="toggleSegmentDisplay('.chart')" class="close" title="xx"
         aria-label="Close the Chart">&times;</button>
-      <h1>Portfolio Weighting</h1>
+      <h1 id="chart-heading" title="xx">xxPortfolio Weighting</h1>
       <canvas id="chart-canvas"></canvas>
     </div>
+
     <div class="edit-portfolio"></div>
+
     <div class="faq">
-      <button onclick="toggleSegmentDisplay('.faq')" class="close" title="Close the FAQ"
+      <button id="faq-button" onclick="toggleSegmentDisplay('.faq')" class="close" title="Close the FAQ"
         aria-label="Close the FAQ">&times;</button>
       <h1>FAQ</h1>
 
-      <details>
+      <details id=question1>
         <summary>
-          <h2>What are the advantages of this portfolio app compared to others?</h2>
+          <h2>xxWhat are the advantages of this portfolio app compared to others?</h2>
         </summary>
         <ul>
-          <li><b>Not-for-profit.</b> This app was solely written for my personal use and as an exercise. But I'd be glad
+          <li><b>xx Not-for-profit.</b> This app was solely written for my personal use and as an exercise. But I'd be
+            glad
             if you'd find it useful, too. The source code can be accessed on <a
               href="https://github.com/rene78/My-Cryptoportfolio">Github.</a></li>
-          <li><b>Ad-free.</b> No annoying ads, which slow down page load and impair user experience.</li>
-          <li><b>Cookie-free.</b> No user information is saved to servers.</li>
-          <li><b>Hassle-free.</b> Personal portfolio can be accessed via a unique URL. No login required.</li>
-          <li><b>Web app.</b> No installation needed.</li>
-          <li><b>Responsive.</b> Works on all devices.</li>
+          <li><b>xx Ad-free.</b> No annoying ads, which slow down page load and impair user experience.</li>
+          <li><b>xx Cookie-free.</b> No user information is saved to servers.</li>
+          <li><b>xx Hassle-free.</b> Personal portfolio can be accessed via a unique URL. No login required.</li>
+          <li><b>xx Web app.</b> No installation needed.</li>
+          <li><b>xx Responsive.</b> Works on all devices.</li>
           <img src="img/multi-devices.png" alt="Multi Devices">
         </ul>
       </details>
-      <details>
+      <details id=question2>
         <summary>
-          <h2>Is it safe to enter my portfolio on this site?</h2>
+          <h2>xxIs it safe to enter my portfolio on this site?</h2>
         </summary>
         <p>As long as you don't share your personal portfolio URL your data should be safe. All portfolios are saved to
           the database in a completely anonymous fashion with no link to the user whatsoever. This web app does not
@@ -84,41 +91,41 @@
           source code can be viewed and changed on
           Github (<a href="https://github.com/rene78/My-Cryptoportfolio">My Cryptoportfolio)</a>.</p>
       </details>
-      <details>
+      <details id=question3>
         <summary>
-          <h2>How to use the app?</h2>
+          <h2>xxHow to use the app?</h2>
         </summary>
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aPPmpXDy4LM" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </details>
-      <details>
+      <details id=question4>
         <summary>
-          <h2>Can I support the development?</h2>
+          <h2>xxCan I support the development?</h2>
         </summary>
-        <p>This would be very much appreciated! There are three ways:
-          <ol>
-            <li>Leave your suggestions in the forum on this site</li>
-            <li>Even better: If you know some JS, HTML and CSS you can <a
-                href="https://github.com/rene78/My-Cryptoportfolio">improve the app</a></li>
-            <li>You can send me a tip. Bitcoin address: 13kGpAVk87XGRDm6ZscUFvGaTFyjPuKLTY </li>
-          </ol>
-        </p>
+        <p>This would be very much appreciated! There are three ways:</p>
+        <ol>
+          <li>Leave your suggestions in the forum on this site</li>
+          <li>Even better: If you know some JS, HTML and CSS you can <a
+              href="https://github.com/rene78/My-Cryptoportfolio">improve the app</a></li>
+          <li>You can send me a tip. Bitcoin address: 13kGpAVk87XGRDm6ZscUFvGaTFyjPuKLTY </li>
+        </ol>
       </details>
-      <details>
+      <details id=question5>
         <summary>
-          <h2>Where are the coin prices coming from?</h2>
+          <h2>xxWhere are the coin prices coming from?</h2>
         </summary>
         <p>From the <a href="https://min-api.cryptocompare.com/">Cryptocampare API</a>.</p>
       </details>
-      <details>
+      <details id=question6>
         <summary>
-          <h2>Why does this website have such a weird logo?</h2>
+          <h2>xxWhy does this website have such a weird logo?</h2>
         </summary>
         <p>It is a celtic Triple Crescent Moon symbol. Triple moons symbolize change, just like the blockchain
           technology
           in general. And "moon" - as in "to the moon"...</p>
       </details>
     </div>
+
     <div class="forum">
       <button onclick="toggleSegmentDisplay('.forum')" class="close" title="Close the Forum"
         aria-label="Close the forum">&times;</button>
@@ -145,9 +152,10 @@
           Disqus.</a></noscript>
     </div>
   </main>
-  <script src="coinlist-min.js"></script>
-  <script src="coinPricesExample.js"></script>
+  <script src="data/coinlist-min.js"></script>
+  <script src="data/coinPricesExample.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <script src="data/translations.js"></script>
   <script src="main.js"></script>
   <script id="dsq-count-scr" src="//https-rene78-github-io-my-cryptoportfolio.disqus.com/count.js" async></script>
 </body>

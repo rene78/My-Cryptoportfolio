@@ -60,6 +60,40 @@ th {
 
 /* #endregion */
 
+/*temp*/
+.header li select {
+  /* display: block;
+  padding: 20px 5px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+  border-style: none;
+  width: 100%;
+  font: inherit; */
+
+  display: block;
+  padding: 20px 30px 20px 5px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+  border-style: none;
+  width: 100%;
+  font: inherit;
+  /* Remove original arrows */
+  -webkit-appearance: none;
+  background: url(img/arrowdown.png) no-repeat right;
+}
+
+@media (max-width: 600px){
+  .header li select {
+  padding: 20px 30px 20px 20px;
+  background-position-x: 96%;
+}
+}
+
+.header li select:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
 /* #region CSS RELATED TO NAVIGATION MENU */
 
 /* header */
@@ -172,7 +206,7 @@ th {
 }
 
 .header .menu-btn:checked~.menu {
-  max-height: 240px;
+  max-height: fit-content;
 }
 
 .header .menu-btn:checked~.menu-icon .navicon {
@@ -397,18 +431,18 @@ input {
   background-color: rgba(0,0,0,0.8);
 }
 
-#delete-cell {
-  cursor: pointer;
-}
-
-#delete-cell:hover > #dustbin {
-  fill: red;
-}
-
 #dustbin {
   /* fill:grey; */
   width: 30px;
   height: 30px;
+}
+
+.delete-cell {
+  cursor: pointer;
+}
+
+.delete-cell:hover > #dustbin {
+  fill: red;
 }
 
 #portfolio-update-form {
