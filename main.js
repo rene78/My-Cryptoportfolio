@@ -271,7 +271,7 @@ function downloadCoinPrices() {
   // let index = languages.indexOf(userLang);
   // changeAppLanguage(index);
 
-///*
+  ///*
   fetch(coinAPI)
     .then(handleErrors)
     .then(res => {
@@ -292,7 +292,7 @@ function downloadCoinPrices() {
       let infotext = "<strong>" + translInfotextMessages.errorWhileDownloadingCoinPrices[languages.indexOf(userLang)] + "</strong><br>" + error.message;
       showAlert(infotext, "fail");
     });
-//*/
+  //*/
 }
 
 // Display portfolio on page
@@ -1069,6 +1069,10 @@ function deletePortfolio() {
     .then(response => {
       console.log(response);
       window.location.hash = ""; //Remove hash value from URL
+
+      //Delete portfolio from local storage
+      localStorage.removeItem(hash);
+
       //Reset hash hash variable
       hash = "";
       //Display demoportfolio
