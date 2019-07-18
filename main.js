@@ -447,10 +447,9 @@ function sortTable(n) {
           xGreaterThanY = true;
         }
       } else {
-        x = rows[i].getElementsByTagName("TD")[n].innerText.replace(/[^-0-9]/g, '');
-        y = rows[i + 1].getElementsByTagName("TD")[n].innerText.replace(/[^-0-9]/g, '');
+        x = rows[i].getElementsByTagName("TD")[n].innerText.replace(/[^-0-9.]/g, '');//Regex: Remove everything except numbers, "-" and ".",e.g. "-35.6 %" --> "-35.6"
+        y = rows[i + 1].getElementsByTagName("TD")[n].innerText.replace(/[^-0-9.]/g, '');
         if (Number(x) > Number(y)) {
-          //if (x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
           //if so, mark as a switch and break the loop:
           xGreaterThanY = true;
         }
@@ -458,25 +457,15 @@ function sortTable(n) {
       /*check if the two rows should switch place,
       based on the direction, asc or desc:*/
       if (dir == "asc") {
+        //xGreaterThanY = true: switch rows!
         if (xGreaterThanY) {
-          //if (x.innerText.toLowerCase() > y.innerText.toLowerCase()) {
-          //if so, mark as a switch and break the loop:
           shouldSwitch = true;
-          //Change display to UP arrow only. Before just showing UP arrow, make all other arrows, which might have been hidden, visible again
-          showAllArrows();
-          arrowDown.classList.remove("triangle-down");
-          arrowUp.classList.add("triangle-up");
           break;
         }
       } else if (dir == "desc") {
-        if (xGreaterThanY === false) {
-          //if (x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
-          //if so, mark as a switch and break the loop:
+        //if xGreaterThanY = false AND the 2 numbers are not equal: switch rows! 2nd condition important because if numbers are equal there would be an infinite loop
+        if (!xGreaterThanY && Number(x) !== Number(y)) {
           shouldSwitch = true;
-          //Change display to DOWN arrow only. Before just showing UP arrow, make all other arrows, which might have been hidden, visible again
-          showAllArrows();
-          arrowDown.classList.add("triangle-down");
-          arrowUp.classList.remove("triangle-up");
           break;
         }
       }
@@ -497,6 +486,10 @@ function sortTable(n) {
       }
     }
   }
+  //Set the display of arrows according to "asc" or "desc"
+  showAllArrows(); //Show all arrows in the header, which might have been hidden during previous sort operation
+  if (dir == "asc") arrowDown.classList.remove("triangle-down"); //Change display to UP arrow only.
+  else if (dir == "desc") arrowUp.classList.remove("triangle-up"); //Change display to DOWN arrow only.
 }
 
 //Show all sort arrows
