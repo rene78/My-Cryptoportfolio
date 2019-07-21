@@ -439,20 +439,14 @@ function sortTable(n) {
       one from current row and one from the next:
       n=0: Compare strings
       n>0: Compare numbers*/
-      if (n === 0) {
+      if (n === 0) { //Compare strings
         x = rows[i].getElementsByTagName("TD")[n].innerText.toLowerCase();
         y = rows[i + 1].getElementsByTagName("TD")[n].innerText.toLowerCase();
-        if (x > y) {
-          //if so, mark as a switch and break the loop:
-          xGreaterThanY = true;
-        }
-      } else {
+        if (x > y) xGreaterThanY = true;
+      } else { //Compare numbers
         x = rows[i].getElementsByTagName("TD")[n].innerText.replace(/[^-0-9.]/g, '');//Regex: Remove everything except numbers, "-" and ".",e.g. "-35.6 %" --> "-35.6"
         y = rows[i + 1].getElementsByTagName("TD")[n].innerText.replace(/[^-0-9.]/g, '');
-        if (Number(x) > Number(y)) {
-          //if so, mark as a switch and break the loop:
-          xGreaterThanY = true;
-        }
+        if (Number(x) > Number(y)) xGreaterThanY = true;
       }
       /*check if the two rows should switch place,
       based on the direction, asc or desc:*/
