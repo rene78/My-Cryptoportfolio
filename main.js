@@ -304,11 +304,11 @@ function displayPortfolio() {
   thisHTML += "<table id='portfolio-table'>";
   thisHTML += "<thead>";
   thisHTML += "<tr>";
-  thisHTML += "<th id='coin-name' onclick='sortTable(0)' title='xxName of Cryptocurrency/Token. Click here to sort alphabetically'>xxName <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
-  thisHTML += "<th id='last-price' onclick='sortTable(1)' title='xxLast price. Click here to sort.'>xxLast <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
-  thisHTML += "<th id='change-perc' onclick='sortTable(2)' title='xxChange in percent in the last 24h. Click here to sort.'>xxChange <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
-  thisHTML += "<th id='gain-loss-24h' onclick='sortTable(3)' title='xxGain/loss in the last 24h. Click here to sort.'>xxG/L Today <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
-  thisHTML += "<th id='gain-loss' onclick='sortTable(4)' title='xxOverall gain/loss. Click here to sort.'>xxGain / Loss <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></th>";
+  thisHTML += "<th id='coin-name' onclick='sortTable(0)' title='xxName of Cryptocurrency/Token. Click here to sort alphabetically'>xxName <div class='arrows-name'><div title='Descending'></div><div class='triangle-up' title='Ascending'></div></div></th>";
+  thisHTML += "<th id='last-price' onclick='sortTable(1)' title='xxLast price. Click here to sort.'>xxLast <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></div></th>";
+  thisHTML += "<th id='change-perc' onclick='sortTable(2)' title='xxChange in percent in the last 24h. Click here to sort.'>xxChange <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></div></th>";
+  thisHTML += "<th id='gain-loss-24h' onclick='sortTable(3)' title='xxGain/loss in the last 24h. Click here to sort.'>xxG/L Today <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></div></th>";
+  thisHTML += "<th id='gain-loss' onclick='sortTable(4)' title='xxOverall gain/loss. Click here to sort.'>xxGain / Loss <div class='arrows-name'><div class='triangle-down' title='Descending'></div><div class='triangle-up' title='Ascending'></div></div></th>";
   thisHTML += "</tr>";
   thisHTML += "</thead>";
 
