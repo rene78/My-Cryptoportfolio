@@ -8,9 +8,9 @@ const translations = {
   //Display Portfolio
   "coin-name": [["Name ", "Name of Cryptocurrency/Token. Click here to sort alphabetically"], ["Name ", "Name der Kryptowährung / des Tokens. Hier klicken, um alphabetisch zu sortieren"]],
   "last-price": [["Last ", "Last price. Click here to sort"], ["Kurs ", "Aktueller Kurs. Hier klicken zum sortieren"]],
-  "change-perc": [["Change ", "Change in percent in the last 24h. Click here to sort"], ["Diff. % ", "Änderung in Prozent innerhalb der letzten 24h. Hier zum sortieren klicken"]],
-  "gain-loss-24h": [["G/L (24h) ", "Gain/loss in the last 24h. Click here to sort"], ["G/V (24h) ", "Gewinn/Verlust in Fiat innerhalb der letzten 24h. Hier zum sortieren klicken"]],
-  "gain-loss": [["Gain / Loss ", "Overall gain/loss. Click here to sort"], ["G/V ", "Gesamter Gewinn/Verlust. Hier zum sortieren klicken"]],
+  "change-perc": [["Change ", "Change in percent in the last 24h. Click here to sort"], ["Diff. % ", "Änderung in Prozent innerhalb der letzten 24h. Hier zum Sortieren klicken"]],
+  "gain-loss-24h": [["G/L (24h) ", "Gain/loss in the last 24h. Click here to sort"], ["G/V (24h) ", "Gewinn/Verlust in Fiat innerhalb der letzten 24h. Hier zum Sortieren klicken"]],
+  "gain-loss": [["Gain / Loss ", "Overall gain/loss. Click here to sort"], ["G/V ", "Gesamter Gewinn/Verlust. Hier zum Sortieren klicken"]],
   //Chart
   "chart-button": [["×", "Close the Chart"], ["×", "Diagramm schliessen"]],
   "chart-heading": [["Portfolio Weighting", "Displays the overall distribution of your investment on a pie chart"], ["Portfolio-Gewichtung", "Zeigt die Gesamtverteilung Deiner Investition in einem Kuchendiagramm"]],
