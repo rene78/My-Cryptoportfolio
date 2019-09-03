@@ -424,7 +424,8 @@ input {
   background-color: rgba(0,0,0,0.8);
 }
 
-#dustbin {
+.dustbin,
+.app-logo {
   /* fill:grey; */
   width: 30px;
   height: 30px;
@@ -434,7 +435,7 @@ input {
   cursor: pointer;
 }
 
-.delete-cell:hover > #dustbin {
+.delete-cell:hover > .dustbin {
   fill: red;
 }
 

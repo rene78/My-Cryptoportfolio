@@ -603,7 +603,7 @@ function createEditTable() {
     tableHTML += '<td><button onclick="showHideDropdown(this); createOptions(this)" class="dropdown-button">Select coin...<div class="triangle-down"></div></button><div class="dropdown-content"><input class="my-input" type="text" placeholder="Search.." onkeyup="filterCoins(this)" autocomplete="off"><div class="all-token"></div></div></td>';
     tableHTML += '<td><input type="number" name="cryptoQty" class="crypto-qty" value="" min="0" placeholder="e.g. 5" title="Overall number of coins in your possession" required="true"></td>';
     tableHTML += '<td><input type="number" class="crypto-invested-sum" value="" min="0" placeholder="e.g. 1000" title="How much fiat did you invest to buy this coin?" required="true"></td>';
-    tableHTML += '<td class="delete-cell" onclick="deleteRow(this)" title="Click to delete coin"><svg id="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
+    tableHTML += '<td class="delete-cell" onclick="deleteRow(this)" title="Click to delete coin"><svg class="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
     tableHTML += '<td><input type="text" class="crypto-ticker" value="" placeholder="e.g. BTC" title="Ticker symbol of cryptocurrency" name="cryptoTicker" required="true" disabled> </td>';
     tableHTML += '<td><input type="text" class="crypto-name" value="" placeholder="e.g. Bitcoin" title="Name of cryptocurrency" name="cryptoName" required="true" disabled> </td>';
     tableHTML += "</tr>";
