@@ -657,7 +657,7 @@ function insertRow() {
   tableHTML += '<td><button onclick="showHideDropdown(this); createOptions(this)" class="dropdown-button">' + translations["edit-portfolio-select-coin"][languages.indexOf(userLang)][1] + '<div class="triangle-down"></div></button><div class="dropdown-content"><input class="my-input" type="text" placeholder="Search.." onkeyup="filterCoins(this)" autocomplete="off"><div class="all-token"></div></div></td>';
   tableHTML += '<td><input type="number" name="cryptoQty" class="crypto-qty" value="" min="0" placeholder="e.g. 5" title="' + translations["ncoins-heading"][languages.indexOf(userLang)][1] + '" required="true"></td>';
   tableHTML += '<td><input type="number" class="crypto-invested-sum" value="" min="0" placeholder="e.g. 1000" title="' + translations["edit-portfolio-invested-sum"][languages.indexOf(userLang)][1] + '" required="true"></td>';
-  tableHTML += '<td class="delete-cell" onclick="deleteRow(this)" title="' + translations["edit-portfolio-delete"][languages.indexOf(userLang)][1] + '"><svg id="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
+  tableHTML += '<td class="delete-cell" onclick="deleteRow(this)" title="' + translations["edit-portfolio-delete"][languages.indexOf(userLang)][1] + '"><svg class="dustbin"><use xlink:href="img/icons.svg#dustbin-logo"></use></svg></td>';
   tableHTML += '<td><input type="text" class="crypto-ticker" value="" placeholder="e.g. BTC" title="Ticker symbol of cryptocurrency" name="cryptoTicker" required="true" disabled> </td>';
   tableHTML += '<td><input type="text" class="crypto-name" value="" placeholder="e.g. Bitcoin" title="Name of cryptocurrency" name="cryptoName" required="true" disabled> </td>';
   tableHTML += "</tr>";
