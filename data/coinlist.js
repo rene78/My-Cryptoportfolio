@@ -5,19 +5,14 @@ const coinlist = [
     "FullName": "Bitcoin (BTC)"
   },
   {
-    "Symbol": "XRP",
-    "CoinName": "XRP",
-    "FullName": "XRP (XRP)"
-  },
-  {
     "Symbol": "ETH",
     "CoinName": "Ethereum",
     "FullName": "Ethereum (ETH)"
   },
   {
-    "Symbol": "EOS",
-    "CoinName": "EOS",
-    "FullName": "EOS (EOS)"
+    "Symbol": "XRP",
+    "CoinName": "XRP",
+    "FullName": "XRP (XRP)"
   },
   {
     "Symbol": "BCH",
@@ -25,9 +20,39 @@ const coinlist = [
     "FullName": "Bitcoin Cash (BCH)"
   },
   {
+    "Symbol": "BSV",
+    "CoinName": "Bitcoin SV",
+    "FullName": "Bitcoin SV (BSV)"
+  },
+  {
     "Symbol": "LTC",
     "CoinName": "Litecoin",
     "FullName": "Litecoin (LTC)"
+  },
+  {
+    "Symbol": "EOS",
+    "CoinName": "EOS",
+    "FullName": "EOS (EOS)"
+  },
+  {
+    "Symbol": "BNB",
+    "CoinName": "Binance Coin",
+    "FullName": "Binance Coin (BNB)"
+  },
+  {
+    "Symbol": "XTZ",
+    "CoinName": "Tezos",
+    "FullName": "Tezos (XTZ)"
+  },
+  {
+    "Symbol": "ADA",
+    "CoinName": "Cardano",
+    "FullName": "Cardano (ADA)"
+  },
+  {
+    "Symbol": "XMR",
+    "CoinName": "Monero",
+    "FullName": "Monero (XMR)"
   },
   {
     "Symbol": "TRX",
@@ -40,24 +65,14 @@ const coinlist = [
     "FullName": "Stellar (XLM)"
   },
   {
-    "Symbol": "ADA",
-    "CoinName": "Cardano",
-    "FullName": "Cardano (ADA)"
+    "Symbol": "ETC",
+    "CoinName": "Ethereum Classic",
+    "FullName": "Ethereum Classic (ETC)"
   },
   {
-    "Symbol": "BNB",
-    "CoinName": "Binance Coin",
-    "FullName": "Binance Coin (BNB)"
-  },
-  {
-    "Symbol": "XMR",
-    "CoinName": "Monero",
-    "FullName": "Monero (XMR)"
-  },
-  {
-    "Symbol": "IOT",
-    "CoinName": "IOTA",
-    "FullName": "IOTA (IOT)"
+    "Symbol": "LINK",
+    "CoinName": "Chainlink",
+    "FullName": "Chainlink (LINK)"
   },
   {
     "Symbol": "DASH",
@@ -65,14 +80,34 @@ const coinlist = [
     "FullName": "Dash (DASH)"
   },
   {
+    "Symbol": "ZEC",
+    "CoinName": "ZCash",
+    "FullName": "ZCash (ZEC)"
+  },
+  {
     "Symbol": "NEO",
     "CoinName": "NEO",
     "FullName": "NEO (NEO)"
   },
   {
-    "Symbol": "ZEC",
-    "CoinName": "ZCash",
-    "FullName": "ZCash (ZEC)"
+    "Symbol": "XEM",
+    "CoinName": "NEM",
+    "FullName": "NEM (XEM)"
+  },
+  {
+    "Symbol": "BTS",
+    "CoinName": "Bitshares",
+    "FullName": "Bitshares (BTS)"
+  },
+  {
+    "Symbol": "STEEM",
+    "CoinName": "Steem",
+    "FullName": "Steem (STEEM)"
+  },
+  {
+    "Symbol": "MIOTA",
+    "CoinName": "IOTA",
+    "FullName": "IOTA (MIOTA)"
   },
   {
     "Symbol": "42",
@@ -116,8 +151,8 @@ const coinlist = [
   },
   {
     "Symbol": "1337",
-    "CoinName": "1337",
-    "FullName": "1337 (1337)"
+    "CoinName": "EliteCoin",
+    "FullName": "EliteCoin (1337)"
   },
   {
     "Symbol": "2015",
@@ -125,19 +160,9 @@ const coinlist = [
     "FullName": "2015 coin (2015)"
   },
   {
-    "Symbol": "NXT",
-    "CoinName": "Nxt",
-    "FullName": "Nxt (NXT)"
-  },
-  {
     "Symbol": "BTCD",
     "CoinName": "BitcoinDark",
     "FullName": "BitcoinDark (BTCD)"
-  },
-  {
-    "Symbol": "PPC",
-    "CoinName": "PeerCoin",
-    "FullName": "PeerCoin (PPC)"
   },
   {
     "Symbol": "CRAIG",
@@ -148,6 +173,21 @@ const coinlist = [
     "Symbol": "XBS",
     "CoinName": "Bitstake",
     "FullName": "Bitstake (XBS)"
+  },
+  {
+    "Symbol": "XPY",
+    "CoinName": "PayCoin",
+    "FullName": "PayCoin (XPY)"
+  },
+  {
+    "Symbol": "PRC",
+    "CoinName": "ProsperCoin",
+    "FullName": "ProsperCoin (PRC)"
+  },
+  {
+    "Symbol": "YBC",
+    "CoinName": "YbCoin",
+    "FullName": "YbCoin (YBC)"
   },
   {
     "Symbol": "DANK",
@@ -185,14 +225,19 @@ const coinlist = [
     "FullName": "PetroDollar (XPD)"
   },
   {
+    "Symbol": "GEO",
+    "CoinName": "GeoCoin",
+    "FullName": "GeoCoin (GEO)"
+  },
+  {
     "Symbol": "CHASH",
     "CoinName": "CleverHash",
     "FullName": "CleverHash (CHASH)"
   },
   {
-    "Symbol": "SPR",
-    "CoinName": "Spreadcoin",
-    "FullName": "Spreadcoin (SPR)"
+    "Symbol": "NXTI",
+    "CoinName": "NXTI",
+    "FullName": "NXTI (NXTI)"
   },
   {
     "Symbol": "WOLF",
@@ -200,14 +245,14 @@ const coinlist = [
     "FullName": "Insanity Coin (WOLF)"
   },
   {
-    "Symbol": "XDP",
-    "CoinName": "DogeParty",
-    "FullName": "DogeParty (XDP)"
-  },
-  {
     "Symbol": "AC",
     "CoinName": "Asia Coin",
     "FullName": "Asia Coin (AC)"
+  },
+  {
+    "Symbol": "ACOIN",
+    "CoinName": "ACoin",
+    "FullName": "ACoin (ACOIN)"
   },
   {
     "Symbol": "AERO",
@@ -230,6 +275,11 @@ const coinlist = [
     "FullName": "AmericanCoin (AMC)"
   },
   {
+    "Symbol": "ALIEN",
+    "CoinName": "AlienCoin",
+    "FullName": "AlienCoin (ALIEN)"
+  },
+  {
     "Symbol": "APEX",
     "CoinName": "ApexCoin",
     "FullName": "ApexCoin (APEX)"
@@ -240,14 +290,24 @@ const coinlist = [
     "FullName": "ArchCoin (ARCH)"
   },
   {
+    "Symbol": "ARG",
+    "CoinName": "Argentum",
+    "FullName": "Argentum (ARG)"
+  },
+  {
     "Symbol": "ARI",
     "CoinName": "AriCoin",
     "FullName": "AriCoin (ARI)"
   },
   {
-    "Symbol": "BCX",
-    "CoinName": "BattleCoin",
-    "FullName": "BattleCoin (BCX)"
+    "Symbol": "AUR",
+    "CoinName": "Aurora Coin",
+    "FullName": "Aurora Coin (AUR)"
+  },
+  {
+    "Symbol": "AXR",
+    "CoinName": "AXRON",
+    "FullName": "AXRON (AXR)"
   },
   {
     "Symbol": "BET",
@@ -255,14 +315,14 @@ const coinlist = [
     "FullName": "BetaCoin (BET)"
   },
   {
+    "Symbol": "BEAN",
+    "CoinName": "BeanCash",
+    "FullName": "BeanCash (BEAN)"
+  },
+  {
     "Symbol": "BLU",
     "CoinName": "BlueCoin",
     "FullName": "BlueCoin (BLU)"
-  },
-  {
-    "Symbol": "BLK",
-    "CoinName": "BlackCoin",
-    "FullName": "BlackCoin (BLK)"
   },
   {
     "Symbol": "BOST",
@@ -273,6 +333,11 @@ const coinlist = [
     "Symbol": "BQC",
     "CoinName": "BQCoin",
     "FullName": "BQCoin (BQC)"
+  },
+  {
+    "Symbol": "XMY",
+    "CoinName": "MyriadCoin",
+    "FullName": "MyriadCoin (XMY)"
   },
   {
     "Symbol": "MOON",
@@ -311,8 +376,8 @@ const coinlist = [
   },
   {
     "Symbol": "DGC",
-    "CoinName": "DigiCoin",
-    "FullName": "DigiCoin (DGC)"
+    "CoinName": "Digitalcoin ",
+    "FullName": "Digitalcoin  (DGC)"
   },
   {
     "Symbol": "LIMX",
@@ -330,14 +395,9 @@ const coinlist = [
     "FullName": "CAIx (CAIx)"
   },
   {
-    "Symbol": "BTE",
-    "CoinName": "ByteCoin",
-    "FullName": "ByteCoin (BTE)"
-  },
-  {
-    "Symbol": "BTM",
+    "Symbol": "BTMK",
     "CoinName": "BitMark",
-    "FullName": "BitMark (BTM)"
+    "FullName": "BitMark (BTMK)"
   },
   {
     "Symbol": "BUK",
@@ -365,9 +425,9 @@ const coinlist = [
     "FullName": "CashCoin (CASH)"
   },
   {
-    "Symbol": "CAT1",
+    "Symbol": "CAT",
     "CoinName": "Catcoin",
-    "FullName": "Catcoin (CAT1)"
+    "FullName": "Catcoin (CAT)"
   },
   {
     "Symbol": "CBX",
@@ -398,11 +458,6 @@ const coinlist = [
     "Symbol": "CLAM",
     "CoinName": "CLAMS",
     "FullName": "CLAMS (CLAM)"
-  },
-  {
-    "Symbol": "CLOAK",
-    "CoinName": "CloakCoin",
-    "FullName": "CloakCoin (CLOAK)"
   },
   {
     "Symbol": "CLR",
@@ -490,9 +545,9 @@ const coinlist = [
     "FullName": "Elacoin (ELC)"
   },
   {
-    "Symbol": "EMC2",
-    "CoinName": "Einsteinium",
-    "FullName": "Einsteinium (EMC2)"
+    "Symbol": "EMD",
+    "CoinName": "Emerald",
+    "FullName": "Emerald (EMD)"
   },
   {
     "Symbol": "EXCL",
@@ -550,9 +605,9 @@ const coinlist = [
     "FullName": "FractalCoin (FRAC)"
   },
   {
-    "Symbol": "FST",
+    "Symbol": "FSTC",
     "CoinName": "FastCoin",
-    "FullName": "FastCoin (FST)"
+    "FullName": "FastCoin (FSTC)"
   },
   {
     "Symbol": "FTC",
@@ -616,8 +671,8 @@ const coinlist = [
   },
   {
     "Symbol": "HYP",
-    "CoinName": "Hyperstake",
-    "FullName": "Hyperstake (HYP)"
+    "CoinName": "HyperStake",
+    "FullName": "HyperStake (HYP)"
   },
   {
     "Symbol": "ICB",
@@ -628,11 +683,6 @@ const coinlist = [
     "Symbol": "IFC",
     "CoinName": "Infinite Coin",
     "FullName": "Infinite Coin (IFC)"
-  },
-  {
-    "Symbol": "IOC",
-    "CoinName": "IOCoin",
-    "FullName": "IOCoin (IOC)"
   },
   {
     "Symbol": "IXC",
@@ -660,9 +710,9 @@ const coinlist = [
     "FullName": "Klondike Coin (KDC)"
   },
   {
-    "Symbol": "KEY*",
+    "Symbol": "KEYC",
     "CoinName": "KeyCoin",
-    "FullName": "KeyCoin (KEY*)"
+    "FullName": "KeyCoin (KEYC)"
   },
   {
     "Symbol": "KGC",
@@ -715,19 +765,14 @@ const coinlist = [
     "FullName": "MaxCoin (MAX)"
   },
   {
-    "Symbol": "MEC",
-    "CoinName": "MegaCoin",
-    "FullName": "MegaCoin (MEC)"
-  },
-  {
     "Symbol": "MED",
     "CoinName": "MediterraneanCoin",
     "FullName": "MediterraneanCoin (MED)"
   },
   {
-    "Symbol": "MIN",
+    "Symbol": "MINRL",
     "CoinName": "Minerals Coin",
-    "FullName": "Minerals Coin (MIN)"
+    "FullName": "Minerals Coin (MINRL)"
   },
   {
     "Symbol": "MINT",
@@ -740,9 +785,9 @@ const coinlist = [
     "FullName": "Cryptsy Mining Contract (MN)"
   },
   {
-    "Symbol": "MNC",
+    "Symbol": "MINC",
     "CoinName": "MinCoin",
-    "FullName": "MinCoin (MNC)"
+    "FullName": "MinCoin (MINC)"
   },
   {
     "Symbol": "MRY",
@@ -765,19 +810,9 @@ const coinlist = [
     "FullName": "Nautilus Coin (NAUT)"
   },
   {
-    "Symbol": "NAV",
-    "CoinName": "NavCoin",
-    "FullName": "NavCoin (NAV)"
-  },
-  {
     "Symbol": "NBL",
     "CoinName": "Nybble",
     "FullName": "Nybble (NBL)"
-  },
-  {
-    "Symbol": "NEC",
-    "CoinName": "NeoCoin",
-    "FullName": "NeoCoin (NEC)"
   },
   {
     "Symbol": "NET",
@@ -810,19 +845,9 @@ const coinlist = [
     "FullName": "NovaCoin (NVC)"
   },
   {
-    "Symbol": "NMC",
-    "CoinName": "Namecoin",
-    "FullName": "Namecoin (NMC)"
-  },
-  {
     "Symbol": "NYAN",
     "CoinName": "NyanCoin",
     "FullName": "NyanCoin (NYAN)"
-  },
-  {
-    "Symbol": "OPAL",
-    "CoinName": "OpalCoin",
-    "FullName": "OpalCoin (OPAL)"
   },
   {
     "Symbol": "ORB",
@@ -830,9 +855,9 @@ const coinlist = [
     "FullName": "Orbitcoin (ORB)"
   },
   {
-    "Symbol": "OSC",
+    "Symbol": "OPSC",
     "CoinName": "OpenSourceCoin",
-    "FullName": "OpenSourceCoin (OSC)"
+    "FullName": "OpenSourceCoin (OPSC)"
   },
   {
     "Symbol": "PHS",
@@ -843,11 +868,6 @@ const coinlist = [
     "Symbol": "POINTS",
     "CoinName": "Cryptsy Points",
     "FullName": "Cryptsy Points (POINTS)"
-  },
-  {
-    "Symbol": "POT",
-    "CoinName": "PotCoin",
-    "FullName": "PotCoin (POT)"
   },
   {
     "Symbol": "PSEUD",
@@ -865,14 +885,14 @@ const coinlist = [
     "FullName": "PayCoin (PYC)"
   },
   {
-    "Symbol": "RDD",
-    "CoinName": "Reddcoin",
-    "FullName": "Reddcoin (RDD)"
-  },
-  {
     "Symbol": "RIPO",
     "CoinName": "RipOffCoin",
     "FullName": "RipOffCoin (RIPO)"
+  },
+  {
+    "Symbol": "RPC",
+    "CoinName": "RonPaulCoin",
+    "FullName": "RonPaulCoin (RPC)"
   },
   {
     "Symbol": "RT2",
@@ -945,9 +965,9 @@ const coinlist = [
     "FullName": "SpainCoin (SPA)"
   },
   {
-    "Symbol": "SPT",
+    "Symbol": "SPOTS",
     "CoinName": "Spots",
-    "FullName": "Spots (SPT)"
+    "FullName": "Spots (SPOTS)"
   },
   {
     "Symbol": "SRC",
@@ -975,11 +995,6 @@ const coinlist = [
     "FullName": "SyncCoin (SYNC)"
   },
   {
-    "Symbol": "SYS",
-    "CoinName": "SysCoin",
-    "FullName": "SysCoin (SYS)"
-  },
-  {
     "Symbol": "TAG",
     "CoinName": "TagCoin",
     "FullName": "TagCoin (TAG)"
@@ -1000,6 +1015,11 @@ const coinlist = [
     "FullName": "TigerCoin (TGC)"
   },
   {
+    "Symbol": "TIT",
+    "CoinName": "TittieCoin",
+    "FullName": "TittieCoin (TIT)"
+  },
+  {
     "Symbol": "TOR",
     "CoinName": "TorCoin",
     "FullName": "TorCoin (TOR)"
@@ -1008,6 +1028,11 @@ const coinlist = [
     "Symbol": "TRC",
     "CoinName": "TerraCoin",
     "FullName": "TerraCoin (TRC)"
+  },
+  {
+    "Symbol": "TITC",
+    "CoinName": "TitCoin",
+    "FullName": "TitCoin (TITC)"
   },
   {
     "Symbol": "ULTC",
@@ -1050,11 +1075,6 @@ const coinlist = [
     "FullName": "VidioCoin (VDO)"
   },
   {
-    "Symbol": "VIA",
-    "CoinName": "ViaCoin",
-    "FullName": "ViaCoin (VIA)"
-  },
-  {
     "Symbol": "VOOT",
     "CoinName": "VootCoin",
     "FullName": "VootCoin (VOOT)"
@@ -1063,11 +1083,6 @@ const coinlist = [
     "Symbol": "VRC",
     "CoinName": "VeriCoin",
     "FullName": "VeriCoin (VRC)"
-  },
-  {
-    "Symbol": "WC",
-    "CoinName": "WhiteCoin",
-    "FullName": "WhiteCoin (WC)"
   },
   {
     "Symbol": "WDC",
@@ -1088,6 +1103,11 @@ const coinlist = [
     "Symbol": "XC",
     "CoinName": "X11 Coin",
     "FullName": "X11 Coin (XC)"
+  },
+  {
+    "Symbol": "XCSH",
+    "CoinName": "Xcash",
+    "FullName": "Xcash (XCSH)"
   },
   {
     "Symbol": "XCR",
@@ -1135,11 +1155,6 @@ const coinlist = [
     "FullName": "ZedCoins (ZED)"
   },
   {
-    "Symbol": "BCN",
-    "CoinName": "ByteCoin",
-    "FullName": "ByteCoin (BCN)"
-  },
-  {
     "Symbol": "EKN",
     "CoinName": "Elektron",
     "FullName": "Elektron (EKN)"
@@ -1153,11 +1168,6 @@ const coinlist = [
     "Symbol": "TMC",
     "CoinName": "TimesCoin",
     "FullName": "TimesCoin (TMC)"
-  },
-  {
-    "Symbol": "BURST",
-    "CoinName": "BurstCoin",
-    "FullName": "BurstCoin (BURST)"
   },
   {
     "Symbol": "NBT",
@@ -1180,11 +1190,6 @@ const coinlist = [
     "FullName": "BigCoin (HUGE)"
   },
   {
-    "Symbol": "XCP",
-    "CoinName": "CounterParty",
-    "FullName": "CounterParty (XCP)"
-  },
-  {
     "Symbol": "MAID",
     "CoinName": "MaidSafe Coin",
     "FullName": "MaidSafe Coin (MAID)"
@@ -1195,9 +1200,9 @@ const coinlist = [
     "FullName": "007 coin (007)"
   },
   {
-    "Symbol": "NSR",
-    "CoinName": "NuShares",
-    "FullName": "NuShares (NSR)"
+    "Symbol": "MONA",
+    "CoinName": "MonaCoin",
+    "FullName": "MonaCoin (MONA)"
   },
   {
     "Symbol": "CELL",
@@ -1233,11 +1238,6 @@ const coinlist = [
     "Symbol": "CRAVE",
     "CoinName": "CraveCoin",
     "FullName": "CraveCoin (CRAVE)"
-  },
-  {
-    "Symbol": "BLOCK",
-    "CoinName": "BlockNet",
-    "FullName": "BlockNet (BLOCK)"
   },
   {
     "Symbol": "XSI",
@@ -1280,14 +1280,14 @@ const coinlist = [
     "FullName": "QoraCoin (QORA)"
   },
   {
-    "Symbol": "NLG",
-    "CoinName": "Gulden",
-    "FullName": "Gulden (NLG)"
-  },
-  {
     "Symbol": "RBY",
     "CoinName": "RubyCoin",
     "FullName": "RubyCoin (RBY)"
+  },
+  {
+    "Symbol": "PTC",
+    "CoinName": "PesetaCoin",
+    "FullName": "PesetaCoin (PTC)"
   },
   {
     "Symbol": "KORE",
@@ -1315,6 +1315,11 @@ const coinlist = [
     "FullName": "Dnotes (NOTE)"
   },
   {
+    "Symbol": "FLO",
+    "CoinName": "Flo",
+    "FullName": "Flo (FLO)"
+  },
+  {
     "Symbol": "MMXIV",
     "CoinName": "MaieutiCoin",
     "FullName": "MaieutiCoin (MMXIV)"
@@ -1340,6 +1345,11 @@ const coinlist = [
     "FullName": "AeroMe (AM)"
   },
   {
+    "Symbol": "XMG",
+    "CoinName": "Coin Magi",
+    "FullName": "Coin Magi (XMG)"
+  },
+  {
     "Symbol": "AMBER",
     "CoinName": "AmberCoin",
     "FullName": "AmberCoin (AMBER)"
@@ -1358,11 +1368,6 @@ const coinlist = [
     "Symbol": "GHC",
     "CoinName": "GhostCoin",
     "FullName": "GhostCoin (GHC)"
-  },
-  {
-    "Symbol": "DTC*",
-    "CoinName": "DayTrader Coin",
-    "FullName": "DayTrader Coin (DTC)"
   },
   {
     "Symbol": "ABY",
@@ -1430,6 +1435,11 @@ const coinlist = [
     "FullName": "Social Media Coin (SMAC)"
   },
   {
+    "Symbol": "TRK",
+    "CoinName": "TruckCoin",
+    "FullName": "TruckCoin (TRK)"
+  },
+  {
     "Symbol": "U",
     "CoinName": "Ucoin",
     "FullName": "Ucoin (U)"
@@ -1455,6 +1465,11 @@ const coinlist = [
     "FullName": "Ascension Coin (ASN)"
   },
   {
+    "Symbol": "OC",
+    "CoinName": "OrangeCoin",
+    "FullName": "OrangeCoin (OC)"
+  },
+  {
     "Symbol": "GSM",
     "CoinName": "GSM Coin",
     "FullName": "GSM Coin (GSM)"
@@ -1475,6 +1490,11 @@ const coinlist = [
     "FullName": "QuBuck Coin (QBK)"
   },
   {
+    "Symbol": "BLC",
+    "CoinName": "BlakeCoin",
+    "FullName": "BlakeCoin (BLC)"
+  },
+  {
     "Symbol": "MARYJ",
     "CoinName": "MaryJane Coin",
     "FullName": "MaryJane Coin (MARYJ)"
@@ -1493,6 +1513,11 @@ const coinlist = [
     "Symbol": "CC",
     "CoinName": "CyberCoin",
     "FullName": "CyberCoin (CC)"
+  },
+  {
+    "Symbol": "BITS",
+    "CoinName": "BitstarCoin",
+    "FullName": "BitstarCoin (BITS)"
   },
   {
     "Symbol": "LTBC",
@@ -1523,6 +1548,11 @@ const coinlist = [
     "Symbol": "PINK",
     "CoinName": "PinkCoin",
     "FullName": "PinkCoin (PINK)"
+  },
+  {
+    "Symbol": "GRE",
+    "CoinName": "GreenCoin",
+    "FullName": "GreenCoin (GRE)"
   },
   {
     "Symbol": "XG",
@@ -1558,11 +1588,6 @@ const coinlist = [
     "Symbol": "GAIA",
     "CoinName": "GAIA Platform",
     "FullName": "GAIA Platform (GAIA)"
-  },
-  {
-    "Symbol": "TRUST",
-    "CoinName": "TrustPlus",
-    "FullName": "TrustPlus (TRUST)"
   },
   {
     "Symbol": "FCN",
@@ -1610,9 +1635,9 @@ const coinlist = [
     "FullName": "MasterCoin (MSC)"
   },
   {
-    "Symbol": "EGG",
-    "CoinName": "EggCoin",
-    "FullName": "EggCoin (EGG)"
+    "Symbol": "C2",
+    "CoinName": "Coin.2",
+    "FullName": "Coin.2 (C2)"
   },
   {
     "Symbol": "GSX",
@@ -1620,9 +1645,9 @@ const coinlist = [
     "FullName": "GlowShares (GSX)"
   },
   {
-    "Symbol": "CAM",
+    "Symbol": "CAMC",
     "CoinName": "Camcoin",
-    "FullName": "Camcoin (CAM)"
+    "FullName": "Camcoin (CAMC)"
   },
   {
     "Symbol": "RBR",
@@ -1640,9 +1665,9 @@ const coinlist = [
     "FullName": "ICASH (ICASH)"
   },
   {
-    "Symbol": "NODE",
+    "Symbol": "NODET",
     "CoinName": "Node",
-    "FullName": "Node (NODE)"
+    "FullName": "Node (NODET)"
   },
   {
     "Symbol": "SOON",
@@ -1680,9 +1705,9 @@ const coinlist = [
     "FullName": "VirtualMining Coin (VMC)"
   },
   {
-    "Symbol": "MRS",
+    "Symbol": "MARSC",
     "CoinName": "MarsCoin",
-    "FullName": "MarsCoin (MRS)"
+    "FullName": "MarsCoin (MARSC)"
   },
   {
     "Symbol": "VIRAL",
@@ -1740,11 +1765,6 @@ const coinlist = [
     "FullName": "Gambit coin (GAM)"
   },
   {
-    "Symbol": "NXS",
-    "CoinName": "Nexus",
-    "FullName": "Nexus (NXS)"
-  },
-  {
     "Symbol": "CESC",
     "CoinName": "Crypto Escudo",
     "FullName": "Crypto Escudo (CESC)"
@@ -1790,11 +1810,6 @@ const coinlist = [
     "FullName": "Singular (SIGU)"
   },
   {
-    "Symbol": "DCC",
-    "CoinName": "DarkCrave",
-    "FullName": "DarkCrave (DCC)"
-  },
-  {
     "Symbol": "M1",
     "CoinName": "SupplyShock",
     "FullName": "SupplyShock (M1)"
@@ -1815,9 +1830,9 @@ const coinlist = [
     "FullName": "EdgeCoin (EDGE)"
   },
   {
-    "Symbol": "LUX*",
+    "Symbol": "BITL",
     "CoinName": "BitLux",
-    "FullName": "BitLux (LUX*)"
+    "FullName": "BitLux (BITL)"
   },
   {
     "Symbol": "FUTC",
@@ -1845,9 +1860,9 @@ const coinlist = [
     "FullName": "Creva Coin (CREVA)"
   },
   {
-    "Symbol": "XFC",
+    "Symbol": "XFRC",
     "CoinName": "Forever Coin",
-    "FullName": "Forever Coin (XFC)"
+    "FullName": "Forever Coin (XFRC)"
   },
   {
     "Symbol": "NANAS",
@@ -1875,9 +1890,9 @@ const coinlist = [
     "FullName": "Droidz (DRZ)"
   },
   {
-    "Symbol": "BUCKS*",
-    "CoinName": "GorillaBucks",
-    "FullName": "GorillaBucks (BUCKS*)"
+    "Symbol": "BSC",
+    "CoinName": "BowsCoin",
+    "FullName": "BowsCoin (BSC)"
   },
   {
     "Symbol": "DRKT",
@@ -1923,11 +1938,6 @@ const coinlist = [
     "Symbol": "MIL",
     "CoinName": "Milllionaire Coin",
     "FullName": "Milllionaire Coin (MIL)"
-  },
-  {
-    "Symbol": "CRW",
-    "CoinName": "Crown Coin",
-    "FullName": "Crown Coin (CRW)"
   },
   {
     "Symbol": "XPH",
@@ -1980,9 +1990,19 @@ const coinlist = [
     "FullName": "Graviton (GRAV)"
   },
   {
+    "Symbol": "BOB",
+    "CoinName": "Bob's Repair",
+    "FullName": "Bob's Repair (BOB)"
+  },
+  {
     "Symbol": "QCN",
     "CoinName": "Quazar Coin",
     "FullName": "Quazar Coin (QCN)"
+  },
+  {
+    "Symbol": "HEDGE",
+    "CoinName": "Hedgecoin",
+    "FullName": "Hedgecoin (HEDGE)"
   },
   {
     "Symbol": "SONG",
@@ -1995,11 +2015,6 @@ const coinlist = [
     "FullName": "BitSeeds (XSEED)"
   },
   {
-    "Symbol": "CRE",
-    "CoinName": "Credits",
-    "FullName": "Credits (CRE)"
-  },
-  {
     "Symbol": "AXIOM",
     "CoinName": "Axiom Coin",
     "FullName": "Axiom Coin (AXIOM)"
@@ -2008,6 +2023,11 @@ const coinlist = [
     "Symbol": "SMLY",
     "CoinName": "SmileyCoin",
     "FullName": "SmileyCoin (SMLY)"
+  },
+  {
+    "Symbol": "RBT",
+    "CoinName": "Rimbit",
+    "FullName": "Rimbit (RBT)"
   },
   {
     "Symbol": "CHIP",
@@ -2045,11 +2065,6 @@ const coinlist = [
     "FullName": "ParkByte (PKB)"
   },
   {
-    "Symbol": "STR*",
-    "CoinName": "StarCoin",
-    "FullName": "StarCoin (STR*)"
-  },
-  {
     "Symbol": "SNRG",
     "CoinName": "Synergy",
     "FullName": "Synergy (SNRG)"
@@ -2058,11 +2073,6 @@ const coinlist = [
     "Symbol": "GHOUL",
     "CoinName": "Ghoul Coin",
     "FullName": "Ghoul Coin (GHOUL)"
-  },
-  {
-    "Symbol": "HNC",
-    "CoinName": "Hellenic Coin",
-    "FullName": "Hellenic Coin (HNC)"
   },
   {
     "Symbol": "DIGS",
@@ -2092,12 +2102,7 @@ const coinlist = [
   {
     "Symbol": "CON",
     "CoinName": "Paycon",
-    "FullName": "Paycon (CON_)"
-  },
-  {
-    "Symbol": "NEU*",
-    "CoinName": "NeuCoin",
-    "FullName": "NeuCoin (NEU*)"
+    "FullName": "Paycon (PAYCON)"
   },
   {
     "Symbol": "TX",
@@ -2106,8 +2111,8 @@ const coinlist = [
   },
   {
     "Symbol": "GRS",
-    "CoinName": "Groestlcoin ",
-    "FullName": "Groestlcoin  (GRS)"
+    "CoinName": "Groestlcoin",
+    "FullName": "Groestlcoin (GRS)"
   },
   {
     "Symbol": "CLV",
@@ -2116,8 +2121,8 @@ const coinlist = [
   },
   {
     "Symbol": "FCT",
-    "CoinName": "Factoids",
-    "FullName": "Factoids (FCT)"
+    "CoinName": "Factom",
+    "FullName": "Factom (FCT)"
   },
   {
     "Symbol": "LYB",
@@ -2155,14 +2160,19 @@ const coinlist = [
     "FullName": "Radium (RADS)"
   },
   {
+    "Symbol": "EMC",
+    "CoinName": "Emercoin",
+    "FullName": "Emercoin (EMC)"
+  },
+  {
     "Symbol": "BLITZ",
     "CoinName": "BlitzCoin",
     "FullName": "BlitzCoin (BLITZ)"
   },
   {
-    "Symbol": "HIRE*",
+    "Symbol": "BHIRE",
     "CoinName": "BitHIRE",
-    "FullName": "BitHIRE (HIRE*)"
+    "FullName": "BitHIRE (BHIRE)"
   },
   {
     "Symbol": "EGC",
@@ -2178,11 +2188,6 @@ const coinlist = [
     "Symbol": "I0C",
     "CoinName": "I0coin",
     "FullName": "I0coin (I0C)"
-  },
-  {
-    "Symbol": "BTA",
-    "CoinName": "Bata",
-    "FullName": "Bata (BTA)"
   },
   {
     "Symbol": "DCR",
@@ -2210,6 +2215,11 @@ const coinlist = [
     "FullName": "DogeCoinDark (DOGED)"
   },
   {
+    "Symbol": "REP",
+    "CoinName": "Augur",
+    "FullName": "Augur (REP)"
+  },
+  {
     "Symbol": "OK",
     "CoinName": "OKCash",
     "FullName": "OKCash (OK)"
@@ -2221,8 +2231,8 @@ const coinlist = [
   },
   {
     "Symbol": "AMP",
-    "CoinName": "Synereo",
-    "FullName": "Synereo (AMP)"
+    "CoinName": "HyperSpace",
+    "FullName": "HyperSpace (AMP)"
   },
   {
     "Symbol": "HODL",
@@ -2265,11 +2275,6 @@ const coinlist = [
     "FullName": "HiCoin (XHI)"
   },
   {
-    "Symbol": "SPOTS",
-    "CoinName": "Spots",
-    "FullName": "Spots (SPOTS)"
-  },
-  {
     "Symbol": "BIOS",
     "CoinName": "BiosCrypto",
     "FullName": "BiosCrypto (BIOS)"
@@ -2288,11 +2293,6 @@ const coinlist = [
     "Symbol": "GBT",
     "CoinName": "GameBetCoin",
     "FullName": "GameBetCoin (GBT)"
-  },
-  {
-    "Symbol": "SAR*",
-    "CoinName": "SARCoin",
-    "FullName": "SARCoin (SAR*)"
   },
   {
     "Symbol": "RCX",
@@ -2325,19 +2325,9 @@ const coinlist = [
     "FullName": "Rubies (RBIES)"
   },
   {
-    "Symbol": "STEEM",
-    "CoinName": "Steem",
-    "FullName": "Steem (STEEM)"
-  },
-  {
     "Symbol": "BLRY",
     "CoinName": "BillaryCoin",
     "FullName": "BillaryCoin (BLRY)"
-  },
-  {
-    "Symbol": "XWC",
-    "CoinName": "WhiteCoin",
-    "FullName": "WhiteCoin (XWC)"
   },
   {
     "Symbol": "DOT",
@@ -2350,24 +2340,9 @@ const coinlist = [
     "FullName": "Scotcoin (SCOT)"
   },
   {
-    "Symbol": "DNET",
-    "CoinName": "Darknet",
-    "FullName": "Darknet (DNET)"
-  },
-  {
-    "Symbol": "BAC",
-    "CoinName": "BitalphaCoin",
-    "FullName": "BitalphaCoin (BAC)"
-  },
-  {
-    "Symbol": "XID*",
-    "CoinName": "International Diamond Coin",
-    "FullName": "International Diamond Coin (XID*)"
-  },
-  {
-    "Symbol": "TCR",
+    "Symbol": "CREED",
     "CoinName": "Thecreed",
-    "FullName": "Thecreed (TCR)"
+    "FullName": "Thecreed (CREED)"
   },
   {
     "Symbol": "POST",
@@ -2435,6 +2410,11 @@ const coinlist = [
     "FullName": "GPU Coin (GPU)"
   },
   {
+    "Symbol": "TAGR",
+    "CoinName": "Think And Get Rich Coin",
+    "FullName": "Think And Get Rich Coin (TAGR)"
+  },
+  {
     "Symbol": "HMP",
     "CoinName": "HempCoin",
     "FullName": "HempCoin (HMP)"
@@ -2485,19 +2465,9 @@ const coinlist = [
     "FullName": "YoCoin (YOC)"
   },
   {
-    "Symbol": "COIN*",
-    "CoinName": "Coin",
-    "FullName": "Coin (COIN*)"
-  },
-  {
     "Symbol": "VPRC",
     "CoinName": "VapersCoin",
     "FullName": "VapersCoin (VPRC)"
-  },
-  {
-    "Symbol": "APC",
-    "CoinName": "AlpaCoin",
-    "FullName": "AlpaCoin (APC)"
   },
   {
     "Symbol": "STEPS",
@@ -2515,19 +2485,9 @@ const coinlist = [
     "FullName": "Universal Currency (UNIT)"
   },
   {
-    "Symbol": "AEON",
-    "CoinName": "AEON",
-    "FullName": "AEON (AEON)"
-  },
-  {
     "Symbol": "MOIN",
     "CoinName": "MoinCoin",
     "FullName": "MoinCoin (MOIN)"
-  },
-  {
-    "Symbol": "SIB",
-    "CoinName": "SibCoin",
-    "FullName": "SibCoin (SIB)"
   },
   {
     "Symbol": "ERC",
@@ -2545,19 +2505,9 @@ const coinlist = [
     "FullName": "PrimeChain (PRIME)"
   },
   {
-    "Symbol": "BERN",
-    "CoinName": "BERNcash",
-    "FullName": "BERNcash (BERN)"
-  },
-  {
     "Symbol": "BIGUP",
     "CoinName": "BigUp",
     "FullName": "BigUp (BIGUP)"
-  },
-  {
-    "Symbol": "KR",
-    "CoinName": "Krypton",
-    "FullName": "Krypton (KR)"
   },
   {
     "Symbol": "XRE",
@@ -2580,11 +2530,6 @@ const coinlist = [
     "FullName": "Anti Bitcoin (ANTI)"
   },
   {
-    "Symbol": "BRK",
-    "CoinName": "BreakoutCoin",
-    "FullName": "BreakoutCoin (BRK)"
-  },
-  {
     "Symbol": "COLX",
     "CoinName": "ColossusCoinXT",
     "FullName": "ColossusCoinXT (COLX)"
@@ -2593,11 +2538,6 @@ const coinlist = [
     "Symbol": "MNM",
     "CoinName": "Mineum",
     "FullName": "Mineum (MNM)"
-  },
-  {
-    "Symbol": "ADCN",
-    "CoinName": "Asiadigicoin",
-    "FullName": "Asiadigicoin (ADCN)"
   },
   {
     "Symbol": "ZEIT",
@@ -2620,11 +2560,6 @@ const coinlist = [
     "FullName": "SwingCoin (SWING)"
   },
   {
-    "Symbol": "SAFEX",
-    "CoinName": "SafeExchangeCoin",
-    "FullName": "SafeExchangeCoin (SAFEX)"
-  },
-  {
     "Symbol": "NEBU",
     "CoinName": "Nebuchadnezzar",
     "FullName": "Nebuchadnezzar (NEBU)"
@@ -2635,9 +2570,14 @@ const coinlist = [
     "FullName": "AcesCoin (AEC)"
   },
   {
-    "Symbol": "ADN",
+    "Symbol": "FRN",
+    "CoinName": "Francs",
+    "FullName": "Francs (FRN)"
+  },
+  {
+    "Symbol": "ADNT",
     "CoinName": "Aiden",
-    "FullName": "Aiden (ADN)"
+    "FullName": "Aiden (ADNT)"
   },
   {
     "Symbol": "PULSE",
@@ -2670,9 +2610,9 @@ const coinlist = [
     "FullName": "MediumProject (MPRO)"
   },
   {
-    "Symbol": "KAT",
+    "Symbol": "KATZ",
     "CoinName": "KATZcoin",
-    "FullName": "KATZcoin (KAT)"
+    "FullName": "KATZcoin (KATZ)"
   },
   {
     "Symbol": "SPM",
@@ -2700,19 +2640,9 @@ const coinlist = [
     "FullName": "BolivarCoin (BOLI)"
   },
   {
-    "Symbol": "CLUD",
-    "CoinName": "CludCoin",
-    "FullName": "CludCoin (CLUD)"
-  },
-  {
     "Symbol": "DIME",
     "CoinName": "DimeCoin",
     "FullName": "DimeCoin (DIME)"
-  },
-  {
-    "Symbol": "FLY",
-    "CoinName": "FlyCoin",
-    "FullName": "FlyCoin (FLY)"
   },
   {
     "Symbol": "HVCO",
@@ -2735,11 +2665,6 @@ const coinlist = [
     "FullName": "Carboncoin (CARBON)"
   },
   {
-    "Symbol": "DEUR",
-    "CoinName": "DigiEuro",
-    "FullName": "DigiEuro (DEUR)"
-  },
-  {
     "Symbol": "TUR",
     "CoinName": "Turron",
     "FullName": "Turron (TUR)"
@@ -2748,11 +2673,6 @@ const coinlist = [
     "Symbol": "LEMON",
     "CoinName": "LemonCoin",
     "FullName": "LemonCoin (LEMON)"
-  },
-  {
-    "Symbol": "STS",
-    "CoinName": "STRESScoin",
-    "FullName": "STRESScoin (STS)"
   },
   {
     "Symbol": "DISK",
@@ -2775,6 +2695,11 @@ const coinlist = [
     "FullName": "Fuzzballs (FUZZ)"
   },
   {
+    "Symbol": "NKC",
+    "CoinName": "Nukecoinz",
+    "FullName": "Nukecoinz (NKC)"
+  },
+  {
     "Symbol": "SCRT",
     "CoinName": "SecretCoin",
     "FullName": "SecretCoin (SCRT)"
@@ -2790,24 +2715,14 @@ const coinlist = [
     "FullName": "XanaxCoin (XNX)"
   },
   {
-    "Symbol": "STAR*",
-    "CoinName": "StarCoin",
-    "FullName": "StarCoin (STAR*)"
-  },
-  {
     "Symbol": "STHR",
     "CoinName": "Stakerush",
     "FullName": "Stakerush (STHR)"
   },
   {
-    "Symbol": "DBG",
-    "CoinName": "Digital Bullion Gold",
-    "FullName": "Digital Bullion Gold (DBG)"
-  },
-  {
-    "Symbol": "BON",
+    "Symbol": "BONES",
     "CoinName": "BonesCoin",
-    "FullName": "BonesCoin (BON*)"
+    "FullName": "BonesCoin (BONES)"
   },
   {
     "Symbol": "WMC",
@@ -2820,34 +2735,9 @@ const coinlist = [
     "FullName": "GothicCoin (GOTX)"
   },
   {
-    "Symbol": "FLVR",
-    "CoinName": "FlavorCoin",
-    "FullName": "FlavorCoin (FLVR)"
-  },
-  {
     "Symbol": "SHREK",
     "CoinName": "ShrekCoin",
     "FullName": "ShrekCoin (SHREK)"
-  },
-  {
-    "Symbol": "STA*",
-    "CoinName": "Stakers",
-    "FullName": "Stakers (STA*)"
-  },
-  {
-    "Symbol": "RISE",
-    "CoinName": "Rise",
-    "FullName": "Rise (RISE)"
-  },
-  {
-    "Symbol": "REV",
-    "CoinName": "Revenu",
-    "FullName": "Revenu (REV)"
-  },
-  {
-    "Symbol": "PBC",
-    "CoinName": "PabyosiCoin",
-    "FullName": "PabyosiCoin (PBC)"
   },
   {
     "Symbol": "OBS",
@@ -2860,9 +2750,9 @@ const coinlist = [
     "FullName": "ExitCoin (EXIT)"
   },
   {
-    "Symbol": "EDC",
+    "Symbol": "EDUC",
     "CoinName": "EducoinV",
-    "FullName": "EducoinV (EDC)"
+    "FullName": "EducoinV (EDUC)"
   },
   {
     "Symbol": "CLINT",
@@ -2873,11 +2763,6 @@ const coinlist = [
     "Symbol": "CKC",
     "CoinName": "Clockcoin",
     "FullName": "Clockcoin (CKC)"
-  },
-  {
-    "Symbol": "VIP",
-    "CoinName": "VIP Tokens",
-    "FullName": "VIP Tokens (VIP)"
   },
   {
     "Symbol": "NXE",
@@ -2895,14 +2780,14 @@ const coinlist = [
     "FullName": "DT Token (DRACO)"
   },
   {
-    "Symbol": "YOVI",
-    "CoinName": "YobitVirtualCoin",
-    "FullName": "YobitVirtualCoin (YOVI)"
-  },
-  {
     "Symbol": "ORLY",
     "CoinName": "OrlyCoin",
     "FullName": "OrlyCoin (ORLY)"
+  },
+  {
+    "Symbol": "KUBOS",
+    "CoinName": "KubosCoin",
+    "FullName": "KubosCoin (KUBOS)"
   },
   {
     "Symbol": "INCP",
@@ -2935,6 +2820,16 @@ const coinlist = [
     "FullName": "CobraCoin (COX)"
   },
   {
+    "Symbol": "BNT",
+    "CoinName": "Bancor Network Token",
+    "FullName": "Bancor Network Token (BNT)"
+  },
+  {
+    "Symbol": "BSD",
+    "CoinName": "BitSend",
+    "FullName": "BitSend (BSD)"
+  },
+  {
     "Symbol": "DES",
     "CoinName": "Destiny",
     "FullName": "Destiny (DES)"
@@ -2945,11 +2840,6 @@ const coinlist = [
     "FullName": "16BitCoin (BIT16)"
   },
   {
-    "Symbol": "PDC",
-    "CoinName": "Project Decorum",
-    "FullName": "Project Decorum (PDC)"
-  },
-  {
     "Symbol": "CHESS",
     "CoinName": "ChessCoin",
     "FullName": "ChessCoin (CHESS)"
@@ -2958,11 +2848,6 @@ const coinlist = [
     "Symbol": "SPACE",
     "CoinName": "SpaceCoin",
     "FullName": "SpaceCoin (SPACE)"
-  },
-  {
-    "Symbol": "REE",
-    "CoinName": "ReeCoin",
-    "FullName": "ReeCoin (REE)"
   },
   {
     "Symbol": "LQD",
@@ -2985,24 +2870,24 @@ const coinlist = [
     "FullName": "VectorCoin 2.0  (VEC2)"
   },
   {
-    "Symbol": "OMNI",
-    "CoinName": "Omni",
-    "FullName": "Omni (OMNI)"
-  },
-  {
     "Symbol": "GSY",
     "CoinName": "GenesysCoin",
     "FullName": "GenesysCoin (GSY)"
   },
   {
-    "Symbol": "TKN*",
+    "Symbol": "TRTK",
     "CoinName": "TrollTokens",
-    "FullName": "TrollTokens (TKN*)"
+    "FullName": "TrollTokens (TRTK)"
   },
   {
     "Symbol": "LIR",
     "CoinName": "Let it Ride",
     "FullName": "Let it Ride (LIR)"
+  },
+  {
+    "Symbol": "MMNXT",
+    "CoinName": "MMNXT ",
+    "FullName": "MMNXT  (MMNXT)"
   },
   {
     "Symbol": "SCRPT",
@@ -3015,14 +2900,24 @@ const coinlist = [
     "FullName": "LBRY Credits (LBC)"
   },
   {
-    "Symbol": "SPX",
+    "Symbol": "SPCIE",
     "CoinName": "Specie",
-    "FullName": "Specie (SPX*)"
+    "FullName": "Specie (SPCIE)"
   },
   {
-    "Symbol": "SBD*",
+    "Symbol": "SBD",
     "CoinName": "Steem Backed Dollars",
-    "FullName": "Steem Backed Dollars (SBD*)"
+    "FullName": "Steem Backed Dollars (SBD)"
+  },
+  {
+    "Symbol": "CJ",
+    "CoinName": "CryptoJacks",
+    "FullName": "CryptoJacks (CJ)"
+  },
+  {
+    "Symbol": "PUT",
+    "CoinName": "PutinCoin",
+    "FullName": "PutinCoin (PUT)"
   },
   {
     "Symbol": "KRAK",
@@ -3030,14 +2925,14 @@ const coinlist = [
     "FullName": "Kraken (KRAK)"
   },
   {
+    "Symbol": "DLISK",
+    "CoinName": "Dlisk",
+    "FullName": "Dlisk (DLISK)"
+  },
+  {
     "Symbol": "IBANK",
     "CoinName": "iBankCoin",
     "FullName": "iBankCoin (IBANK)"
-  },
-  {
-    "Symbol": "STRAT",
-    "CoinName": "Stratis",
-    "FullName": "Stratis (STRAT)"
   },
   {
     "Symbol": "VOYA",
@@ -3046,13 +2941,13 @@ const coinlist = [
   },
   {
     "Symbol": "ENTER",
-    "CoinName": "EnterCoin (ENTER)",
-    "FullName": "EnterCoin (ENTER) (ENTER)"
+    "CoinName": "EnterCoin",
+    "FullName": "EnterCoin (ENTER)"
   },
   {
-    "Symbol": "WGC",
+    "Symbol": "WRLGC",
     "CoinName": "World Gold Coin",
-    "FullName": "World Gold Coin (WGC)"
+    "FullName": "World Gold Coin (WRLGC)"
   },
   {
     "Symbol": "BM",
@@ -3068,6 +2963,11 @@ const coinlist = [
     "Symbol": "PSY",
     "CoinName": "Psilocybin",
     "FullName": "Psilocybin (PSY)"
+  },
+  {
+    "Symbol": "XT",
+    "CoinName": "ExtremeCoin",
+    "FullName": "ExtremeCoin (XT)"
   },
   {
     "Symbol": "RUST",
@@ -3115,19 +3015,19 @@ const coinlist = [
     "FullName": "PokeChain (XPOKE)"
   },
   {
-    "Symbol": "MUDRA",
-    "CoinName": "MudraCoin",
-    "FullName": "MudraCoin (MUDRA)"
+    "Symbol": "CNMT",
+    "CoinName": "Coinomat",
+    "FullName": "Coinomat (CNMT)"
   },
   {
-    "Symbol": "WARP",
-    "CoinName": "WarpCoin",
-    "FullName": "WarpCoin (WARP)"
+    "Symbol": "LC",
+    "CoinName": "Lutetium Coin",
+    "FullName": "Lutetium Coin (LC)"
   },
   {
-    "Symbol": "PIZZA",
-    "CoinName": "PizzaCoin",
-    "FullName": "PizzaCoin (PIZZA)"
+    "Symbol": "HEAT",
+    "CoinName": "Heat Ledger",
+    "FullName": "Heat Ledger (HEAT)"
   },
   {
     "Symbol": "ICN",
@@ -3135,14 +3035,19 @@ const coinlist = [
     "FullName": "Iconomi (ICN)"
   },
   {
+    "Symbol": "EXB",
+    "CoinName": "ExaByte (EXB)",
+    "FullName": "ExaByte (EXB) (EXB)"
+  },
+  {
     "Symbol": "WINGS",
     "CoinName": "Wings DAO",
     "FullName": "Wings DAO (WINGS)"
   },
   {
-    "Symbol": "CDX*",
+    "Symbol": "CDEX",
     "CoinName": "Cryptodex",
-    "FullName": "Cryptodex (CDX*)"
+    "FullName": "Cryptodex (CDEX)"
   },
   {
     "Symbol": "RBIT",
@@ -3160,6 +3065,11 @@ const coinlist = [
     "FullName": "GoldBlocks (GB)"
   },
   {
+    "Symbol": "ANC",
+    "CoinName": "Anoncoin",
+    "FullName": "Anoncoin (ANC)"
+  },
+  {
     "Symbol": "SYNX",
     "CoinName": "Syndicate",
     "FullName": "Syndicate (SYNX)"
@@ -3170,9 +3080,9 @@ const coinlist = [
     "FullName": "Mass Coin (MC)"
   },
   {
-    "Symbol": "JWL",
-    "CoinName": "Jewels",
-    "FullName": "Jewels (JWL)"
+    "Symbol": "EDC",
+    "CoinName": "EDC Blockchain",
+    "FullName": "EDC Blockchain (EDC)"
   },
   {
     "Symbol": "WAY",
@@ -3185,6 +3095,11 @@ const coinlist = [
     "FullName": "MollyCoin (TAB)"
   },
   {
+    "Symbol": "TRIG",
+    "CoinName": "Trigger",
+    "FullName": "Trigger (TRIG)"
+  },
+  {
     "Symbol": "BITCNY",
     "CoinName": "bitCNY",
     "FullName": "bitCNY (BITCNY)"
@@ -3195,14 +3110,29 @@ const coinlist = [
     "FullName": "bitUSD (BITUSD)"
   },
   {
+    "Symbol": "ATMC",
+    "CoinName": "Autumncoin",
+    "FullName": "Autumncoin (ATMC)"
+  },
+  {
     "Symbol": "STO",
     "CoinName": "Save The Ocean",
     "FullName": "Save The Ocean (STO)"
   },
   {
+    "Symbol": "SNS",
+    "CoinName": "Sense",
+    "FullName": "Sense (SNS)"
+  },
+  {
     "Symbol": "CTC",
     "CoinName": "CarterCoin",
     "FullName": "CarterCoin (CTC)"
+  },
+  {
+    "Symbol": "TOT",
+    "CoinName": "TotCoin",
+    "FullName": "TotCoin (TOT)"
   },
   {
     "Symbol": "BTD",
@@ -3225,6 +3155,16 @@ const coinlist = [
     "FullName": "FuturePoints (FTP)"
   },
   {
+    "Symbol": "ZET2",
+    "CoinName": "Zeta2Coin",
+    "FullName": "Zeta2Coin (ZET2)"
+  },
+  {
+    "Symbol": "CVNC",
+    "CoinName": "CovenCoin",
+    "FullName": "CovenCoin (CVNC)"
+  },
+  {
     "Symbol": "KRB",
     "CoinName": "Karbo",
     "FullName": "Karbo (KRB)"
@@ -3240,6 +3180,11 @@ const coinlist = [
     "FullName": "EneCoin (ENE)"
   },
   {
+    "Symbol": "TDFB",
+    "CoinName": "TDFB",
+    "FullName": "TDFB (TDFB)"
+  },
+  {
     "Symbol": "BLOCKPAY",
     "CoinName": "BlockPay",
     "FullName": "BlockPay (BLOCKPAY)"
@@ -3248,6 +3193,11 @@ const coinlist = [
     "Symbol": "BXT",
     "CoinName": "BitTokens",
     "FullName": "BitTokens (BXT)"
+  },
+  {
+    "Symbol": "ZYD",
+    "CoinName": "ZayedCoin",
+    "FullName": "ZayedCoin (ZYD)"
   },
   {
     "Symbol": "MST",
@@ -3325,6 +3275,11 @@ const coinlist = [
     "FullName": "FCoin (FX)"
   },
   {
+    "Symbol": "PIO",
+    "CoinName": "Pioneershares",
+    "FullName": "Pioneershares (PIO)"
+  },
+  {
     "Symbol": "PROUD",
     "CoinName": "PROUD Money",
     "FullName": "PROUD Money (PROUD)"
@@ -3345,9 +3300,19 @@ const coinlist = [
     "FullName": "Armory Coin (ARM)"
   },
   {
+    "Symbol": "RING",
+    "CoinName": "RingCoin",
+    "FullName": "RingCoin (RING)"
+  },
+  {
     "Symbol": "ERB",
     "CoinName": "ERBCoin",
     "FullName": "ERBCoin (ERB)"
+  },
+  {
+    "Symbol": "LAZ",
+    "CoinName": "Lazarus",
+    "FullName": "Lazarus (LAZ)"
   },
   {
     "Symbol": "FONZ",
@@ -3360,9 +3325,9 @@ const coinlist = [
     "FullName": "BitCurrency (BTCR)"
   },
   {
-    "Symbol": "DROP*",
+    "Symbol": "FCTC",
     "CoinName": "FaucetCoin",
-    "FullName": "FaucetCoin (DROP*)"
+    "FullName": "FaucetCoin (FCTC)"
   },
   {
     "Symbol": "SANDG",
@@ -3370,9 +3335,14 @@ const coinlist = [
     "FullName": "Save and Gain (SANDG)"
   },
   {
-    "Symbol": "PNK",
+    "Symbol": "PUNK",
     "CoinName": "SteamPunk",
-    "FullName": "SteamPunk (PNK)"
+    "FullName": "SteamPunk (PUNK)"
+  },
+  {
+    "Symbol": "MOOND",
+    "CoinName": "Dark Moon",
+    "FullName": "Dark Moon (MOOND)"
   },
   {
     "Symbol": "DLC",
@@ -3393,6 +3363,11 @@ const coinlist = [
     "Symbol": "WEX",
     "CoinName": "Wexcoin",
     "FullName": "Wexcoin (WEX)"
+  },
+  {
+    "Symbol": "LTH",
+    "CoinName": "Lathaan",
+    "FullName": "Lathaan (LTH)"
   },
   {
     "Symbol": "BRONZ",
@@ -3470,14 +3445,24 @@ const coinlist = [
     "FullName": "Peerplays (PPY)"
   },
   {
+    "Symbol": "NTC",
+    "CoinName": "NineElevenTruthCoin",
+    "FullName": "NineElevenTruthCoin (NTC)"
+  },
+  {
     "Symbol": "EGO",
     "CoinName": "EGOcoin",
     "FullName": "EGOcoin (EGO)"
   },
   {
-    "Symbol": "RCN*",
+    "Symbol": "RCOIN",
     "CoinName": "RCoin",
-    "FullName": "RCoin (RCN*)"
+    "FullName": "RCoin (RCOIN)"
+  },
+  {
+    "Symbol": "X2",
+    "CoinName": "X2Coin",
+    "FullName": "X2Coin (X2)"
   },
   {
     "Symbol": "MT",
@@ -3503,6 +3488,11 @@ const coinlist = [
     "Symbol": "HALLO",
     "CoinName": "Halloween Coin",
     "FullName": "Halloween Coin (HALLO)"
+  },
+  {
+    "Symbol": "BBCC",
+    "CoinName": "BaseballCardCoin",
+    "FullName": "BaseballCardCoin (BBCC)"
   },
   {
     "Symbol": "EMIGR",
@@ -3535,11 +3525,6 @@ const coinlist = [
     "FullName": "DelightPay (DPAY)"
   },
   {
-    "Symbol": "ATOM",
-    "CoinName": "Atomic Coin",
-    "FullName": "Atomic Coin (ATOM)"
-  },
-  {
     "Symbol": "HKG",
     "CoinName": "Hacker Gold",
     "FullName": "Hacker Gold (HKG)"
@@ -3558,6 +3543,11 @@ const coinlist = [
     "Symbol": "DGORE",
     "CoinName": "DogeGoreCoin",
     "FullName": "DogeGoreCoin (DGORE)"
+  },
+  {
+    "Symbol": "THC",
+    "CoinName": "The Hempcoin",
+    "FullName": "The Hempcoin (THC)"
   },
   {
     "Symbol": "TRA",
@@ -3605,9 +3595,19 @@ const coinlist = [
     "FullName": "LeaCoin (LEA)"
   },
   {
+    "Symbol": "CF",
+    "CoinName": "Californium",
+    "FullName": "Californium (CF)"
+  },
+  {
     "Symbol": "CRNK",
     "CoinName": "CrankCoin",
     "FullName": "CrankCoin (CRNK)"
+  },
+  {
+    "Symbol": "CFC",
+    "CoinName": "CoffeeCoin",
+    "FullName": "CoffeeCoin (CFC)"
   },
   {
     "Symbol": "VTY",
@@ -3640,9 +3640,19 @@ const coinlist = [
     "FullName": "Moneta (MONETA)"
   },
   {
+    "Symbol": "EC",
+    "CoinName": "Eclipse",
+    "FullName": "Eclipse (EC)"
+  },
+  {
     "Symbol": "RUBIT",
     "CoinName": "Rublebit",
     "FullName": "Rublebit (RUBIT)"
+  },
+  {
+    "Symbol": "HCC",
+    "CoinName": "HappyCreatorCoin ",
+    "FullName": "HappyCreatorCoin  (HCC)"
   },
   {
     "Symbol": "BRAIN",
@@ -3670,6 +3680,11 @@ const coinlist = [
     "FullName": "BigLifeCoin (LFC)"
   },
   {
+    "Symbol": "ZUR",
+    "CoinName": "Zurcoin",
+    "FullName": "Zurcoin (ZUR)"
+  },
+  {
     "Symbol": "NUBIS",
     "CoinName": "NubisCoin",
     "FullName": "NubisCoin (NUBIS)"
@@ -3678,6 +3693,16 @@ const coinlist = [
     "Symbol": "TENNET",
     "CoinName": "Tennet",
     "FullName": "Tennet (TENNET)"
+  },
+  {
+    "Symbol": "PEC",
+    "CoinName": "PeaceCoin",
+    "FullName": "PeaceCoin (PEC)"
+  },
+  {
+    "Symbol": "GMX",
+    "CoinName": "Goldmaxcoin",
+    "FullName": "Goldmaxcoin (GMX)"
   },
   {
     "Symbol": "32BIT",
@@ -3695,6 +3720,16 @@ const coinlist = [
     "FullName": "TeamUP (TEAM)"
   },
   {
+    "Symbol": "SCT",
+    "CoinName": "ScryptToken",
+    "FullName": "ScryptToken (SCT)"
+  },
+  {
+    "Symbol": "LANA",
+    "CoinName": "LanaCoin",
+    "FullName": "LanaCoin (LANA)"
+  },
+  {
     "Symbol": "ELE",
     "CoinName": "Elementrem",
     "FullName": "Elementrem (ELE)"
@@ -3710,11 +3745,6 @@ const coinlist = [
     "FullName": "AndromedaCoin (AND)"
   },
   {
-    "Symbol": "GBYTE",
-    "CoinName": "OByte",
-    "FullName": "OByte (GBYTE)"
-  },
-  {
     "Symbol": "EQUAL",
     "CoinName": "EqualCoin",
     "FullName": "EqualCoin (EQUAL)"
@@ -3728,6 +3758,11 @@ const coinlist = [
     "Symbol": "2BACCO",
     "CoinName": "2BACCO Coin",
     "FullName": "2BACCO Coin (2BACCO)"
+  },
+  {
+    "Symbol": "DKC",
+    "CoinName": "DarkKnightCoin",
+    "FullName": "DarkKnightCoin (DKC)"
   },
   {
     "Symbol": "COC",
@@ -3750,14 +3785,29 @@ const coinlist = [
     "FullName": "ZClassic (ZCL)"
   },
   {
+    "Symbol": "RYCN",
+    "CoinName": "RoyalCoin 2.0",
+    "FullName": "RoyalCoin 2.0 (RYCN)"
+  },
+  {
     "Symbol": "PCS",
     "CoinName": "Pabyosi Coin",
     "FullName": "Pabyosi Coin (PCS)"
   },
   {
+    "Symbol": "NBIT",
+    "CoinName": "NetBit",
+    "FullName": "NetBit (NBIT)"
+  },
+  {
     "Symbol": "WINE",
     "CoinName": "WineCoin",
     "FullName": "WineCoin (WINE)"
+  },
+  {
+    "Symbol": "DAR",
+    "CoinName": "Darcrus",
+    "FullName": "Darcrus (DAR)"
   },
   {
     "Symbol": "IFLT",
@@ -3770,6 +3820,11 @@ const coinlist = [
     "FullName": "ZCashDarkCoin (ZECD)"
   },
   {
+    "Symbol": "ZXT",
+    "CoinName": "Zcrypt",
+    "FullName": "Zcrypt (ZXT)"
+  },
+  {
     "Symbol": "WASH",
     "CoinName": "WashingtonCoin",
     "FullName": "WashingtonCoin (WASH)"
@@ -3780,19 +3835,34 @@ const coinlist = [
     "FullName": "TeslaCoilCoin (TESLA)"
   },
   {
+    "Symbol": "LUCKY",
+    "CoinName": "LuckyBlocks",
+    "FullName": "LuckyBlocks (LUCKY)"
+  },
+  {
     "Symbol": "VSL",
     "CoinName": "vSlice",
     "FullName": "vSlice (VSL)"
   },
   {
-    "Symbol": "LEO",
+    "Symbol": "TPG",
+    "CoinName": "Troll Payment",
+    "FullName": "Troll Payment (TPG)"
+  },
+  {
+    "Symbol": "LEOC",
     "CoinName": "LEOcoin",
-    "FullName": "LEOcoin (LEO)"
+    "FullName": "LEOcoin (LEOC)"
   },
   {
     "Symbol": "MDT",
     "CoinName": "Midnight",
     "FullName": "Midnight (MDT)"
+  },
+  {
+    "Symbol": "CBD",
+    "CoinName": "CBD Crystals",
+    "FullName": "CBD Crystals (CBD)"
   },
   {
     "Symbol": "PEX",
@@ -3803,6 +3873,21 @@ const coinlist = [
     "Symbol": "INSANE",
     "CoinName": "InsaneCoin",
     "FullName": "InsaneCoin (INSANE)"
+  },
+  {
+    "Symbol": "GNT",
+    "CoinName": "Golem Network Token",
+    "FullName": "Golem Network Token (GNT)"
+  },
+  {
+    "Symbol": "PENC",
+    "CoinName": "PenCoin",
+    "FullName": "PenCoin (PENC)"
+  },
+  {
+    "Symbol": "BASH",
+    "CoinName": "LuckChain",
+    "FullName": "LuckChain (BASH)"
   },
   {
     "Symbol": "FAME",
@@ -3818,6 +3903,16 @@ const coinlist = [
     "Symbol": "SP",
     "CoinName": "Sex Pistols",
     "FullName": "Sex Pistols (SP)"
+  },
+  {
+    "Symbol": "MEGA",
+    "CoinName": "MegaFlash",
+    "FullName": "MegaFlash (MEGA)"
+  },
+  {
+    "Symbol": "VRS",
+    "CoinName": "Veros",
+    "FullName": "Veros (VRS)"
   },
   {
     "Symbol": "ALC",
@@ -3860,6 +3955,11 @@ const coinlist = [
     "FullName": "Ebitz (EBZ)"
   },
   {
+    "Symbol": "DRS",
+    "CoinName": "Digital Rupees",
+    "FullName": "Digital Rupees (DRS)"
+  },
+  {
     "Symbol": "FGZ",
     "CoinName": "Free Game Zone",
     "FullName": "Free Game Zone (FGZ)"
@@ -3890,9 +3990,24 @@ const coinlist = [
     "FullName": "Time (TIME)"
   },
   {
+    "Symbol": "BIPC",
+    "CoinName": "BipCoin",
+    "FullName": "BipCoin (BIPC)"
+  },
+  {
     "Symbol": "XNC",
     "CoinName": "XenCoin",
     "FullName": "XenCoin (XNC)"
+  },
+  {
+    "Symbol": "EMB",
+    "CoinName": "EmberCoin",
+    "FullName": "EmberCoin (EMB)"
+  },
+  {
+    "Symbol": "BTTF",
+    "CoinName": "Coin to the Future",
+    "FullName": "Coin to the Future (BTTF)"
   },
   {
     "Symbol": "DLR",
@@ -3905,14 +4020,19 @@ const coinlist = [
     "FullName": "Cosmic (CSMIC)"
   },
   {
-    "Symbol": "FIRST",
-    "CoinName": "FirstCoin",
-    "FullName": "FirstCoin (FIRST)"
-  },
-  {
     "Symbol": "SCASH",
     "CoinName": "SpaceCash",
     "FullName": "SpaceCash (SCASH)"
+  },
+  {
+    "Symbol": "XEN",
+    "CoinName": "XenixCoin",
+    "FullName": "XenixCoin (XEN)"
+  },
+  {
+    "Symbol": "JIO",
+    "CoinName": "JIO Token",
+    "FullName": "JIO Token (JIO)"
   },
   {
     "Symbol": "IW",
@@ -3923,6 +4043,11 @@ const coinlist = [
     "Symbol": "JNS",
     "CoinName": "Janus",
     "FullName": "Janus (JNS)"
+  },
+  {
+    "Symbol": "TRICK",
+    "CoinName": "TrickyCoin",
+    "FullName": "TrickyCoin (TRICK)"
   },
   {
     "Symbol": "DCRE",
@@ -3938,6 +4063,16 @@ const coinlist = [
     "Symbol": "NPC",
     "CoinName": "NPCcoin",
     "FullName": "NPCcoin (NPC)"
+  },
+  {
+    "Symbol": "PLNC",
+    "CoinName": "PLNCoin",
+    "FullName": "PLNCoin (PLNC)"
+  },
+  {
+    "Symbol": "DGMS",
+    "CoinName": "Digigems",
+    "FullName": "Digigems (DGMS)"
   },
   {
     "Symbol": "ICOB",
@@ -3958,6 +4093,11 @@ const coinlist = [
     "Symbol": "XCRE",
     "CoinName": "Creatio",
     "FullName": "Creatio (XCRE)"
+  },
+  {
+    "Symbol": "ENT",
+    "CoinName": "Eternity",
+    "FullName": "Eternity (ENT)"
   },
   {
     "Symbol": "UR",
@@ -3985,14 +4125,34 @@ const coinlist = [
     "FullName": "CoolDarkCoin (CCX)"
   },
   {
+    "Symbol": "BCF",
+    "CoinName": "BitcoinFast",
+    "FullName": "BitcoinFast (BCF)"
+  },
+  {
     "Symbol": "SEEDS",
     "CoinName": "SeedShares",
     "FullName": "SeedShares (SEEDS)"
   },
   {
+    "Symbol": "XSN",
+    "CoinName": "Stakenet",
+    "FullName": "Stakenet (XSN)"
+  },
+  {
+    "Symbol": "TKS",
+    "CoinName": "Tokes",
+    "FullName": "Tokes (TKS)"
+  },
+  {
     "Symbol": "BCCOIN",
     "CoinName": "BitConnect Coin",
     "FullName": "BitConnect Coin (BCCOIN)"
+  },
+  {
+    "Symbol": "SHORTY",
+    "CoinName": "ShortyCoin",
+    "FullName": "ShortyCoin (SHORTY)"
   },
   {
     "Symbol": "PCM",
@@ -4020,6 +4180,16 @@ const coinlist = [
     "FullName": "Nexium (NXC)"
   },
   {
+    "Symbol": "MONEY",
+    "CoinName": "MoneyCoin",
+    "FullName": "MoneyCoin (MONEY)"
+  },
+  {
+    "Symbol": "BSTAR",
+    "CoinName": "Blackstar",
+    "FullName": "Blackstar (BSTAR)"
+  },
+  {
     "Symbol": "HSP",
     "CoinName": "Horse Power",
     "FullName": "Horse Power (HSP)"
@@ -4030,9 +4200,9 @@ const coinlist = [
     "FullName": "HazMatCoin (HZT)"
   },
   {
-    "Symbol": "CS",
+    "Symbol": "CRSP",
     "CoinName": "CryptoSpots",
-    "FullName": "CryptoSpots (CS)"
+    "FullName": "CryptoSpots (CRSP)"
   },
   {
     "Symbol": "XSP",
@@ -4040,14 +4210,34 @@ const coinlist = [
     "FullName": "PoolStamp (XSP)"
   },
   {
+    "Symbol": "CCRB",
+    "CoinName": "CryptoCarbon",
+    "FullName": "CryptoCarbon (CCRB)"
+  },
+  {
     "Symbol": "BULLS",
     "CoinName": "BullshitCoin",
     "FullName": "BullshitCoin (BULLS)"
   },
   {
+    "Symbol": "INCNT",
+    "CoinName": "Incent",
+    "FullName": "Incent (INCNT)"
+  },
+  {
+    "Symbol": "ICON",
+    "CoinName": "Iconic",
+    "FullName": "Iconic (ICON)"
+  },
+  {
     "Symbol": "NIC",
     "CoinName": "NewInvestCoin",
     "FullName": "NewInvestCoin (NIC)"
+  },
+  {
+    "Symbol": "ACN",
+    "CoinName": "AvonCoin",
+    "FullName": "AvonCoin (ACN)"
   },
   {
     "Symbol": "XNG",
@@ -4058,6 +4248,11 @@ const coinlist = [
     "Symbol": "XCI",
     "CoinName": "Cannabis Industry Coin",
     "FullName": "Cannabis Industry Coin (XCI)"
+  },
+  {
+    "Symbol": "LOOK",
+    "CoinName": "LookCoin",
+    "FullName": "LookCoin (LOOK)"
   },
   {
     "Symbol": "LOC",
@@ -4130,9 +4325,9 @@ const coinlist = [
     "FullName": "PXcoin (PX)"
   },
   {
-    "Symbol": "CND*",
+    "Symbol": "ECAD",
     "CoinName": "Canada eCoin",
-    "FullName": "Canada eCoin (CND*)"
+    "FullName": "Canada eCoin (ECAD)"
   },
   {
     "Symbol": "OPTION",
@@ -4165,9 +4360,9 @@ const coinlist = [
     "FullName": "GAKHcoin (GAKH)"
   },
   {
-    "Symbol": "SHIFT",
-    "CoinName": "Shift",
-    "FullName": "Shift (SHIFT)"
+    "Symbol": "GAIN",
+    "CoinName": "Gainfy",
+    "FullName": "Gainfy (GAIN)"
   },
   {
     "Symbol": "S8C",
@@ -4178,6 +4373,11 @@ const coinlist = [
     "Symbol": "LVG",
     "CoinName": "Leverage Coin",
     "FullName": "Leverage Coin (LVG)"
+  },
+  {
+    "Symbol": "DRA",
+    "CoinName": "DraculaCoin",
+    "FullName": "DraculaCoin (DRA)"
   },
   {
     "Symbol": "ASAFE2",
@@ -4200,9 +4400,9 @@ const coinlist = [
     "FullName": "ProCoin (XPRO)"
   },
   {
-    "Symbol": "AST*",
+    "Symbol": "ASTR",
     "CoinName": "Astral",
-    "FullName": "Astral (AST*)"
+    "FullName": "Astral (ASTR)"
   },
   {
     "Symbol": "GIFT",
@@ -4250,6 +4450,16 @@ const coinlist = [
     "FullName": "Golos (GOLOS)"
   },
   {
+    "Symbol": "PASC",
+    "CoinName": "Pascal Coin",
+    "FullName": "Pascal Coin (PASC)"
+  },
+  {
+    "Symbol": "TWIST",
+    "CoinName": "TwisterCoin",
+    "FullName": "TwisterCoin (TWIST)"
+  },
+  {
     "Symbol": "PAYP",
     "CoinName": "PayPeer",
     "FullName": "PayPeer (PAYP)"
@@ -4285,6 +4495,16 @@ const coinlist = [
     "FullName": "OsmiumCoin (OS76)"
   },
   {
+    "Symbol": "BOSS",
+    "CoinName": "BitBoss",
+    "FullName": "BitBoss (BOSS)"
+  },
+  {
+    "Symbol": "MKR",
+    "CoinName": "Maker",
+    "FullName": "Maker (MKR)"
+  },
+  {
     "Symbol": "BIC",
     "CoinName": "Bikercoins",
     "FullName": "Bikercoins (BIC)"
@@ -4303,11 +4523,6 @@ const coinlist = [
     "Symbol": "NTCC",
     "CoinName": "NeptuneClassic",
     "FullName": "NeptuneClassic (NTCC)"
-  },
-  {
-    "Symbol": "XNC*",
-    "CoinName": "Numismatic Collections",
-    "FullName": "Numismatic Collections (XNC*)"
   },
   {
     "Symbol": "HXX",
@@ -4345,6 +4560,11 @@ const coinlist = [
     "FullName": "GoldenBird (XGB)"
   },
   {
+    "Symbol": "YMC",
+    "CoinName": "YamahaCoin",
+    "FullName": "YamahaCoin (YMC)"
+  },
+  {
     "Symbol": "JOK",
     "CoinName": "JokerCoin",
     "FullName": "JokerCoin (JOK)"
@@ -4355,9 +4575,14 @@ const coinlist = [
     "FullName": "GravityBit (GBIT)"
   },
   {
-    "Symbol": "BOMB",
+    "Symbol": "TEC",
+    "CoinName": "TeCoin",
+    "FullName": "TeCoin (TEC)"
+  },
+  {
+    "Symbol": "BOMBC",
     "CoinName": "BombCoin",
-    "FullName": "BombCoin (BOMB)"
+    "FullName": "BombCoin (BOMBC)"
   },
   {
     "Symbol": "RIDE",
@@ -4373,6 +4598,11 @@ const coinlist = [
     "Symbol": "CNO",
     "CoinName": "Coino",
     "FullName": "Coino (CNO)"
+  },
+  {
+    "Symbol": "WEALTH",
+    "CoinName": "WealthCoin",
+    "FullName": "WealthCoin (WEALTH)"
   },
   {
     "Symbol": "IOP",
@@ -4398,6 +4628,11 @@ const coinlist = [
     "Symbol": "ELS",
     "CoinName": "Elysium",
     "FullName": "Elysium (ELS)"
+  },
+  {
+    "Symbol": "KUSH",
+    "CoinName": "KushCoin",
+    "FullName": "KushCoin (KUSH)"
   },
   {
     "Symbol": "ERY",
@@ -4428,11 +4663,6 @@ const coinlist = [
     "Symbol": "WCT",
     "CoinName": "Waves Community Token",
     "FullName": "Waves Community Token (WCT)"
-  },
-  {
-    "Symbol": "UBQ",
-    "CoinName": "Ubiq",
-    "FullName": "Ubiq (UBQ)"
   },
   {
     "Symbol": "RATIO",
@@ -4480,14 +4710,19 @@ const coinlist = [
     "FullName": "RoundCoin (ROUND)"
   },
   {
-    "Symbol": "MAR",
+    "Symbol": "MARI",
     "CoinName": "MarijuanaCoin",
-    "FullName": "MarijuanaCoin (MAR)"
+    "FullName": "MarijuanaCoin (MARI)"
   },
   {
     "Symbol": "MARX",
     "CoinName": "MarxCoin",
     "FullName": "MarxCoin (MARX)"
+  },
+  {
+    "Symbol": "TAT",
+    "CoinName": "Tatiana Coin",
+    "FullName": "Tatiana Coin (TAT)"
   },
   {
     "Symbol": "HAZE",
@@ -4506,8 +4741,8 @@ const coinlist = [
   },
   {
     "Symbol": "PAC",
-    "CoinName": "PacCoin",
-    "FullName": "PacCoin (PAC)"
+    "CoinName": "PAC Global",
+    "FullName": "PAC Global (PAC)"
   },
   {
     "Symbol": "IMPCH",
@@ -4518,6 +4753,11 @@ const coinlist = [
     "Symbol": "ERR",
     "CoinName": "ErrorCoin",
     "FullName": "ErrorCoin (ERR)"
+  },
+  {
+    "Symbol": "TIC",
+    "CoinName": "TrueInvestmentCoin",
+    "FullName": "TrueInvestmentCoin (TIC)"
   },
   {
     "Symbol": "NUKE",
@@ -4545,14 +4785,34 @@ const coinlist = [
     "FullName": "ParanoiaCoin (PARA)"
   },
   {
+    "Symbol": "MM",
+    "CoinName": "MasterMint",
+    "FullName": "MasterMint (MM)"
+  },
+  {
+    "Symbol": "CTL",
+    "CoinName": "Citadel",
+    "FullName": "Citadel (CTL)"
+  },
+  {
     "Symbol": "NDOGE",
     "CoinName": "NinjaDoge",
     "FullName": "NinjaDoge (NDOGE)"
   },
   {
+    "Symbol": "ZBC",
+    "CoinName": "Zilbercoin",
+    "FullName": "Zilbercoin (ZBC)"
+  },
+  {
     "Symbol": "MLN",
     "CoinName": "Melon",
     "FullName": "Melon (MLN)"
+  },
+  {
+    "Symbol": "FRST",
+    "CoinName": "FirstCoin",
+    "FullName": "FirstCoin (FRST)"
   },
   {
     "Symbol": "PAY",
@@ -4585,6 +4845,16 @@ const coinlist = [
     "FullName": "TechShares (THS)"
   },
   {
+    "Symbol": "ACES",
+    "CoinName": "AcesCoin",
+    "FullName": "AcesCoin (ACES)"
+  },
+  {
+    "Symbol": "UAEC",
+    "CoinName": "United Arab Emirates Coin",
+    "FullName": "United Arab Emirates Coin (UAEC)"
+  },
+  {
     "Symbol": "EA",
     "CoinName": "EagleCoin",
     "FullName": "EagleCoin (EA)"
@@ -4600,6 +4870,11 @@ const coinlist = [
     "FullName": "CreativeChain (CREA)"
   },
   {
+    "Symbol": "WISC",
+    "CoinName": "WisdomCoin",
+    "FullName": "WisdomCoin (WISC)"
+  },
+  {
     "Symbol": "BVC",
     "CoinName": "BeaverCoin",
     "FullName": "BeaverCoin (BVC)"
@@ -4613,6 +4888,11 @@ const coinlist = [
     "Symbol": "MLITE",
     "CoinName": "MeLite",
     "FullName": "MeLite (MLITE)"
+  },
+  {
+    "Symbol": "STALIN",
+    "CoinName": "StalinCoin",
+    "FullName": "StalinCoin (STALIN)"
   },
   {
     "Symbol": "TSE",
@@ -4640,6 +4920,16 @@ const coinlist = [
     "FullName": "Pascal Lite (PASL)"
   },
   {
+    "Symbol": "ZER",
+    "CoinName": "Zero",
+    "FullName": "Zero (ZER)"
+  },
+  {
+    "Symbol": "CHAT",
+    "CoinName": "OpenChat",
+    "FullName": "OpenChat (CHAT)"
+  },
+  {
     "Symbol": "CDN",
     "CoinName": "Canada eCoin",
     "FullName": "Canada eCoin (CDN)"
@@ -4658,6 +4948,16 @@ const coinlist = [
     "Symbol": "HONEY",
     "CoinName": "Honey",
     "FullName": "Honey (HONEY)"
+  },
+  {
+    "Symbol": "MXT",
+    "CoinName": "MartexCoin",
+    "FullName": "MartexCoin (MXT)"
+  },
+  {
+    "Symbol": "MUSIC",
+    "CoinName": "Musicoin",
+    "FullName": "Musicoin (MUSIC)"
   },
   {
     "Symbol": "DTB",
@@ -4690,9 +4990,9 @@ const coinlist = [
     "FullName": "BankCoin (B@)"
   },
   {
-    "Symbol": "BEST",
+    "Symbol": "BESTC",
     "CoinName": "BestChain",
-    "FullName": "BestChain (BEST)"
+    "FullName": "BestChain (BESTC)"
   },
   {
     "Symbol": "CHC",
@@ -4730,6 +5030,11 @@ const coinlist = [
     "FullName": "RenosCoin (RNS)"
   },
   {
+    "Symbol": "DBIX",
+    "CoinName": "DubaiCoin",
+    "FullName": "DubaiCoin (DBIX)"
+  },
+  {
     "Symbol": "AMIS",
     "CoinName": "AMIS",
     "FullName": "AMIS (AMIS)"
@@ -4765,14 +5070,14 @@ const coinlist = [
     "FullName": "CryptoJournal (CJC)"
   },
   {
+    "Symbol": "AMY",
+    "CoinName": "Amygws",
+    "FullName": "Amygws (AMY)"
+  },
+  {
     "Symbol": "QBT",
     "CoinName": "Cubits",
     "FullName": "Cubits (QBT)"
-  },
-  {
-    "Symbol": "SRC*",
-    "CoinName": "StarCredits",
-    "FullName": "StarCredits (SRC*)"
   },
   {
     "Symbol": "EB3",
@@ -4800,19 +5105,19 @@ const coinlist = [
     "FullName": "BlazerCoin (BLAZR)"
   },
   {
-    "Symbol": "ARPA",
+    "Symbol": "ARPAC",
     "CoinName": "ArpaCoin",
-    "FullName": "ArpaCoin (ARPA)"
-  },
-  {
-    "Symbol": "BNB*",
-    "CoinName": "Boats and Bitches",
-    "FullName": "Boats and Bitches (BNB*)"
+    "FullName": "ArpaCoin (ARPAC)"
   },
   {
     "Symbol": "UNI",
     "CoinName": "Universe",
     "FullName": "Universe (UNI)"
+  },
+  {
+    "Symbol": "ECOC",
+    "CoinName": "ECOcoin",
+    "FullName": "ECOcoin (ECOC)"
   },
   {
     "Symbol": "XLR",
@@ -4840,9 +5145,19 @@ const coinlist = [
     "FullName": "WavesGO (WGO)"
   },
   {
+    "Symbol": "RLC",
+    "CoinName": "iEx.ec",
+    "FullName": "iEx.ec (RLC)"
+  },
+  {
     "Symbol": "ATMOS",
     "CoinName": "Atmos",
     "FullName": "Atmos (ATMOS)"
+  },
+  {
+    "Symbol": "ETT",
+    "CoinName": "EncryptoTel",
+    "FullName": "EncryptoTel (ETT)"
   },
   {
     "Symbol": "VISIO",
@@ -4855,9 +5170,14 @@ const coinlist = [
     "FullName": "HappyCoin (HPC)"
   },
   {
-    "Symbol": "GOT",
+    "Symbol": "GIOT",
     "CoinName": "Giotto Coin",
-    "FullName": "Giotto Coin (GOT)"
+    "FullName": "Giotto Coin (GIOT)"
+  },
+  {
+    "Symbol": "CXT",
+    "CoinName": "Coinonat",
+    "FullName": "Coinonat (CXT)"
   },
   {
     "Symbol": "EMPC",
@@ -4893,6 +5213,11 @@ const coinlist = [
     "Symbol": "MCRN",
     "CoinName": "MacronCoin",
     "FullName": "MacronCoin (MCRN)"
+  },
+  {
+    "Symbol": "LUN",
+    "CoinName": "Lunyr",
+    "FullName": "Lunyr (LUN)"
   },
   {
     "Symbol": "RAIN",
@@ -4931,13 +5256,18 @@ const coinlist = [
   },
   {
     "Symbol": "TKN",
-    "CoinName": "TokenCard  ",
-    "FullName": "TokenCard   (TKN)"
+    "CoinName": "Monolith",
+    "FullName": "Monolith (TKN)"
   },
   {
     "Symbol": "BTCS",
     "CoinName": "Bitcoin Scrypt",
     "FullName": "Bitcoin Scrypt (BTCS)"
+  },
+  {
+    "Symbol": "PROC",
+    "CoinName": "ProCurrency",
+    "FullName": "ProCurrency (PROC)"
   },
   {
     "Symbol": "XGR",
@@ -4960,9 +5290,19 @@ const coinlist = [
     "FullName": "Blockchain Capital (BCAP)"
   },
   {
+    "Symbol": "DUO",
+    "CoinName": "ParallelCoin",
+    "FullName": "ParallelCoin (DUO)"
+  },
+  {
     "Symbol": "RBX",
     "CoinName": "RiptoBuX",
     "FullName": "RiptoBuX (RBX)"
+  },
+  {
+    "Symbol": "GRW",
+    "CoinName": "GrowthCoin",
+    "FullName": "GrowthCoin (GRW)"
   },
   {
     "Symbol": "APX",
@@ -4980,14 +5320,29 @@ const coinlist = [
     "FullName": "OldV (OLV)"
   },
   {
+    "Symbol": "ILC",
+    "CoinName": "ILCoin",
+    "FullName": "ILCoin (ILC)"
+  },
+  {
     "Symbol": "MRT",
     "CoinName": "MinersReward",
     "FullName": "MinersReward (MRT)"
   },
   {
+    "Symbol": "IOU",
+    "CoinName": "IOU1",
+    "FullName": "IOU1 (IOU)"
+  },
+  {
     "Symbol": "PZM",
     "CoinName": "Prizm",
     "FullName": "Prizm (PZM)"
+  },
+  {
+    "Symbol": "PHR",
+    "CoinName": "Phreak",
+    "FullName": "Phreak (PHR)"
   },
   {
     "Symbol": "ANT",
@@ -5015,14 +5370,19 @@ const coinlist = [
     "FullName": "Degas Coin (DEA)"
   },
   {
-    "Symbol": "RED",
+    "Symbol": "REDCO",
     "CoinName": "Redcoin",
-    "FullName": "Redcoin (RED)"
+    "FullName": "Redcoin (REDCO)"
   },
   {
     "Symbol": "ZSE",
     "CoinName": "ZSEcoin",
     "FullName": "ZSEcoin (ZSE)"
+  },
+  {
+    "Symbol": "CTIC",
+    "CoinName": "Coinmatic",
+    "FullName": "Coinmatic (CTIC)"
   },
   {
     "Symbol": "TAP",
@@ -5055,14 +5415,19 @@ const coinlist = [
     "FullName": "HTML5 Coin (HTML5)"
   },
   {
+    "Symbol": "MNE",
+    "CoinName": "Minereum",
+    "FullName": "Minereum (MNE)"
+  },
+  {
     "Symbol": "DICE",
     "CoinName": "Etheroll",
     "FullName": "Etheroll (DICE)"
   },
   {
-    "Symbol": "SUB*",
+    "Symbol": "SBSC",
     "CoinName": "Subscriptio",
-    "FullName": "Subscriptio (SUB*)"
+    "FullName": "Subscriptio (SBSC)"
   },
   {
     "Symbol": "USC",
@@ -5090,6 +5455,16 @@ const coinlist = [
     "FullName": "Insane Coin (INSN)"
   },
   {
+    "Symbol": "BAT",
+    "CoinName": "Basic Attention Token",
+    "FullName": "Basic Attention Token (BAT)"
+  },
+  {
+    "Symbol": "MNTC",
+    "CoinName": "Manet Coin",
+    "FullName": "Manet Coin (MNTC)"
+  },
+  {
     "Symbol": "F16",
     "CoinName": "F16Coin",
     "FullName": "F16Coin (F16)"
@@ -5110,14 +5485,19 @@ const coinlist = [
     "FullName": "BOScoin (BOS)"
   },
   {
+    "Symbol": "QWARK",
+    "CoinName": "Qwark",
+    "FullName": "Qwark (QWARK)"
+  },
+  {
+    "Symbol": "QRL",
+    "CoinName": "Quantum Resistant Ledger",
+    "FullName": "Quantum Resistant Ledger (QRL)"
+  },
+  {
     "Symbol": "ADL",
     "CoinName": "Adelphoi",
     "FullName": "Adelphoi (ADL)"
-  },
-  {
-    "Symbol": "ECC*",
-    "CoinName": "E-CurrencyCoin",
-    "FullName": "E-CurrencyCoin (ECC*)"
   },
   {
     "Symbol": "PTOY",
@@ -5140,9 +5520,9 @@ const coinlist = [
     "FullName": "Espers (ESP)"
   },
   {
-    "Symbol": "MAD*",
-    "CoinName": "SatoshiMadness",
-    "FullName": "SatoshiMadness (MAD*)"
+    "Symbol": "DYN",
+    "CoinName": "Dynamic",
+    "FullName": "Dynamic (DYN)"
   },
   {
     "Symbol": "SEQ",
@@ -5170,11 +5550,6 @@ const coinlist = [
     "FullName": "SONM (SNM)"
   },
   {
-    "Symbol": "SKY",
-    "CoinName": "Skycoin",
-    "FullName": "Skycoin (SKY)"
-  },
-  {
     "Symbol": "CFI",
     "CoinName": "Cofound.it",
     "FullName": "Cofound.it (CFI)"
@@ -5190,6 +5565,11 @@ const coinlist = [
     "FullName": "AventCoin (AVT)"
   },
   {
+    "Symbol": "CVC",
+    "CoinName": "Civic",
+    "FullName": "Civic (CVC)"
+  },
+  {
     "Symbol": "IXT",
     "CoinName": "iXledger",
     "FullName": "iXledger (IXT)"
@@ -5198,6 +5578,11 @@ const coinlist = [
     "Symbol": "DENT",
     "CoinName": "Dent",
     "FullName": "Dent (DENT)"
+  },
+  {
+    "Symbol": "VGX",
+    "CoinName": "Voyager Token",
+    "FullName": "Voyager Token (VGX)"
   },
   {
     "Symbol": "STA",
@@ -5215,9 +5600,19 @@ const coinlist = [
     "FullName": "Ergo (EFYT)"
   },
   {
-    "Symbol": "XTZ",
-    "CoinName": "Tezos",
-    "FullName": "Tezos (XTZ)"
+    "Symbol": "MCO",
+    "CoinName": "Crypto.com",
+    "FullName": "Crypto.com (MCO)"
+  },
+  {
+    "Symbol": "NMR",
+    "CoinName": "Numeraire",
+    "FullName": "Numeraire (NMR)"
+  },
+  {
+    "Symbol": "ADX",
+    "CoinName": "AdEx",
+    "FullName": "AdEx (ADX)"
   },
   {
     "Symbol": "QAU",
@@ -5233,6 +5628,11 @@ const coinlist = [
     "Symbol": "PLBT",
     "CoinName": "Polybius",
     "FullName": "Polybius (PLBT)"
+  },
+  {
+    "Symbol": "USDT",
+    "CoinName": "Tether",
+    "FullName": "Tether (USDT)"
   },
   {
     "Symbol": "AHT",
@@ -5271,8 +5671,13 @@ const coinlist = [
   },
   {
     "Symbol": "NIM",
-    "CoinName": "Nimiq ",
-    "FullName": "Nimiq  (NIM)"
+    "CoinName": "Nimiq",
+    "FullName": "Nimiq (NIM)"
+  },
+  {
+    "Symbol": "8BT",
+    "CoinName": "8 Circuit Studios",
+    "FullName": "8 Circuit Studios (8BT)"
   },
   {
     "Symbol": "CDT",
@@ -5280,9 +5685,9 @@ const coinlist = [
     "FullName": "Blox (CDT)"
   },
   {
-    "Symbol": "ACT",
-    "CoinName": "ACT",
-    "FullName": "ACT (ACT)"
+    "Symbol": "DNT",
+    "CoinName": "district0x",
+    "FullName": "district0x (DNT)"
   },
   {
     "Symbol": "SUR",
@@ -5300,9 +5705,9 @@ const coinlist = [
     "FullName": "MakeItViral (MIV)"
   },
   {
-    "Symbol": "BET*",
-    "CoinName": "DAO.casino",
-    "FullName": "DAO.casino (BET*)"
+    "Symbol": "DAOC",
+    "CoinName": "DAOBet",
+    "FullName": "DAOBet (DAOC)"
   },
   {
     "Symbol": "SAN",
@@ -5315,6 +5720,11 @@ const coinlist = [
     "FullName": "Kin (KIN)"
   },
   {
+    "Symbol": "WGR",
+    "CoinName": "Wagerr",
+    "FullName": "Wagerr (WGR)"
+  },
+  {
     "Symbol": "XEL",
     "CoinName": "Elastic",
     "FullName": "Elastic (XEL)"
@@ -5325,9 +5735,24 @@ const coinlist = [
     "FullName": "NVO (NVST)"
   },
   {
+    "Symbol": "FUN",
+    "CoinName": "FunFair",
+    "FullName": "FunFair (FUN)"
+  },
+  {
+    "Symbol": "FUNC",
+    "CoinName": "FunCoin",
+    "FullName": "FunCoin (FUNC)"
+  },
+  {
     "Symbol": "PQT",
     "CoinName": "PAquarium",
     "FullName": "PAquarium (PQT)"
+  },
+  {
+    "Symbol": "WTT",
+    "CoinName": "Giga Watt",
+    "FullName": "Giga Watt (WTT)"
   },
   {
     "Symbol": "MTL",
@@ -5335,9 +5760,24 @@ const coinlist = [
     "FullName": "Metal (MTL)"
   },
   {
+    "Symbol": "HVN",
+    "CoinName": "Hiveterminal Token",
+    "FullName": "Hiveterminal Token (HVN)"
+  },
+  {
+    "Symbol": "MYB",
+    "CoinName": "MyBit",
+    "FullName": "MyBit (MYB)"
+  },
+  {
     "Symbol": "PPT",
     "CoinName": "Populous",
     "FullName": "Populous (PPT)"
+  },
+  {
+    "Symbol": "SNC",
+    "CoinName": "SunContract",
+    "FullName": "SunContract (SNC)"
   },
   {
     "Symbol": "STAR",
@@ -5348,6 +5788,11 @@ const coinlist = [
     "Symbol": "COR",
     "CoinName": "Corion",
     "FullName": "Corion (COR)"
+  },
+  {
+    "Symbol": "XRL",
+    "CoinName": "Rialto.AI",
+    "FullName": "Rialto.AI (XRL)"
   },
   {
     "Symbol": "OROC",
@@ -5430,11 +5875,6 @@ const coinlist = [
     "FullName": "Unify (UNIFY)"
   },
   {
-    "Symbol": "IPC",
-    "CoinName": "ImperialCoin",
-    "FullName": "ImperialCoin (IPC)"
-  },
-  {
     "Symbol": "BRIT",
     "CoinName": "BritCoin",
     "FullName": "BritCoin (BRIT)"
@@ -5465,6 +5905,11 @@ const coinlist = [
     "FullName": "IMMLA (IML)"
   },
   {
+    "Symbol": "XUC",
+    "CoinName": "Exchange Union",
+    "FullName": "Exchange Union (XUC)"
+  },
+  {
     "Symbol": "STU",
     "CoinName": "BitJob",
     "FullName": "BitJob (STU)"
@@ -5485,9 +5930,9 @@ const coinlist = [
     "FullName": "InvestFeed (IFT)"
   },
   {
-    "Symbol": "CAT*",
+    "Symbol": "BCAT",
     "CoinName": "BitClave",
-    "FullName": "BitClave (CAT)"
+    "FullName": "BitClave (BCAT)"
   },
   {
     "Symbol": "PRO",
@@ -5505,14 +5950,14 @@ const coinlist = [
     "FullName": "Indorse (IND)"
   },
   {
-    "Symbol": "AHT*",
-    "CoinName": "Bowhead Health",
-    "FullName": "Bowhead Health (AHT*)"
-  },
-  {
     "Symbol": "TRIBE",
     "CoinName": "TribeToken",
     "FullName": "TribeToken (TRIBE)"
+  },
+  {
+    "Symbol": "ZRX",
+    "CoinName": "0x",
+    "FullName": "0x (ZRX)"
   },
   {
     "Symbol": "TNT",
@@ -5520,19 +5965,24 @@ const coinlist = [
     "FullName": "Tierion (TNT)"
   },
   {
-    "Symbol": "PRE*",
+    "Symbol": "SRCH",
     "CoinName": "Presearch",
-    "FullName": "Presearch (PRE*)"
+    "FullName": "Presearch (SRCH)"
   },
   {
-    "Symbol": "COSS",
-    "CoinName": "COSS",
-    "FullName": "COSS (COSS)"
+    "Symbol": "COS",
+    "CoinName": "COS",
+    "FullName": "COS (COS)"
   },
   {
     "Symbol": "STORM",
     "CoinName": "Storm",
     "FullName": "Storm (STORM)"
+  },
+  {
+    "Symbol": "NPX",
+    "CoinName": "Napoleon X",
+    "FullName": "Napoleon X (NPX)"
   },
   {
     "Symbol": "STORJ",
@@ -5548,11 +5998,6 @@ const coinlist = [
     "Symbol": "OTX",
     "CoinName": "Octanox",
     "FullName": "Octanox (OTX)"
-  },
-  {
-    "Symbol": "EQB",
-    "CoinName": "Equibit",
-    "FullName": "Equibit (EQB)"
   },
   {
     "Symbol": "VOISE",
@@ -5590,6 +6035,11 @@ const coinlist = [
     "FullName": "NeverDie (NDC)"
   },
   {
+    "Symbol": "POE",
+    "CoinName": "Po.et",
+    "FullName": "Po.et (POE)"
+  },
+  {
     "Symbol": "ADT",
     "CoinName": "AdToken",
     "FullName": "AdToken (ADT)"
@@ -5600,19 +6050,19 @@ const coinlist = [
     "FullName": "Useless Ethereum Token (UET)"
   },
   {
-    "Symbol": "PART",
-    "CoinName": "Particl",
-    "FullName": "Particl (PART)"
-  },
-  {
     "Symbol": "AGRS",
     "CoinName": "Agoras Token",
     "FullName": "Agoras Token (AGRS)"
   },
   {
-    "Symbol": "XAI*",
-    "CoinName": "AICoin",
-    "FullName": "AICoin (XAI*)"
+    "Symbol": "SAND",
+    "CoinName": "BeachCoin",
+    "FullName": "BeachCoin (SAND)"
+  },
+  {
+    "Symbol": "DMT",
+    "CoinName": "DMarket",
+    "FullName": "DMarket (DMT)"
   },
   {
     "Symbol": "DAS",
@@ -5620,19 +6070,24 @@ const coinlist = [
     "FullName": "DAS (DAS)"
   },
   {
-    "Symbol": "ADST",
-    "CoinName": "Adshares",
-    "FullName": "Adshares (ADST)"
+    "Symbol": "XCJ",
+    "CoinName": "CoinJob",
+    "FullName": "CoinJob (XCJ)"
   },
   {
-    "Symbol": "CAT",
-    "CoinName": "BlockCAT",
-    "FullName": "BlockCAT (CAT*)"
+    "Symbol": "RKC",
+    "CoinName": "Royal Kingdom Coin",
+    "FullName": "Royal Kingdom Coin (RKC)"
   },
   {
     "Symbol": "NLC2",
     "CoinName": "NoLimitCoin",
     "FullName": "NoLimitCoin (NLC2)"
+  },
+  {
+    "Symbol": "LINDA",
+    "CoinName": "Metrix",
+    "FullName": "Metrix (LINDA)"
   },
   {
     "Symbol": "KING",
@@ -5653,6 +6108,11 @@ const coinlist = [
     "Symbol": "ROOTS",
     "CoinName": "RootProject",
     "FullName": "RootProject (ROOTS)"
+  },
+  {
+    "Symbol": "SNK",
+    "CoinName": "Sosnovkino",
+    "FullName": "Sosnovkino (SNK)"
   },
   {
     "Symbol": "CABS",
@@ -5700,9 +6160,24 @@ const coinlist = [
     "FullName": "REAL (REAL)"
   },
   {
+    "Symbol": "DFBT",
+    "CoinName": "DentalFix",
+    "FullName": "DentalFix (DFBT)"
+  },
+  {
     "Symbol": "EQ",
     "CoinName": "EQUI",
     "FullName": "EQUI (EQ)"
+  },
+  {
+    "Symbol": "WLK",
+    "CoinName": "Wolk",
+    "FullName": "Wolk (WLK)"
+  },
+  {
+    "Symbol": "VIB",
+    "CoinName": "Viberate",
+    "FullName": "Viberate (VIB)"
   },
   {
     "Symbol": "ONION",
@@ -5735,6 +6210,11 @@ const coinlist = [
     "FullName": "Decentraland (MANA)"
   },
   {
+    "Symbol": "ICOO",
+    "CoinName": "ICO OpenLedger",
+    "FullName": "ICO OpenLedger (ICOO)"
+  },
+  {
     "Symbol": "TME",
     "CoinName": "Timereum",
     "FullName": "Timereum (TME)"
@@ -5755,9 +6235,19 @@ const coinlist = [
     "FullName": "CoEval (COE)"
   },
   {
+    "Symbol": "ARENA",
+    "CoinName": "Arena",
+    "FullName": "Arena (ARENA)"
+  },
+  {
     "Symbol": "WINK",
     "CoinName": "Wink",
     "FullName": "Wink (WINK)"
+  },
+  {
+    "Symbol": "CRM",
+    "CoinName": "Cream",
+    "FullName": "Cream (CRM)"
   },
   {
     "Symbol": "DGPT",
@@ -5770,9 +6260,14 @@ const coinlist = [
     "FullName": "Mobius (MOBI)"
   },
   {
+    "Symbol": "CSNO",
+    "CoinName": "BitDice",
+    "FullName": "BitDice (CSNO)"
+  },
+  {
     "Symbol": "KICK",
-    "CoinName": "KickCoin",
-    "FullName": "KickCoin (KICK)"
+    "CoinName": "KickToken",
+    "FullName": "KickToken (KICK)"
   },
   {
     "Symbol": "SDAO",
@@ -5805,9 +6300,19 @@ const coinlist = [
     "FullName": "Ties Network (TIE)"
   },
   {
+    "Symbol": "AUT",
+    "CoinName": "Autoria",
+    "FullName": "Autoria (AUT)"
+  },
+  {
     "Symbol": "CTT",
     "CoinName": "CodeTract",
     "FullName": "CodeTract (CTT)"
+  },
+  {
+    "Symbol": "GRWI",
+    "CoinName": "Growers International",
+    "FullName": "Growers International (GRWI)"
   },
   {
     "Symbol": "MNY",
@@ -5833,6 +6338,16 @@ const coinlist = [
     "Symbol": "BMXT",
     "CoinName": "Bitmxittz",
     "FullName": "Bitmxittz (BMXT)"
+  },
+  {
+    "Symbol": "GAS",
+    "CoinName": "Gas",
+    "FullName": "Gas (GAS)"
+  },
+  {
+    "Symbol": "FIL",
+    "CoinName": "FileCoin",
+    "FullName": "FileCoin (FIL)"
   },
   {
     "Symbol": "OCL",
@@ -5880,14 +6395,9 @@ const coinlist = [
     "FullName": "Substratum Network (SUB)"
   },
   {
-    "Symbol": "MET",
-    "CoinName": "Memessenger",
-    "FullName": "Memessenger (MET)"
-  },
-  {
-    "Symbol": "NEBL",
-    "CoinName": "Neblio",
-    "FullName": "Neblio (NEBL)"
+    "Symbol": "PGL",
+    "CoinName": "Prospectors",
+    "FullName": "Prospectors (PGL)"
   },
   {
     "Symbol": "XMCC",
@@ -5895,14 +6405,19 @@ const coinlist = [
     "FullName": "Monoeci (XMCC)"
   },
   {
-    "Symbol": "CASH*",
-    "CoinName": "Cash Poker Pro",
-    "FullName": "Cash Poker Pro (CASH*)"
+    "Symbol": "AUN",
+    "CoinName": "Authoreon",
+    "FullName": "Authoreon (AUN)"
   },
   {
     "Symbol": "CMPCO",
     "CoinName": "CampusCoin",
     "FullName": "CampusCoin (CMPCO)"
+  },
+  {
+    "Symbol": "DTCT",
+    "CoinName": "DetectorToken",
+    "FullName": "DetectorToken (DTCT)"
   },
   {
     "Symbol": "CTR",
@@ -5925,14 +6440,19 @@ const coinlist = [
     "FullName": "ThankYou (THNX)"
   },
   {
+    "Symbol": "WORM",
+    "CoinName": "HealthyWorm",
+    "FullName": "HealthyWorm (WORM)"
+  },
+  {
     "Symbol": "FUCK",
     "CoinName": "Fuck Token",
     "FullName": "Fuck Token (FUCK)"
   },
   {
-    "Symbol": "VNT",
+    "Symbol": "VRD",
     "CoinName": "Veredictum",
-    "FullName": "Veredictum (VNT)"
+    "FullName": "Veredictum (VRD)"
   },
   {
     "Symbol": "SIFT",
@@ -5940,19 +6460,39 @@ const coinlist = [
     "FullName": "Smart Investment Fund Token (SIFT)"
   },
   {
-    "Symbol": "ITT",
-    "CoinName": "Intelligent Trading",
-    "FullName": "Intelligent Trading (ITT)"
+    "Symbol": "IGNIS",
+    "CoinName": "Ignis",
+    "FullName": "Ignis (IGNIS)"
   },
   {
-    "Symbol": "LNC",
-    "CoinName": "BlockLancer",
-    "FullName": "BlockLancer (LNC)"
+    "Symbol": "IWT",
+    "CoinName": "IwToken",
+    "FullName": "IwToken (IWT)"
+  },
+  {
+    "Symbol": "JDC",
+    "CoinName": "JustDatingSite",
+    "FullName": "JustDatingSite (JDC)"
+  },
+  {
+    "Symbol": "ITF",
+    "CoinName": "Intelligent Trading",
+    "FullName": "Intelligent Trading (ITF)"
   },
   {
     "Symbol": "AIX",
     "CoinName": "Aigang",
     "FullName": "Aigang (AIX)"
+  },
+  {
+    "Symbol": "EVX",
+    "CoinName": "Everex",
+    "FullName": "Everex (EVX)"
+  },
+  {
+    "Symbol": "XEC",
+    "CoinName": "Eternal Coin",
+    "FullName": "Eternal Coin (XEC)"
   },
   {
     "Symbol": "ENTRP",
@@ -5963,6 +6503,11 @@ const coinlist = [
     "Symbol": "ICOS",
     "CoinName": "ICOBox",
     "FullName": "ICOBox (ICOS)"
+  },
+  {
+    "Symbol": "PIX",
+    "CoinName": "Lampix",
+    "FullName": "Lampix (PIX)"
   },
   {
     "Symbol": "MEDI",
@@ -6005,6 +6550,11 @@ const coinlist = [
     "FullName": "Cobinhood (COB)"
   },
   {
+    "Symbol": "BRO",
+    "CoinName": "Bitradio",
+    "FullName": "Bitradio (BRO)"
+  },
+  {
     "Symbol": "MINEX",
     "CoinName": "Minex",
     "FullName": "Minex (MINEX)"
@@ -6013,11 +6563,6 @@ const coinlist = [
     "Symbol": "ATL",
     "CoinName": "ATLANT",
     "FullName": "ATLANT (ATL)"
-  },
-  {
-    "Symbol": "MAG*",
-    "CoinName": "Magos",
-    "FullName": "Magos (MAG*)"
   },
   {
     "Symbol": "DFT",
@@ -6043,11 +6588,6 @@ const coinlist = [
     "Symbol": "HDG",
     "CoinName": "Hedge Token",
     "FullName": "Hedge Token (HDG)"
-  },
-  {
-    "Symbol": "STCN",
-    "CoinName": "Stakecoin",
-    "FullName": "Stakecoin (STCN)"
   },
   {
     "Symbol": "SQP",
@@ -6080,9 +6620,14 @@ const coinlist = [
     "FullName": "AltoCar (ALTOCAR)"
   },
   {
-    "Symbol": "CFT*",
-    "CoinName": "Credo",
-    "FullName": "Credo (CFT*)"
+    "Symbol": "BLX",
+    "CoinName": "Blockchain Index",
+    "FullName": "Blockchain Index (BLX)"
+  },
+  {
+    "Symbol": "BKX",
+    "CoinName": "BANKEX",
+    "FullName": "BANKEX (BKX)"
   },
   {
     "Symbol": "BOU",
@@ -6093,6 +6638,11 @@ const coinlist = [
     "Symbol": "OXY",
     "CoinName": "Oxycoin",
     "FullName": "Oxycoin (OXY)"
+  },
+  {
+    "Symbol": "TTT",
+    "CoinName": "Tap Project",
+    "FullName": "Tap Project (TTT)"
   },
   {
     "Symbol": "AMT",
@@ -6113,11 +6663,6 @@ const coinlist = [
     "Symbol": "LBTC",
     "CoinName": "LiteBitcoin",
     "FullName": "LiteBitcoin (LBTC)"
-  },
-  {
-    "Symbol": "FRAZ",
-    "CoinName": "FrazCoin",
-    "FullName": "FrazCoin (FRAZ)"
   },
   {
     "Symbol": "EMT",
@@ -6160,24 +6705,9 @@ const coinlist = [
     "FullName": "AdCoin (ACC)"
   },
   {
-    "Symbol": "AR*",
-    "CoinName": "Ar.cash",
-    "FullName": "Ar.cash (AR*)"
-  },
-  {
     "Symbol": "Z2",
     "CoinName": "Z2 Coin",
     "FullName": "Z2 Coin (Z2)"
-  },
-  {
-    "Symbol": "LINX",
-    "CoinName": "Linx",
-    "FullName": "Linx (LINX)"
-  },
-  {
-    "Symbol": "XCXT",
-    "CoinName": "CoinonatX",
-    "FullName": "CoinonatX (XCXT)"
   },
   {
     "Symbol": "BLAS",
@@ -6185,19 +6715,14 @@ const coinlist = [
     "FullName": "BlakeStar (BLAS)"
   },
   {
-    "Symbol": "GOOD",
-    "CoinName": "GoodCoin",
-    "FullName": "GoodCoin (GOOD)"
-  },
-  {
     "Symbol": "SCL",
     "CoinName": "Sociall",
     "FullName": "Sociall (SCL)"
   },
   {
-    "Symbol": "TRV",
+    "Symbol": "TRVL",
     "CoinName": "Travel Coin",
-    "FullName": "Travel Coin (TRV)"
+    "FullName": "Travel Coin (TRVL)"
   },
   {
     "Symbol": "CRTM",
@@ -6208,6 +6733,11 @@ const coinlist = [
     "Symbol": "EON",
     "CoinName": "Exscudo",
     "FullName": "Exscudo (EON)"
+  },
+  {
+    "Symbol": "PST",
+    "CoinName": "Primas",
+    "FullName": "Primas (PST)"
   },
   {
     "Symbol": "MTX",
@@ -6250,6 +6780,11 @@ const coinlist = [
     "FullName": "TokenStars (ACE)"
   },
   {
+    "Symbol": "WRC",
+    "CoinName": "Worldcore",
+    "FullName": "Worldcore (WRC)"
+  },
+  {
     "Symbol": "BRX",
     "CoinName": "Breakout Stake",
     "FullName": "Breakout Stake (BRX)"
@@ -6270,14 +6805,14 @@ const coinlist = [
     "FullName": "Ormeus Coin (ORME)"
   },
   {
-    "Symbol": "DEEP",
+    "Symbol": "DEEPG",
     "CoinName": "Deep Gold",
-    "FullName": "Deep Gold (DEEP)"
+    "FullName": "Deep Gold (DEEPG)"
   },
   {
-    "Symbol": "TMT*",
-    "CoinName": "ToTheMoon",
-    "FullName": "ToTheMoon (TMT*)"
+    "Symbol": "CCT",
+    "CoinName": "Crystal Clear Token ",
+    "FullName": "Crystal Clear Token  (CCT)"
   },
   {
     "Symbol": "WSH",
@@ -6285,7 +6820,7 @@ const coinlist = [
     "FullName": "Wish Finance (WSH)"
   },
   {
-    "Symbol": "ARNA*",
+    "Symbol": "ARNA",
     "CoinName": "ARNA Panacea",
     "FullName": "ARNA Panacea (ARNA)"
   },
@@ -6305,19 +6840,14 @@ const coinlist = [
     "FullName": "Blackmoon Crypto (BMC)"
   },
   {
-    "Symbol": "SKR*",
+    "Symbol": "SKRT",
     "CoinName": "Skrilla Token",
-    "FullName": "Skrilla Token (SKR*)"
+    "FullName": "Skrilla Token (SKRT)"
   },
   {
     "Symbol": "3DES",
     "CoinName": "3DES",
     "FullName": "3DES (3DES)"
-  },
-  {
-    "Symbol": "PYN",
-    "CoinName": "Paycentos",
-    "FullName": "Paycentos (PYN)"
   },
   {
     "Symbol": "KAPU",
@@ -6328,6 +6858,11 @@ const coinlist = [
     "Symbol": "SENSE",
     "CoinName": "Sense Token",
     "FullName": "Sense Token (SENSE)"
+  },
+  {
+    "Symbol": "CAPP",
+    "CoinName": "Cappasity",
+    "FullName": "Cappasity (CAPP)"
   },
   {
     "Symbol": "VEE",
@@ -6350,11 +6885,6 @@ const coinlist = [
     "FullName": "Doc.ai Neuron (NRN)"
   },
   {
-    "Symbol": "EVC",
-    "CoinName": "Eventchain",
-    "FullName": "Eventchain (EVC)"
-  },
-  {
     "Symbol": "WIZ",
     "CoinName": "Crowdwiz",
     "FullName": "Crowdwiz (WIZ)"
@@ -6370,9 +6900,9 @@ const coinlist = [
     "FullName": "A-Token (ATKN)"
   },
   {
-    "Symbol": "RUSTBITS",
-    "CoinName": "Rustbits",
-    "FullName": "Rustbits (RUSTBITS)"
+    "Symbol": "KNC",
+    "CoinName": "Kyber Network",
+    "FullName": "Kyber Network (KNC)"
   },
   {
     "Symbol": "REX",
@@ -6383,11 +6913,6 @@ const coinlist = [
     "Symbol": "ETHD",
     "CoinName": "Ethereum Dark",
     "FullName": "Ethereum Dark (ETHD)"
-  },
-  {
-    "Symbol": "SUMO",
-    "CoinName": "Sumokoin",
-    "FullName": "Sumokoin (SUMO)"
   },
   {
     "Symbol": "H2O",
@@ -6445,6 +6970,11 @@ const coinlist = [
     "FullName": "Sandcoin (SND)"
   },
   {
+    "Symbol": "XP",
+    "CoinName": "Experience Points",
+    "FullName": "Experience Points (XP)"
+  },
+  {
     "Symbol": "LRC",
     "CoinName": "Loopring",
     "FullName": "Loopring (LRC)"
@@ -6455,14 +6985,14 @@ const coinlist = [
     "FullName": "Gladius (GLA)"
   },
   {
+    "Symbol": "ZNA",
+    "CoinName": "Zenome",
+    "FullName": "Zenome (ZNA)"
+  },
+  {
     "Symbol": "EZM",
     "CoinName": "EZMarket",
     "FullName": "EZMarket (EZM)"
-  },
-  {
-    "Symbol": "ODN",
-    "CoinName": "Obsidian",
-    "FullName": "Obsidian (ODN)"
   },
   {
     "Symbol": "POLL",
@@ -6530,6 +7060,11 @@ const coinlist = [
     "FullName": "Regalcoin (REC)"
   },
   {
+    "Symbol": "BIS",
+    "CoinName": "Bismuth",
+    "FullName": "Bismuth (BIS)"
+  },
+  {
     "Symbol": "OPP",
     "CoinName": "Opporty",
     "FullName": "Opporty (OPP)"
@@ -6548,6 +7083,11 @@ const coinlist = [
     "Symbol": "VSX",
     "CoinName": "Vsync",
     "FullName": "Vsync (VSX)"
+  },
+  {
+    "Symbol": "FLASH",
+    "CoinName": "FLASH coin",
+    "FullName": "FLASH coin (FLASH)"
   },
   {
     "Symbol": "GRFT",
@@ -6585,14 +7125,14 @@ const coinlist = [
     "FullName": "Metaverse (ETP)"
   },
   {
+    "Symbol": "CIX",
+    "CoinName": "Cryptonetix",
+    "FullName": "Cryptonetix (CIX)"
+  },
+  {
     "Symbol": "ERT",
     "CoinName": "Esports.com",
     "FullName": "Esports.com (ERT)"
-  },
-  {
-    "Symbol": "BAC*",
-    "CoinName": "LakeBanker",
-    "FullName": "LakeBanker (BAC*)"
   },
   {
     "Symbol": "FLIK",
@@ -6600,9 +7140,19 @@ const coinlist = [
     "FullName": "FLiK (FLIK)"
   },
   {
+    "Symbol": "TRIP",
+    "CoinName": "Trippki",
+    "FullName": "Trippki (TRIP)"
+  },
+  {
     "Symbol": "MBT",
     "CoinName": "Multibot",
     "FullName": "Multibot (MBT)"
+  },
+  {
+    "Symbol": "JVY",
+    "CoinName": "Javvy",
+    "FullName": "Javvy (JVY)"
   },
   {
     "Symbol": "ALIS",
@@ -6623,6 +7173,11 @@ const coinlist = [
     "Symbol": "REQ",
     "CoinName": "Request Network",
     "FullName": "Request Network (REQ)"
+  },
+  {
+    "Symbol": "ARN",
+    "CoinName": "Aeron",
+    "FullName": "Aeron (ARN)"
   },
   {
     "Symbol": "DAT",
@@ -6660,34 +7215,19 @@ const coinlist = [
     "FullName": "Gameflip (FLP)"
   },
   {
-    "Symbol": "HXT",
-    "CoinName": "HextraCoin",
-    "FullName": "HextraCoin (HXT)"
-  },
-  {
     "Symbol": "CND",
     "CoinName": "Cindicator",
     "FullName": "Cindicator (CND)"
   },
   {
-    "Symbol": "VRP*",
+    "Symbol": "VRP",
     "CoinName": "Prosense.tv",
     "FullName": "Prosense.tv (VRP)"
-  },
-  {
-    "Symbol": "NTM",
-    "CoinName": "NetM",
-    "FullName": "NetM (NTM)"
   },
   {
     "Symbol": "TZC",
     "CoinName": "TrezarCoin",
     "FullName": "TrezarCoin (TZC)"
-  },
-  {
-    "Symbol": "ENG",
-    "CoinName": "Enigma",
-    "FullName": "Enigma (ENG)"
   },
   {
     "Symbol": "MCI",
@@ -6700,24 +7240,14 @@ const coinlist = [
     "FullName": "Covesting (COV)"
   },
   {
-    "Symbol": "WAX",
-    "CoinName": "Worldwide Asset eXchange",
-    "FullName": "Worldwide Asset eXchange (WAX)"
-  },
-  {
     "Symbol": "AIR",
     "CoinName": "AirToken",
     "FullName": "AirToken (AIR)"
   },
   {
-    "Symbol": "NTO",
+    "Symbol": "FUJIN",
     "CoinName": "Fujinto",
-    "FullName": "Fujinto (NTO)"
-  },
-  {
-    "Symbol": "ATCC",
-    "CoinName": "ATC Coin",
-    "FullName": "ATC Coin (ATCC)"
+    "FullName": "Fujinto (FUJIN)"
   },
   {
     "Symbol": "KOLION",
@@ -6740,6 +7270,11 @@ const coinlist = [
     "FullName": "ILCoin Token (ILCT)"
   },
   {
+    "Symbol": "POWR",
+    "CoinName": "Power Ledger",
+    "FullName": "Power Ledger (POWR)"
+  },
+  {
     "Symbol": "C20",
     "CoinName": "Crypto20",
     "FullName": "Crypto20 (C20)"
@@ -6750,9 +7285,14 @@ const coinlist = [
     "FullName": "Anryze (RYZ)"
   },
   {
-    "Symbol": "GXC*",
-    "CoinName": "GenXCoin",
-    "FullName": "GenXCoin (GXC*)"
+    "Symbol": "ELM",
+    "CoinName": "Elements",
+    "FullName": "Elements (ELM)"
+  },
+  {
+    "Symbol": "TER",
+    "CoinName": "TerraNovaCoin",
+    "FullName": "TerraNovaCoin (TER)"
   },
   {
     "Symbol": "BQ",
@@ -6760,24 +7300,9 @@ const coinlist = [
     "FullName": "Bitqy (BQ)"
   },
   {
-    "Symbol": "CAV",
-    "CoinName": "Caviar",
-    "FullName": "Caviar (CAV)"
-  },
-  {
     "Symbol": "CLOUT",
     "CoinName": "Clout",
     "FullName": "Clout (CLOUT)"
-  },
-  {
-    "Symbol": "PTC*",
-    "CoinName": "Propthereum",
-    "FullName": "Propthereum (PTC*)"
-  },
-  {
-    "Symbol": "WABI",
-    "CoinName": "WaBi",
-    "FullName": "WaBi (WABI)"
   },
   {
     "Symbol": "EVR",
@@ -6790,9 +7315,19 @@ const coinlist = [
     "FullName": "TOA Coin (TOA)"
   },
   {
-    "Symbol": "PHX",
-    "CoinName": "Red Pulse Phoenix",
-    "FullName": "Red Pulse Phoenix (PHX)"
+    "Symbol": "MNZ",
+    "CoinName": "Monaize",
+    "FullName": "Monaize (MNZ)"
+  },
+  {
+    "Symbol": "VIVO",
+    "CoinName": "VIVO Coin",
+    "FullName": "VIVO Coin (VIVO)"
+  },
+  {
+    "Symbol": "MDA",
+    "CoinName": "Moeda",
+    "FullName": "Moeda (MDA)"
   },
   {
     "Symbol": "ZSC",
@@ -6813,11 +7348,6 @@ const coinlist = [
     "Symbol": "PKT",
     "CoinName": "Playkey",
     "FullName": "Playkey (PKT)"
-  },
-  {
-    "Symbol": "SMT**",
-    "CoinName": "Social Media Market",
-    "FullName": "Social Media Market (SMT)"
   },
   {
     "Symbol": "ECHT",
@@ -6850,9 +7380,14 @@ const coinlist = [
     "FullName": "Revain (R)"
   },
   {
-    "Symbol": "BM*",
+    "Symbol": "MOD",
+    "CoinName": "Modum",
+    "FullName": "Modum (MOD)"
+  },
+  {
+    "Symbol": "BITCM",
     "CoinName": "Bitcomo",
-    "FullName": "Bitcomo (BM*)"
+    "FullName": "Bitcomo (BITCM)"
   },
   {
     "Symbol": "CPAY",
@@ -6860,7 +7395,12 @@ const coinlist = [
     "FullName": "CryptoPay (CPAY)"
   },
   {
-    "Symbol": "BON*",
+    "Symbol": "RUP",
+    "CoinName": "Rupee",
+    "FullName": "Rupee (RUP)"
+  },
+  {
+    "Symbol": "BON",
     "CoinName": "Bonpay",
     "FullName": "Bonpay (BON)"
   },
@@ -6885,16 +7425,6 @@ const coinlist = [
     "FullName": "Ethereum Gold (ETG)"
   },
   {
-    "Symbol": "WOMEN",
-    "CoinName": "WomenCoin",
-    "FullName": "WomenCoin (WOMEN)"
-  },
-  {
-    "Symbol": "MAY",
-    "CoinName": "Theresa May Coin",
-    "FullName": "Theresa May Coin (MAY)"
-  },
-  {
     "Symbol": "RNDR",
     "CoinName": "Render Token",
     "FullName": "Render Token (RNDR)"
@@ -6905,9 +7435,9 @@ const coinlist = [
     "FullName": "Eddie coin (EDDIE)"
   },
   {
-    "Symbol": "SCT*",
+    "Symbol": "SOMA",
     "CoinName": "Soma",
-    "FullName": "Soma (SCT*)"
+    "FullName": "Soma (SOMA)"
   },
   {
     "Symbol": "NAMO",
@@ -6960,14 +7490,14 @@ const coinlist = [
     "FullName": "TBIS token (BAR)"
   },
   {
-    "Symbol": "PIRL",
-    "CoinName": "Pirl",
-    "FullName": "Pirl (PIRL)"
-  },
-  {
     "Symbol": "ECASH",
     "CoinName": "Ethereum Cash",
     "FullName": "Ethereum Cash (ECASH)"
+  },
+  {
+    "Symbol": "WPR",
+    "CoinName": "WePower",
+    "FullName": "WePower (WPR)"
   },
   {
     "Symbol": "DRGN",
@@ -6978,11 +7508,6 @@ const coinlist = [
     "Symbol": "ODMC",
     "CoinName": "ODMCoin",
     "FullName": "ODMCoin (ODMC)"
-  },
-  {
-    "Symbol": "CABS*",
-    "CoinName": "CyberTrust",
-    "FullName": "CyberTrust (CABS*)"
   },
   {
     "Symbol": "BRAT",
@@ -7010,19 +7535,9 @@ const coinlist = [
     "FullName": "EthereumLite (ELITE)"
   },
   {
-    "Symbol": "XIOS",
-    "CoinName": "Xios",
-    "FullName": "Xios (XIOS)"
-  },
-  {
     "Symbol": "DOV",
     "CoinName": "DOVU",
     "FullName": "DOVU (DOV)"
-  },
-  {
-    "Symbol": "ETN",
-    "CoinName": "Electroneum",
-    "FullName": "Electroneum (ETN)"
   },
   {
     "Symbol": "REA",
@@ -7045,19 +7560,14 @@ const coinlist = [
     "FullName": "Bitcloud 2.0 (BTDX)"
   },
   {
-    "Symbol": "LOAN*",
+    "Symbol": "LOAN",
     "CoinName": "Lendoit",
     "FullName": "Lendoit (LOAN)"
   },
   {
-    "Symbol": "DTT*",
-    "CoinName": "Data Trading",
-    "FullName": "Data Trading (DTT*)"
-  },
-  {
-    "Symbol": "MDL*",
-    "CoinName": "Modulum",
-    "FullName": "Modulum (MDL*)"
+    "Symbol": "ZAB",
+    "CoinName": "ZABERcoin",
+    "FullName": "ZABERcoin (ZAB)"
   },
   {
     "Symbol": "BT1",
@@ -7070,9 +7580,9 @@ const coinlist = [
     "FullName": "Bitcoin SegWit2X (BT2)"
   },
   {
-    "Symbol": "SHP*",
+    "Symbol": "SHP",
     "CoinName": "Sharpe Capital",
-    "FullName": "Sharpe Capital (SHP*)"
+    "FullName": "Sharpe Capital (SHP)"
   },
   {
     "Symbol": "JCR",
@@ -7085,19 +7595,9 @@ const coinlist = [
     "FullName": "Extreme Sportsbook (XSB)"
   },
   {
-    "Symbol": "ATM",
-    "CoinName": "ATMChain",
-    "FullName": "ATMChain (ATM)"
-  },
-  {
     "Symbol": "EBST",
     "CoinName": "eBoost",
     "FullName": "eBoost (EBST)"
-  },
-  {
-    "Symbol": "KEK",
-    "CoinName": "KekCoin",
-    "FullName": "KekCoin (KEK)"
   },
   {
     "Symbol": "AID",
@@ -7105,14 +7605,9 @@ const coinlist = [
     "FullName": "AidCoin (AID)"
   },
   {
-    "Symbol": "BHC*",
+    "Symbol": "BLHC",
     "CoinName": "BlackholeCoin",
-    "FullName": "BlackholeCoin (BHC*)"
-  },
-  {
-    "Symbol": "ALTCOM",
-    "CoinName": "AltCommunity Coin",
-    "FullName": "AltCommunity Coin (ALTCOM)"
+    "FullName": "BlackholeCoin (BLHC)"
   },
   {
     "Symbol": "OST",
@@ -7128,11 +7623,6 @@ const coinlist = [
     "Symbol": "UGC",
     "CoinName": "ugChain",
     "FullName": "ugChain (UGC)"
-  },
-  {
-    "Symbol": "DTC",
-    "CoinName": "Datacoin",
-    "FullName": "Datacoin (DTC*)"
   },
   {
     "Symbol": "PLAY",
@@ -7175,6 +7665,11 @@ const coinlist = [
     "FullName": "ExchangeN (EXN)"
   },
   {
+    "Symbol": "INS",
+    "CoinName": "Insolar",
+    "FullName": "Insolar (INS)"
+  },
+  {
     "Symbol": "TRCT",
     "CoinName": "Tracto",
     "FullName": "Tracto (TRCT)"
@@ -7190,6 +7685,11 @@ const coinlist = [
     "FullName": "Bitcoin Red (BTCRED)"
   },
   {
+    "Symbol": "CPEX",
+    "CoinName": "CoinPulseToken",
+    "FullName": "CoinPulseToken (CPEX)"
+  },
+  {
     "Symbol": "JTX",
     "CoinName": "Project J",
     "FullName": "Project J (JTX)"
@@ -7200,9 +7700,19 @@ const coinlist = [
     "FullName": "AIX (AXT)"
   },
   {
+    "Symbol": "RDNN",
+    "CoinName": "Raiden Network",
+    "FullName": "Raiden Network (RDNN)"
+  },
+  {
     "Symbol": "NEU",
     "CoinName": "Neumark",
     "FullName": "Neumark (NEU)"
+  },
+  {
+    "Symbol": "RUPX",
+    "CoinName": "Rupaya",
+    "FullName": "Rupaya (RUPX)"
   },
   {
     "Symbol": "BDR",
@@ -7210,24 +7720,19 @@ const coinlist = [
     "FullName": "BlueDragon (BDR)"
   },
   {
-    "Symbol": "DUTCH",
-    "CoinName": "Dutch Coin",
-    "FullName": "Dutch Coin (DUTCH)"
+    "Symbol": "TIOX",
+    "CoinName": "TIOx",
+    "FullName": "TIOx (TIOX)"
   },
   {
-    "Symbol": "TIO",
-    "CoinName": "Trade.io",
-    "FullName": "Trade.io (TIO)"
-  },
-  {
-    "Symbol": "HNC*",
+    "Symbol": "HNCN",
     "CoinName": "Huncoin",
-    "FullName": "Huncoin (HNC*)"
+    "FullName": "Huncoin (HNCN)"
   },
   {
-    "Symbol": "PURA",
-    "CoinName": "Pura",
-    "FullName": "Pura (PURA)"
+    "Symbol": "MADC",
+    "CoinName": "MadCoin",
+    "FullName": "MadCoin (MADC)"
   },
   {
     "Symbol": "INN",
@@ -7238,6 +7743,11 @@ const coinlist = [
     "Symbol": "HST",
     "CoinName": "Decision Token",
     "FullName": "Decision Token (HST)"
+  },
+  {
+    "Symbol": "BCPT",
+    "CoinName": "BlockMason Credit Protocol",
+    "FullName": "BlockMason Credit Protocol (BCPT)"
   },
   {
     "Symbol": "BDL",
@@ -7255,6 +7765,11 @@ const coinlist = [
     "FullName": "Billionaire Token (XBL)"
   },
   {
+    "Symbol": "ZEPH",
+    "CoinName": "Zeph",
+    "FullName": "Zeph (ZEPH)"
+  },
+  {
     "Symbol": "ATFS",
     "CoinName": "ATFS Project",
     "FullName": "ATFS Project (ATFS)"
@@ -7265,14 +7780,9 @@ const coinlist = [
     "FullName": "Galaxy eSolutions (GES)"
   },
   {
-    "Symbol": "NULS",
-    "CoinName": "Nuls",
-    "FullName": "Nuls (NULS)"
-  },
-  {
-    "Symbol": "PHR*",
+    "Symbol": "PHORE",
     "CoinName": "Phore",
-    "FullName": "Phore (PHR*)"
+    "FullName": "Phore (PHORE)"
   },
   {
     "Symbol": "LCASH",
@@ -7293,6 +7803,11 @@ const coinlist = [
     "Symbol": "PLC",
     "CoinName": "PlusCoin",
     "FullName": "PlusCoin (PLC)"
+  },
+  {
+    "Symbol": "SRN",
+    "CoinName": "SirinLabs",
+    "FullName": "SirinLabs (SRN)"
   },
   {
     "Symbol": "WSC",
@@ -7320,6 +7835,11 @@ const coinlist = [
     "FullName": "LIFE (LIFE)"
   },
   {
+    "Symbol": "RMC",
+    "CoinName": "Russian Mining Coin",
+    "FullName": "Russian Mining Coin (RMC)"
+  },
+  {
     "Symbol": "CREDO",
     "CoinName": "Credo",
     "FullName": "Credo (CREDO)"
@@ -7335,11 +7855,6 @@ const coinlist = [
     "FullName": "ConnectJob Token (CJT)"
   },
   {
-    "Symbol": "ESC*",
-    "CoinName": "Ethersportcoin",
-    "FullName": "Ethersportcoin (ESC)"
-  },
-  {
     "Symbol": "EVN",
     "CoinName": "Envion",
     "FullName": "Envion (EVN)"
@@ -7350,19 +7865,19 @@ const coinlist = [
     "FullName": "Bankera (BNK)"
   },
   {
-    "Symbol": "ELLA",
-    "CoinName": "Ellaism",
-    "FullName": "Ellaism (ELLA)"
-  },
-  {
     "Symbol": "BPL",
     "CoinName": "BlockPool",
     "FullName": "BlockPool (BPL)"
   },
   {
-    "Symbol": "ROCK*",
-    "CoinName": "RocketCoin ",
-    "FullName": "RocketCoin  (ROCK*)"
+    "Symbol": "COIN",
+    "CoinName": "Coin",
+    "FullName": "Coin (COIN)"
+  },
+  {
+    "Symbol": "ROCK",
+    "CoinName": "RocketCoin",
+    "FullName": "RocketCoin (ROCK)"
   },
   {
     "Symbol": "DRXNE",
@@ -7385,6 +7900,11 @@ const coinlist = [
     "FullName": "PlatinumBAR (XPTX)"
   },
   {
+    "Symbol": "GVT",
+    "CoinName": "Genesis Vision",
+    "FullName": "Genesis Vision (GVT)"
+  },
+  {
     "Symbol": "ETK",
     "CoinName": "Energi Token",
     "FullName": "Energi Token (ETK)"
@@ -7400,9 +7920,9 @@ const coinlist = [
     "FullName": "Mercury Protocol (GMT)"
   },
   {
-    "Symbol": "EPY*",
+    "Symbol": "EMPH",
     "CoinName": "Emphy",
-    "FullName": "Emphy (EPY*)"
+    "FullName": "Emphy (EMPH)"
   },
   {
     "Symbol": "SOAR",
@@ -7415,9 +7935,9 @@ const coinlist = [
     "FullName": "Experty (EXY)"
   },
   {
-    "Symbol": "MNX",
-    "CoinName": "MinexCoin",
-    "FullName": "MinexCoin (MNX)"
+    "Symbol": "ISH",
+    "CoinName": "Interstellar Holdings",
+    "FullName": "Interstellar Holdings (ISH)"
   },
   {
     "Symbol": "CRDS",
@@ -7430,9 +7950,9 @@ const coinlist = [
     "FullName": "Viuly (VIU)"
   },
   {
-    "Symbol": "SCR*",
+    "Symbol": "SCRM",
     "CoinName": "Scorum",
-    "FullName": "Scorum (SCR*)"
+    "FullName": "Scorum (SCRM)"
   },
   {
     "Symbol": "DBR",
@@ -7465,6 +7985,16 @@ const coinlist = [
     "FullName": "BitBoost (BBT)"
   },
   {
+    "Symbol": "GBX",
+    "CoinName": "GoByte",
+    "FullName": "GoByte (GBX)"
+  },
+  {
+    "Symbol": "CSTL",
+    "CoinName": "Castle",
+    "FullName": "Castle (CSTL)"
+  },
+  {
     "Symbol": "ICC",
     "CoinName": "Insta Cash Coin",
     "FullName": "Insta Cash Coin (ICC)"
@@ -7475,14 +8005,19 @@ const coinlist = [
     "FullName": "Jibrel Network Token (JNT)"
   },
   {
+    "Symbol": "QASH",
+    "CoinName": "Quoine Liquid",
+    "FullName": "Quoine Liquid (QASH)"
+  },
+  {
     "Symbol": "ALQO",
     "CoinName": "Alqo",
     "FullName": "Alqo (ALQO)"
   },
   {
-    "Symbol": "KNC**",
+    "Symbol": "KNGN",
     "CoinName": "KingN Coin",
-    "FullName": "KingN Coin (KNC**)"
+    "FullName": "KingN Coin (KNGN)"
   },
   {
     "Symbol": "TRIA",
@@ -7498,6 +8033,11 @@ const coinlist = [
     "Symbol": "MAG",
     "CoinName": "Magnet",
     "FullName": "Magnet (MAG)"
+  },
+  {
+    "Symbol": "STEX",
+    "CoinName": "STEX",
+    "FullName": "STEX (STEX)"
   },
   {
     "Symbol": "UFR",
@@ -7540,11 +8080,6 @@ const coinlist = [
     "FullName": "PayFair (PFR)"
   },
   {
-    "Symbol": "ECA",
-    "CoinName": "Electra",
-    "FullName": "Electra (ECA)"
-  },
-  {
     "Symbol": "LDM",
     "CoinName": "Ludum token",
     "FullName": "Ludum token (LDM)"
@@ -7580,9 +8115,9 @@ const coinlist = [
     "FullName": "PlexCoin (PLX)"
   },
   {
-    "Symbol": "NIO*",
+    "Symbol": "NIO",
     "CoinName": "Autonio",
-    "FullName": "Autonio (NIO*)"
+    "FullName": "Autonio (NIO)"
   },
   {
     "Symbol": "ETHB",
@@ -7591,13 +8126,18 @@ const coinlist = [
   },
   {
     "Symbol": "CDX",
-    "CoinName": "Commodity Ad Network",
-    "FullName": "Commodity Ad Network (CDX)"
+    "CoinName": "CDX Network ",
+    "FullName": "CDX Network  (CDX)"
   },
   {
     "Symbol": "FOOD",
     "CoinName": "FoodCoin",
     "FullName": "FoodCoin (FOOD)"
+  },
+  {
+    "Symbol": "DEC",
+    "CoinName": "Darico",
+    "FullName": "Darico (DEC)"
   },
   {
     "Symbol": "VOT",
@@ -7620,19 +8160,24 @@ const coinlist = [
     "FullName": "Sether (SETH)"
   },
   {
-    "Symbol": "TIO*",
-    "CoinName": "Tio Tour Guides",
-    "FullName": "Tio Tour Guides (TIO*)"
+    "Symbol": "ABYSS",
+    "CoinName": "The Abyss",
+    "FullName": "The Abyss (ABYSS)"
   },
   {
-    "Symbol": "BCD*",
-    "CoinName": "BitCAD",
-    "FullName": "BitCAD (BCD*)"
+    "Symbol": "XSH",
+    "CoinName": "SHIELD",
+    "FullName": "SHIELD (XSH)"
   },
   {
     "Symbol": "GEA",
     "CoinName": "Goldea",
     "FullName": "Goldea (GEA)"
+  },
+  {
+    "Symbol": "BCO",
+    "CoinName": "BridgeCoin",
+    "FullName": "BridgeCoin (BCO)"
   },
   {
     "Symbol": "DSR",
@@ -7675,24 +8220,14 @@ const coinlist = [
     "FullName": "Mutual Coin (MUT)"
   },
   {
-    "Symbol": "MEOW",
-    "CoinName": "Kittehcoin",
-    "FullName": "Kittehcoin (MEOW)"
+    "Symbol": "DIVX",
+    "CoinName": "Divi Exchange Token",
+    "FullName": "Divi Exchange Token (DIVX)"
   },
   {
     "Symbol": "CNBC",
     "CoinName": "Cash & Back Coin",
     "FullName": "Cash & Back Coin (CNBC)"
-  },
-  {
-    "Symbol": "RHOC",
-    "CoinName": "RChain",
-    "FullName": "RChain (RHOC)"
-  },
-  {
-    "Symbol": "ARC*",
-    "CoinName": " Arcade City",
-    "FullName": " Arcade City (ARC*)"
   },
   {
     "Symbol": "XUN",
@@ -7730,14 +8265,14 @@ const coinlist = [
     "FullName": "Eroscoin (ERO)"
   },
   {
+    "Symbol": "CMT",
+    "CoinName": "CyberMiles",
+    "FullName": "CyberMiles (CMT)"
+  },
+  {
     "Symbol": "RLX",
     "CoinName": "Relex",
     "FullName": "Relex (RLX)"
-  },
-  {
-    "Symbol": "MAN",
-    "CoinName": "People",
-    "FullName": "People (MAN)"
   },
   {
     "Symbol": "CWV",
@@ -7745,9 +8280,9 @@ const coinlist = [
     "FullName": "CryptoWave (CWV)"
   },
   {
-    "Symbol": "ACT*",
+    "Symbol": "ACHN",
     "CoinName": "Achain",
-    "FullName": "Achain (ACT*)"
+    "FullName": "Achain (ACHN)"
   },
   {
     "Symbol": "NRO",
@@ -7780,6 +8315,11 @@ const coinlist = [
     "FullName": "DaxxCoin (DAXX)"
   },
   {
+    "Symbol": "BWK",
+    "CoinName": "Bulwark",
+    "FullName": "Bulwark (BWK)"
+  },
+  {
     "Symbol": "FNTB",
     "CoinName": "FinTab",
     "FullName": "FinTab (FNTB)"
@@ -7790,9 +8330,19 @@ const coinlist = [
     "FullName": "Monero Gold (XMRG)"
   },
   {
+    "Symbol": "BTCE",
+    "CoinName": "EthereumBitcoin",
+    "FullName": "EthereumBitcoin (BTCE)"
+  },
+  {
     "Symbol": "FYP",
     "CoinName": "FlypMe",
     "FullName": "FlypMe (FYP)"
+  },
+  {
+    "Symbol": "BOXY",
+    "CoinName": "BoxyCoin",
+    "FullName": "BoxyCoin (BOXY)"
   },
   {
     "Symbol": "NGC",
@@ -7800,9 +8350,19 @@ const coinlist = [
     "FullName": "NagaCoin (NGC)"
   },
   {
+    "Symbol": "UTNP",
+    "CoinName": "Universa",
+    "FullName": "Universa (UTNP)"
+  },
+  {
     "Symbol": "EGAS",
     "CoinName": "ETHGAS",
     "FullName": "ETHGAS (EGAS)"
+  },
+  {
+    "Symbol": "DPP",
+    "CoinName": "Digital Assets Power Play",
+    "FullName": "Digital Assets Power Play (DPP)"
   },
   {
     "Symbol": "ADB",
@@ -7810,9 +8370,9 @@ const coinlist = [
     "FullName": "Adbank (ADB)"
   },
   {
-    "Symbol": "XDCE",
-    "CoinName": "XinFin Coin",
-    "FullName": "XinFin Coin (XDCE)"
+    "Symbol": "TGT",
+    "CoinName": "TargetCoin",
+    "FullName": "TargetCoin (TGT)"
   },
   {
     "Symbol": "BMT",
@@ -7830,14 +8390,29 @@ const coinlist = [
     "FullName": "ModulTrade (MTRC)"
   },
   {
+    "Symbol": "BTCL",
+    "CoinName": "BTC Lite",
+    "FullName": "BTC Lite (BTCL)"
+  },
+  {
     "Symbol": "PCN",
     "CoinName": "PeepCoin",
     "FullName": "PeepCoin (PCN)"
   },
   {
+    "Symbol": "PYP",
+    "CoinName": "PayPro",
+    "FullName": "PayPro (PYP)"
+  },
+  {
     "Symbol": "CRED",
     "CoinName": "Verify",
     "FullName": "Verify (CRED)"
+  },
+  {
+    "Symbol": "SBTC",
+    "CoinName": "Super Bitcoin",
+    "FullName": "Super Bitcoin (SBTC)"
   },
   {
     "Symbol": "KLKS",
@@ -7850,12 +8425,17 @@ const coinlist = [
     "FullName": "AC3 (AC3)"
   },
   {
+    "Symbol": "GTO",
+    "CoinName": "GIFTO",
+    "FullName": "GIFTO (GTO)"
+  },
+  {
     "Symbol": "TNB",
     "CoinName": "Time New Bank",
     "FullName": "Time New Bank (TNB)"
   },
   {
-    "Symbol": "CHIPS*",
+    "Symbol": "CHIPS",
     "CoinName": "CHIPS",
     "FullName": "CHIPS (CHIPS)"
   },
@@ -7870,14 +8450,19 @@ const coinlist = [
     "FullName": "B2BX (B2B)"
   },
   {
-    "Symbol": "LOC*",
+    "Symbol": "LOCK",
     "CoinName": "LockTrip",
-    "FullName": "LockTrip (LOC*)"
+    "FullName": "LockTrip (LOCK)"
   },
   {
-    "Symbol": "SMT*",
+    "Symbol": "LTHN",
+    "CoinName": "Lethean",
+    "FullName": "Lethean (LTHN)"
+  },
+  {
+    "Symbol": "SMT",
     "CoinName": "SmartMesh",
-    "FullName": "SmartMesh (SMT*)"
+    "FullName": "SmartMesh (SMT)"
   },
   {
     "Symbol": "GER",
@@ -7890,6 +8475,11 @@ const coinlist = [
     "FullName": "LiteCoin Ultra (LTCU)"
   },
   {
+    "Symbol": "MGO",
+    "CoinName": "MobileGo",
+    "FullName": "MobileGo (MGO)"
+  },
+  {
     "Symbol": "BTCA",
     "CoinName": "Bitair",
     "FullName": "Bitair (BTCA)"
@@ -7898,6 +8488,11 @@ const coinlist = [
     "Symbol": "HQX",
     "CoinName": "HOQU",
     "FullName": "HOQU (HQX)"
+  },
+  {
+    "Symbol": "ETF",
+    "CoinName": "EthereumFog",
+    "FullName": "EthereumFog (ETF)"
   },
   {
     "Symbol": "STAK",
@@ -7910,9 +8505,9 @@ const coinlist = [
     "FullName": "BannerCoin (BCOIN)"
   },
   {
-    "Symbol": "MED*",
+    "Symbol": "MEDIB",
     "CoinName": "MediBloc",
-    "FullName": "MediBloc (MED*)"
+    "FullName": "MediBloc (MEDIB)"
   },
   {
     "Symbol": "CCOS",
@@ -7935,6 +8530,11 @@ const coinlist = [
     "FullName": "Hawala.Exchange (HAT)"
   },
   {
+    "Symbol": "ELF",
+    "CoinName": "aelf",
+    "FullName": "aelf (ELF)"
+  },
+  {
     "Symbol": "VLR",
     "CoinName": "Valorem",
     "FullName": "Valorem (VLR)"
@@ -7950,14 +8550,19 @@ const coinlist = [
     "FullName": "DeepBrain Chain (DBC)"
   },
   {
+    "Symbol": "ZP",
+    "CoinName": "Zen Protocol",
+    "FullName": "Zen Protocol (ZP)"
+  },
+  {
     "Symbol": "POP",
     "CoinName": "PopularCoin",
     "FullName": "PopularCoin (POP)"
   },
   {
-    "Symbol": "CRC***",
+    "Symbol": "CRC",
     "CoinName": "CrowdCoin",
-    "FullName": "CrowdCoin (CRC***)"
+    "FullName": "CrowdCoin (CRC)"
   },
   {
     "Symbol": "PNX",
@@ -7985,14 +8590,19 @@ const coinlist = [
     "FullName": "MicroMoney (AMM)"
   },
   {
-    "Symbol": "DAV",
-    "CoinName": "DavorCoin",
-    "FullName": "DavorCoin (DAV)"
+    "Symbol": "XCPO",
+    "CoinName": "Copico",
+    "FullName": "Copico (XCPO)"
   },
   {
     "Symbol": "GET",
     "CoinName": "Guaranteed Entrance Token",
     "FullName": "Guaranteed Entrance Token (GET)"
+  },
+  {
+    "Symbol": "ERC20",
+    "CoinName": "Index ERC20",
+    "FullName": "Index ERC20 (ERC20)"
   },
   {
     "Symbol": "ITC",
@@ -8015,6 +8625,11 @@ const coinlist = [
     "FullName": "Numus (NMS)"
   },
   {
+    "Symbol": "PHO",
+    "CoinName": "Photon",
+    "FullName": "Photon (PHO)"
+  },
+  {
     "Symbol": "XTRA",
     "CoinName": "ExtraCredit",
     "FullName": "ExtraCredit (XTRA)"
@@ -8030,19 +8645,19 @@ const coinlist = [
     "FullName": "Sucre (SUCR)"
   },
   {
-    "Symbol": "SMART*",
-    "CoinName": "SmartBillions",
-    "FullName": "SmartBillions (SMART*)"
-  },
-  {
     "Symbol": "GNX",
     "CoinName": "Genaro Network",
     "FullName": "Genaro Network (GNX)"
   },
   {
-    "Symbol": "BTH",
+    "Symbol": "ACCO",
+    "CoinName": "Accolade",
+    "FullName": "Accolade (ACCO)"
+  },
+  {
+    "Symbol": "BYTHER",
     "CoinName": "Bytether ",
-    "FullName": "Bytether  (BTH)"
+    "FullName": "Bytether  (BYTHER)"
   },
   {
     "Symbol": "REM",
@@ -8053,6 +8668,16 @@ const coinlist = [
     "Symbol": "TOK",
     "CoinName": "TokugawaCoin",
     "FullName": "TokugawaCoin (TOK)"
+  },
+  {
+    "Symbol": "EREAL",
+    "CoinName": "eREAL",
+    "FullName": "eREAL (EREAL)"
+  },
+  {
+    "Symbol": "CPN",
+    "CoinName": "CompuCoin",
+    "FullName": "CompuCoin (CPN)"
   },
   {
     "Symbol": "XFT",
@@ -8068,6 +8693,11 @@ const coinlist = [
     "Symbol": "BTSE",
     "CoinName": "BitSerial",
     "FullName": "BitSerial (BTE*)"
+  },
+  {
+    "Symbol": "OMGC",
+    "CoinName": "OmiseGO Classic",
+    "FullName": "OmiseGO Classic (OMGC)"
   },
   {
     "Symbol": "Q2C",
@@ -8096,8 +8726,8 @@ const coinlist = [
   },
   {
     "Symbol": "SPK",
-    "CoinName": "Sparks",
-    "FullName": "Sparks (SPK)"
+    "CoinName": "SparksPay",
+    "FullName": "SparksPay (SPK)"
   },
   {
     "Symbol": "GOA",
@@ -8120,9 +8750,19 @@ const coinlist = [
     "FullName": "GunCoin (GUN)"
   },
   {
+    "Symbol": "DFS",
+    "CoinName": "Digital Fantasy Sports",
+    "FullName": "Digital Fantasy Sports (DFS)"
+  },
+  {
     "Symbol": "POLIS",
     "CoinName": "PolisPay",
     "FullName": "PolisPay (POLIS)"
+  },
+  {
+    "Symbol": "WELL",
+    "CoinName": "Well",
+    "FullName": "Well (WELL)"
   },
   {
     "Symbol": "FLOT",
@@ -8133,6 +8773,16 @@ const coinlist = [
     "Symbol": "CL",
     "CoinName": "CoinLancer",
     "FullName": "CoinLancer (CL)"
+  },
+  {
+    "Symbol": "SHND",
+    "CoinName": "StrongHands",
+    "FullName": "StrongHands (SHND)"
+  },
+  {
+    "Symbol": "AUA",
+    "CoinName": "ArubaCoin",
+    "FullName": "ArubaCoin (AUA)"
   },
   {
     "Symbol": "DNN",
@@ -8170,9 +8820,14 @@ const coinlist = [
     "FullName": "Trollcoin (TROLL)"
   },
   {
-    "Symbol": "FOR",
+    "Symbol": "FORCEC",
     "CoinName": "Force Coin",
-    "FullName": "Force Coin (FOR)"
+    "FullName": "Force Coin (FORCEC)"
+  },
+  {
+    "Symbol": "SGR",
+    "CoinName": "Sugar Exchange",
+    "FullName": "Sugar Exchange (SGR)"
   },
   {
     "Symbol": "JET",
@@ -8200,9 +8855,9 @@ const coinlist = [
     "FullName": "iEthereum (IETH)"
   },
   {
-    "Symbol": "GCC*",
+    "Symbol": "TGCC",
     "CoinName": "TheGCCcoin",
-    "FullName": "TheGCCcoin (GCC*)"
+    "FullName": "TheGCCcoin (TGCC)"
   },
   {
     "Symbol": "SDRN",
@@ -8215,9 +8870,14 @@ const coinlist = [
     "FullName": "Ink (INK)"
   },
   {
-    "Symbol": "HPB",
-    "CoinName": "High Performance Blockchain",
-    "FullName": "High Performance Blockchain (HPB)"
+    "Symbol": "KBR",
+    "CoinName": "Kubera Coin",
+    "FullName": "Kubera Coin (KBR)"
+  },
+  {
+    "Symbol": "MONK",
+    "CoinName": "Monkey Project",
+    "FullName": "Monkey Project (MONK)"
   },
   {
     "Symbol": "MGN",
@@ -8230,19 +8890,34 @@ const coinlist = [
     "FullName": "KZCash (KZC)"
   },
   {
+    "Symbol": "GNR",
+    "CoinName": "Gainer",
+    "FullName": "Gainer (GNR)"
+  },
+  {
+    "Symbol": "LNC",
+    "CoinName": "Blocklancer",
+    "FullName": "Blocklancer (LNC)"
+  },
+  {
     "Symbol": "LWF",
     "CoinName": "Local World Forwarders",
     "FullName": "Local World Forwarders (LWF)"
   },
   {
-    "Symbol": "BRC",
+    "Symbol": "BRIC",
     "CoinName": "BrightCoin",
-    "FullName": "BrightCoin (BRC)"
+    "FullName": "BrightCoin (BRIC)"
   },
   {
     "Symbol": "WCG",
     "CoinName": "World Crypto Gold",
     "FullName": "World Crypto Gold (WCG)"
+  },
+  {
+    "Symbol": "HIVE",
+    "CoinName": "Hive",
+    "FullName": "Hive (HIVE)"
   },
   {
     "Symbol": "GX",
@@ -8275,12 +8950,7 @@ const coinlist = [
     "FullName": "Dragon Coin (DRG)"
   },
   {
-    "Symbol": "BRC*",
-    "CoinName": "BinaryCoin",
-    "FullName": "BinaryCoin (BRC*)"
-  },
-  {
-    "Symbol": "SPX*",
+    "Symbol": "SPX",
     "CoinName": "Sp8de",
     "FullName": "Sp8de (SPX)"
   },
@@ -8305,14 +8975,24 @@ const coinlist = [
     "FullName": "ECC (ECC)"
   },
   {
+    "Symbol": "ET4",
+    "CoinName": "Eticket4",
+    "FullName": "Eticket4 (ET4)"
+  },
+  {
     "Symbol": "LCT",
     "CoinName": "LendConnect",
     "FullName": "LendConnect (LCT)"
   },
   {
-    "Symbol": "VST",
+    "Symbol": "EBC",
+    "CoinName": "EBCoin",
+    "FullName": "EBCoin (EBC)"
+  },
+  {
+    "Symbol": "VESTA",
     "CoinName": "Vestarin",
-    "FullName": "Vestarin (VST)"
+    "FullName": "Vestarin (VESTA)"
   },
   {
     "Symbol": "INT",
@@ -8340,9 +9020,9 @@ const coinlist = [
     "FullName": "Pioneer Coin (PCOIN)"
   },
   {
-    "Symbol": "BLN*",
+    "Symbol": "BLNM",
     "CoinName": "Bolenum",
-    "FullName": "Bolenum (BLN*)"
+    "FullName": "Bolenum (BLNM)"
   },
   {
     "Symbol": "LUC",
@@ -8353,6 +9033,11 @@ const coinlist = [
     "Symbol": "EDT",
     "CoinName": "EtherDelta",
     "FullName": "EtherDelta (EDT)"
+  },
+  {
+    "Symbol": "CYDER",
+    "CoinName": "Cyder Coin",
+    "FullName": "Cyder Coin (CYDER)"
   },
   {
     "Symbol": "SRNT",
@@ -8370,14 +9055,19 @@ const coinlist = [
     "FullName": "EchoLink (EKO)"
   },
   {
+    "Symbol": "UBTC",
+    "CoinName": "UnitedBitcoin",
+    "FullName": "UnitedBitcoin (UBTC)"
+  },
+  {
     "Symbol": "BTO",
     "CoinName": "Bottos",
     "FullName": "Bottos (BTO)"
   },
   {
-    "Symbol": "DOC",
+    "Symbol": "DOCC",
     "CoinName": "Doc Coin",
-    "FullName": "Doc Coin (DOC)"
+    "FullName": "Doc Coin (DOCC)"
   },
   {
     "Symbol": "ARCT",
@@ -8385,9 +9075,14 @@ const coinlist = [
     "FullName": "ArbitrageCT (ARCT)"
   },
   {
-    "Symbol": "AURA",
-    "CoinName": "Aurora",
-    "FullName": "Aurora (AURA)"
+    "Symbol": "IMVR",
+    "CoinName": "ImmVRse",
+    "FullName": "ImmVRse (IMVR)"
+  },
+  {
+    "Symbol": "IDEX",
+    "CoinName": "IDEX",
+    "FullName": "IDEX (IDEX)"
   },
   {
     "Symbol": "IDH",
@@ -8403,6 +9098,11 @@ const coinlist = [
     "Symbol": "ITZ",
     "CoinName": "Interzone",
     "FullName": "Interzone (ITZ)"
+  },
+  {
+    "Symbol": "XBP",
+    "CoinName": "Black Pearl Coin",
+    "FullName": "Black Pearl Coin (XBP)"
   },
   {
     "Symbol": "EXRN",
@@ -8428,6 +9128,11 @@ const coinlist = [
     "Symbol": "CRPT",
     "CoinName": "Crypterium",
     "FullName": "Crypterium (CRPT)"
+  },
+  {
+    "Symbol": "SGL",
+    "CoinName": "Sigil",
+    "FullName": "Sigil (SGL)"
   },
   {
     "Symbol": "TNC",
@@ -8465,14 +9170,29 @@ const coinlist = [
     "FullName": "MediChain (MCU)"
   },
   {
+    "Symbol": "OCN",
+    "CoinName": "Odyssey",
+    "FullName": "Odyssey (OCN)"
+  },
+  {
     "Symbol": "THETA",
     "CoinName": "Theta",
     "FullName": "Theta (THETA)"
   },
   {
-    "Symbol": "MDT*",
+    "Symbol": "MSDT",
     "CoinName": "Measurable Data Token ",
-    "FullName": "Measurable Data Token  (MDT*)"
+    "FullName": "Measurable Data Token  (MSDT)"
+  },
+  {
+    "Symbol": "PRPS",
+    "CoinName": "Purpose",
+    "FullName": "Purpose (PRPS)"
+  },
+  {
+    "Symbol": "DUBI",
+    "CoinName": "Decentralized Universal Basic Income",
+    "FullName": "Decentralized Universal Basic Income (DUBI)"
   },
   {
     "Symbol": "BPT",
@@ -8510,14 +9230,14 @@ const coinlist = [
     "FullName": "QunQun (QUN)"
   },
   {
-    "Symbol": "QBT*",
+    "Symbol": "QBAO",
     "CoinName": "Qbao",
-    "FullName": "Qbao (QBT*)"
+    "FullName": "Qbao (QBAO)"
   },
   {
-    "Symbol": "ACC*",
+    "Symbol": "ACCN",
     "CoinName": "Accelerator Network",
-    "FullName": "Accelerator Network (ACC*)"
+    "FullName": "Accelerator Network (ACCN)"
   },
   {
     "Symbol": "SWFTC",
@@ -8538,6 +9258,11 @@ const coinlist = [
     "Symbol": "OPC",
     "CoinName": "OP Coin",
     "FullName": "OP Coin (OPC)"
+  },
+  {
+    "Symbol": "SAF",
+    "CoinName": "Safinus",
+    "FullName": "Safinus (SAF)"
   },
   {
     "Symbol": "SHA",
@@ -8570,9 +9295,14 @@ const coinlist = [
     "FullName": "Repux (REPUX)"
   },
   {
-    "Symbol": "BTW",
-    "CoinName": "BitWhite",
-    "FullName": "BitWhite (BTW)"
+    "Symbol": "JOYT",
+    "CoinName": "JoyToken",
+    "FullName": "JoyToken (JOYT)"
+  },
+  {
+    "Symbol": "XCD",
+    "CoinName": "Capdax",
+    "FullName": "Capdax (XCD)"
   },
   {
     "Symbol": "AXPR",
@@ -8580,19 +9310,19 @@ const coinlist = [
     "FullName": "aXpire (AXPR)"
   },
   {
-    "Symbol": "FOTA",
-    "CoinName": "Fortuna",
-    "FullName": "Fortuna (FOTA)"
-  },
-  {
-    "Symbol": "CPC*",
+    "Symbol": "CPCH",
     "CoinName": "CPChain",
-    "FullName": "CPChain (CPC*)"
+    "FullName": "CPChain (CPCH)"
   },
   {
     "Symbol": "SPEND",
     "CoinName": "Spend",
     "FullName": "Spend (SPEND)"
+  },
+  {
+    "Symbol": "NPXS",
+    "CoinName": "Pundi X",
+    "FullName": "Pundi X (NPXS)"
   },
   {
     "Symbol": "ZPT",
@@ -8610,29 +9340,19 @@ const coinlist = [
     "FullName": "RefToken (REF)"
   },
   {
-    "Symbol": "SXDT",
-    "CoinName": "SPECTRE Dividend Token",
-    "FullName": "SPECTRE Dividend Token (SXDT)"
-  },
-  {
-    "Symbol": "SXUT",
-    "CoinName": "SPECTRE Utility Token",
-    "FullName": "SPECTRE Utility Token (SXUT)"
-  },
-  {
-    "Symbol": "LDC",
-    "CoinName": "LeadCoin",
-    "FullName": "LeadCoin (LDC)"
-  },
-  {
-    "Symbol": "FAIR*",
+    "Symbol": "FAIRG",
     "CoinName": "FairGame",
-    "FullName": "FairGame (FAIR*)"
+    "FullName": "FairGame (FAIRG)"
   },
   {
-    "Symbol": "MAN*",
+    "Symbol": "VAL",
+    "CoinName": "Valorbit",
+    "FullName": "Valorbit (VAL)"
+  },
+  {
+    "Symbol": "MXAI",
     "CoinName": "Matrix AI Network",
-    "FullName": "Matrix AI Network (MAN*)"
+    "FullName": "Matrix AI Network (MXAI)"
   },
   {
     "Symbol": "BCDN",
@@ -8650,9 +9370,9 @@ const coinlist = [
     "FullName": "Mosaic Network (MZX)"
   },
   {
-    "Symbol": "CRC**",
+    "Symbol": "CRYC",
     "CoinName": "CryCash",
-    "FullName": "CryCash (CRC**)"
+    "FullName": "CryCash (CRYC)"
   },
   {
     "Symbol": "SPICE",
@@ -8665,19 +9385,19 @@ const coinlist = [
     "FullName": "Quantum1Net (Q1S)"
   },
   {
+    "Symbol": "POLY",
+    "CoinName": "Polymath Network",
+    "FullName": "Polymath Network (POLY)"
+  },
+  {
     "Symbol": "XTO",
     "CoinName": "Tao",
     "FullName": "Tao (XTO)"
   },
   {
-    "Symbol": "RUFF",
-    "CoinName": "Ruff",
-    "FullName": "Ruff (RUFF)"
-  },
-  {
-    "Symbol": "TPAY*",
+    "Symbol": "TPAY",
     "CoinName": "TokenPay",
-    "FullName": "TokenPay (TPAY*)"
+    "FullName": "TokenPay (TPAY)"
   },
   {
     "Symbol": "CXO",
@@ -8705,14 +9425,14 @@ const coinlist = [
     "FullName": "eBit (EBIT)"
   },
   {
-    "Symbol": "RCT",
-    "CoinName": "RealChain",
-    "FullName": "RealChain (RCT)"
+    "Symbol": "CUZ",
+    "CoinName": "Cool Cousin",
+    "FullName": "Cool Cousin (CUZ)"
   },
   {
     "Symbol": "HLC",
-    "CoinName": "Halal-Chain",
-    "FullName": "Halal-Chain (HLC)"
+    "CoinName": "Qitmeer",
+    "FullName": "Qitmeer (HLC)"
   },
   {
     "Symbol": "BETR",
@@ -8730,19 +9450,14 @@ const coinlist = [
     "FullName": "Iungo (ING)"
   },
   {
-    "Symbol": "LHC",
-    "CoinName": "LHCoin",
-    "FullName": "LHCoin (LHC)"
-  },
-  {
     "Symbol": "BLZ",
     "CoinName": "Bluzelle",
     "FullName": "Bluzelle (BLZ)"
   },
   {
-    "Symbol": "HALAL",
-    "CoinName": "Halal",
-    "FullName": "Halal (HALAL)"
+    "Symbol": "CVNG",
+    "CoinName": "Crave-NG",
+    "FullName": "Crave-NG (CVNG)"
   },
   {
     "Symbol": "CHSB",
@@ -8760,19 +9475,34 @@ const coinlist = [
     "FullName": "1717 Masonic Commemorative Token (MCT)"
   },
   {
+    "Symbol": "HHEM",
+    "CoinName": "Healthureum",
+    "FullName": "Healthureum (HHEM)"
+  },
+  {
     "Symbol": "CWIS",
     "CoinName": "Crypto Wisdom Coin",
     "FullName": "Crypto Wisdom Coin (CWIS)"
   },
   {
-    "Symbol": "MBC",
-    "CoinName": "My Big Coin",
-    "FullName": "My Big Coin (MBC)"
+    "Symbol": "GRO",
+    "CoinName": "Gron Digital",
+    "FullName": "Gron Digital (GRO)"
   },
   {
     "Symbol": "SWM",
     "CoinName": "Swarm Fund",
     "FullName": "Swarm Fund (SWM)"
+  },
+  {
+    "Symbol": "MDCL",
+    "CoinName": "Medicalchain",
+    "FullName": "Medicalchain (MDCL)"
+  },
+  {
+    "Symbol": "WOBTC",
+    "CoinName": "WorldBTC",
+    "FullName": "WorldBTC (WOBTC)"
   },
   {
     "Symbol": "DNO",
@@ -8790,14 +9520,29 @@ const coinlist = [
     "FullName": "THEKEY Token (TKY)"
   },
   {
+    "Symbol": "BANCA",
+    "CoinName": "BANCA",
+    "FullName": "BANCA (BANCA)"
+  },
+  {
     "Symbol": "TRTL",
     "CoinName": "TurtleCoin",
     "FullName": "TurtleCoin (TRTL)"
   },
   {
-    "Symbol": "CARE*",
-    "CoinName": "Care Token",
-    "FullName": "Care Token (CARE*)"
+    "Symbol": "BIX",
+    "CoinName": "BiboxCoin",
+    "FullName": "BiboxCoin (BIX)"
+  },
+  {
+    "Symbol": "ABT",
+    "CoinName": "ArcBlock",
+    "FullName": "ArcBlock (ABT)"
+  },
+  {
+    "Symbol": "HBZ",
+    "CoinName": "HBZ Coin",
+    "FullName": "HBZ Coin (HBZ)"
   },
   {
     "Symbol": "DRPU",
@@ -8830,9 +9575,9 @@ const coinlist = [
     "FullName": "Intelligence Quotient Benefit (IQB)"
   },
   {
-    "Symbol": "NDC*",
+    "Symbol": "NDLC",
     "CoinName": "NeedleCoin",
-    "FullName": "NeedleCoin (NDC*)"
+    "FullName": "NeedleCoin (NDLC)"
   },
   {
     "Symbol": "BEE",
@@ -8855,6 +9600,11 @@ const coinlist = [
     "FullName": "Loyakk Vega (LYK)"
   },
   {
+    "Symbol": "NYX",
+    "CoinName": "NYXCOIN",
+    "FullName": "NYXCOIN (NYX)"
+  },
+  {
     "Symbol": "DXT",
     "CoinName": "DataWallet",
     "FullName": "DataWallet (DXT)"
@@ -8865,14 +9615,19 @@ const coinlist = [
     "FullName": "Satisfaction Token (SAT)"
   },
   {
+    "Symbol": "CRL",
+    "CoinName": "Cryptelo Coin",
+    "FullName": "Cryptelo Coin (CRL)"
+  },
+  {
     "Symbol": "ORI",
     "CoinName": "Origami",
     "FullName": "Origami (ORI)"
   },
   {
-    "Symbol": "USX",
-    "CoinName": "Unified Society USDEX",
-    "FullName": "Unified Society USDEX (USX)"
+    "Symbol": "LYM",
+    "CoinName": "Lympo",
+    "FullName": "Lympo (LYM)"
   },
   {
     "Symbol": "LGR",
@@ -8915,24 +9670,24 @@ const coinlist = [
     "FullName": "Ravelous (RAVE)"
   },
   {
+    "Symbol": "ILT",
+    "CoinName": "iOlite",
+    "FullName": "iOlite (ILT)"
+  },
+  {
     "Symbol": "SCOOBY",
     "CoinName": "Scooby coin",
     "FullName": "Scooby coin (SCOOBY)"
   },
   {
-    "Symbol": "DAI",
-    "CoinName": "Dai",
-    "FullName": "Dai (DAI)"
+    "Symbol": "SAI",
+    "CoinName": "SAI",
+    "FullName": "SAI (SAI)"
   },
   {
     "Symbol": "CEFS",
     "CoinName": "CryptopiaFeeShares",
     "FullName": "CryptopiaFeeShares (CEFS)"
-  },
-  {
-    "Symbol": "MINT*",
-    "CoinName": "Mineable Token",
-    "FullName": "Mineable Token (MINT*)"
   },
   {
     "Symbol": "BUN",
@@ -8960,9 +9715,9 @@ const coinlist = [
     "FullName": "Bounty (XBTY)"
   },
   {
-    "Symbol": "BTCP",
-    "CoinName": "Bitcoin Private",
-    "FullName": "Bitcoin Private (BTCP)"
+    "Symbol": "JC",
+    "CoinName": "JesusCoin",
+    "FullName": "JesusCoin (JC)"
   },
   {
     "Symbol": "SKC",
@@ -8980,9 +9735,9 @@ const coinlist = [
     "FullName": "Shekel (JEW)"
   },
   {
-    "Symbol": "ERT*",
+    "Symbol": "ERIS",
     "CoinName": "Eristica",
-    "FullName": "Eristica (ERT*)"
+    "FullName": "Eristica (ERIS)"
   },
   {
     "Symbol": "KRM",
@@ -9010,9 +9765,19 @@ const coinlist = [
     "FullName": "BitcoinFile (BIFI)"
   },
   {
+    "Symbol": "CADN",
+    "CoinName": "Content and AD Network",
+    "FullName": "Content and AD Network (CADN)"
+  },
+  {
     "Symbol": "BTF",
     "CoinName": "Blockchain Traded Fund",
     "FullName": "Blockchain Traded Fund (BTF)"
+  },
+  {
+    "Symbol": "IPC",
+    "CoinName": "IPChain",
+    "FullName": "IPChain (IPC)"
   },
   {
     "Symbol": "SHOW",
@@ -9020,9 +9785,14 @@ const coinlist = [
     "FullName": "ShowCoin (SHOW)"
   },
   {
-    "Symbol": "NEC*",
+    "Symbol": "STC",
+    "CoinName": "StarChain",
+    "FullName": "StarChain (STC)"
+  },
+  {
+    "Symbol": "NEC",
     "CoinName": "Ethfinex Nectar Token",
-    "FullName": "Ethfinex Nectar Token (NEC*)"
+    "FullName": "Ethfinex Nectar Token (NEC)"
   },
   {
     "Symbol": "AIT",
@@ -9038,6 +9808,11 @@ const coinlist = [
     "Symbol": "ALT",
     "CoinName": "ALTcoin",
     "FullName": "ALTcoin (ALT)"
+  },
+  {
+    "Symbol": "CXP",
+    "CoinName": "Caixa Pay",
+    "FullName": "Caixa Pay (CXP)"
   },
   {
     "Symbol": "KB3",
@@ -9065,24 +9840,39 @@ const coinlist = [
     "FullName": "GraphGrail AI (GAI)"
   },
   {
-    "Symbol": "CRE*",
-    "CoinName": "Creditcoin",
-    "FullName": "Creditcoin (CRE*)"
+    "Symbol": "VULC",
+    "CoinName": "Vulcano",
+    "FullName": "Vulcano (VULC)"
   },
   {
-    "Symbol": "DTC**",
+    "Symbol": "CRE",
+    "CoinName": "Creditcoin",
+    "FullName": "Creditcoin (CRE)"
+  },
+  {
+    "Symbol": "DVTC",
     "CoinName": "DivotyCoin",
-    "FullName": "DivotyCoin (DTC**)"
+    "FullName": "DivotyCoin (DVTC)"
   },
   {
     "Symbol": "DADI",
-    "CoinName": "DADI",
-    "FullName": "DADI (DADI)"
+    "CoinName": "Edge",
+    "FullName": "Edge (DADI)"
+  },
+  {
+    "Symbol": "MGGT",
+    "CoinName": "Maggie Token",
+    "FullName": "Maggie Token (MGGT)"
   },
   {
     "Symbol": "TOKC",
     "CoinName": "Tokyo Coin",
     "FullName": "Tokyo Coin (TOKC)"
+  },
+  {
+    "Symbol": "UNRC",
+    "CoinName": "UniversalRoyalCoin",
+    "FullName": "UniversalRoyalCoin (UNRC)"
   },
   {
     "Symbol": "BBP",
@@ -9120,11 +9910,6 @@ const coinlist = [
     "FullName": "Tokenomy (TEN)"
   },
   {
-    "Symbol": "FLX*",
-    "CoinName": "BitFlux",
-    "FullName": "BitFlux (FLX*)"
-  },
-  {
     "Symbol": "VVI",
     "CoinName": "VV Coin",
     "FullName": "VV Coin (VVI)"
@@ -9133,6 +9918,11 @@ const coinlist = [
     "Symbol": "ANK",
     "CoinName": "Ankorus Token",
     "FullName": "Ankorus Token (ANK)"
+  },
+  {
+    "Symbol": "IVC",
+    "CoinName": "Investy Coin",
+    "FullName": "Investy Coin (IVC)"
   },
   {
     "Symbol": "HLP",
@@ -9155,9 +9945,9 @@ const coinlist = [
     "FullName": "Petro (PTR)"
   },
   {
-    "Symbol": "BCR*",
-    "CoinName": "Bitcoin Royal",
-    "FullName": "Bitcoin Royal (BCR*)"
+    "Symbol": "LCC",
+    "CoinName": "LitecoinCash",
+    "FullName": "LitecoinCash (LCC)"
   },
   {
     "Symbol": "VANY",
@@ -9185,6 +9975,16 @@ const coinlist = [
     "FullName": "Rentberry (BERRY)"
   },
   {
+    "Symbol": "APCC",
+    "CoinName": "SpaceChain",
+    "FullName": "SpaceChain (APCC)"
+  },
+  {
+    "Symbol": "FLIP",
+    "CoinName": "BitFlip",
+    "FullName": "BitFlip (FLIP)"
+  },
+  {
     "Symbol": "CLIN",
     "CoinName": "Clinicoin",
     "FullName": "Clinicoin (CLIN)"
@@ -9195,9 +9995,9 @@ const coinlist = [
     "FullName": "DeHedge Token (DHT)"
   },
   {
-    "Symbol": "GOOD*",
+    "Symbol": "GOOD",
     "CoinName": "Goodomy",
-    "FullName": "Goodomy (GOOD*)"
+    "FullName": "Goodomy (GOOD)"
   },
   {
     "Symbol": "ENK",
@@ -9211,8 +10011,8 @@ const coinlist = [
   },
   {
     "Symbol": "REN",
-    "CoinName": "Republic Token",
-    "FullName": "Republic Token (REN)"
+    "CoinName": "REN",
+    "FullName": "REN (REN)"
   },
   {
     "Symbol": "DTH",
@@ -9245,14 +10045,24 @@ const coinlist = [
     "FullName": "LeafCoin (LEAF)"
   },
   {
+    "Symbol": "COMP",
+    "CoinName": "Compound Coin",
+    "FullName": "Compound Coin (COMP)"
+  },
+  {
+    "Symbol": "BITCAR",
+    "CoinName": "BitCar",
+    "FullName": "BitCar (BITCAR)"
+  },
+  {
     "Symbol": "CLN",
     "CoinName": "Colu Local Network",
     "FullName": "Colu Local Network (CLN)"
   },
   {
-    "Symbol": "NIHL",
-    "CoinName": "Nihilo Coin",
-    "FullName": "Nihilo Coin (NIHL)"
+    "Symbol": "ORYX",
+    "CoinName": "OryxCoin",
+    "FullName": "OryxCoin (ORYX)"
   },
   {
     "Symbol": "BASHC",
@@ -9268,6 +10078,21 @@ const coinlist = [
     "Symbol": "DGM",
     "CoinName": "DigiMoney",
     "FullName": "DigiMoney (DGM)"
+  },
+  {
+    "Symbol": "CBS",
+    "CoinName": "Cerberus",
+    "FullName": "Cerberus (CBS)"
+  },
+  {
+    "Symbol": "TERN",
+    "CoinName": "Ternio",
+    "FullName": "Ternio (TERN)"
+  },
+  {
+    "Symbol": "PROOF",
+    "CoinName": "PROVER",
+    "FullName": "PROVER (PROOF)"
   },
   {
     "Symbol": "BTCH",
@@ -9305,14 +10130,9 @@ const coinlist = [
     "FullName": "Stipend (SPD)"
   },
   {
-    "Symbol": "CMCT",
-    "CoinName": "Crowd Machine",
-    "FullName": "Crowd Machine (CMCT)"
-  },
-  {
-    "Symbol": "PUT*",
+    "Symbol": "RPUT",
     "CoinName": "Robin8 Profile Utility Token",
-    "FullName": "Robin8 Profile Utility Token (PUT*)"
+    "FullName": "Robin8 Profile Utility Token (RPUT)"
   },
   {
     "Symbol": "FILL",
@@ -9320,29 +10140,24 @@ const coinlist = [
     "FullName": "Fillit (FILL)"
   },
   {
-    "Symbol": "XYO",
-    "CoinName": "XY Oracle",
-    "FullName": "XY Oracle (XYO)"
+    "Symbol": "XNK",
+    "CoinName": "Ink Protocol",
+    "FullName": "Ink Protocol (XNK)"
   },
   {
-    "Symbol": "RFR",
-    "CoinName": "Refereum",
-    "FullName": "Refereum (RFR)"
+    "Symbol": "PROPS",
+    "CoinName": "Props",
+    "FullName": "Props (PROPS)"
   },
   {
-    "Symbol": "FUND",
+    "Symbol": "FUNDP",
     "CoinName": "Fund Platform",
-    "FullName": "Fund Platform (FUND)"
+    "FullName": "Fund Platform (FUNDP)"
   },
   {
     "Symbol": "CEL",
     "CoinName": "Celsius Network",
     "FullName": "Celsius Network (CEL)"
-  },
-  {
-    "Symbol": "CS*",
-    "CoinName": "Credits",
-    "FullName": "Credits (CS*)"
   },
   {
     "Symbol": "PUSHI",
@@ -9365,9 +10180,9 @@ const coinlist = [
     "FullName": "Axys (AXYS)"
   },
   {
-    "Symbol": "EVN*",
+    "Symbol": "EVENC",
     "CoinName": "EvenCoin",
-    "FullName": "EvenCoin (EVN*)"
+    "FullName": "EvenCoin (EVENC)"
   },
   {
     "Symbol": "BOLD",
@@ -9385,9 +10200,19 @@ const coinlist = [
     "FullName": "Dignity (DIG)"
   },
   {
+    "Symbol": "ETS",
+    "CoinName": "ETH Share",
+    "FullName": "ETH Share (ETS)"
+  },
+  {
     "Symbol": "LIPC",
     "CoinName": "LIpcoin",
     "FullName": "LIpcoin (LIPC)"
+  },
+  {
+    "Symbol": "GOFF",
+    "CoinName": "Gift Off Token",
+    "FullName": "Gift Off Token (GOFF)"
   },
   {
     "Symbol": "HELL",
@@ -9410,19 +10235,24 @@ const coinlist = [
     "FullName": "Rock Token (RKT)"
   },
   {
-    "Symbol": "ELI",
-    "CoinName": "Eligma",
-    "FullName": "Eligma (ELI)"
-  },
-  {
     "Symbol": "CO2",
     "CoinName": "CO2 Token",
     "FullName": "CO2 Token (CO2)"
   },
   {
+    "Symbol": "INVOX",
+    "CoinName": "Invox Finance",
+    "FullName": "Invox Finance (INVOX)"
+  },
+  {
     "Symbol": "VLX",
     "CoinName": "Velox",
     "FullName": "Velox (VLX)"
+  },
+  {
+    "Symbol": "ACTN",
+    "CoinName": "Action Coin",
+    "FullName": "Action Coin (ACTN)"
   },
   {
     "Symbol": "LTCH",
@@ -9440,9 +10270,9 @@ const coinlist = [
     "FullName": "Hamster Marketplace Token (HMT)"
   },
   {
-    "Symbol": "MDX",
-    "CoinName": "Midex",
-    "FullName": "Midex (MDX)"
+    "Symbol": "USCOIN",
+    "CoinName": "USCoin",
+    "FullName": "USCoin (USCOIN)"
   },
   {
     "Symbol": "KIND",
@@ -9450,9 +10280,9 @@ const coinlist = [
     "FullName": "Kind Ads (KIND)"
   },
   {
-    "Symbol": "BCT",
+    "Symbol": "BCHT",
     "CoinName": "Blockchain Terminal",
-    "FullName": "Blockchain Terminal (BCT)"
+    "FullName": "Blockchain Terminal (BCHT)"
   },
   {
     "Symbol": "CLO",
@@ -9460,14 +10290,9 @@ const coinlist = [
     "FullName": "Callisto Network (CLO)"
   },
   {
-    "Symbol": "CRU",
-    "CoinName": "Curium",
-    "FullName": "Curium (CRU)"
-  },
-  {
-    "Symbol": "ELI*",
+    "Symbol": "ELIC",
     "CoinName": "Elicoin",
-    "FullName": "Elicoin (ELI*)"
+    "FullName": "Elicoin (ELIC)"
   },
   {
     "Symbol": "MOAT",
@@ -9485,6 +10310,11 @@ const coinlist = [
     "FullName": "Bezop (BEZ)"
   },
   {
+    "Symbol": "ENTRC",
+    "CoinName": "ENTER COIN",
+    "FullName": "ENTER COIN (ENTRC)"
+  },
+  {
     "Symbol": "BTCGO",
     "CoinName": "BitcoinGo",
     "FullName": "BitcoinGo (BTCGO)"
@@ -9496,8 +10326,8 @@ const coinlist = [
   },
   {
     "Symbol": "KNW",
-    "CoinName": "Knowledge ",
-    "FullName": "Knowledge  (KNW)"
+    "CoinName": "Knowledge",
+    "FullName": "Knowledge (KNW)"
   },
   {
     "Symbol": "PGC",
@@ -9515,6 +10345,11 @@ const coinlist = [
     "FullName": "DATx (DATX)"
   },
   {
+    "Symbol": "PKC",
+    "CoinName": "Pikciochain",
+    "FullName": "Pikciochain (PKC)"
+  },
+  {
     "Symbol": "SQOIN",
     "CoinName": "StasyQ",
     "FullName": "StasyQ (SQOIN)"
@@ -9525,9 +10360,9 @@ const coinlist = [
     "FullName": "Titanium BAR (TBAR)"
   },
   {
-    "Symbol": "TKLN",
+    "Symbol": "TAN",
     "CoinName": "Taklimakan",
-    "FullName": "Taklimakan (TKLN)"
+    "FullName": "Taklimakan (TAN)"
   },
   {
     "Symbol": "CPL",
@@ -9545,14 +10380,19 @@ const coinlist = [
     "FullName": "Cube (AUTO)"
   },
   {
+    "Symbol": "OMX",
+    "CoinName": "Project Shivom",
+    "FullName": "Project Shivom (OMX)"
+  },
+  {
     "Symbol": "TRCK",
     "CoinName": "Truckcoin",
     "FullName": "Truckcoin (TRCK)"
   },
   {
-    "Symbol": "HAV",
-    "CoinName": "Havven",
-    "FullName": "Havven (HAV)"
+    "Symbol": "SNX",
+    "CoinName": "Synthetix",
+    "FullName": "Synthetix (SNX)"
   },
   {
     "Symbol": "TOMO",
@@ -9565,9 +10405,14 @@ const coinlist = [
     "FullName": "XAYA (CHI)"
   },
   {
-    "Symbol": "INV*",
+    "Symbol": "MBM",
+    "CoinName": "MobileBridge Momentum",
+    "FullName": "MobileBridge Momentum (MBM)"
+  },
+  {
+    "Symbol": "INVC",
     "CoinName": "Invacio",
-    "FullName": "Invacio (INV*)"
+    "FullName": "Invacio (INVC)"
   },
   {
     "Symbol": "W3C",
@@ -9605,7 +10450,12 @@ const coinlist = [
     "FullName": "Lelecoin (LELE)"
   },
   {
-    "Symbol": "VEGA*",
+    "Symbol": "DROP",
+    "CoinName": "Dropil",
+    "FullName": "Dropil (DROP)"
+  },
+  {
+    "Symbol": "VEGA",
     "CoinName": "VEGA",
     "FullName": "VEGA (VEGA)"
   },
@@ -9680,11 +10530,6 @@ const coinlist = [
     "FullName": "Manna (MANNA)"
   },
   {
-    "Symbol": "PROD",
-    "CoinName": "Darenta",
-    "FullName": "Darenta (PROD)"
-  },
-  {
     "Symbol": "ePRX",
     "CoinName": "eProxy",
     "FullName": "eProxy (ePRX)"
@@ -9703,6 +10548,11 @@ const coinlist = [
     "Symbol": "ELEC",
     "CoinName": "Electrify.Asia",
     "FullName": "Electrify.Asia (ELEC)"
+  },
+  {
+    "Symbol": "ORGT",
+    "CoinName": "Organic Token",
+    "FullName": "Organic Token (ORGT)"
   },
   {
     "Symbol": "LOOM",
@@ -9725,19 +10575,34 @@ const coinlist = [
     "FullName": "Viewly (VIEW)"
   },
   {
+    "Symbol": "OKOIN",
+    "CoinName": "OKOIN",
+    "FullName": "OKOIN (OKOIN)"
+  },
+  {
     "Symbol": "ADK",
     "CoinName": "Aidos Kuneen",
     "FullName": "Aidos Kuneen (ADK)"
   },
   {
+    "Symbol": "ESS",
+    "CoinName": "Essentia",
+    "FullName": "Essentia (ESS)"
+  },
+  {
     "Symbol": "VIT",
-    "CoinName": "Vice Industry Token",
-    "FullName": "Vice Industry Token (VIT)"
+    "CoinName": "Vision Industry Token",
+    "FullName": "Vision Industry Token (VIT)"
   },
   {
     "Symbol": "SERA",
     "CoinName": "Seraph",
     "FullName": "Seraph (SERA)"
+  },
+  {
+    "Symbol": "BLN",
+    "CoinName": "Bulleon",
+    "FullName": "Bulleon (BLN)"
   },
   {
     "Symbol": "AET",
@@ -9760,11 +10625,6 @@ const coinlist = [
     "FullName": "BlockMesh (BMH)"
   },
   {
-    "Symbol": "TT",
-    "CoinName": "TravelChain",
-    "FullName": "TravelChain (TT)"
-  },
-  {
     "Symbol": "REDN",
     "CoinName": "Reden",
     "FullName": "Reden (REDN)"
@@ -9775,74 +10635,39 @@ const coinlist = [
     "FullName": "TulipCoin (TLP)"
   },
   {
+    "Symbol": "GENS",
+    "CoinName": "DAOstack",
+    "FullName": "DAOstack (GENS)"
+  },
+  {
     "Symbol": "BSX",
     "CoinName": "Bitspace",
     "FullName": "Bitspace (BSX)"
   },
   {
-    "Symbol": "BTCE*",
-    "CoinName": "BitcoinEX",
-    "FullName": "BitcoinEX (BTCE*)"
+    "Symbol": "BBN",
+    "CoinName": "BBNCOIN",
+    "FullName": "BBNCOIN (BBN)"
   },
   {
-    "Symbol": "LDN",
-    "CoinName": "Lydiancoin",
-    "FullName": "Lydiancoin (LDN)"
+    "Symbol": "TUSD",
+    "CoinName": "True USD",
+    "FullName": "True USD (TUSD)"
   },
   {
-    "Symbol": "BUBO",
-    "CoinName": "Budbo",
-    "FullName": "Budbo (BUBO)"
-  },
-  {
-    "Symbol": "USOAMIC",
-    "CoinName": "USOAMIC",
-    "FullName": "USOAMIC (USOAMIC)"
-  },
-  {
-    "Symbol": "FLUZ",
-    "CoinName": "FluzFluz",
-    "FullName": "FluzFluz (FLUZ)"
-  },
-  {
-    "Symbol": "IPSX",
-    "CoinName": "IP Exchange",
-    "FullName": "IP Exchange (IPSX)"
-  },
-  {
-    "Symbol": "MIO",
-    "CoinName": "Miner One token",
-    "FullName": "Miner One token (MIO)"
-  },
-  {
-    "Symbol": "ZSC*",
-    "CoinName": "ZeroState",
-    "FullName": "ZeroState (ZSC*)"
-  },
-  {
-    "Symbol": "AIC",
-    "CoinName": "AI Crypto",
-    "FullName": "AI Crypto (AIC)"
-  },
-  {
-    "Symbol": "BBN*",
+    "Symbol": "BNN",
     "CoinName": "Banyan Network",
-    "FullName": "Banyan Network (BBN*)"
+    "FullName": "Banyan Network (BNN)"
   },
   {
-    "Symbol": "SPD*",
+    "Symbol": "SPND",
     "CoinName": "Spindle",
-    "FullName": "Spindle (SPD*)"
+    "FullName": "Spindle (SPND)"
   },
   {
     "Symbol": "FNO",
     "CoinName": "Fonero",
     "FullName": "Fonero (FNO)"
-  },
-  {
-    "Symbol": "GST",
-    "CoinName": "Gostcoin",
-    "FullName": "Gostcoin (GST)"
   },
   {
     "Symbol": "PAS",
@@ -9870,24 +10695,14 @@ const coinlist = [
     "FullName": "Next.exchange Token (NEXT)"
   },
   {
-    "Symbol": "RNTB",
-    "CoinName": "BitRent",
-    "FullName": "BitRent (RNTB)"
-  },
-  {
     "Symbol": "XCLR",
     "CoinName": "ClearCoin",
     "FullName": "ClearCoin (XCLR)"
   },
   {
-    "Symbol": "XBP*",
+    "Symbol": "BPX",
     "CoinName": "BlitzPredict",
-    "FullName": "BlitzPredict (XBP*)"
-  },
-  {
-    "Symbol": "DBC*",
-    "CoinName": "Debit Coin",
-    "FullName": "Debit Coin (DBC*)"
+    "FullName": "BlitzPredict (BPX)"
   },
   {
     "Symbol": "SWTH",
@@ -9900,24 +10715,9 @@ const coinlist = [
     "FullName": "Friendz (FDZ)"
   },
   {
-    "Symbol": "LION",
-    "CoinName": "CoinLion",
-    "FullName": "CoinLion (LION)"
-  },
-  {
-    "Symbol": "XTL",
-    "CoinName": "Stellite",
-    "FullName": "Stellite (XTL)"
-  },
-  {
-    "Symbol": "UCN",
-    "CoinName": "UC Coin",
-    "FullName": "UC Coin (UCN)"
-  },
-  {
-    "Symbol": "HUR",
-    "CoinName": "Hurify",
-    "FullName": "Hurify (HUR)"
+    "Symbol": "VTN",
+    "CoinName": "Voltroon",
+    "FullName": "Voltroon (VTN)"
   },
   {
     "Symbol": "BRIA",
@@ -9928,11 +10728,6 @@ const coinlist = [
     "Symbol": "IC",
     "CoinName": "Ignition",
     "FullName": "Ignition (IC)"
-  },
-  {
-    "Symbol": "LATX",
-    "CoinName": "LatiumX",
-    "FullName": "LatiumX (LATX)"
   },
   {
     "Symbol": "ROI",
@@ -9975,29 +10770,9 @@ const coinlist = [
     "FullName": "BEX token (BEX)"
   },
   {
-    "Symbol": "EZT",
-    "CoinName": "EZToken",
-    "FullName": "EZToken (EZT)"
-  },
-  {
-    "Symbol": "SOL",
-    "CoinName": "Sola",
-    "FullName": "Sola (SOL)"
-  },
-  {
-    "Symbol": "VIC",
-    "CoinName": "Victorium",
-    "FullName": "Victorium (VIC)"
-  },
-  {
     "Symbol": "XCM",
     "CoinName": "CoinMetro",
     "FullName": "CoinMetro (XCM)"
-  },
-  {
-    "Symbol": "NFN",
-    "CoinName": "Nafen",
-    "FullName": "Nafen (NFN)"
   },
   {
     "Symbol": "CEEK",
@@ -10015,14 +10790,19 @@ const coinlist = [
     "FullName": "eosDAC (EOSDAC)"
   },
   {
+    "Symbol": "BCI",
+    "CoinName": "Bitcoin Interest",
+    "FullName": "Bitcoin Interest (BCI)"
+  },
+  {
     "Symbol": "MEDIC",
     "CoinName": "MedicCoin",
     "FullName": "MedicCoin (MEDIC)"
   },
   {
     "Symbol": "BBC",
-    "CoinName": "TraDove",
-    "FullName": "TraDove (BBC)"
+    "CoinName": "TraDove B2BCoin",
+    "FullName": "TraDove B2BCoin (BBC)"
   },
   {
     "Symbol": "KWH",
@@ -10035,19 +10815,9 @@ const coinlist = [
     "FullName": "Cortex (CTXC)"
   },
   {
-    "Symbol": "VLD",
-    "CoinName": "Valid",
-    "FullName": "Valid (VLD)"
-  },
-  {
     "Symbol": "FTX",
     "CoinName": "FintruX",
     "FullName": "FintruX (FTX)"
-  },
-  {
-    "Symbol": "GSI",
-    "CoinName": "Globex SCI",
-    "FullName": "Globex SCI (GSI)"
   },
   {
     "Symbol": "BDP",
@@ -10065,34 +10835,9 @@ const coinlist = [
     "FullName": "Alpenschillling (ALPS)"
   },
   {
-    "Symbol": "ZEL",
-    "CoinName": "Zelcash",
-    "FullName": "Zelcash (ZEL)"
-  },
-  {
-    "Symbol": "BKC",
-    "CoinName": "Balkancoin",
-    "FullName": "Balkancoin (BKC)"
-  },
-  {
-    "Symbol": "BITG",
-    "CoinName": "Bitcoin Green",
-    "FullName": "Bitcoin Green (BITG)"
-  },
-  {
-    "Symbol": "DEV",
-    "CoinName": "Deviant Coin",
-    "FullName": "Deviant Coin (DEV)"
-  },
-  {
-    "Symbol": "CHT",
-    "CoinName": "Countinghouse Fund",
-    "FullName": "Countinghouse Fund (CHT)"
-  },
-  {
-    "Symbol": "GEX",
+    "Symbol": "GREEN",
     "CoinName": "GreenX",
-    "FullName": "GreenX (GEX)"
+    "FullName": "GreenX (GREEN)"
   },
   {
     "Symbol": "ABJ",
@@ -10100,19 +10845,9 @@ const coinlist = [
     "FullName": "Abjcoin (ABJ)"
   },
   {
-    "Symbol": "FTW",
-    "CoinName": "FutureWorks",
-    "FullName": "FutureWorks (FTW)"
-  },
-  {
     "Symbol": "RAP",
     "CoinName": "Rapture",
     "FullName": "Rapture (RAP)"
-  },
-  {
-    "Symbol": "ARTE",
-    "CoinName": "Artemine",
-    "FullName": "Artemine (ARTE)"
   },
   {
     "Symbol": "ANI",
@@ -10120,54 +10855,19 @@ const coinlist = [
     "FullName": "Animecoin (ANI)"
   },
   {
-    "Symbol": "PHC",
-    "CoinName": "Profit Hunters Coin",
-    "FullName": "Profit Hunters Coin (PHC)"
+    "Symbol": "NOKU",
+    "CoinName": "NOKU Master token",
+    "FullName": "NOKU Master token (NOKU)"
   },
   {
-    "Symbol": "ETHM",
-    "CoinName": "Ethereum Meta",
-    "FullName": "Ethereum Meta (ETHM)"
+    "Symbol": "EURN",
+    "CoinName": "NOKU EUR",
+    "FullName": "NOKU EUR (EURN)"
   },
   {
-    "Symbol": "RAC*",
-    "CoinName": "RoboAdvisorCoin",
-    "FullName": "RoboAdvisorCoin (RAC*)"
-  },
-  {
-    "Symbol": "SENC",
-    "CoinName": "Sentinel Chain",
-    "FullName": "Sentinel Chain (SENC)"
-  },
-  {
-    "Symbol": "PAT",
-    "CoinName": "PATRON",
-    "FullName": "PATRON (PAT)"
-  },
-  {
-    "Symbol": "LIGER",
-    "CoinName": "Ligercoin",
-    "FullName": "Ligercoin (LIGER)"
-  },
-  {
-    "Symbol": "CHFN",
-    "CoinName": "NOKU CHF",
-    "FullName": "NOKU CHF (CHFN)"
-  },
-  {
-    "Symbol": "LEU",
-    "CoinName": "CryptoLEU",
-    "FullName": "CryptoLEU (LEU)"
-  },
-  {
-    "Symbol": "SWC",
-    "CoinName": "Scanetchain Token",
-    "FullName": "Scanetchain Token (SWC)"
-  },
-  {
-    "Symbol": "SEM",
-    "CoinName": "Semux",
-    "FullName": "Semux (SEM)"
+    "Symbol": "ORS",
+    "CoinName": "ORS Group",
+    "FullName": "ORS Group (ORS)"
   },
   {
     "Symbol": "DARX",
@@ -10175,29 +10875,9 @@ const coinlist = [
     "FullName": "Bitdaric (DARX)"
   },
   {
-    "Symbol": "RAC**",
-    "CoinName": "RoBET",
-    "FullName": "RoBET (RAC**)"
-  },
-  {
-    "Symbol": "NCT",
-    "CoinName": "PolySwarm",
-    "FullName": "PolySwarm (NCT)"
-  },
-  {
     "Symbol": "UWC",
     "CoinName": "Uwezocoin",
     "FullName": "Uwezocoin (UWC)"
-  },
-  {
-    "Symbol": "UUU",
-    "CoinName": "U Network",
-    "FullName": "U Network (UUU)"
-  },
-  {
-    "Symbol": "XHV",
-    "CoinName": "Haven Protocol",
-    "FullName": "Haven Protocol (XHV)"
   },
   {
     "Symbol": "CPX",
@@ -10208,11 +10888,6 @@ const coinlist = [
     "Symbol": "DOCK",
     "CoinName": "Dock.io",
     "FullName": "Dock.io (DOCK)"
-  },
-  {
-    "Symbol": "ADH",
-    "CoinName": "Adhive",
-    "FullName": "Adhive (ADH)"
   },
   {
     "Symbol": "ZLA",
@@ -10226,8 +10901,8 @@ const coinlist = [
   },
   {
     "Symbol": "EFX",
-    "CoinName": "The EFFECT Network",
-    "FullName": "The EFFECT Network (EFX)"
+    "CoinName": "The Effect.ai",
+    "FullName": "The Effect.ai (EFX)"
   },
   {
     "Symbol": "LND",
@@ -10235,9 +10910,9 @@ const coinlist = [
     "FullName": "Lendingblock (LND)"
   },
   {
-    "Symbol": "MRP*",
+    "Symbol": "MNRB",
     "CoinName": "MoneyRebel",
-    "FullName": "MoneyRebel (MRP*)"
+    "FullName": "MoneyRebel (MNRB)"
   },
   {
     "Symbol": "FTO",
@@ -10268,6 +10943,16 @@ const coinlist = [
     "Symbol": "TBT",
     "CoinName": "T-BOT",
     "FullName": "T-BOT (TBT)"
+  },
+  {
+    "Symbol": "XMC",
+    "CoinName": "Monero Classic",
+    "FullName": "Monero Classic (XMC)"
+  },
+  {
+    "Symbol": "HOLO",
+    "CoinName": "Holo",
+    "FullName": "Holo (HOLO)"
   },
   {
     "Symbol": "OAK",
@@ -10305,9 +10990,9 @@ const coinlist = [
     "FullName": "Penta (PNT)"
   },
   {
-    "Symbol": "WIN",
+    "Symbol": "WCOIN",
     "CoinName": "WCoin",
-    "FullName": "WCoin (WIN)"
+    "FullName": "WCoin (WCOIN)"
   },
   {
     "Symbol": "CHARM",
@@ -10318,11 +11003,6 @@ const coinlist = [
     "Symbol": "PROTON",
     "CoinName": "Proton",
     "FullName": "Proton (PROTON)"
-  },
-  {
-    "Symbol": "CRS",
-    "CoinName": "Cryptoreal",
-    "FullName": "Cryptoreal (CRS)"
   },
   {
     "Symbol": "DERO",
@@ -10350,19 +11030,34 @@ const coinlist = [
     "FullName": "Kryll (KRL)"
   },
   {
-    "Symbol": "SRC**",
-    "CoinName": "SwissRealCoin",
-    "FullName": "SwissRealCoin (SRC**)"
+    "Symbol": "TMT",
+    "CoinName": "Traxia Membership Token",
+    "FullName": "Traxia Membership Token (TMT)"
   },
   {
-    "Symbol": "IFX",
-    "CoinName": "Infinex",
-    "FullName": "Infinex (IFX)"
+    "Symbol": "NEXO",
+    "CoinName": "NEXO",
+    "FullName": "NEXO (NEXO)"
+  },
+  {
+    "Symbol": "CHX",
+    "CoinName": "Own",
+    "FullName": "Own (CHX)"
+  },
+  {
+    "Symbol": "SS",
+    "CoinName": "Sharder",
+    "FullName": "Sharder (SS)"
   },
   {
     "Symbol": "0XBTC",
     "CoinName": "0xBitcoin",
     "FullName": "0xBitcoin (0xBTC)"
+  },
+  {
+    "Symbol": "XMO",
+    "CoinName": "Monero Original",
+    "FullName": "Monero Original (XMO)"
   },
   {
     "Symbol": "EDU",
@@ -10380,6 +11075,11 @@ const coinlist = [
     "FullName": "Morpheus Infrastructure Token (MITX)"
   },
   {
+    "Symbol": "APH",
+    "CoinName": "Aphelion",
+    "FullName": "Aphelion (APH)"
+  },
+  {
     "Symbol": "NBAI",
     "CoinName": "Nebula AI",
     "FullName": "Nebula AI (NBAI)"
@@ -10388,6 +11088,11 @@ const coinlist = [
     "Symbol": "CVT",
     "CoinName": "CyberVein",
     "FullName": "CyberVein (CVT)"
+  },
+  {
+    "Symbol": "TUT",
+    "CoinName": "Tutellus",
+    "FullName": "Tutellus (TUT)"
   },
   {
     "Symbol": "BETT",
@@ -10425,9 +11130,29 @@ const coinlist = [
     "FullName": "Rubius (RUBY)"
   },
   {
+    "Symbol": "CTKN",
+    "CoinName": "Curaizon",
+    "FullName": "Curaizon (CTKN)"
+  },
+  {
+    "Symbol": "YUM",
+    "CoinName": "Yumerium",
+    "FullName": "Yumerium (YUM)"
+  },
+  {
     "Symbol": "GSC",
     "CoinName": "Global Social Chain",
     "FullName": "Global Social Chain (GSC)"
+  },
+  {
+    "Symbol": "DESI",
+    "CoinName": "Desico",
+    "FullName": "Desico (DESI)"
+  },
+  {
+    "Symbol": "FNP",
+    "CoinName": "FlipNpik",
+    "FullName": "FlipNpik (FNP)"
   },
   {
     "Symbol": "VLUX",
@@ -10435,9 +11160,14 @@ const coinlist = [
     "FullName": "VLUX (VLUX)"
   },
   {
-    "Symbol": "MT*",
+    "Symbol": "MTC",
+    "CoinName": "DOCADEMIC",
+    "FullName": "DOCADEMIC (MTC)"
+  },
+  {
+    "Symbol": "MTKN",
     "CoinName": "MyToken",
-    "FullName": "MyToken (MT*)"
+    "FullName": "MyToken (MTKN)"
   },
   {
     "Symbol": "SSH",
@@ -10450,9 +11180,9 @@ const coinlist = [
     "FullName": "Bitcoin Incognito (XBI)"
   },
   {
-    "Symbol": "TRUE",
-    "CoinName": "True Chain",
-    "FullName": "True Chain (TRUE)"
+    "Symbol": "VRA",
+    "CoinName": "Verasity",
+    "FullName": "Verasity (VRA)"
   },
   {
     "Symbol": "MRK",
@@ -10485,14 +11215,14 @@ const coinlist = [
     "FullName": "FuzeX (FXT)"
   },
   {
-    "Symbol": "HYDRO",
-    "CoinName": "Hydrogen",
-    "FullName": "Hydrogen (HYDRO)"
-  },
-  {
     "Symbol": "DXC",
     "CoinName": "DixiCoin",
     "FullName": "DixiCoin (DXC)"
+  },
+  {
+    "Symbol": "CHBR",
+    "CoinName": "CryptoHub",
+    "FullName": "CryptoHub (CHBR)"
   },
   {
     "Symbol": "OWD",
@@ -10505,14 +11235,29 @@ const coinlist = [
     "FullName": "ElliotCoin (ELLI)"
   },
   {
-    "Symbol": "AXS",
-    "CoinName": "AXS",
-    "FullName": "AXS (AXS)"
+    "Symbol": "DAN",
+    "CoinName": "Daneel",
+    "FullName": "Daneel (DAN)"
+  },
+  {
+    "Symbol": "CSEN",
+    "CoinName": "Consensus",
+    "FullName": "Consensus (CSEN)"
+  },
+  {
+    "Symbol": "UBT",
+    "CoinName": "UniBright",
+    "FullName": "UniBright (UBT)"
+  },
+  {
+    "Symbol": "AMO",
+    "CoinName": "AMO Coin",
+    "FullName": "AMO Coin (AMO)"
   },
   {
     "Symbol": "LBA",
-    "CoinName": "Libra Credit",
-    "FullName": "Libra Credit (LBA)"
+    "CoinName": "Cred",
+    "FullName": "Cred (LBA)"
   },
   {
     "Symbol": "LIVE",
@@ -10550,6 +11295,11 @@ const coinlist = [
     "FullName": "ShareRing (SHR)"
   },
   {
+    "Symbol": "UBEX",
+    "CoinName": "Ubex",
+    "FullName": "Ubex (UBEX)"
+  },
+  {
     "Symbol": "IVY",
     "CoinName": "IvyKoin",
     "FullName": "IvyKoin (IVY)"
@@ -10563,11 +11313,6 @@ const coinlist = [
     "Symbol": "ODE",
     "CoinName": "ODEM ",
     "FullName": "ODEM  (ODE)"
-  },
-  {
-    "Symbol": "HOT",
-    "CoinName": "Hydro Protocol",
-    "FullName": "Hydro Protocol (HOT)"
   },
   {
     "Symbol": "AMN",
@@ -10610,9 +11355,9 @@ const coinlist = [
     "FullName": "Nullex (NLX)"
   },
   {
-    "Symbol": "LNC*",
+    "Symbol": "LNKC",
     "CoinName": "Linker Coin",
-    "FullName": "Linker Coin (LNC*)"
+    "FullName": "Linker Coin (LNKC)"
   },
   {
     "Symbol": "FACE",
@@ -10628,6 +11373,16 @@ const coinlist = [
     "Symbol": "IOTX",
     "CoinName": "IoTeX Network",
     "FullName": "IoTeX Network (IOTX)"
+  },
+  {
+    "Symbol": "STM",
+    "CoinName": "Streamity",
+    "FullName": "Streamity (STM)"
+  },
+  {
+    "Symbol": "ITL",
+    "CoinName": "Italian Lira",
+    "FullName": "Italian Lira (ITL)"
   },
   {
     "Symbol": "AITT",
@@ -10700,6 +11455,11 @@ const coinlist = [
     "FullName": "REGA Risk Sharing Token (RST)"
   },
   {
+    "Symbol": "XBB",
+    "CoinName": "BrickBlock",
+    "FullName": "BrickBlock (XBB)"
+  },
+  {
     "Symbol": "AMX",
     "CoinName": "Amero",
     "FullName": "Amero (AMX)"
@@ -10710,19 +11470,24 @@ const coinlist = [
     "FullName": "The Freedom Coin (TFC)"
   },
   {
-    "Symbol": "MSC*",
-    "CoinName": "MaisCoin",
-    "FullName": "MaisCoin (MSC*)"
-  },
-  {
     "Symbol": "REPO",
     "CoinName": "Repo Coin",
     "FullName": "Repo Coin (REPO)"
   },
   {
-    "Symbol": "PLC*",
+    "Symbol": "IRC",
+    "CoinName": "IRONCOIN",
+    "FullName": "IRONCOIN (IRC)"
+  },
+  {
+    "Symbol": "PLTC",
     "CoinName": "PlatinCoin",
-    "FullName": "PlatinCoin (PLC*)"
+    "FullName": "PlatinCoin (PLTC)"
+  },
+  {
+    "Symbol": "OIO",
+    "CoinName": "Online",
+    "FullName": "Online (OIO)"
   },
   {
     "Symbol": "ANGL",
@@ -10740,11 +11505,6 @@ const coinlist = [
     "FullName": "BetKings (KNG)"
   },
   {
-    "Symbol": "AUC*",
-    "CoinName": "AU-Coin",
-    "FullName": "AU-Coin (AUC*)"
-  },
-  {
     "Symbol": "CMM",
     "CoinName": "Commercium ",
     "FullName": "Commercium  (CMM)"
@@ -10758,6 +11518,11 @@ const coinlist = [
     "Symbol": "WYS",
     "CoinName": "Wysker",
     "FullName": "Wysker (WYS)"
+  },
+  {
+    "Symbol": "COG",
+    "CoinName": "Cognitio",
+    "FullName": "Cognitio (COG)"
   },
   {
     "Symbol": "ZIPT",
@@ -10780,9 +11545,14 @@ const coinlist = [
     "FullName": "BitCOEN (BEN)"
   },
   {
-    "Symbol": "EDR*",
+    "Symbol": "EPT",
     "CoinName": "Endor Protocol Token ",
-    "FullName": "Endor Protocol Token  (EDR*)"
+    "FullName": "Endor Protocol Token  (EPT)"
+  },
+  {
+    "Symbol": "BCIO",
+    "CoinName": "Blockchain.io",
+    "FullName": "Blockchain.io (BCIO)"
   },
   {
     "Symbol": "BMK",
@@ -10810,6 +11580,11 @@ const coinlist = [
     "FullName": "Fabric Token (FT)"
   },
   {
+    "Symbol": "BMX",
+    "CoinName": "BitMart Coin",
+    "FullName": "BitMart Coin (BMX)"
+  },
+  {
     "Symbol": "PHI",
     "CoinName": "PHI Token",
     "FullName": "PHI Token (PHI)"
@@ -10830,9 +11605,9 @@ const coinlist = [
     "FullName": "HoryouToken (HYT)"
   },
   {
-    "Symbol": "SOUL*",
+    "Symbol": "GOST",
     "CoinName": "Phantasma",
-    "FullName": "Phantasma (SOUL*)"
+    "FullName": "Phantasma (GOST)"
   },
   {
     "Symbol": "GRMD",
@@ -10850,6 +11625,11 @@ const coinlist = [
     "FullName": "Loki (LOKI)"
   },
   {
+    "Symbol": "BKT",
+    "CoinName": "Blocktrade token",
+    "FullName": "Blocktrade token (BKT)"
+  },
+  {
     "Symbol": "NCP",
     "CoinName": "Newton Coin",
     "FullName": "Newton Coin (NCP)"
@@ -10863,6 +11643,11 @@ const coinlist = [
     "Symbol": "STAX",
     "CoinName": "Staxcoin",
     "FullName": "Staxcoin (STAX)"
+  },
+  {
+    "Symbol": "MRN",
+    "CoinName": "Mercoin",
+    "FullName": "Mercoin (MRN)"
   },
   {
     "Symbol": "FOPA",
@@ -10885,14 +11670,19 @@ const coinlist = [
     "FullName": "Niobium (NBC)"
   },
   {
+    "Symbol": "SIC",
+    "CoinName": "Swisscoin",
+    "FullName": "Swisscoin (SIC)"
+  },
+  {
     "Symbol": "ALG",
     "CoinName": "Algory",
     "FullName": "Algory (ALG)"
   },
   {
-    "Symbol": "PAI",
+    "Symbol": "PI",
     "CoinName": "PCHAIN",
-    "FullName": "PCHAIN (PAI)"
+    "FullName": "PCHAIN (PI)"
   },
   {
     "Symbol": "EXCC",
@@ -10915,14 +11705,29 @@ const coinlist = [
     "FullName": "Hero (HERO)"
   },
   {
+    "Symbol": "SEELE",
+    "CoinName": "Seele",
+    "FullName": "Seele (SEELE)"
+  },
+  {
     "Symbol": "EJAC",
     "CoinName": "EJA Coin",
     "FullName": "EJA Coin (EJAC)"
   },
   {
+    "Symbol": "APIS",
+    "CoinName": "APIS",
+    "FullName": "APIS (APIS)"
+  },
+  {
     "Symbol": "UPP",
     "CoinName": "Sentinel Protocol",
     "FullName": "Sentinel Protocol (UPP)"
+  },
+  {
+    "Symbol": "XT3",
+    "CoinName": "Xt3ch",
+    "FullName": "Xt3ch (XT3)"
   },
   {
     "Symbol": "MGD",
@@ -10940,9 +11745,9 @@ const coinlist = [
     "FullName": "PluraCoin (PLURA)"
   },
   {
-    "Symbol": "SCX",
+    "Symbol": "SWACH",
     "CoinName": "Swachhcoin",
-    "FullName": "Swachhcoin (SCX)"
+    "FullName": "Swachhcoin (SWACH)"
   },
   {
     "Symbol": "NWCN",
@@ -10950,29 +11755,29 @@ const coinlist = [
     "FullName": "NowCoin (NWCN)"
   },
   {
-    "Symbol": "AEC*",
+    "Symbol": "EMAR",
     "CoinName": "EmaratCoin",
-    "FullName": "EmaratCoin (AEC*)"
+    "FullName": "EmaratCoin (EMAR)"
   },
   {
-    "Symbol": "BTF*",
-    "CoinName": "BitcoinFor",
-    "FullName": "BitcoinFor (BTF*)"
+    "Symbol": "ICST",
+    "CoinName": "ICST",
+    "FullName": "ICST (ICST)"
   },
   {
-    "Symbol": "GMC*",
-    "CoinName": "GMC Coin",
-    "FullName": "GMC Coin (GMC*)"
-  },
-  {
-    "Symbol": "PURK",
-    "CoinName": "Purk",
-    "FullName": "Purk (PURK)"
+    "Symbol": "XTNC",
+    "CoinName": "XtendCash",
+    "FullName": "XtendCash (XTNC)"
   },
   {
     "Symbol": "ROE",
     "CoinName": "Rover Coin",
     "FullName": "Rover Coin (ROE)"
+  },
+  {
+    "Symbol": "LTCP",
+    "CoinName": "LitecoinPro",
+    "FullName": "LitecoinPro (LTCP)"
   },
   {
     "Symbol": "DKD",
@@ -10995,9 +11800,14 @@ const coinlist = [
     "FullName": "MYCE (YCE)"
   },
   {
-    "Symbol": "OCC",
+    "Symbol": "OCX",
     "CoinName": "Original Crypto Coin",
-    "FullName": "Original Crypto Coin (OCC)"
+    "FullName": "Original Crypto Coin (OCX)"
+  },
+  {
+    "Symbol": "STOR",
+    "CoinName": "Self Storage Coin",
+    "FullName": "Self Storage Coin (STOR)"
   },
   {
     "Symbol": "ARO",
@@ -11008,6 +11818,16 @@ const coinlist = [
     "Symbol": "BWS",
     "CoinName": "BitcoinWSpectrum",
     "FullName": "BitcoinWSpectrum (BWS)"
+  },
+  {
+    "Symbol": "BTCC",
+    "CoinName": "Bitcoin Core",
+    "FullName": "Bitcoin Core (BTCC)"
+  },
+  {
+    "Symbol": "GOLF",
+    "CoinName": "GolfCoin",
+    "FullName": "GolfCoin (GOLF)"
   },
   {
     "Symbol": "MUSE",
@@ -11050,14 +11870,24 @@ const coinlist = [
     "FullName": "UnicornGo Candy (CANDY)"
   },
   {
+    "Symbol": "AXE",
+    "CoinName": "Axe",
+    "FullName": "Axe (AXE)"
+  },
+  {
+    "Symbol": "SHARD",
+    "CoinName": "ShardCoin",
+    "FullName": "ShardCoin (SHARD)"
+  },
+  {
     "Symbol": "GMCN",
     "CoinName": "GambleCoin",
     "FullName": "GambleCoin (GMCN)"
   },
   {
     "Symbol": "TRVC",
-    "CoinName": "Trivecoin",
-    "FullName": "Trivecoin (TRVC)"
+    "CoinName": "Trivechain",
+    "FullName": "Trivechain (TRVC)"
   },
   {
     "Symbol": "KRX",
@@ -11070,9 +11900,9 @@ const coinlist = [
     "FullName": "BitScreener (BITX)"
   },
   {
-    "Symbol": "SKB*",
+    "Symbol": "SKRB",
     "CoinName": "Sakura Bloom",
-    "FullName": "Sakura Bloom (SKB*)"
+    "FullName": "Sakura Bloom (SKRB)"
   },
   {
     "Symbol": "HFT",
@@ -11080,9 +11910,9 @@ const coinlist = [
     "FullName": "Hirefreehands (HFT)"
   },
   {
-    "Symbol": "OPP*",
+    "Symbol": "OOW",
     "CoinName": "OPP Open WiFi",
-    "FullName": "OPP Open WiFi (OPP*)"
+    "FullName": "OPP Open WiFi (OOW)"
   },
   {
     "Symbol": "DTEM",
@@ -11095,6 +11925,11 @@ const coinlist = [
     "FullName": "Tip Blockchain (TIP)"
   },
   {
+    "Symbol": "SOUND",
+    "CoinName": "Inmusik",
+    "FullName": "Inmusik (SOUND)"
+  },
+  {
     "Symbol": "HB",
     "CoinName": "HeartBout",
     "FullName": "HeartBout (HB)"
@@ -11103,6 +11938,16 @@ const coinlist = [
     "Symbol": "TRW",
     "CoinName": "Triwer",
     "FullName": "Triwer (TRW)"
+  },
+  {
+    "Symbol": "IQN",
+    "CoinName": "IQeon",
+    "FullName": "IQeon (IQN)"
+  },
+  {
+    "Symbol": "GIC",
+    "CoinName": "Giant",
+    "FullName": "Giant (GIC)"
   },
   {
     "Symbol": "BGL",
@@ -11150,19 +11995,29 @@ const coinlist = [
     "FullName": "Absolute Coin (ABS)"
   },
   {
-    "Symbol": "JOY*",
-    "CoinName": "JOYSO",
-    "FullName": "JOYSO (JOY*)"
-  },
-  {
     "Symbol": "VITAE",
     "CoinName": "Vitae",
     "FullName": "Vitae (VITAE)"
   },
   {
+    "Symbol": "XET",
+    "CoinName": "Eternal Token",
+    "FullName": "Eternal Token (XET)"
+  },
+  {
     "Symbol": "0xDIARY",
     "CoinName": "The 0xDiary Token",
     "FullName": "The 0xDiary Token (0xDIARY)"
+  },
+  {
+    "Symbol": "BSPM",
+    "CoinName": "Bitcoin Supreme",
+    "FullName": "Bitcoin Supreme (BSPM)"
+  },
+  {
+    "Symbol": "TDP",
+    "CoinName": "TrueDeck",
+    "FullName": "TrueDeck (TDP)"
   },
   {
     "Symbol": "XGS",
@@ -11210,14 +12065,24 @@ const coinlist = [
     "FullName": "Oyster Platform (OYS)"
   },
   {
-    "Symbol": "WEB*",
+    "Symbol": "WEBC",
     "CoinName": "Webchain",
-    "FullName": "Webchain (WEB*)"
+    "FullName": "Webchain (WEBC)"
+  },
+  {
+    "Symbol": "VIDT",
+    "CoinName": "V-ID",
+    "FullName": "V-ID (VIDT)"
   },
   {
     "Symbol": "JEX",
     "CoinName": "JEX Token",
     "FullName": "JEX Token (JEX)"
+  },
+  {
+    "Symbol": "ILK",
+    "CoinName": "Inlock",
+    "FullName": "Inlock (ILK)"
   },
   {
     "Symbol": "RYO",
@@ -11250,9 +12115,9 @@ const coinlist = [
     "FullName": "WABnetwork (WAB)"
   },
   {
-    "Symbol": "BTN",
+    "Symbol": "BITN",
     "CoinName": "Bitcoin Nova",
-    "FullName": "Bitcoin Nova (BTN)"
+    "FullName": "Bitcoin Nova (BITN)"
   },
   {
     "Symbol": "ARE",
@@ -11260,9 +12125,9 @@ const coinlist = [
     "FullName": "ARENON (ARE)"
   },
   {
-    "Symbol": "DAC",
+    "Symbol": "DACASH",
     "CoinName": "DACash",
-    "FullName": "DACash (DAC)"
+    "FullName": "DACash (DACASH)"
   },
   {
     "Symbol": "EUNO",
@@ -11285,14 +12150,19 @@ const coinlist = [
     "FullName": "Merculet (MVP)"
   },
   {
+    "Symbol": "DASC",
+    "CoinName": "DasCoin",
+    "FullName": "DasCoin (DASC)"
+  },
+  {
     "Symbol": "EGT",
     "CoinName": "Egretia",
     "FullName": "Egretia (EGT)"
   },
   {
-    "Symbol": "MET*",
+    "Symbol": "MET",
     "CoinName": "Metronome",
-    "FullName": "Metronome (MET*)"
+    "FullName": "Metronome (MET)"
   },
   {
     "Symbol": "PGT",
@@ -11301,8 +12171,13 @@ const coinlist = [
   },
   {
     "Symbol": "MEDX",
-    "CoinName": "Mediblock",
-    "FullName": "Mediblock (MEDX)"
+    "CoinName": "Medibloc",
+    "FullName": "Medibloc (MEDX)"
+  },
+  {
+    "Symbol": "SLST",
+    "CoinName": "SmartLands",
+    "FullName": "SmartLands (SLST)"
   },
   {
     "Symbol": "TGAME",
@@ -11310,9 +12185,9 @@ const coinlist = [
     "FullName": "TrueGame (TGAME)"
   },
   {
-    "Symbol": "SPN*",
+    "Symbol": "SPN",
     "CoinName": "Sapien Network",
-    "FullName": "Sapien Network (SPN*)"
+    "FullName": "Sapien Network (SPN)"
   },
   {
     "Symbol": "ZINC",
@@ -11328,6 +12203,11 @@ const coinlist = [
     "Symbol": "KBC",
     "CoinName": "Karatgold coin",
     "FullName": "Karatgold coin (KBC)"
+  },
+  {
+    "Symbol": "MFT",
+    "CoinName": "Mainframe",
+    "FullName": "Mainframe (MFT)"
   },
   {
     "Symbol": "INSUR",
@@ -11390,9 +12270,9 @@ const coinlist = [
     "FullName": "Freyrchain (FREC)"
   },
   {
-    "Symbol": "DCC*",
+    "Symbol": "DCC",
     "CoinName": "Distributed Credit Chain",
-    "FullName": "Distributed Credit Chain (DCC*)"
+    "FullName": "Distributed Credit Chain (DCC)"
   },
   {
     "Symbol": "AOA",
@@ -11405,19 +12285,29 @@ const coinlist = [
     "FullName": "LinkEye (LET)"
   },
   {
-    "Symbol": "MTN**",
+    "Symbol": "MOTI",
     "CoinName": "Motion",
-    "FullName": "Motion (MTN**)"
+    "FullName": "Motion (MOTI)"
   },
   {
-    "Symbol": "XIN*",
+    "Symbol": "PPAI",
+    "CoinName": "Project Pai",
+    "FullName": "Project Pai (PPAI)"
+  },
+  {
+    "Symbol": "MIXI",
     "CoinName": "Mixin",
-    "FullName": "Mixin (XIN*)"
+    "FullName": "Mixin (MIXI)"
   },
   {
-    "Symbol": "CRE**",
+    "Symbol": "CBRT",
     "CoinName": "Cybereits Token ",
-    "FullName": "Cybereits Token  (CRE**)"
+    "FullName": "Cybereits Token  (CBRT)"
+  },
+  {
+    "Symbol": "MEET",
+    "CoinName": "CoinMeet",
+    "FullName": "CoinMeet (MEET)"
   },
   {
     "Symbol": "BOE",
@@ -11453,6 +12343,11 @@ const coinlist = [
     "Symbol": "HSC",
     "CoinName": "HashCoin ",
     "FullName": "HashCoin  (HSC)"
+  },
+  {
+    "Symbol": "MCV",
+    "CoinName": "MCV Token",
+    "FullName": "MCV Token (MCV)"
   },
   {
     "Symbol": "SCRL",
@@ -11520,9 +12415,19 @@ const coinlist = [
     "FullName": "Guaranteed Ethurance Token Extra (GETX)"
   },
   {
+    "Symbol": "IQ",
+    "CoinName": "Everipedia",
+    "FullName": "Everipedia (IQ)"
+  },
+  {
     "Symbol": "BWT",
     "CoinName": "Bittwatt",
     "FullName": "Bittwatt (BWT)"
+  },
+  {
+    "Symbol": "LST",
+    "CoinName": "Lendroid Support Token",
+    "FullName": "Lendroid Support Token (LST)"
   },
   {
     "Symbol": "EMV",
@@ -11558,6 +12463,11 @@ const coinlist = [
     "Symbol": "VME",
     "CoinName": "VeriME",
     "FullName": "VeriME (VME)"
+  },
+  {
+    "Symbol": "PERU",
+    "CoinName": "PeruCoin",
+    "FullName": "PeruCoin (PERU)"
   },
   {
     "Symbol": "VITE",
@@ -11610,9 +12520,9 @@ const coinlist = [
     "FullName": "ThriveToken (THRT)"
   },
   {
-    "Symbol": "GOT*",
+    "Symbol": "GTK",
     "CoinName": "GoToken",
-    "FullName": "GoToken (GOT*)"
+    "FullName": "GoToken (GTK)"
   },
   {
     "Symbol": "SKRP",
@@ -11665,9 +12575,19 @@ const coinlist = [
     "FullName": "Azart (AZART)"
   },
   {
+    "Symbol": "CENNZ",
+    "CoinName": "Centrality Token",
+    "FullName": "Centrality Token (CENNZ)"
+  },
+  {
     "Symbol": "RDC",
     "CoinName": "Ordocoin",
     "FullName": "Ordocoin (RDC)"
+  },
+  {
+    "Symbol": "TTU",
+    "CoinName": "TaTaTu",
+    "FullName": "TaTaTu (TTU)"
   },
   {
     "Symbol": "FREE",
@@ -11690,6 +12610,11 @@ const coinlist = [
     "FullName": "Influ Token (INTO)"
   },
   {
+    "Symbol": "RED",
+    "CoinName": "Red Community Token",
+    "FullName": "Red Community Token (RED)"
+  },
+  {
     "Symbol": "AIMS",
     "CoinName": "HighCastle Token",
     "FullName": "HighCastle Token (AIMS)"
@@ -11698,6 +12623,11 @@ const coinlist = [
     "Symbol": "TSC",
     "CoinName": "ThunderStake",
     "FullName": "ThunderStake (TSC)"
+  },
+  {
+    "Symbol": "SEER",
+    "CoinName": "SEER",
+    "FullName": "SEER (SEER)"
   },
   {
     "Symbol": "SPLB",
@@ -11710,9 +12640,34 @@ const coinlist = [
     "FullName": "CRYPTOMAGZ (CMZ)"
   },
   {
+    "Symbol": "NOBS",
+    "CoinName": "No BS Crypto",
+    "FullName": "No BS Crypto ($NOBS)"
+  },
+  {
+    "Symbol": "HMN",
+    "CoinName": "Harvest Masternode Coin",
+    "FullName": "Harvest Masternode Coin (HMN)"
+  },
+  {
+    "Symbol": "MHP",
+    "CoinName": "MedicoHealth",
+    "FullName": "MedicoHealth (MHP)"
+  },
+  {
     "Symbol": "HMD",
     "CoinName": "Homelend",
     "FullName": "Homelend (HMD)"
+  },
+  {
+    "Symbol": "JSE",
+    "CoinName": "JSEcoin",
+    "FullName": "JSEcoin (JSE)"
+  },
+  {
+    "Symbol": "IMGZ",
+    "CoinName": "Imigize",
+    "FullName": "Imigize (IMGZ)"
   },
   {
     "Symbol": "NYN",
@@ -11740,6 +12695,31 @@ const coinlist = [
     "FullName": "WhenHub (WHEN)"
   },
   {
+    "Symbol": "SFT",
+    "CoinName": "SportsFix",
+    "FullName": "SportsFix (SFT)"
+  },
+  {
+    "Symbol": "ORBIS",
+    "CoinName": "Orbis",
+    "FullName": "Orbis (ORBIS)"
+  },
+  {
+    "Symbol": "BLKS",
+    "CoinName": "Blockshipping",
+    "FullName": "Blockshipping (BLKS)"
+  },
+  {
+    "Symbol": "ETRNT",
+    "CoinName": "Eternal Trusts",
+    "FullName": "Eternal Trusts (ETRNT)"
+  },
+  {
+    "Symbol": "ITR",
+    "CoinName": "INTRO",
+    "FullName": "INTRO (ITR)"
+  },
+  {
     "Symbol": "CHE",
     "CoinName": "Cache",
     "FullName": "Cache (CHE)"
@@ -11750,9 +12730,9 @@ const coinlist = [
     "FullName": "Zeew (ZEEW)"
   },
   {
-    "Symbol": "EMT*",
+    "Symbol": "MEM",
     "CoinName": "Memority",
-    "FullName": "Memority (EMT*)"
+    "FullName": "Memority (MEM)"
   },
   {
     "Symbol": "QUA",
@@ -11760,14 +12740,19 @@ const coinlist = [
     "FullName": "Quasa (QUA)"
   },
   {
+    "Symbol": "RSC",
+    "CoinName": "Ronaldinho Soccer Coin",
+    "FullName": "Ronaldinho Soccer Coin (RSC)"
+  },
+  {
     "Symbol": "ENTRY",
     "CoinName": "ENTRY",
     "FullName": "ENTRY (ENTRY)"
   },
   {
-    "Symbol": "PHT",
+    "Symbol": "PHTC",
     "CoinName": "Photochain",
-    "FullName": "Photochain (PHT)"
+    "FullName": "Photochain (PHTC)"
   },
   {
     "Symbol": "WORK",
@@ -11785,9 +12770,14 @@ const coinlist = [
     "FullName": "ZAZA (ZAZA)"
   },
   {
-    "Symbol": "DNET*",
+    "Symbol": "DNET",
     "CoinName": "DeNet",
-    "FullName": "DeNet (DNET*)"
+    "FullName": "DeNet (DNET)"
+  },
+  {
+    "Symbol": "IDAP",
+    "CoinName": "IDAP",
+    "FullName": "IDAP (IDAP)"
   },
   {
     "Symbol": "HEAL",
@@ -11805,14 +12795,29 @@ const coinlist = [
     "FullName": "Shipit (SHPT)"
   },
   {
+    "Symbol": "LED",
+    "CoinName": "Terawatt",
+    "FullName": "Terawatt (LED)"
+  },
+  {
     "Symbol": "PRLPAY",
     "CoinName": "PearlPay",
     "FullName": "PearlPay (PRLPAY)"
   },
   {
+    "Symbol": "RBDT",
+    "CoinName": "RoBust Defense Token",
+    "FullName": "RoBust Defense Token (RBDT)"
+  },
+  {
     "Symbol": "SKYFT",
     "CoinName": "SKYFchain",
     "FullName": "SKYFchain (SKYFT)"
+  },
+  {
+    "Symbol": "TFLEX",
+    "CoinName": "TrustedCars FLEX",
+    "FullName": "TrustedCars FLEX (TFLEX)"
   },
   {
     "Symbol": "STRY",
@@ -11825,14 +12830,49 @@ const coinlist = [
     "FullName": "Fan360 (FAN)"
   },
   {
+    "Symbol": "GBTC",
+    "CoinName": "GigTricks",
+    "FullName": "GigTricks (GBTC)"
+  },
+  {
+    "Symbol": "NBOX",
+    "CoinName": "Unboxed",
+    "FullName": "Unboxed (NBOX)"
+  },
+  {
     "Symbol": "BUD",
     "CoinName": "Buddy",
     "FullName": "Buddy (BUD)"
   },
   {
-    "Symbol": "GMB",
+    "Symbol": "DBCCOIN",
+    "CoinName": "Datablockchain",
+    "FullName": "Datablockchain (DBCCOIN)"
+  },
+  {
+    "Symbol": "K2G",
+    "CoinName": "Kasko2go",
+    "FullName": "Kasko2go (K2G)"
+  },
+  {
+    "Symbol": "ARR",
+    "CoinName": "ARROUND",
+    "FullName": "ARROUND (ARR)"
+  },
+  {
+    "Symbol": "GAMB",
     "CoinName": "GAMB",
-    "FullName": "GAMB (GMB)"
+    "FullName": "GAMB (GAMB)"
+  },
+  {
+    "Symbol": "SPOT",
+    "CoinName": "Spotcoin",
+    "FullName": "Spotcoin (SPOT)"
+  },
+  {
+    "Symbol": "VTUUR",
+    "CoinName": "VTUUR",
+    "FullName": "VTUUR (VTUUR)"
   },
   {
     "Symbol": "Pakka",
@@ -11845,14 +12885,39 @@ const coinlist = [
     "FullName": "EtherInc (ETI)"
   },
   {
+    "Symbol": "FRECNX",
+    "CoinName": "FreldoCoinX",
+    "FullName": "FreldoCoinX (FRECNX)"
+  },
+  {
     "Symbol": "NOIA",
     "CoinName": "NOIA Network",
     "FullName": "NOIA Network (NOIA)"
   },
   {
-    "Symbol": "BST*",
+    "Symbol": "LAX",
+    "CoinName": "LAPO",
+    "FullName": "LAPO (LAX)"
+  },
+  {
+    "Symbol": "BOO",
     "CoinName": "BOOSTO",
-    "FullName": "BOOSTO (BST*)"
+    "FullName": "BOOSTO (BOO)"
+  },
+  {
+    "Symbol": "DREAM",
+    "CoinName": "DREAM",
+    "FullName": "DREAM (DREAM)"
+  },
+  {
+    "Symbol": "PTI",
+    "CoinName": "Paytomat",
+    "FullName": "Paytomat (PTI)"
+  },
+  {
+    "Symbol": "LPC",
+    "CoinName": "Little Phil",
+    "FullName": "Little Phil (LPC)"
   },
   {
     "Symbol": "DYNO",
@@ -11875,6 +12940,11 @@ const coinlist = [
     "FullName": "Spiking (SPIKE)"
   },
   {
+    "Symbol": "SGO",
+    "CoinName": "Selfie GO",
+    "FullName": "Selfie GO (SGO)"
+  },
+  {
     "Symbol": "RAWG",
     "CoinName": "RAWG",
     "FullName": "RAWG (RAWG)"
@@ -11890,6 +12960,11 @@ const coinlist = [
     "FullName": "Monoreto (MNR)"
   },
   {
+    "Symbol": "ZNAQ",
+    "CoinName": "ZNAQ",
+    "FullName": "ZNAQ (ZNAQ)"
+  },
+  {
     "Symbol": "YBT",
     "CoinName": "YellowBetter",
     "FullName": "YellowBetter (YBT)"
@@ -11900,9 +12975,29 @@ const coinlist = [
     "FullName": "ÕpetFoundation (OPET)"
   },
   {
+    "Symbol": "PSK",
+    "CoinName": "Pool of Stake",
+    "FullName": "Pool of Stake (PSK)"
+  },
+  {
+    "Symbol": "KVT",
+    "CoinName": "Kinesis Velocity Token ",
+    "FullName": "Kinesis Velocity Token  (KVT)"
+  },
+  {
+    "Symbol": "COT",
+    "CoinName": "CoTrader",
+    "FullName": "CoTrader (COT)"
+  },
+  {
     "Symbol": "WPT",
     "CoinName": "Worldopoly",
     "FullName": "Worldopoly (WPT)"
+  },
+  {
+    "Symbol": "ABELE",
+    "CoinName": "Abele",
+    "FullName": "Abele (ABELE)"
   },
   {
     "Symbol": "XEP",
@@ -11910,9 +13005,14 @@ const coinlist = [
     "FullName": "ephelants360 (XEP)"
   },
   {
-    "Symbol": "ARB*",
+    "Symbol": "ARBT",
     "CoinName": "ARBITRAGE",
-    "FullName": "ARBITRAGE (ARB*)"
+    "FullName": "ARBITRAGE (ARBT)"
+  },
+  {
+    "Symbol": "OMI",
+    "CoinName": "ECOMI",
+    "FullName": "ECOMI (OMI)"
   },
   {
     "Symbol": "BILL",
@@ -11925,14 +13025,24 @@ const coinlist = [
     "FullName": "Scienceroot (ST)"
   },
   {
+    "Symbol": "WBBC",
+    "CoinName": "World Bit Bank",
+    "FullName": "World Bit Bank (WBBC)"
+  },
+  {
     "Symbol": "XDT",
     "CoinName": "Dataeum",
     "FullName": "Dataeum (XDT)"
   },
   {
-    "Symbol": "ATX*",
+    "Symbol": "WPP",
+    "CoinName": "Green Energy Token",
+    "FullName": "Green Energy Token (WPP)"
+  },
+  {
+    "Symbol": "ASTO",
     "CoinName": "Aston",
-    "FullName": "Aston (ATX*)"
+    "FullName": "Aston (ASTO)"
   },
   {
     "Symbol": "SLT",
@@ -11950,6 +13060,11 @@ const coinlist = [
     "FullName": "MyCryptoBank (MCB)"
   },
   {
+    "Symbol": "HDAC",
+    "CoinName": "Hdac",
+    "FullName": "Hdac (HDAC)"
+  },
+  {
     "Symbol": "CCCX",
     "CoinName": "Clipper Coin Capital",
     "FullName": "Clipper Coin Capital (CCCX)"
@@ -11960,9 +13075,29 @@ const coinlist = [
     "FullName": "Virtual Rehab (VRH)"
   },
   {
+    "Symbol": "AEN",
+    "CoinName": "Aenco",
+    "FullName": "Aenco (AEN)"
+  },
+  {
+    "Symbol": "SOLID",
+    "CoinName": "Solidified",
+    "FullName": "Solidified (SOLID)"
+  },
+  {
+    "Symbol": "VANIG",
+    "CoinName": "VANIG",
+    "FullName": "VANIG (VANIG)"
+  },
+  {
     "Symbol": "AIRE",
     "CoinName": "Tokenaire",
     "FullName": "Tokenaire (AIRE)"
+  },
+  {
+    "Symbol": "GMA",
+    "CoinName": "Goldchip Mining Asset",
+    "FullName": "Goldchip Mining Asset (GMA)"
   },
   {
     "Symbol": "WMB",
@@ -11975,14 +13110,29 @@ const coinlist = [
     "FullName": "meVu (MVU)"
   },
   {
+    "Symbol": "TLNT",
+    "CoinName": "Talent Token",
+    "FullName": "Talent Token (TLNT)"
+  },
+  {
+    "Symbol": "GLDR",
+    "CoinName": "Golder Coin",
+    "FullName": "Golder Coin (GLDR)"
+  },
+  {
+    "Symbol": "IMU",
+    "CoinName": "imusify",
+    "FullName": "imusify (IMU)"
+  },
+  {
     "Symbol": "TRT",
     "CoinName": "TuurnT",
     "FullName": "TuurnT (TRT)"
   },
   {
-    "Symbol": "CRS*",
+    "Symbol": "CRS",
     "CoinName": "CRYSTALS",
-    "FullName": "CRYSTALS (CRS*)"
+    "FullName": "CRYSTALS (CRS)"
   },
   {
     "Symbol": "OLM",
@@ -12005,9 +13155,34 @@ const coinlist = [
     "FullName": "Universal Recognition Token (URT)"
   },
   {
-    "Symbol": "ZCN*",
+    "Symbol": "QCX",
+    "CoinName": "QuickX Protocol",
+    "FullName": "QuickX Protocol (QCX)"
+  },
+  {
+    "Symbol": "CRON",
+    "CoinName": "Cryptocean",
+    "FullName": "Cryptocean (CRON)"
+  },
+  {
+    "Symbol": "DIP",
+    "CoinName": "Etherisc",
+    "FullName": "Etherisc (DIP)"
+  },
+  {
+    "Symbol": "PROD",
+    "CoinName": "Productivist",
+    "FullName": "Productivist (PROD)"
+  },
+  {
+    "Symbol": "REDC",
+    "CoinName": "RedCab",
+    "FullName": "RedCab (REDC)"
+  },
+  {
+    "Symbol": "ZCHN",
     "CoinName": "Zichain",
-    "FullName": "Zichain (ZCN*)"
+    "FullName": "Zichain (ZCHN)"
   },
   {
     "Symbol": "TTV",
@@ -12045,9 +13220,24 @@ const coinlist = [
     "FullName": "SID Token (SIDT)"
   },
   {
+    "Symbol": "ISR",
+    "CoinName": "Insureum",
+    "FullName": "Insureum (ISR)"
+  },
+  {
+    "Symbol": "CDPT",
+    "CoinName": "Creditor Data Platform",
+    "FullName": "Creditor Data Platform (CDPT)"
+  },
+  {
     "Symbol": "CRGO",
     "CoinName": "CargoCoin",
     "FullName": "CargoCoin (CRGO)"
+  },
+  {
+    "Symbol": "AXIS",
+    "CoinName": "LaneAxis",
+    "FullName": "LaneAxis (AXIS)"
   },
   {
     "Symbol": "QRP",
@@ -12060,6 +13250,26 @@ const coinlist = [
     "FullName": "TriipMiles (TIIM)"
   },
   {
+    "Symbol": "BNR",
+    "CoinName": "BiNeuro",
+    "FullName": "BiNeuro (BNR)"
+  },
+  {
+    "Symbol": "VRT",
+    "CoinName": "Virtual Reality Technology",
+    "FullName": "Virtual Reality Technology (VRT)"
+  },
+  {
+    "Symbol": "ZCC1",
+    "CoinName": "ZeroCarbon",
+    "FullName": "ZeroCarbon (ZCC1)"
+  },
+  {
+    "Symbol": "KRP",
+    "CoinName": "Kryptoin",
+    "FullName": "Kryptoin (KRP)"
+  },
+  {
     "Symbol": "DAG",
     "CoinName": "Constellation ",
     "FullName": "Constellation  (DAG)"
@@ -12068,6 +13278,11 @@ const coinlist = [
     "Symbol": "OLE",
     "CoinName": "Olive",
     "FullName": "Olive (OLE)"
+  },
+  {
+    "Symbol": "OKB",
+    "CoinName": "Okex",
+    "FullName": "Okex (OKB)"
   },
   {
     "Symbol": "AMLT",
@@ -12085,14 +13300,19 @@ const coinlist = [
     "FullName": "Talenthon (TCOIN)"
   },
   {
+    "Symbol": "BZ",
+    "CoinName": "Bit-Z",
+    "FullName": "Bit-Z (BZ)"
+  },
+  {
+    "Symbol": "PRA",
+    "CoinName": "ProChain",
+    "FullName": "ProChain (PRA)"
+  },
+  {
     "Symbol": "VLP",
     "CoinName": "Volpo",
     "FullName": "Volpo (VLP)"
-  },
-  {
-    "Symbol": "PGC*",
-    "CoinName": "Paygine",
-    "FullName": "Paygine (PGC*)"
   },
   {
     "Symbol": "ZIP",
@@ -12100,9 +13320,14 @@ const coinlist = [
     "FullName": "Zipper (ZIP)"
   },
   {
-    "Symbol": "BOS*",
+    "Symbol": "BTK",
     "CoinName": "Bostoken",
-    "FullName": "Bostoken (BOS*)"
+    "FullName": "Bostoken (BTK)"
+  },
+  {
+    "Symbol": "KCASH",
+    "CoinName": "Kcash",
+    "FullName": "Kcash (KCASH)"
   },
   {
     "Symbol": "1WO",
@@ -12110,14 +13335,29 @@ const coinlist = [
     "FullName": "1World (1WO)"
   },
   {
+    "Symbol": "ZB",
+    "CoinName": "ZB",
+    "FullName": "ZB (ZB)"
+  },
+  {
     "Symbol": "BOUTS",
     "CoinName": "BoutsPro",
     "FullName": "BoutsPro (BOUTS)"
   },
   {
-    "Symbol": "ORS*",
+    "Symbol": "OGSP",
     "CoinName": "OriginSport",
-    "FullName": "OriginSport (ORS*)"
+    "FullName": "OriginSport (OGSP)"
+  },
+  {
+    "Symbol": "EST",
+    "CoinName": "ESports Chain",
+    "FullName": "ESports Chain (EST)"
+  },
+  {
+    "Symbol": "MODEX",
+    "CoinName": "MODEX Token",
+    "FullName": "MODEX Token (MODEX)"
   },
   {
     "Symbol": "OGT",
@@ -12125,9 +13365,24 @@ const coinlist = [
     "FullName": "One Game (OGT)"
   },
   {
+    "Symbol": "PLA",
+    "CoinName": "PlayChip",
+    "FullName": "PlayChip (PLA)"
+  },
+  {
     "Symbol": "NPER",
     "CoinName": "NPER",
     "FullName": "NPER (NPER)"
+  },
+  {
+    "Symbol": "ATON",
+    "CoinName": "Further Network",
+    "FullName": "Further Network (ATON)"
+  },
+  {
+    "Symbol": "EURS",
+    "CoinName": "STASIS EURS",
+    "FullName": "STASIS EURS (EURS)"
   },
   {
     "Symbol": "XCG",
@@ -12135,9 +13390,14 @@ const coinlist = [
     "FullName": "Xchange (XCG)"
   },
   {
-    "Symbol": "BSC*",
+    "Symbol": "BOONS",
     "CoinName": "BOONSCoin",
-    "FullName": "BOONSCoin (BSC*)"
+    "FullName": "BOONSCoin (BOONS)"
+  },
+  {
+    "Symbol": "PCH",
+    "CoinName": "POPCHAIN",
+    "FullName": "POPCHAIN (PCH)"
   },
   {
     "Symbol": "ECOM",
@@ -12148,6 +13408,16 @@ const coinlist = [
     "Symbol": "WIT",
     "CoinName": "Witcoin",
     "FullName": "Witcoin (WIT)"
+  },
+  {
+    "Symbol": "OPU",
+    "CoinName": "Opu Coin",
+    "FullName": "Opu Coin (OPU)"
+  },
+  {
+    "Symbol": "MOF",
+    "CoinName": "Molecular Future",
+    "FullName": "Molecular Future (MOF)"
   },
   {
     "Symbol": "BOX",
@@ -12170,19 +13440,24 @@ const coinlist = [
     "FullName": "CargoConX (TICS)"
   },
   {
-    "Symbol": "EXT*",
-    "CoinName": "Experience Token",
-    "FullName": "Experience Token (EXT*)"
+    "Symbol": "ZPR",
+    "CoinName": "ZPER",
+    "FullName": "ZPER (ZPR)"
   },
   {
-    "Symbol": "EOT*",
-    "CoinName": "EON",
-    "FullName": "EON (EOT*)"
+    "Symbol": "AAC",
+    "CoinName": "Acute Angle Cloud",
+    "FullName": "Acute Angle Cloud (AAC)"
   },
   {
-    "Symbol": "ELT*",
+    "Symbol": "EXLT",
     "CoinName": "ExtraLovers",
-    "FullName": "ExtraLovers (ELT*)"
+    "FullName": "ExtraLovers (EXLT)"
+  },
+  {
+    "Symbol": "ESTATE",
+    "CoinName": "AgentMile",
+    "FullName": "AgentMile (ESTATE)"
   },
   {
     "Symbol": "BLV",
@@ -12190,9 +13465,29 @@ const coinlist = [
     "FullName": "Blockvest (BLV)"
   },
   {
+    "Symbol": "RRC",
+    "CoinName": "Recycling Regeneration Chain",
+    "FullName": "Recycling Regeneration Chain (RRC)"
+  },
+  {
+    "Symbol": "MPG",
+    "CoinName": "Max Property Group",
+    "FullName": "Max Property Group (MPG)"
+  },
+  {
+    "Symbol": "QNTU",
+    "CoinName": "Quanta",
+    "FullName": "Quanta (QNTU)"
+  },
+  {
     "Symbol": "IG",
     "CoinName": "IG Token ",
-    "FullName": "IG Token  (IG)"
+    "FullName": "IG Token  (IG1)"
+  },
+  {
+    "Symbol": "FML",
+    "CoinName": "FormulA",
+    "FullName": "FormulA (FML)"
   },
   {
     "Symbol": "TLU",
@@ -12200,9 +13495,24 @@ const coinlist = [
     "FullName": "Irene Energy (TLU)"
   },
   {
+    "Symbol": "PSM",
+    "CoinName": "Prasm",
+    "FullName": "Prasm (PSM)"
+  },
+  {
+    "Symbol": "MON",
+    "CoinName": "MilionCoin",
+    "FullName": "MilionCoin (MON)"
+  },
+  {
     "Symbol": "KAN",
     "CoinName": "Bitkan",
     "FullName": "Bitkan (KAN)"
+  },
+  {
+    "Symbol": "AUDC",
+    "CoinName": "Aussie Digital",
+    "FullName": "Aussie Digital (AUDC)"
   },
   {
     "Symbol": "NMH",
@@ -12230,9 +13540,19 @@ const coinlist = [
     "FullName": "PayBlock (PBLK)"
   },
   {
-    "Symbol": "SGC",
-    "CoinName": "Sudan Gold Coin",
-    "FullName": "Sudan Gold Coin (SGC)"
+    "Symbol": "KVNT",
+    "CoinName": "Kvantor",
+    "FullName": "Kvantor (KVNT)"
+  },
+  {
+    "Symbol": "MDN",
+    "CoinName": "MADANA",
+    "FullName": "MADANA (MDN)"
+  },
+  {
+    "Symbol": "TMTG",
+    "CoinName": "Digital Gold Exchange",
+    "FullName": "Digital Gold Exchange (TMTG)"
   },
   {
     "Symbol": "PRT",
@@ -12260,9 +13580,19 @@ const coinlist = [
     "FullName": "Vernam (VRN)"
   },
   {
+    "Symbol": "NEX",
+    "CoinName": "Nash Exchange",
+    "FullName": "Nash Exchange (NEX)"
+  },
+  {
     "Symbol": "BRNX",
     "CoinName": "Bronix",
     "FullName": "Bronix (BRNX)"
+  },
+  {
+    "Symbol": "SRCOIN",
+    "CoinName": "SRCoin",
+    "FullName": "SRCoin (SRCOIN)"
   },
   {
     "Symbol": "RFT",
@@ -12290,9 +13620,19 @@ const coinlist = [
     "FullName": "FXPay (FXP)"
   },
   {
+    "Symbol": "DICEM",
+    "CoinName": "DICE Money",
+    "FullName": "DICE Money (DICEM)"
+  },
+  {
     "Symbol": "PASS",
     "CoinName": "Blockpass",
     "FullName": "Blockpass (PASS)"
+  },
+  {
+    "Symbol": "HRO",
+    "CoinName": "HEROIC.com",
+    "FullName": "HEROIC.com (HRO)"
   },
   {
     "Symbol": "DGTX",
@@ -12305,119 +13645,14 @@ const coinlist = [
     "FullName": "BitSchool (BSCH)"
   },
   {
+    "Symbol": "TRVR",
+    "CoinName": "Trivver",
+    "FullName": "Trivver (TRVR)"
+  },
+  {
     "Symbol": "PESA",
     "CoinName": "Credible",
     "FullName": "Credible (PESA)"
-  },
-  {
-    "Symbol": "GLN",
-    "CoinName": "Galion Token",
-    "FullName": "Galion Token (GLN)"
-  },
-  {
-    "Symbol": "NOBS",
-    "CoinName": "No BS Crypto",
-    "FullName": "No BS Crypto ($NOBS)"
-  },
-  {
-    "Symbol": "CPEX",
-    "CoinName": "CoinPulseToken",
-    "FullName": "CoinPulseToken (CPEX)"
-  },
-  {
-    "Symbol": "MON",
-    "CoinName": "MilionCoin",
-    "FullName": "MilionCoin (MON)"
-  },
-  {
-    "Symbol": "XMC",
-    "CoinName": "Monero Classic",
-    "FullName": "Monero Classic (XMC)"
-  },
-  {
-    "Symbol": "XMO",
-    "CoinName": "Monero Original",
-    "FullName": "Monero Original (XMO)"
-  },
-  {
-    "Symbol": "HDAC",
-    "CoinName": "Hdac",
-    "FullName": "Hdac (HDAC)"
-  },
-  {
-    "Symbol": "ISR",
-    "CoinName": "Insureum",
-    "FullName": "Insureum (ISR)"
-  },
-  {
-    "Symbol": "RDN*",
-    "CoinName": "Raiden Network",
-    "FullName": "Raiden Network (RDN*)"
-  },
-  {
-    "Symbol": "EURN",
-    "CoinName": "NOKU EUR",
-    "FullName": "NOKU EUR (EURN)"
-  },
-  {
-    "Symbol": "NOKU",
-    "CoinName": "NOKU Master token",
-    "FullName": "NOKU Master token (NOKU)"
-  },
-  {
-    "Symbol": "PCCM",
-    "CoinName": "Poseidon Chain",
-    "FullName": "Poseidon Chain (PCCM)"
-  },
-  {
-    "Symbol": "XMY",
-    "CoinName": "MyriadCoin",
-    "FullName": "MyriadCoin (XMY)"
-  },
-  {
-    "Symbol": "LCC",
-    "CoinName": "LitecoinCash",
-    "FullName": "LitecoinCash (LCC)"
-  },
-  {
-    "Symbol": "BSD",
-    "CoinName": "BitSend",
-    "FullName": "BitSend (BSD)"
-  },
-  {
-    "Symbol": "MIB",
-    "CoinName": "Mobile Integrated Blockchain",
-    "FullName": "Mobile Integrated Blockchain (MIB)"
-  },
-  {
-    "Symbol": "PUT",
-    "CoinName": "PutinCoin",
-    "FullName": "PutinCoin (PUT)"
-  },
-  {
-    "Symbol": "BAAS",
-    "CoinName": "BaaSid",
-    "FullName": "BaaSid (BAAS)"
-  },
-  {
-    "Symbol": "DPY",
-    "CoinName": "Delphy",
-    "FullName": "Delphy (DPY)"
-  },
-  {
-    "Symbol": "BNTE",
-    "CoinName": "Bountie",
-    "FullName": "Bountie (BNTE)"
-  },
-  {
-    "Symbol": "TRIO",
-    "CoinName": "Tripio",
-    "FullName": "Tripio (TRIO)"
-  },
-  {
-    "Symbol": "EVER",
-    "CoinName": "EverLife.AI",
-    "FullName": "EverLife.AI (EVER)"
   },
   {
     "Symbol": "CLPX",
@@ -12425,104 +13660,39 @@ const coinlist = [
     "FullName": "Chynge.net (CLPX)"
   },
   {
-    "Symbol": "ZNAQ",
-    "CoinName": "ZNAQ",
-    "FullName": "ZNAQ (ZNAQ)"
+    "Symbol": "DAOX",
+    "CoinName": "Daox",
+    "FullName": "Daox (DAOX)"
   },
   {
-    "Symbol": "NEX",
-    "CoinName": "Neonexchange ",
-    "FullName": "Neonexchange  (NEX)"
+    "Symbol": "GLN",
+    "CoinName": "Galion Token",
+    "FullName": "Galion Token (GLN)"
   },
   {
-    "Symbol": "SRCOIN",
-    "CoinName": "SRCoin",
-    "FullName": "SRCoin (SRCOIN)"
+    "Symbol": "AUK",
+    "CoinName": "Aukcecoin",
+    "FullName": "Aukcecoin (AUK)"
   },
   {
-    "Symbol": "VIDT",
-    "CoinName": "V-ID",
-    "FullName": "V-ID (VIDT)"
+    "Symbol": "PCCM",
+    "CoinName": "Poseidon Chain",
+    "FullName": "Poseidon Chain (PCCM)"
   },
   {
-    "Symbol": "TRVR",
-    "CoinName": "Trivver",
-    "FullName": "Trivver (TRVR)"
+    "Symbol": "TOPC",
+    "CoinName": "Topchain",
+    "FullName": "Topchain (TOPC)"
   },
   {
-    "Symbol": "GIC",
-    "CoinName": "Giant",
-    "FullName": "Giant (GIC)"
+    "Symbol": "PLAN",
+    "CoinName": "Plancoin",
+    "FullName": "Plancoin (PLAN)"
   },
   {
-    "Symbol": "XSN",
-    "CoinName": "Stakenet",
-    "FullName": "Stakenet (XSN)"
-  },
-  {
-    "Symbol": "PCH",
-    "CoinName": "POPCHAIN",
-    "FullName": "POPCHAIN (PCH)"
-  },
-  {
-    "Symbol": "TMTG",
-    "CoinName": "Digital Gold Exchange",
-    "FullName": "Digital Gold Exchange (TMTG)"
-  },
-  {
-    "Symbol": "CET*",
-    "CoinName": "DICE Money",
-    "FullName": "DICE Money (CET*)"
-  },
-  {
-    "Symbol": "GUSD",
-    "CoinName": "Gemini Dollar",
-    "FullName": "Gemini Dollar (GUSD)"
-  },
-  {
-    "Symbol": "HRO",
-    "CoinName": "HEROIC.com",
-    "FullName": "HEROIC.com (HRO)"
-  },
-  {
-    "Symbol": "BLX",
-    "CoinName": "Blockchain Index",
-    "FullName": "Blockchain Index (BLX)"
-  },
-  {
-    "Symbol": "WPP",
-    "CoinName": "Green Energy Token",
-    "FullName": "Green Energy Token (WPP)"
-  },
-  {
-    "Symbol": "AAC",
-    "CoinName": "Acute Angle Cloud",
-    "FullName": "Acute Angle Cloud (AAC)"
-  },
-  {
-    "Symbol": "ZP",
-    "CoinName": "Zen Protocol",
-    "FullName": "Zen Protocol (ZP)"
-  },
-  {
-    "Symbol": "WELL",
-    "CoinName": "Well",
-    "FullName": "Well (WELL)"
-  },
-  {
-    "Symbol": "AUR",
-    "CoinName": "Aurora Coin",
-    "FullName": "Aurora Coin (AUR)"
-  },
-  {
-    "Symbol": "CTKN",
-    "CoinName": "Curaizon",
-    "FullName": "Curaizon (CTKN)"
-  },
-  {
-    "Symbol": "SPOT",
-    "CoinName": "Spotcoin",
-    "FullName": "Spotcoin (SPOT)"
+    "Symbol": "EVER",
+    "CoinName": "EverLife.AI",
+    "FullName": "EverLife.AI (EVER)"
   },
   {
     "Symbol": "TRAID",
@@ -12530,164 +13700,54 @@ const coinlist = [
     "FullName": "Traid (TRAID)"
   },
   {
-    "Symbol": "CEDEX",
-    "CoinName": "CEDEX Coin",
-    "FullName": "CEDEX Coin (CEDEX)"
+    "Symbol": "TRIO",
+    "CoinName": "Tripio",
+    "FullName": "Tripio (TRIO)"
   },
   {
-    "Symbol": "LYM",
-    "CoinName": "Lympo",
-    "FullName": "Lympo (LYM)"
+    "Symbol": "BNTE",
+    "CoinName": "Bountie",
+    "FullName": "Bountie (BNTE)"
   },
   {
-    "Symbol": "OPU",
-    "CoinName": "Opu Coin",
-    "FullName": "Opu Coin (OPU)"
+    "Symbol": "DPY",
+    "CoinName": "Delphy",
+    "FullName": "Delphy (DPY)"
   },
   {
-    "Symbol": "PROD*",
-    "CoinName": "Productivist",
-    "FullName": "Productivist (PROD*)"
+    "Symbol": "FUNDZ",
+    "CoinName": "FundFantasy",
+    "FullName": "FundFantasy (FUNDZ)"
   },
   {
-    "Symbol": "REDC",
-    "CoinName": "RedCab",
-    "FullName": "RedCab (REDC)"
+    "Symbol": "MIB",
+    "CoinName": "Mobile Integrated Blockchain",
+    "FullName": "Mobile Integrated Blockchain (MIB)"
   },
   {
-    "Symbol": "DXC*",
-    "CoinName": "Daox",
-    "FullName": "Daox (DXC*)"
+    "Symbol": "BAAS",
+    "CoinName": "BaaSid",
+    "FullName": "BaaSid (BAAS)"
   },
   {
-    "Symbol": "HANA",
-    "CoinName": "Hanacoin",
-    "FullName": "Hanacoin (HANA)"
+    "Symbol": "LYNK",
+    "CoinName": "Lynked.World",
+    "FullName": "Lynked.World (LYNK)"
   },
   {
-    "Symbol": "CRL",
-    "CoinName": "Cryptelo Coin",
-    "FullName": "Cryptelo Coin (CRL)"
+    "Symbol": "TBC",
+    "CoinName": "Trecento Blockchain Capital",
+    "FullName": "Trecento Blockchain Capital (TBC)"
   },
   {
-    "Symbol": "INVOX",
-    "CoinName": "Invox Finance",
-    "FullName": "Invox Finance (INVOX)"
+    "Symbol": "GUSD",
+    "CoinName": "Gemini Dollar",
+    "FullName": "Gemini Dollar (GUSD)"
   },
   {
-    "Symbol": "MNTS",
-    "CoinName": "Mint",
-    "FullName": "Mint (MNTS)"
-  },
-  {
-    "Symbol": "CBC*",
-    "CoinName": "CashBagCoin",
-    "FullName": "CashBagCoin (CBC*)"
-  },
-  {
-    "Symbol": "ILT",
-    "CoinName": "iOlite",
-    "FullName": "iOlite (ILT)"
-  },
-  {
-    "Symbol": "ZYD",
-    "CoinName": "ZayedCoin",
-    "FullName": "ZayedCoin (ZYD)"
-  },
-  {
-    "Symbol": "GRO",
-    "CoinName": "Gron Digital",
-    "FullName": "Gron Digital (GRO)"
-  },
-  {
-    "Symbol": "ABYSS",
-    "CoinName": "The Abyss",
-    "FullName": "The Abyss (ABYSS)"
-  },
-  {
-    "Symbol": "MNE",
-    "CoinName": "Minereum",
-    "FullName": "Minereum (MNE)"
-  },
-  {
-    "Symbol": "YUM",
-    "CoinName": "Yumerium",
-    "FullName": "Yumerium (YUM)"
-  },
-  {
-    "Symbol": "ADX",
-    "CoinName": "AdEx",
-    "FullName": "AdEx (ADX)"
-  },
-  {
-    "Symbol": "RKC",
-    "CoinName": "Royal Kingdom Coin",
-    "FullName": "Royal Kingdom Coin (RKC)"
-  },
-  {
-    "Symbol": "ETHOS",
-    "CoinName": "Ethos",
-    "FullName": "Ethos (ETHOS)"
-  },
-  {
-    "Symbol": "OKOIN",
-    "CoinName": "OKOIN",
-    "FullName": "OKOIN (OKOIN)"
-  },
-  {
-    "Symbol": "TDP",
-    "CoinName": "TrueDeck",
-    "FullName": "TrueDeck (TDP)"
-  },
-  {
-    "Symbol": "CIX",
-    "CoinName": "Cryptonetix",
-    "FullName": "Cryptonetix (CIX)"
-  },
-  {
-    "Symbol": "UBT",
-    "CoinName": "UniBright",
-    "FullName": "UniBright (UBT)"
-  },
-  {
-    "Symbol": "DIP",
-    "CoinName": "Etherisc",
-    "FullName": "Etherisc (DIP)"
-  },
-  {
-    "Symbol": "CHF*",
-    "CoinName": "MobileBridge Momentum",
-    "FullName": "MobileBridge Momentum (CHF*)"
-  },
-  {
-    "Symbol": "VRA",
-    "CoinName": "Verasity",
-    "FullName": "Verasity (VRA)"
-  },
-  {
-    "Symbol": "DROP",
-    "CoinName": "Dropil",
-    "FullName": "Dropil (DROP)"
-  },
-  {
-    "Symbol": "COIN",
-    "CoinName": "Coinvest",
-    "FullName": "Coinvest (COIN)"
-  },
-  {
-    "Symbol": "ETT",
-    "CoinName": "EncryptoTel",
-    "FullName": "EncryptoTel (ETT)"
-  },
-  {
-    "Symbol": "TMT**",
-    "CoinName": "Traxia Membership Token",
-    "FullName": "Traxia Membership Token (TMT**)"
-  },
-  {
-    "Symbol": "HLD",
-    "CoinName": "HyperLending",
-    "FullName": "HyperLending (HLD)"
+    "Symbol": "CCL",
+    "CoinName": "CyClean",
+    "FullName": "CyClean (CCL)"
   },
   {
     "Symbol": "HYC",
@@ -12695,19 +13755,64 @@ const coinlist = [
     "FullName": "HYCON (HYC)"
   },
   {
+    "Symbol": "TCX",
+    "CoinName": "T-Coin",
+    "FullName": "T-Coin (TCX)"
+  },
+  {
+    "Symbol": "HLD",
+    "CoinName": "HyperLending",
+    "FullName": "HyperLending (HLD)"
+  },
+  {
     "Symbol": "DACC",
     "CoinName": "Decentralized Accessible Content Chain ",
     "FullName": "Decentralized Accessible Content Chain  (DACC)"
   },
   {
-    "Symbol": "ICST",
-    "CoinName": "ICST",
-    "FullName": "ICST (ICST)"
+    "Symbol": "NUSD",
+    "CoinName": "Nomin USD",
+    "FullName": "Nomin USD (NUSD)"
+  },
+  {
+    "Symbol": "TCHB",
+    "CoinName": "Teachers Blockchain",
+    "FullName": "Teachers Blockchain (TCHB)"
+  },
+  {
+    "Symbol": "DAX",
+    "CoinName": "DAEX",
+    "FullName": "DAEX (DAX)"
   },
   {
     "Symbol": "BEC",
     "CoinName": "Beauty Chain",
     "FullName": "Beauty Chain (BEC)"
+  },
+  {
+    "Symbol": "VEEN",
+    "CoinName": "LIVEEN",
+    "FullName": "LIVEEN (VEEN)"
+  },
+  {
+    "Symbol": "CIC",
+    "CoinName": "CIChain",
+    "FullName": "CIChain (CIC)"
+  },
+  {
+    "Symbol": "MIODIO",
+    "CoinName": "MIODIOCOIN",
+    "FullName": "MIODIOCOIN (MIODIO)"
+  },
+  {
+    "Symbol": "MOV",
+    "CoinName": "MovieCoin",
+    "FullName": "MovieCoin (MOV)"
+  },
+  {
+    "Symbol": "IHF",
+    "CoinName": "Invictus Hyperion Fund",
+    "FullName": "Invictus Hyperion Fund (IHF)"
   },
   {
     "Symbol": "CNAB",
@@ -12720,9 +13825,14 @@ const coinlist = [
     "FullName": "SGPay (SGP)"
   },
   {
-    "Symbol": "LPC*",
+    "Symbol": "LTPC",
     "CoinName": "Lightpaycoin",
-    "FullName": "Lightpaycoin (LPC*)"
+    "FullName": "Lightpaycoin (LTPC)"
+  },
+  {
+    "Symbol": "HANA",
+    "CoinName": "Hanacoin",
+    "FullName": "Hanacoin (HANA)"
   },
   {
     "Symbol": "BTV",
@@ -12730,84 +13840,54 @@ const coinlist = [
     "FullName": "Bitvote (BTV)"
   },
   {
+    "Symbol": "URP",
+    "CoinName": "Universal Reward Protocol",
+    "FullName": "Universal Reward Protocol (URP)"
+  },
+  {
     "Symbol": "SHE",
     "CoinName": "Shine Chain",
     "FullName": "Shine Chain (SHE)"
   },
   {
-    "Symbol": "CCT",
-    "CoinName": "Crystal Clear Token ",
-    "FullName": "Crystal Clear Token  (CCT)"
+    "Symbol": "IVN",
+    "CoinName": "IVN Security",
+    "FullName": "IVN Security (IVN)"
   },
   {
-    "Symbol": "ARENA",
-    "CoinName": "Arena",
-    "FullName": "Arena (ARENA)"
+    "Symbol": "DAV",
+    "CoinName": "DAV",
+    "FullName": "DAV (DAV)"
   },
   {
-    "Symbol": "SGR",
-    "CoinName": "Sugar Exchange",
-    "FullName": "Sugar Exchange (SGR)"
-  },
-  {
-    "Symbol": "AUN",
-    "CoinName": "Authoreon",
-    "FullName": "Authoreon (AUN)"
-  },
-  {
-    "Symbol": "DAN",
-    "CoinName": "Daneel",
-    "FullName": "Daneel (DAN)"
-  },
-  {
-    "Symbol": "HHEM",
-    "CoinName": "Healthureum",
-    "FullName": "Healthureum (HHEM)"
-  },
-  {
-    "Symbol": "XNK",
-    "CoinName": "Ink Protocol",
-    "FullName": "Ink Protocol (XNK)"
-  },
-  {
-    "Symbol": "DDD",
-    "CoinName": "Scry.info",
-    "FullName": "Scry.info (DDD)"
-  },
-  {
-    "Symbol": "PROOF",
-    "CoinName": "PROVER",
-    "FullName": "PROVER (PROOF)"
-  },
-  {
-    "Symbol": "STM",
-    "CoinName": "Streamity",
-    "FullName": "Streamity (STM)"
-  },
-  {
-    "Symbol": "BST",
-    "CoinName": "BitStone",
-    "FullName": "BitStone (BST)"
-  },
-  {
-    "Symbol": "KVT*",
-    "CoinName": "Kvantor",
-    "FullName": "Kvantor (KVT*)"
-  },
-  {
-    "Symbol": "IHF",
-    "CoinName": "Invictus Hyperion Fund",
-    "FullName": "Invictus Hyperion Fund (IHF)"
-  },
-  {
-    "Symbol": "8BT",
-    "CoinName": "8 Circuit Studios",
-    "FullName": "8 Circuit Studios (8BT)"
+    "Symbol": "ZAT",
+    "CoinName": "ZatGo",
+    "FullName": "ZatGo (ZAT)"
   },
   {
     "Symbol": "IMT",
     "CoinName": "MoneyToken",
     "FullName": "MoneyToken (IMT)"
+  },
+  {
+    "Symbol": "MHC",
+    "CoinName": "MetaHash",
+    "FullName": "MetaHash (MHC)"
+  },
+  {
+    "Symbol": "HELIOS",
+    "CoinName": "HeliosCoin",
+    "FullName": "HeliosCoin (HELIOS)"
+  },
+  {
+    "Symbol": "ROBET",
+    "CoinName": "RoBet",
+    "FullName": "RoBet (ROBET)"
+  },
+  {
+    "Symbol": "CRYP",
+    "CoinName": "CrypticCoin",
+    "FullName": "CrypticCoin (CRYP)"
   },
   {
     "Symbol": "BDT",
@@ -12820,99 +13900,9 @@ const coinlist = [
     "FullName": "Bettex coin (BTXC)"
   },
   {
-    "Symbol": "OMI",
-    "CoinName": "ECOMI",
-    "FullName": "ECOMI (OMI)"
-  },
-  {
-    "Symbol": "ROBET",
-    "CoinName": "RoBet",
-    "FullName": "RoBet (ROBET)"
-  },
-  {
-    "Symbol": "UBEX",
-    "CoinName": "Ubex",
-    "FullName": "Ubex (UBEX)"
-  },
-  {
-    "Symbol": "PSK",
-    "CoinName": "Pool of Stake",
-    "FullName": "Pool of Stake (PSK)"
-  },
-  {
-    "Symbol": "GBTC",
-    "CoinName": "GigTricks",
-    "FullName": "GigTricks (GBTC)"
-  },
-  {
-    "Symbol": "AUK",
-    "CoinName": "Aukcecoin",
-    "FullName": "Aukcecoin (AUK)"
-  },
-  {
-    "Symbol": "URP",
-    "CoinName": "Universal Reward Protocol",
-    "FullName": "Universal Reward Protocol (URP)"
-  },
-  {
-    "Symbol": "IVN",
-    "CoinName": "IVN Security",
-    "FullName": "IVN Security (IVN)"
-  },
-  {
-    "Symbol": "ZEN",
-    "CoinName": "Horizen",
-    "FullName": "Horizen (ZEN)"
-  },
-  {
-    "Symbol": "ETT*",
-    "CoinName": "Eternal Trusts",
-    "FullName": "Eternal Trusts (ETT*)"
-  },
-  {
-    "Symbol": "PAVO",
-    "CoinName": "Pavocoin",
-    "FullName": "Pavocoin (PAVO)"
-  },
-  {
-    "Symbol": "USCOIN",
-    "CoinName": "USCoin",
-    "FullName": "USCoin (USCOIN)"
-  },
-  {
-    "Symbol": "TRIP",
-    "CoinName": "Trippki",
-    "FullName": "Trippki (TRIP)"
-  },
-  {
-    "Symbol": "BCIO",
-    "CoinName": "Blockchain.io",
-    "FullName": "Blockchain.io (BCIO)"
-  },
-  {
-    "Symbol": "XDN",
-    "CoinName": "DigitalNote ",
-    "FullName": "DigitalNote  (XDN)"
-  },
-  {
-    "Symbol": "MTC",
-    "CoinName": "DOCADEMIC",
-    "FullName": "DOCADEMIC (MTC)"
-  },
-  {
-    "Symbol": "MODEX",
-    "CoinName": "MODEX Token",
-    "FullName": "MODEX Token (MODEX)"
-  },
-  {
-    "Symbol": "BNR",
-    "CoinName": "BiNeuro",
-    "FullName": "BiNeuro (BNR)"
-  },
-  {
-    "Symbol": "SEN*",
-    "CoinName": "Consensus",
-    "FullName": "Consensus (SEN*)"
+    "Symbol": "DAPS",
+    "CoinName": "DAPS Coin",
+    "FullName": "DAPS Coin (DAPS)"
   },
   {
     "Symbol": "ETE",
@@ -12920,34 +13910,34 @@ const coinlist = [
     "FullName": "EXTRADECOIN (ETE)"
   },
   {
+    "Symbol": "NHCT",
+    "CoinName": "Nano Healthcare Token",
+    "FullName": "Nano Healthcare Token (NHCT)"
+  },
+  {
+    "Symbol": "AZ",
+    "CoinName": "Azbit",
+    "FullName": "Azbit (AZ)"
+  },
+  {
     "Symbol": "SWA",
     "CoinName": "Swace",
     "FullName": "Swace (SWA)"
   },
   {
-    "Symbol": "TDZ",
-    "CoinName": "Tradelize",
-    "FullName": "Tradelize (TDZ)"
+    "Symbol": "USDCT",
+    "CoinName": "USDCT",
+    "FullName": "USDCT (USDCT)"
   },
   {
-    "Symbol": "BOB",
-    "CoinName": "Bob's Repair",
-    "FullName": "Bob's Repair (BOB)"
+    "Symbol": "IAG",
+    "CoinName": "IAGON",
+    "FullName": "IAGON (IAG)"
   },
   {
-    "Symbol": "ZAT",
-    "CoinName": "ZatGo",
-    "FullName": "ZatGo (ZAT)"
-  },
-  {
-    "Symbol": "DAV*",
-    "CoinName": "DAV",
-    "FullName": "DAV (DAV*)"
-  },
-  {
-    "Symbol": "NHCT",
-    "CoinName": "Nano Healthcare Token",
-    "FullName": "Nano Healthcare Token (NHCT)"
+    "Symbol": "STRS",
+    "CoinName": "STARS ",
+    "FullName": "STARS  (STRS)"
   },
   {
     "Symbol": "MTCMN",
@@ -12955,14 +13945,9 @@ const coinlist = [
     "FullName": "MTC Mesh (MTCMN)"
   },
   {
-    "Symbol": "DAPS",
-    "CoinName": "DAPS Token",
-    "FullName": "DAPS Token (DAPS)"
-  },
-  {
-    "Symbol": "ATON",
-    "CoinName": "Further Network",
-    "FullName": "Further Network (ATON)"
+    "Symbol": "AAA",
+    "CoinName": "AAA Reserve Currency",
+    "FullName": "AAA Reserve Currency (AAA)"
   },
   {
     "Symbol": "ZEST",
@@ -12970,89 +13955,9 @@ const coinlist = [
     "FullName": "ZestCoin (ZEST)"
   },
   {
-    "Symbol": "EVX",
-    "CoinName": "Everex",
-    "FullName": "Everex (EVX)"
-  },
-  {
     "Symbol": "HLM",
     "CoinName": "Helium",
     "FullName": "Helium (HLM)"
-  },
-  {
-    "Symbol": "MOAC",
-    "CoinName": "MOAC",
-    "FullName": "MOAC (MOAC)"
-  },
-  {
-    "Symbol": "ONGAS",
-    "CoinName": "Ontology Gas",
-    "FullName": "Ontology Gas (ONGAS)"
-  },
-  {
-    "Symbol": "BIPC",
-    "CoinName": "BipCoin",
-    "FullName": "BipCoin (BIPC)"
-  },
-  {
-    "Symbol": "XCSH",
-    "CoinName": "Xcash",
-    "FullName": "Xcash (XCSH)"
-  },
-  {
-    "Symbol": "AT",
-    "CoinName": "ABCC Token",
-    "FullName": "ABCC Token (AT)"
-  },
-  {
-    "Symbol": "JIB",
-    "CoinName": "Jibbit",
-    "FullName": "Jibbit (JIB)"
-  },
-  {
-    "Symbol": "PHM",
-    "CoinName": "Phomeum",
-    "FullName": "Phomeum (PHM)"
-  },
-  {
-    "Symbol": "TCX",
-    "CoinName": "T-Coin",
-    "FullName": "T-Coin (TCX)"
-  },
-  {
-    "Symbol": "QUANT",
-    "CoinName": "Quantler",
-    "FullName": "Quantler (QUANT)"
-  },
-  {
-    "Symbol": "XCASH",
-    "CoinName": "X-CASH",
-    "FullName": "X-CASH (XCASH)"
-  },
-  {
-    "Symbol": "BIP",
-    "CoinName": "Minter",
-    "FullName": "Minter (BIP)"
-  },
-  {
-    "Symbol": "GGR",
-    "CoinName": "GGRocket",
-    "FullName": "GGRocket (GGR)"
-  },
-  {
-    "Symbol": "MNV",
-    "CoinName": "MonetaVerde",
-    "FullName": "MonetaVerde (MNV)"
-  },
-  {
-    "Symbol": "MCN",
-    "CoinName": "mCoin",
-    "FullName": "mCoin (MCN)"
-  },
-  {
-    "Symbol": "PERU",
-    "CoinName": "PeruCoin",
-    "FullName": "PeruCoin (PERU)"
   },
   {
     "Symbol": "CSP",
@@ -13060,29 +13965,39 @@ const coinlist = [
     "FullName": "Caspian (CSP)"
   },
   {
-    "Symbol": "DEPO",
-    "CoinName": "Depository Network",
-    "FullName": "Depository Network (DEPO)"
+    "Symbol": "USDC",
+    "CoinName": "USD Coin",
+    "FullName": "USD Coin (USDC)"
   },
   {
-    "Symbol": "MDN",
-    "CoinName": "MADANA",
-    "FullName": "MADANA (MDN)"
+    "Symbol": "ONGAS",
+    "CoinName": "Ontology Gas",
+    "FullName": "Ontology Gas (ONGAS)"
   },
   {
-    "Symbol": "PMTN",
-    "CoinName": "Peer Mountain",
-    "FullName": "Peer Mountain (PMTN)"
+    "Symbol": "NRVE",
+    "CoinName": "Narrative",
+    "FullName": "Narrative (NRVE)"
   },
   {
-    "Symbol": "GMA",
-    "CoinName": "Goldchip Mining Asset",
-    "FullName": "Goldchip Mining Asset (GMA)"
+    "Symbol": "BIP",
+    "CoinName": "Minter",
+    "FullName": "Minter (BIP)"
   },
   {
-    "Symbol": "RUPX",
-    "CoinName": "Rupaya",
-    "FullName": "Rupaya (RUPX)"
+    "Symbol": "XCASH",
+    "CoinName": "X-CASH",
+    "FullName": "X-CASH (XCASH)"
+  },
+  {
+    "Symbol": "RMESH",
+    "CoinName": "RightMesh",
+    "FullName": "RightMesh (RMESH)"
+  },
+  {
+    "Symbol": "HAND",
+    "CoinName": "ShowHand",
+    "FullName": "ShowHand (HAND)"
   },
   {
     "Symbol": "GBXT",
@@ -13090,19 +14005,119 @@ const coinlist = [
     "FullName": "Globitex Token (GBXT)"
   },
   {
+    "Symbol": "ABCC",
+    "CoinName": "ABCC Token",
+    "FullName": "ABCC Token (ABCC)"
+  },
+  {
+    "Symbol": "BASIS",
+    "CoinName": "Basis",
+    "FullName": "Basis (BASIS)"
+  },
+  {
+    "Symbol": "JIB",
+    "CoinName": "Jibbit",
+    "FullName": "Jibbit (JIB)"
+  },
+  {
+    "Symbol": "PMTN",
+    "CoinName": "Peer Mountain",
+    "FullName": "Peer Mountain (PMTN)"
+  },
+  {
+    "Symbol": "SGA",
+    "CoinName": "SAGA",
+    "FullName": "SAGA (SGA)"
+  },
+  {
+    "Symbol": "PHM",
+    "CoinName": "Phomeum",
+    "FullName": "Phomeum (PHM)"
+  },
+  {
+    "Symbol": "CUSD",
+    "CoinName": "Carbon",
+    "FullName": "Carbon (CUSD)"
+  },
+  {
+    "Symbol": "QUANT",
+    "CoinName": "Quantler",
+    "FullName": "Quantler (QUANT)"
+  },
+  {
+    "Symbol": "KUSD",
+    "CoinName": "Kowala",
+    "FullName": "Kowala (KUSD)"
+  },
+  {
+    "Symbol": "VEOT",
+    "CoinName": "Viewo",
+    "FullName": "Viewo (VEOT)"
+  },
+  {
+    "Symbol": "GGR",
+    "CoinName": "GGRocket",
+    "FullName": "GGRocket (GGR)"
+  },
+  {
+    "Symbol": "VEST",
+    "CoinName": "VestChain",
+    "FullName": "VestChain (VEST)"
+  },
+  {
+    "Symbol": "MCN",
+    "CoinName": "mCoin",
+    "FullName": "mCoin (MCN)"
+  },
+  {
+    "Symbol": "TCH",
+    "CoinName": "TigerCash",
+    "FullName": "TigerCash (TCH)"
+  },
+  {
+    "Symbol": "DEPO",
+    "CoinName": "Depository Network",
+    "FullName": "Depository Network (DEPO)"
+  },
+  {
+    "Symbol": "MENLO",
+    "CoinName": "Menlo One",
+    "FullName": "Menlo One (MENLO)"
+  },
+  {
+    "Symbol": "TVA",
+    "CoinName": "Terra Virtua",
+    "FullName": "Terra Virtua (TVA)"
+  },
+  {
+    "Symbol": "METM",
+    "CoinName": "MetaMorph",
+    "FullName": "MetaMorph (METM)"
+  },
+  {
+    "Symbol": "PAX",
+    "CoinName": "Paxos Standard",
+    "FullName": "Paxos Standard (PAX)"
+  },
+  {
+    "Symbol": "ARAW",
+    "CoinName": "Araw",
+    "FullName": "Araw (ARAW)"
+  },
+  {
     "Symbol": "BRAZ",
     "CoinName": "Brazio",
     "FullName": "Brazio (BRAZ)"
   },
   {
-    "Symbol": "FLEX",
-    "CoinName": "TrustedCars FLEX",
-    "FullName": "TrustedCars FLEX (FLEX)"
+    "Symbol": "TALAO",
+    "CoinName": "Talao",
+    "FullName": "Talao (TALAO)"
   },
   {
-    "Symbol": "DIVX",
-    "CoinName": "Divi Exchange Token",
-    "FullName": "Divi Exchange Token (DIVX)"
+    "Symbol": "IZX",
+    "CoinName": "IZX",
+    "FullName": "IZX (IZX)"
   },
   {
     "Symbol": "DIVI",
@@ -13110,24 +14125,29 @@ const coinlist = [
     "FullName": "Divi Project (DIVI)"
   },
   {
+    "Symbol": "HQT",
+    "CoinName": "HyperQuant",
+    "FullName": "HyperQuant (HQT)"
+  },
+  {
+    "Symbol": "W12",
+    "CoinName": "W12 Protocol",
+    "FullName": "W12 Protocol (W12)"
+  },
+  {
     "Symbol": "NBAR",
     "CoinName": "NOBAR",
     "FullName": "NOBAR (NBAR)"
   },
   {
-    "Symbol": "SFT",
-    "CoinName": "SportsFix",
-    "FullName": "SportsFix (SFT)"
-  },
-  {
-    "Symbol": "ITR",
-    "CoinName": "INTRO",
-    "FullName": "INTRO (ITR)"
-  },
-  {
     "Symbol": "KBX",
     "CoinName": "KuBitX",
     "FullName": "KuBitX (KBX)"
+  },
+  {
+    "Symbol": "MYDFS",
+    "CoinName": "MyDFS",
+    "FullName": "MyDFS (MYDFS)"
   },
   {
     "Symbol": "VTHO",
@@ -13140,19 +14160,19 @@ const coinlist = [
     "FullName": "BHPCash (BHPC)"
   },
   {
-    "Symbol": "HC",
-    "CoinName": "HyperCash",
-    "FullName": "HyperCash (HC)"
+    "Symbol": "VTOS",
+    "CoinName": "VTOS",
+    "FullName": "VTOS (VTOS)"
   },
   {
-    "Symbol": "TOT*",
-    "CoinName": "Trecento Blockchain Capital",
-    "FullName": "Trecento Blockchain Capital (TOT*)"
+    "Symbol": "M2O",
+    "CoinName": "M2O Token",
+    "FullName": "M2O Token (M2O)"
   },
   {
-    "Symbol": "HMN",
-    "CoinName": "Harvest Masternode Coin",
-    "FullName": "Harvest Masternode Coin (HMN)"
+    "Symbol": "SLY",
+    "CoinName": "SELFLLERY",
+    "FullName": "SELFLLERY (SLY)"
   },
   {
     "Symbol": "UEC",
@@ -13160,59 +14180,14 @@ const coinlist = [
     "FullName": "United Emirates Coin (UEC)"
   },
   {
-    "Symbol": "UAEC",
-    "CoinName": "United Arab Emirates Coin",
-    "FullName": "United Arab Emirates Coin (UAEC)"
-  },
-  {
-    "Symbol": "BTCL",
-    "CoinName": "BTC Lite",
-    "FullName": "BTC Lite (BTCL)"
-  },
-  {
     "Symbol": "BEAT",
     "CoinName": "BEAT Token",
     "FullName": "BEAT Token (BEAT)"
   },
   {
-    "Symbol": "UBC",
-    "CoinName": "Ubcoin",
-    "FullName": "Ubcoin (UBC)"
-  },
-  {
-    "Symbol": "ESTATE",
-    "CoinName": "AgentMile",
-    "FullName": "AgentMile (ESTATE)"
-  },
-  {
-    "Symbol": "TAGR",
-    "CoinName": "Think And Get Rich Coin",
-    "FullName": "Think And Get Rich Coin (TAGR)"
-  },
-  {
-    "Symbol": "DEC",
-    "CoinName": "Darico",
-    "FullName": "Darico (DEC)"
-  },
-  {
-    "Symbol": "VTC",
-    "CoinName": "Vertcoin",
-    "FullName": "Vertcoin (VTC)"
-  },
-  {
-    "Symbol": "ISH",
-    "CoinName": "Interstellar Holdings",
-    "FullName": "Interstellar Holdings (ISH)"
-  },
-  {
-    "Symbol": "SEED",
-    "CoinName": "Superbloom",
-    "FullName": "Superbloom (SEED)"
-  },
-  {
-    "Symbol": "AUD",
-    "CoinName": "Aussie Digital",
-    "FullName": "Aussie Digital (AUD)"
+    "Symbol": "MOLK",
+    "CoinName": "Mobilink Token",
+    "FullName": "Mobilink Token (MOLK)"
   },
   {
     "Symbol": "MSD",
@@ -13220,24 +14195,9 @@ const coinlist = [
     "FullName": "MSD (MSD)"
   },
   {
-    "Symbol": "AZ",
-    "CoinName": "Azbit",
-    "FullName": "Azbit (AZ)"
-  },
-  {
-    "Symbol": "USDCT",
-    "CoinName": "USDCT",
-    "FullName": "USDCT (USDCT)"
-  },
-  {
-    "Symbol": "DBIX",
-    "CoinName": "DubaiCoin",
-    "FullName": "DubaiCoin (DBIX)"
-  },
-  {
-    "Symbol": "PRC",
-    "CoinName": "ProsperCoin",
-    "FullName": "ProsperCoin (PRC)"
+    "Symbol": "SEED",
+    "CoinName": "Superbloom",
+    "FullName": "Superbloom (SEED)"
   },
   {
     "Symbol": "SEAL",
@@ -13245,14 +14205,14 @@ const coinlist = [
     "FullName": "Seal Network (SEAL)"
   },
   {
-    "Symbol": "APH",
-    "CoinName": "Aphelion",
-    "FullName": "Aphelion (APH)"
+    "Symbol": "GBO",
+    "CoinName": "Gabro.io",
+    "FullName": "Gabro.io (GBO)"
   },
   {
-    "Symbol": "SOLID",
-    "CoinName": "Solidified",
-    "FullName": "Solidified (SOLID)"
+    "Symbol": "ACM",
+    "CoinName": "Actinium",
+    "FullName": "Actinium (ACM)"
   },
   {
     "Symbol": "DFXT",
@@ -13265,29 +14225,19 @@ const coinlist = [
     "FullName": "BitForex Token (BF)"
   },
   {
-    "Symbol": "CMTC",
-    "CoinName": "CometCoin",
-    "FullName": "CometCoin (CMTC)"
-  },
-  {
     "Symbol": "NWP",
     "CoinName": "NWPSolution",
     "FullName": "NWPSolution (NWP)"
   },
   {
-    "Symbol": "MOV",
-    "CoinName": "MovieCoin",
-    "FullName": "MovieCoin (MOV)"
+    "Symbol": "BCDT",
+    "CoinName": "Blockchain Certified Data Token",
+    "FullName": "Blockchain Certified Data Token (BCDT)"
   },
   {
-    "Symbol": "HVN",
-    "CoinName": "Hiveterminal Token",
-    "FullName": "Hiveterminal Token (HVN)"
-  },
-  {
-    "Symbol": "PASC",
-    "CoinName": "Pascal Coin",
-    "FullName": "Pascal Coin (PASC)"
+    "Symbol": "EVOS",
+    "CoinName": "EVOS",
+    "FullName": "EVOS (EVOS)"
   },
   {
     "Symbol": "DEEX",
@@ -13300,39 +14250,29 @@ const coinlist = [
     "FullName": "ANON (ANON)"
   },
   {
-    "Symbol": "RUP",
-    "CoinName": "Rupee",
-    "FullName": "Rupee (RUP)"
+    "Symbol": "LTZ",
+    "CoinName": "Litecoinz",
+    "FullName": "Litecoinz (LTZ)"
   },
   {
-    "Symbol": "NEXO",
-    "CoinName": "NEXO",
-    "FullName": "NEXO (NEXO)"
+    "Symbol": "MTZ",
+    "CoinName": "Monetizr",
+    "FullName": "Monetizr (MTZ)"
   },
   {
-    "Symbol": "CRON",
-    "CoinName": "Cryptocean",
-    "FullName": "Cryptocean (CRON)"
+    "Symbol": "TBL",
+    "CoinName": "Tombola",
+    "FullName": "Tombola (TBL)"
   },
   {
-    "Symbol": "ZCC1",
-    "CoinName": "ZeroCarbon",
-    "FullName": "ZeroCarbon (ZCC1)"
+    "Symbol": "BXY",
+    "CoinName": "Beaxy",
+    "FullName": "Beaxy (BXY)"
   },
   {
-    "Symbol": "SHARD",
-    "CoinName": "ShardCoin",
-    "FullName": "ShardCoin (SHARD)"
-  },
-  {
-    "Symbol": "EVOS",
-    "CoinName": "EVOS",
-    "FullName": "EVOS (EVOS)"
-  },
-  {
-    "Symbol": "BCDT",
-    "CoinName": "Blockchain Certified Data Token",
-    "FullName": "Blockchain Certified Data Token (BCDT)"
+    "Symbol": "KUE",
+    "CoinName": "Kuende",
+    "FullName": "Kuende (KUE)"
   },
   {
     "Symbol": "ESN",
@@ -13340,34 +14280,24 @@ const coinlist = [
     "FullName": "Ethersocial (ESN)"
   },
   {
-    "Symbol": "CHX",
-    "CoinName": "Chainium",
-    "FullName": "Chainium (CHX)"
+    "Symbol": "H3O",
+    "CoinName": "Hydrominer",
+    "FullName": "Hydrominer (H3O)"
   },
   {
-    "Symbol": "USDC",
-    "CoinName": "USD Coin",
-    "FullName": "USD Coin (USDC)"
+    "Symbol": "BETHER",
+    "CoinName": "Bethereum",
+    "FullName": "Bethereum (BETHER)"
   },
   {
-    "Symbol": "PLMT",
-    "CoinName": "Pallium",
-    "FullName": "Pallium (PLMT)"
+    "Symbol": "ETHO",
+    "CoinName": "ETHER-1",
+    "FullName": "ETHER-1 (ETHO)"
   },
   {
-    "Symbol": "ORBS",
-    "CoinName": "Orbis",
-    "FullName": "Orbis (ORBS)"
-  },
-  {
-    "Symbol": "LED",
-    "CoinName": "Terawatt",
-    "FullName": "Terawatt (LED)"
-  },
-  {
-    "Symbol": "NPXS",
-    "CoinName": "Pundi X",
-    "FullName": "Pundi X (NPXS)"
+    "Symbol": "WTL",
+    "CoinName": "Welltrado",
+    "FullName": "Welltrado (WTL)"
   },
   {
     "Symbol": "HIH",
@@ -13375,14 +14305,34 @@ const coinlist = [
     "FullName": "HiHealth (HIH)"
   },
   {
+    "Symbol": "ANGEL",
+    "CoinName": "Crypto Angel",
+    "FullName": "Crypto Angel (ANGEL)"
+  },
+  {
+    "Symbol": "P2PS",
+    "CoinName": "P2P Solutions Foundation",
+    "FullName": "P2P Solutions Foundation (P2PS)"
+  },
+  {
+    "Symbol": "GXT",
+    "CoinName": "Game Protocol",
+    "FullName": "Game Protocol (GXT)"
+  },
+  {
     "Symbol": "AIM",
     "CoinName": "Aimedis",
     "FullName": "Aimedis (AIM)"
   },
   {
-    "Symbol": "ACM",
-    "CoinName": "Actinium",
-    "FullName": "Actinium (ACM)"
+    "Symbol": "TWISTR",
+    "CoinName": "TWIST",
+    "FullName": "TWIST (TWISTR)"
+  },
+  {
+    "Symbol": "CXA",
+    "CoinName": "CryptovationX",
+    "FullName": "CryptovationX (CXA)"
   },
   {
     "Symbol": "BITTO",
@@ -13390,24 +14340,14 @@ const coinlist = [
     "FullName": "BITTO (BITTO)"
   },
   {
+    "Symbol": "HNY",
+    "CoinName": "BitFence",
+    "FullName": "BitFence (HNY)"
+  },
+  {
     "Symbol": "QEY",
     "CoinName": "AQwire",
     "FullName": "AQwire (QEY)"
-  },
-  {
-    "Symbol": "COT",
-    "CoinName": "CoTrader",
-    "FullName": "CoTrader (COT)"
-  },
-  {
-    "Symbol": "FNP",
-    "CoinName": "FlipNpik",
-    "FullName": "FlipNpik (FNP)"
-  },
-  {
-    "Symbol": "DBCCOIN",
-    "CoinName": "Datablockchain",
-    "FullName": "Datablockchain (DBCCOIN)"
   },
   {
     "Symbol": "UMK",
@@ -13415,14 +14355,19 @@ const coinlist = [
     "FullName": "UMKA (UMK)"
   },
   {
-    "Symbol": "M2O",
-    "CoinName": "M2O Token",
-    "FullName": "M2O Token (M2O)"
+    "Symbol": "VNX",
+    "CoinName": "VisionX",
+    "FullName": "VisionX (VNX)"
   },
   {
     "Symbol": "WMK",
     "CoinName": "Wemark",
     "FullName": "Wemark (WMK)"
+  },
+  {
+    "Symbol": "MBTC",
+    "CoinName": "MicroBitcoin",
+    "FullName": "MicroBitcoin (MBTC)"
   },
   {
     "Symbol": "OJX",
@@ -13435,9 +14380,19 @@ const coinlist = [
     "FullName": "Chrysalis Coin (CHW)"
   },
   {
+    "Symbol": "ABBC",
+    "CoinName": "ABBC Coin",
+    "FullName": "ABBC Coin (ABBC)"
+  },
+  {
     "Symbol": "CATT",
     "CoinName": "Catex",
     "FullName": "Catex (CATT)"
+  },
+  {
+    "Symbol": "VEX",
+    "CoinName": "Vexanium",
+    "FullName": "Vexanium (VEX)"
   },
   {
     "Symbol": "LQDN",
@@ -13445,604 +14400,9 @@ const coinlist = [
     "FullName": "Liquidity Network (LQDN)"
   },
   {
-    "Symbol": "YBC",
-    "CoinName": "YbCoin",
-    "FullName": "YbCoin (YBC)"
-  },
-  {
-    "Symbol": "ACOIN",
-    "CoinName": "ACoin",
-    "FullName": "ACoin (ACOIN)"
-  },
-  {
-    "Symbol": "ALN",
-    "CoinName": "AlienCoin",
-    "FullName": "AlienCoin (ALN)"
-  },
-  {
-    "Symbol": "AXR",
-    "CoinName": "AXRON",
-    "FullName": "AXRON (AXR)"
-  },
-  {
-    "Symbol": "RBT",
-    "CoinName": "Rimbit",
-    "FullName": "Rimbit (RBT)"
-  },
-  {
-    "Symbol": "MMNXT",
-    "CoinName": "MMNXT ",
-    "FullName": "MMNXT  (MMNXT)"
-  },
-  {
-    "Symbol": "CJ",
-    "CoinName": "CryptoJacks",
-    "FullName": "CryptoJacks (CJ)"
-  },
-  {
-    "Symbol": "DLISK",
-    "CoinName": "Dlisk",
-    "FullName": "Dlisk (DLISK)"
-  },
-  {
-    "Symbol": "XT",
-    "CoinName": "ExtremeCoin",
-    "FullName": "ExtremeCoin (XT)"
-  },
-  {
-    "Symbol": "CNMT",
-    "CoinName": "Coinomat",
-    "FullName": "Coinomat (CNMT)"
-  },
-  {
-    "Symbol": "LC",
-    "CoinName": "Lutetium Coin",
-    "FullName": "Lutetium Coin (LC)"
-  },
-  {
-    "Symbol": "HEAT",
-    "CoinName": "Heat Ledger",
-    "FullName": "Heat Ledger (HEAT)"
-  },
-  {
-    "Symbol": "EXB",
-    "CoinName": "ExaByte (EXB)",
-    "FullName": "ExaByte (EXB) (EXB)"
-  },
-  {
-    "Symbol": "ANC",
-    "CoinName": "Anoncoin",
-    "FullName": "Anoncoin (ANC)"
-  },
-  {
-    "Symbol": "EDR",
-    "CoinName": "E-Dinar Coin",
-    "FullName": "E-Dinar Coin (EDR)"
-  },
-  {
-    "Symbol": "TRIG",
-    "CoinName": "Trigger",
-    "FullName": "Trigger (TRIG)"
-  },
-  {
-    "Symbol": "ATM*",
-    "CoinName": "Autumncoin",
-    "FullName": "Autumncoin (ATM*)"
-  },
-  {
-    "Symbol": "SNS",
-    "CoinName": "Sense",
-    "FullName": "Sense (SNS)"
-  },
-  {
-    "Symbol": "FSN*",
-    "CoinName": "Fusion",
-    "FullName": "Fusion (FSN*)"
-  },
-  {
-    "Symbol": "ZET2",
-    "CoinName": "Zeta2Coin",
-    "FullName": "Zeta2Coin (ZET2)"
-  },
-  {
-    "Symbol": "COV*",
-    "CoinName": "CovenCoin",
-    "FullName": "CovenCoin (COV*)"
-  },
-  {
-    "Symbol": "TDFB",
-    "CoinName": "TDFB",
-    "FullName": "TDFB (TDFB)"
-  },
-  {
-    "Symbol": "PIO",
-    "CoinName": "Pioneershares",
-    "FullName": "Pioneershares (PIO)"
-  },
-  {
-    "Symbol": "RING",
-    "CoinName": "RingCoin",
-    "FullName": "RingCoin (RING)"
-  },
-  {
-    "Symbol": "LAZ",
-    "CoinName": "Lazarus",
-    "FullName": "Lazarus (LAZ)"
-  },
-  {
-    "Symbol": "MOOND",
-    "CoinName": "Dark Moon",
-    "FullName": "Dark Moon (MOOND)"
-  },
-  {
-    "Symbol": "LTH",
-    "CoinName": "Lathaan",
-    "FullName": "Lathaan (LTH)"
-  },
-  {
-    "Symbol": "NTC",
-    "CoinName": "NineElevenTruthCoin",
-    "FullName": "NineElevenTruthCoin (NTC)"
-  },
-  {
-    "Symbol": "BTCL*",
-    "CoinName": "BitluckCoin",
-    "FullName": "BitluckCoin (BTCL*)"
-  },
-  {
-    "Symbol": "X2",
-    "CoinName": "X2Coin",
-    "FullName": "X2Coin (X2)"
-  },
-  {
-    "Symbol": "BBCC",
-    "CoinName": "BaseballCardCoin",
-    "FullName": "BaseballCardCoin (BBCC)"
-  },
-  {
-    "Symbol": "CPLO",
-    "CoinName": "Cpollo",
-    "FullName": "Cpollo (CPLO)"
-  },
-  {
-    "Symbol": "XZC",
-    "CoinName": "ZCoin",
-    "FullName": "ZCoin (XZC)"
-  },
-  {
-    "Symbol": "CF",
-    "CoinName": "Californium",
-    "FullName": "Californium (CF)"
-  },
-  {
-    "Symbol": "CFC",
-    "CoinName": "CoffeeCoin",
-    "FullName": "CoffeeCoin (CFC)"
-  },
-  {
-    "Symbol": "HCC",
-    "CoinName": "HappyCreatorCoin ",
-    "FullName": "HappyCreatorCoin  (HCC)"
-  },
-  {
-    "Symbol": "PEC",
-    "CoinName": "PeaceCoin",
-    "FullName": "PeaceCoin (PEC)"
-  },
-  {
-    "Symbol": "NXTI",
-    "CoinName": "NXTI",
-    "FullName": "NXTI (NXTI)"
-  },
-  {
-    "Symbol": "GMX",
-    "CoinName": "Goldmaxcoin",
-    "FullName": "Goldmaxcoin (GMX)"
-  },
-  {
-    "Symbol": "SCT",
-    "CoinName": "ScryptToken",
-    "FullName": "ScryptToken (SCT)"
-  },
-  {
-    "Symbol": "LANA",
-    "CoinName": "LanaCoin",
-    "FullName": "LanaCoin (LANA)"
-  },
-  {
-    "Symbol": "DKC",
-    "CoinName": "DarkKnightCoin",
-    "FullName": "DarkKnightCoin (DKC)"
-  },
-  {
-    "Symbol": "RYCN",
-    "CoinName": "RoyalCoin 2.0",
-    "FullName": "RoyalCoin 2.0 (RYCN)"
-  },
-  {
-    "Symbol": "NBIT",
-    "CoinName": "NetBit",
-    "FullName": "NetBit (NBIT)"
-  },
-  {
-    "Symbol": "ARK",
-    "CoinName": "ARK",
-    "FullName": "ARK (ARK)"
-  },
-  {
-    "Symbol": "ZXT",
-    "CoinName": "Zcrypt",
-    "FullName": "Zcrypt (ZXT)"
-  },
-  {
-    "Symbol": "LUCKY",
-    "CoinName": "LuckyBlocks",
-    "FullName": "LuckyBlocks (LUCKY)"
-  },
-  {
-    "Symbol": "TPG",
-    "CoinName": "Troll Payment",
-    "FullName": "Troll Payment (TPG)"
-  },
-  {
-    "Symbol": "CBD",
-    "CoinName": "CBD Crystals",
-    "FullName": "CBD Crystals (CBD)"
-  },
-  {
-    "Symbol": "PEN*",
-    "CoinName": "PenCoin",
-    "FullName": "PenCoin (PEN*)"
-  },
-  {
-    "Symbol": "BASH",
-    "CoinName": "LuckChain",
-    "FullName": "LuckChain (BASH)"
-  },
-  {
-    "Symbol": "MEGA",
-    "CoinName": "MegaFlash",
-    "FullName": "MegaFlash (MEGA)"
-  },
-  {
-    "Symbol": "DRS",
-    "CoinName": "Digital Rupees",
-    "FullName": "Digital Rupees (DRS)"
-  },
-  {
-    "Symbol": "EMB",
-    "CoinName": "EmberCoin",
-    "FullName": "EmberCoin (EMB)"
-  },
-  {
-    "Symbol": "BTTF",
-    "CoinName": "Coin to the Future",
-    "FullName": "Coin to the Future (BTTF)"
-  },
-  {
-    "Symbol": "XEN",
-    "CoinName": "XenixCoin",
-    "FullName": "XenixCoin (XEN)"
-  },
-  {
-    "Symbol": "JIO",
-    "CoinName": "JIO Token",
-    "FullName": "JIO Token (JIO)"
-  },
-  {
-    "Symbol": "TRICK",
-    "CoinName": "TrickyCoin",
-    "FullName": "TrickyCoin (TRICK)"
-  },
-  {
-    "Symbol": "PLNC",
-    "CoinName": "PLNCoin",
-    "FullName": "PLNCoin (PLNC)"
-  },
-  {
-    "Symbol": "DGMS",
-    "CoinName": "Digigems",
-    "FullName": "Digigems (DGMS)"
-  },
-  {
-    "Symbol": "ENT",
-    "CoinName": "Eternity",
-    "FullName": "Eternity (ENT)"
-  },
-  {
-    "Symbol": "BCF",
-    "CoinName": "BitcoinFast",
-    "FullName": "BitcoinFast (BCF)"
-  },
-  {
-    "Symbol": "SHORTY",
-    "CoinName": "ShortyCoin",
-    "FullName": "ShortyCoin (SHORTY)"
-  },
-  {
-    "Symbol": "XPX",
-    "CoinName": "ProximaX",
-    "FullName": "ProximaX (XPX)"
-  },
-  {
-    "Symbol": "MONEY",
-    "CoinName": "MoneyCoin",
-    "FullName": "MoneyCoin (MONEY)"
-  },
-  {
-    "Symbol": "BSTAR",
-    "CoinName": "Blackstar",
-    "FullName": "Blackstar (BSTAR)"
-  },
-  {
-    "Symbol": "CCRB",
-    "CoinName": "CryptoCarbon",
-    "FullName": "CryptoCarbon (CCRB)"
-  },
-  {
-    "Symbol": "INCNT",
-    "CoinName": "Incent",
-    "FullName": "Incent (INCNT)"
-  },
-  {
-    "Symbol": "ICON",
-    "CoinName": "Iconic",
-    "FullName": "Iconic (ICON)"
-  },
-  {
-    "Symbol": "ACN",
-    "CoinName": "AvonCoin",
-    "FullName": "AvonCoin (ACN)"
-  },
-  {
-    "Symbol": "LOOK",
-    "CoinName": "LookCoin",
-    "FullName": "LookCoin (LOOK)"
-  },
-  {
-    "Symbol": "DRA",
-    "CoinName": "DraculaCoin",
-    "FullName": "DraculaCoin (DRA)"
-  },
-  {
-    "Symbol": "TWIST",
-    "CoinName": "TwisterCoin",
-    "FullName": "TwisterCoin (TWIST)"
-  },
-  {
-    "Symbol": "BOSS",
-    "CoinName": "BitBoss",
-    "FullName": "BitBoss (BOSS)"
-  },
-  {
-    "Symbol": "MKR",
-    "CoinName": "Maker",
-    "FullName": "Maker (MKR)"
-  },
-  {
-    "Symbol": "EXMR",
-    "CoinName": "EXMR",
-    "FullName": "EXMR (EXMR)"
-  },
-  {
-    "Symbol": "YMC",
-    "CoinName": "YamahaCoin",
-    "FullName": "YamahaCoin (YMC)"
-  },
-  {
-    "Symbol": "TEC",
-    "CoinName": "TeCoin",
-    "FullName": "TeCoin (TEC)"
-  },
-  {
-    "Symbol": "WEALTH",
-    "CoinName": "WealthCoin",
-    "FullName": "WealthCoin (WEALTH)"
-  },
-  {
-    "Symbol": "KUSH",
-    "CoinName": "KushCoin",
-    "FullName": "KushCoin (KUSH)"
-  },
-  {
-    "Symbol": "TAT",
-    "CoinName": "Tatiana Coin",
-    "FullName": "Tatiana Coin (TAT)"
-  },
-  {
-    "Symbol": "TIC",
-    "CoinName": "TrueInvestmentCoin",
-    "FullName": "TrueInvestmentCoin (TIC)"
-  },
-  {
-    "Symbol": "MM",
-    "CoinName": "MasterMint",
-    "FullName": "MasterMint (MM)"
-  },
-  {
-    "Symbol": "NOW",
-    "CoinName": "NOW Token",
-    "FullName": "NOW Token (NOW)"
-  },
-  {
-    "Symbol": "FRST",
-    "CoinName": "FirstCoin",
-    "FullName": "FirstCoin (FRST)"
-  },
-  {
-    "Symbol": "ACES",
-    "CoinName": "AcesCoin",
-    "FullName": "AcesCoin (ACES)"
-  },
-  {
-    "Symbol": "WISC",
-    "CoinName": "WisdomCoin",
-    "FullName": "WisdomCoin (WISC)"
-  },
-  {
-    "Symbol": "GRW",
-    "CoinName": "GrowthCoin",
-    "FullName": "GrowthCoin (GRW)"
-  },
-  {
-    "Symbol": "STALIN",
-    "CoinName": "StalinCoin",
-    "FullName": "StalinCoin (STALIN)"
-  },
-  {
-    "Symbol": "MXT",
-    "CoinName": "MartexCoin",
-    "FullName": "MartexCoin (MXT)"
-  },
-  {
-    "Symbol": "AMY",
-    "CoinName": "Amygws",
-    "FullName": "Amygws (AMY)"
-  },
-  {
-    "Symbol": "GXT",
-    "CoinName": "Game Protocol",
-    "FullName": "Game Protocol (GXT)"
-  },
-  {
-    "Symbol": "ECO",
-    "CoinName": "ECOcoin",
-    "FullName": "ECOcoin (ECO)"
-  },
-  {
-    "Symbol": "MOLK",
-    "CoinName": "Mobilink Token",
-    "FullName": "Mobilink Token (MOLK)"
-  },
-  {
-    "Symbol": "CIC",
-    "CoinName": "CIChain",
-    "FullName": "CIChain (CIC)"
-  },
-  {
-    "Symbol": "VEEN",
-    "CoinName": "LIVEEN",
-    "FullName": "LIVEEN (VEEN)"
-  },
-  {
-    "Symbol": "WBTC*",
-    "CoinName": "wBTC",
-    "FullName": "wBTC (WBTC*)"
-  },
-  {
-    "Symbol": "PLAN",
-    "CoinName": "Plancoin",
-    "FullName": "Plancoin (PLAN)"
-  },
-  {
-    "Symbol": "TOPC",
-    "CoinName": "Topchain",
-    "FullName": "Topchain (TOPC)"
-  },
-  {
-    "Symbol": "PSM",
-    "CoinName": "Prasm",
-    "FullName": "Prasm (PSM)"
-  },
-  {
-    "Symbol": "FML",
-    "CoinName": "FormulA",
-    "FullName": "FormulA (FML)"
-  },
-  {
-    "Symbol": "QNTU",
-    "CoinName": "Quanta",
-    "FullName": "Quanta (QNTU)"
-  },
-  {
-    "Symbol": "PROC",
-    "CoinName": "ProCurrency",
-    "FullName": "ProCurrency (PROC)"
-  },
-  {
-    "Symbol": "RRC",
-    "CoinName": "Recycling Regeneration Chain",
-    "FullName": "Recycling Regeneration Chain (RRC)"
-  },
-  {
-    "Symbol": "WRC*",
-    "CoinName": "WarCoin",
-    "FullName": "WarCoin (WRC*)"
-  },
-  {
-    "Symbol": "ZPR",
-    "CoinName": "ZPER",
-    "FullName": "ZPER (ZPR)"
-  },
-  {
-    "Symbol": "MOF",
-    "CoinName": "Molecular Future",
-    "FullName": "Molecular Future (MOF)"
-  },
-  {
-    "Symbol": "IOU",
-    "CoinName": "IOU1",
-    "FullName": "IOU1 (IOU)"
-  },
-  {
-    "Symbol": "PHR",
-    "CoinName": "Phreak",
-    "FullName": "Phreak (PHR)"
-  },
-  {
-    "Symbol": "EST",
-    "CoinName": "ESports Chain",
-    "FullName": "ESports Chain (EST)"
-  },
-  {
-    "Symbol": "CTIC",
-    "CoinName": "Coinmatic",
-    "FullName": "Coinmatic (CTIC)"
-  },
-  {
-    "Symbol": "KCASH",
-    "CoinName": "Kcash",
-    "FullName": "Kcash (KCASH)"
-  },
-  {
-    "Symbol": "MAT*",
-    "CoinName": "Manet Coin",
-    "FullName": "Manet Coin (MAT*)"
-  },
-  {
-    "Symbol": "BZ",
-    "CoinName": "Bit-Z",
-    "FullName": "Bit-Z (BZ)"
-  },
-  {
-    "Symbol": "VRT",
-    "CoinName": "Virtual Reality Technology",
-    "FullName": "Virtual Reality Technology (VRT)"
-  },
-  {
-    "Symbol": "CDPT",
-    "CoinName": "Creditor Data Platform",
-    "FullName": "Creditor Data Platform (CDPT)"
-  },
-  {
-    "Symbol": "QCX",
-    "CoinName": "QuickX Protocol",
-    "FullName": "QuickX Protocol (QCX)"
-  },
-  {
-    "Symbol": "IMU",
-    "CoinName": "imusify",
-    "FullName": "imusify (IMU)"
-  },
-  {
-    "Symbol": "VANIG",
-    "CoinName": "VANIG",
-    "FullName": "VANIG (VANIG)"
-  },
-  {
-    "Symbol": "DREAM*",
-    "CoinName": "DREAM",
-    "FullName": "DREAM (DREAM*)"
+    "Symbol": "BIOC",
+    "CoinName": "BioCrypt",
+    "FullName": "BioCrypt (BIOC)"
   },
   {
     "Symbol": "FOREX",
@@ -14050,429 +14410,29 @@ const coinlist = [
     "FullName": "FOREXCOIN (FOREX)"
   },
   {
-    "Symbol": "QWARK",
-    "CoinName": "Qwark",
-    "FullName": "Qwark (QWARK)"
+    "Symbol": "CPLO",
+    "CoinName": "Cpollo",
+    "FullName": "Cpollo (CPLO)"
   },
   {
-    "Symbol": "FRECN",
-    "CoinName": "Freldo",
-    "FullName": "Freldo (FRECN)"
+    "Symbol": "XPX",
+    "CoinName": "ProximaX",
+    "FullName": "ProximaX (XPX)"
   },
   {
-    "Symbol": "K2G",
-    "CoinName": "Kasko2go",
-    "FullName": "Kasko2go (K2G)"
+    "Symbol": "RIPAX",
+    "CoinName": "RipaEx",
+    "FullName": "RipaEx (RIPAX)"
   },
   {
-    "Symbol": "IDAP",
-    "CoinName": "IDAP",
-    "FullName": "IDAP (IDAP)"
+    "Symbol": "HETA",
+    "CoinName": "HetaChain",
+    "FullName": "HetaChain (HETA)"
   },
   {
-    "Symbol": "RSC",
-    "CoinName": "Ronaldinho Soccer Coin",
-    "FullName": "Ronaldinho Soccer Coin (RSC)"
-  },
-  {
-    "Symbol": "DNT",
-    "CoinName": "district0x",
-    "FullName": "district0x (DNT)"
-  },
-  {
-    "Symbol": "WGR",
-    "CoinName": "Wagerr",
-    "FullName": "Wagerr (WGR)"
-  },
-  {
-    "Symbol": "CCC*",
-    "CoinName": "Blockshipping",
-    "FullName": "Blockshipping (CCC*)"
-  },
-  {
-    "Symbol": "FUNC",
-    "CoinName": "FunCoin",
-    "FullName": "FunCoin (FUNC)"
-  },
-  {
-    "Symbol": "SNC",
-    "CoinName": "SunContract",
-    "FullName": "SunContract (SNC)"
-  },
-  {
-    "Symbol": "IMGZ",
-    "CoinName": "Imigize",
-    "FullName": "Imigize (IMGZ)"
-  },
-  {
-    "Symbol": "XRL",
-    "CoinName": "Rialto.AI",
-    "FullName": "Rialto.AI (XRL)"
-  },
-  {
-    "Symbol": "JSE",
-    "CoinName": "JSEcoin",
-    "FullName": "JSEcoin (JSE)"
-  },
-  {
-    "Symbol": "MCV",
-    "CoinName": "MCV Token",
-    "FullName": "MCV Token (MCV)"
-  },
-  {
-    "Symbol": "SAND",
-    "CoinName": "BeachCoin",
-    "FullName": "BeachCoin (SAND)"
-  },
-  {
-    "Symbol": "XCJ",
-    "CoinName": "CoinJob",
-    "FullName": "CoinJob (XCJ)"
-  },
-  {
-    "Symbol": "BITS*",
-    "CoinName": "Bitswift",
-    "FullName": "Bitswift (BITS*)"
-  },
-  {
-    "Symbol": "SNK",
-    "CoinName": "Sosnovkino",
-    "FullName": "Sosnovkino (SNK)"
-  },
-  {
-    "Symbol": "DASC",
-    "CoinName": "DasCoin",
-    "FullName": "DasCoin (DASC)"
-  },
-  {
-    "Symbol": "DFBT",
-    "CoinName": "DentalFix",
-    "FullName": "DentalFix (DFBT)"
-  },
-  {
-    "Symbol": "WLK",
-    "CoinName": "Wolk",
-    "FullName": "Wolk (WLK)"
-  },
-  {
-    "Symbol": "ATOM*",
-    "CoinName": "Cosmos",
-    "FullName": "Cosmos (ATOM*)"
-  },
-  {
-    "Symbol": "ICOO",
-    "CoinName": "ICO OpenLedger",
-    "FullName": "ICO OpenLedger (ICOO)"
-  },
-  {
-    "Symbol": "AUT",
-    "CoinName": "Autoria",
-    "FullName": "Autoria (AUT)"
-  },
-  {
-    "Symbol": "GRWI",
-    "CoinName": "Growers International",
-    "FullName": "Growers International (GRWI)"
-  },
-  {
-    "Symbol": "SOUND",
-    "CoinName": "Inmusik",
-    "FullName": "Inmusik (SOUND)"
-  },
-  {
-    "Symbol": "GAS",
-    "CoinName": "Gas",
-    "FullName": "Gas (GAS)"
-  },
-  {
-    "Symbol": "SIC",
-    "CoinName": "Swisscoin",
-    "FullName": "Swisscoin (SIC)"
-  },
-  {
-    "Symbol": "FIL",
-    "CoinName": "FileCoin",
-    "FullName": "FileCoin (FIL)"
-  },
-  {
-    "Symbol": "XAS",
-    "CoinName": "Asch",
-    "FullName": "Asch (XAS)"
-  },
-  {
-    "Symbol": "PGL",
-    "CoinName": "Prospectors",
-    "FullName": "Prospectors (PGL)"
-  },
-  {
-    "Symbol": "DTCT",
-    "CoinName": "DetectorToken",
-    "FullName": "DetectorToken (DTCT)"
-  },
-  {
-    "Symbol": "TUT",
-    "CoinName": "Tutellus",
-    "FullName": "Tutellus (TUT)"
-  },
-  {
-    "Symbol": "IWT",
-    "CoinName": "IwToken",
-    "FullName": "IwToken (IWT)"
-  },
-  {
-    "Symbol": "JDC",
-    "CoinName": "JustDatingSite",
-    "FullName": "JustDatingSite (JDC)"
-  },
-  {
-    "Symbol": "PIX",
-    "CoinName": "Lampix",
-    "FullName": "Lampix (PIX)"
-  },
-  {
-    "Symbol": "SS",
-    "CoinName": "Sharder",
-    "FullName": "Sharder (SS)"
-  },
-  {
-    "Symbol": "ORS",
-    "CoinName": "ORS Group",
-    "FullName": "ORS Group (ORS)"
-  },
-  {
-    "Symbol": "HOLD",
-    "CoinName": "HOLD",
-    "FullName": "HOLD (HOLD)"
-  },
-  {
-    "Symbol": "MASP",
-    "CoinName": "Market.space",
-    "FullName": "Market.space (MASP)"
-  },
-  {
-    "Symbol": "BBN",
-    "CoinName": "BBNCOIN",
-    "FullName": "BBNCOIN (BBN)"
-  },
-  {
-    "Symbol": "ESS",
-    "CoinName": "Essentia",
-    "FullName": "Essentia (ESS)"
-  },
-  {
-    "Symbol": "LVL*",
-    "CoinName": "LevelNet Token",
-    "FullName": "LevelNet Token (LVL*)"
-  },
-  {
-    "Symbol": "PKC",
-    "CoinName": "Pikciochain",
-    "FullName": "Pikciochain (PKC)"
-  },
-  {
-    "Symbol": "PTC**",
-    "CoinName": "Plutocoin",
-    "FullName": "Plutocoin (PTC**)"
-  },
-  {
-    "Symbol": "ENTRC",
-    "CoinName": "ENTER COIN",
-    "FullName": "ENTER COIN (ENTRC)"
-  },
-  {
-    "Symbol": "ETS",
-    "CoinName": "ETH Share",
-    "FullName": "ETH Share (ETS)"
-  },
-  {
-    "Symbol": "PROPS",
-    "CoinName": "Props",
-    "FullName": "Props (PROPS)"
-  },
-  {
-    "Symbol": "MAG**",
-    "CoinName": "Maggie Token",
-    "FullName": "Maggie Token (MAG**)"
-  },
-  {
-    "Symbol": "STC",
-    "CoinName": "StarChain",
-    "FullName": "StarChain (STC)"
-  },
-  {
-    "Symbol": "GRAM",
-    "CoinName": "Telegram Open Network",
-    "FullName": "Telegram Open Network (GRAM)"
-  },
-  {
-    "Symbol": "SPC*",
-    "CoinName": "SpaceChain",
-    "FullName": "SpaceChain (SPC*)"
-  },
-  {
-    "Symbol": "IPC*",
-    "CoinName": "IPChain",
-    "FullName": "IPChain (IPC*)"
-  },
-  {
-    "Symbol": "NYX",
-    "CoinName": "NYXCOIN",
-    "FullName": "NYXCOIN (NYX)"
-  },
-  {
-    "Symbol": "CUZ",
-    "CoinName": "Cool Cousin",
-    "FullName": "Cool Cousin (CUZ)"
-  },
-  {
-    "Symbol": "GTC*",
-    "CoinName": "Global Tour Coin",
-    "FullName": "Global Tour Coin (GTC*)"
-  },
-  {
-    "Symbol": "SAF",
-    "CoinName": "Safinus",
-    "FullName": "Safinus (SAF)"
-  },
-  {
-    "Symbol": "DUBI",
-    "CoinName": "Decentralized Universal Basic Income",
-    "FullName": "Decentralized Universal Basic Income (DUBI)"
-  },
-  {
-    "Symbol": "PRPS",
-    "CoinName": "Purpose",
-    "FullName": "Purpose (PRPS)"
-  },
-  {
-    "Symbol": "XBP",
-    "CoinName": "Black Pearl Coin",
-    "FullName": "Black Pearl Coin (XBP)"
-  },
-  {
-    "Symbol": "BRO",
-    "CoinName": "Bitradio",
-    "FullName": "Bitradio (BRO)"
-  },
-  {
-    "Symbol": "CYDER",
-    "CoinName": "Cyder Coin",
-    "FullName": "Cyder Coin (CYDER)"
-  },
-  {
-    "Symbol": "ET4",
-    "CoinName": "Eticket4",
-    "FullName": "Eticket4 (ET4)"
-  },
-  {
-    "Symbol": "TTT",
-    "CoinName": "Tap Project",
-    "FullName": "Tap Project (TTT)"
-  },
-  {
-    "Symbol": "HIVE",
-    "CoinName": "Hive",
-    "FullName": "Hive (HIVE)"
-  },
-  {
-    "Symbol": "GNR",
-    "CoinName": "Gainer",
-    "FullName": "Gainer (GNR)"
-  },
-  {
-    "Symbol": "WISH*",
-    "CoinName": "WishFinance",
-    "FullName": "WishFinance (WISH*)"
-  },
-  {
-    "Symbol": "FLASH",
-    "CoinName": "FLASH coin",
-    "FullName": "FLASH coin (FLASH)"
-  },
-  {
-    "Symbol": "JINN",
-    "CoinName": "Jinn",
-    "FullName": "Jinn (JINN)"
-  },
-  {
-    "Symbol": "XCS",
-    "CoinName": "CybCSec Coin",
-    "FullName": "CybCSec Coin (XCS)"
-  },
-  {
-    "Symbol": "WPR",
-    "CoinName": "WePower",
-    "FullName": "WePower (WPR)"
-  },
-  {
-    "Symbol": "KBR",
-    "CoinName": "Kubera Coin",
-    "FullName": "Kubera Coin (KBR)"
-  },
-  {
-    "Symbol": "ZAB",
-    "CoinName": "ZABERcoin",
-    "FullName": "ZABERcoin (ZAB)"
-  },
-  {
-    "Symbol": "RMC",
-    "CoinName": "Russian Mining Coin",
-    "FullName": "Russian Mining Coin (RMC)"
-  },
-  {
-    "Symbol": "AUA",
-    "CoinName": "ArubaCoin",
-    "FullName": "ArubaCoin (AUA)"
-  },
-  {
-    "Symbol": "TGT",
-    "CoinName": "TargetCoin",
-    "FullName": "TargetCoin (TGT)"
-  },
-  {
-    "Symbol": "PYP",
-    "CoinName": "PayPro",
-    "FullName": "PayPro (PYP)"
-  },
-  {
-    "Symbol": "MNT*",
-    "CoinName": "Media Network Coin",
-    "FullName": "Media Network Coin (MNT*)"
-  },
-  {
-    "Symbol": "EREAL",
-    "CoinName": "eREAL",
-    "FullName": "eREAL (EREAL)"
-  },
-  {
-    "Symbol": "CPN",
-    "CoinName": "CompuCoin",
-    "FullName": "CompuCoin (CPN)"
-  },
-  {
-    "Symbol": "BCX*",
-    "CoinName": "BitcoinX",
-    "FullName": "BitcoinX (BCX*)"
-  },
-  {
-    "Symbol": "SHND",
-    "CoinName": "StrongHands",
-    "FullName": "StrongHands (SHND)"
-  },
-  {
-    "Symbol": "BTCE",
-    "CoinName": "EthereumBitcoin",
-    "FullName": "EthereumBitcoin (BTCE)"
-  },
-  {
-    "Symbol": "XCD",
-    "CoinName": "Capdax",
-    "FullName": "Capdax (XCD)"
-  },
-  {
-    "Symbol": "BETHER",
-    "CoinName": "Bethereum",
-    "FullName": "Bethereum (BETHER)"
+    "Symbol": "NOW",
+    "CoinName": "NOW Token",
+    "FullName": "NOW Token (NOW)"
   },
   {
     "Symbol": "ADAB",
@@ -14480,9 +14440,54 @@ const coinlist = [
     "FullName": "Adab Solutions (ADAB)"
   },
   {
+    "Symbol": "CIX100",
+    "CoinName": "Cryptoindex",
+    "FullName": "Cryptoindex (CIX100)"
+  },
+  {
+    "Symbol": "FIH",
+    "CoinName": "Fidelity House",
+    "FullName": "Fidelity House (FIH)"
+  },
+  {
+    "Symbol": "MINX",
+    "CoinName": "InnovaMinex",
+    "FullName": "InnovaMinex (MINX)"
+  },
+  {
+    "Symbol": "MOBU",
+    "CoinName": "MOBU",
+    "FullName": "MOBU (MOBU)"
+  },
+  {
+    "Symbol": "NVDX",
+    "CoinName": "Nodvix",
+    "FullName": "Nodvix (NVDX)"
+  },
+  {
+    "Symbol": "COVEX",
+    "CoinName": "CoVEX",
+    "FullName": "CoVEX (COVEX)"
+  },
+  {
     "Symbol": "TAL",
     "CoinName": "Talentico",
     "FullName": "Talentico (TAL)"
+  },
+  {
+    "Symbol": "ATT",
+    "CoinName": "Aeternum",
+    "FullName": "Aeternum (ATT)"
+  },
+  {
+    "Symbol": "F2K",
+    "CoinName": "Farm2Kitchen",
+    "FullName": "Farm2Kitchen (F2K)"
+  },
+  {
+    "Symbol": "GTX",
+    "CoinName": "GALLACTIC",
+    "FullName": "GALLACTIC (GTX)"
   },
   {
     "Symbol": "B21",
@@ -14490,14 +14495,39 @@ const coinlist = [
     "FullName": "B21 (B21)"
   },
   {
+    "Symbol": "LK",
+    "CoinName": "Liker",
+    "FullName": "Liker (LK)"
+  },
+  {
+    "Symbol": "QOBI",
+    "CoinName": "Qobit",
+    "FullName": "Qobit (QOBI)"
+  },
+  {
     "Symbol": "BVO",
     "CoinName": "BRAVO Pay",
     "FullName": "BRAVO Pay (BVO)"
   },
   {
+    "Symbol": "VENA",
+    "CoinName": "Vena Network",
+    "FullName": "Vena Network (VENA)"
+  },
+  {
     "Symbol": "CDRX",
     "CoinName": "CDRX",
     "FullName": "CDRX (CDRX)"
+  },
+  {
+    "Symbol": "CRF",
+    "CoinName": "CrowdForce ",
+    "FullName": "CrowdForce  (CRF)"
+  },
+  {
+    "Symbol": "ELES",
+    "CoinName": "Elements Estates",
+    "FullName": "Elements Estates (ELES)"
   },
   {
     "Symbol": "GEON",
@@ -14515,14 +14545,34 @@ const coinlist = [
     "FullName": "Wellmee (WLME)"
   },
   {
+    "Symbol": "INVX",
+    "CoinName": "Investx",
+    "FullName": "Investx (INVX)"
+  },
+  {
     "Symbol": "AWT",
     "CoinName": "WhatsOnPic",
     "FullName": "WhatsOnPic (AWT)"
   },
   {
-    "Symbol": "ABX",
+    "Symbol": "ABXC",
     "CoinName": "AutoBay",
-    "FullName": "AutoBay (ABX)"
+    "FullName": "AutoBay (ABXC)"
+  },
+  {
+    "Symbol": "LINKC",
+    "CoinName": "LINKCHAIN",
+    "FullName": "LINKCHAIN (LINKC)"
+  },
+  {
+    "Symbol": "BFC",
+    "CoinName": "Betform",
+    "FullName": "Betform (BFC)"
+  },
+  {
+    "Symbol": "IMPCN",
+    "CoinName": "Brain Space",
+    "FullName": "Brain Space (IMPCN)"
   },
   {
     "Symbol": "XPT",
@@ -14530,9 +14580,19 @@ const coinlist = [
     "FullName": "Plata (XPT)"
   },
   {
-    "Symbol": "ARR",
-    "CoinName": "ARROUND",
-    "FullName": "ARROUND (ARR)"
+    "Symbol": "FORK",
+    "CoinName": "Gastro Advisor Token",
+    "FullName": "Gastro Advisor Token (FORK)"
+  },
+  {
+    "Symbol": "NMK",
+    "CoinName": "Namek",
+    "FullName": "Namek (NMK)"
+  },
+  {
+    "Symbol": "OUT",
+    "CoinName": "Netscouters",
+    "FullName": "Netscouters (OUT)"
   },
   {
     "Symbol": "LPT",
@@ -14540,9 +14600,19 @@ const coinlist = [
     "FullName": "Livepeer (LPT)"
   },
   {
+    "Symbol": "RAINC ",
+    "CoinName": "RainCheck",
+    "FullName": "RainCheck (RAINC)"
+  },
+  {
     "Symbol": "IOV",
     "CoinName": "IOV",
     "FullName": "IOV (IOV)"
+  },
+  {
+    "Symbol": "MYO",
+    "CoinName": "Mycro",
+    "FullName": "Mycro (MYO)"
   },
   {
     "Symbol": "ORET",
@@ -14550,14 +14620,14 @@ const coinlist = [
     "FullName": "ORET Token (ORET)"
   },
   {
+    "Symbol": "SEC",
+    "CoinName": "SecureCryptoPayments",
+    "FullName": "SecureCryptoPayments (SEC)"
+  },
+  {
     "Symbol": "QUIZ",
     "CoinName": "Quizando",
     "FullName": "Quizando (QUIZ)"
-  },
-  {
-    "Symbol": "TVA",
-    "CoinName": "Terra Virtua",
-    "FullName": "Terra Virtua (TVA)"
   },
   {
     "Symbol": "CYRS",
@@ -14575,9 +14645,39 @@ const coinlist = [
     "FullName": "JOYS (JOYS)"
   },
   {
+    "Symbol": "DACH",
+    "CoinName": "DACH Coin",
+    "FullName": "DACH Coin (DACH)"
+  },
+  {
+    "Symbol": "MNVM",
+    "CoinName": "Novam",
+    "FullName": "Novam (MNVM)"
+  },
+  {
+    "Symbol": "PLTX",
+    "CoinName": "PlutusX",
+    "FullName": "PlutusX (PLTX)"
+  },
+  {
+    "Symbol": "BTMG",
+    "CoinName": "Bitcademy Football",
+    "FullName": "Bitcademy Football (BTMG)"
+  },
+  {
+    "Symbol": "BRIK",
+    "CoinName": "BrikBit",
+    "FullName": "BrikBit (BRIK)"
+  },
+  {
     "Symbol": "XTN",
     "CoinName": "XEND token",
     "FullName": "XEND token (XTN)"
+  },
+  {
+    "Symbol": "LUMA",
+    "CoinName": "LUMA Token",
+    "FullName": "LUMA Token (LUMA)"
   },
   {
     "Symbol": "BTZN",
@@ -14585,9 +14685,14 @@ const coinlist = [
     "FullName": "Bitzon (BTZN)"
   },
   {
-    "Symbol": "DACH",
-    "CoinName": "DACH Coin",
-    "FullName": "DACH Coin (DACH)"
+    "Symbol": "CLRTY",
+    "CoinName": "Clarity",
+    "FullName": "Clarity (CLRTY)"
+  },
+  {
+    "Symbol": "CGT",
+    "CoinName": "Coingrid",
+    "FullName": "Coingrid (CGT)"
   },
   {
     "Symbol": "NAVIB",
@@ -14595,14 +14700,9 @@ const coinlist = [
     "FullName": "Navibration (NAVIB)"
   },
   {
-    "Symbol": "ATHK",
-    "CoinName": "AntiHACK.me",
-    "FullName": "AntiHACK.me (ATHK)"
-  },
-  {
-    "Symbol": "ATP",
+    "Symbol": "ARTP",
     "CoinName": "ArtPro",
-    "FullName": "ArtPro (ATP)"
+    "FullName": "ArtPro (ARTP)"
   },
   {
     "Symbol": "PLEO",
@@ -14615,14 +14715,29 @@ const coinlist = [
     "FullName": "Gamedex (GDX)"
   },
   {
+    "Symbol": "EGDC",
+    "CoinName": "EasyGuide",
+    "FullName": "EasyGuide (EGDC)"
+  },
+  {
     "Symbol": "ENTT",
     "CoinName": "Presale Ventures",
     "FullName": "Presale Ventures (ENTT)"
   },
   {
+    "Symbol": "RWD",
+    "CoinName": "Reward Vision",
+    "FullName": "Reward Vision (RWD)"
+  },
+  {
     "Symbol": "AURUM",
     "CoinName": "Aurum",
     "FullName": "Aurum (AURUM)"
+  },
+  {
+    "Symbol": "WRL",
+    "CoinName": "WHIRL",
+    "FullName": "WHIRL (WRL)"
   },
   {
     "Symbol": "CRWD",
@@ -14645,11 +14760,6 @@ const coinlist = [
     "FullName": "Gturbo (GTR)"
   },
   {
-    "Symbol": "UTNP",
-    "CoinName": "Universa",
-    "FullName": "Universa (UTNP)"
-  },
-  {
     "Symbol": "HXC",
     "CoinName": "HexanCoin",
     "FullName": "HexanCoin (HXC)"
@@ -14665,6 +14775,11 @@ const coinlist = [
     "FullName": "SkyMap (SKYM)"
   },
   {
+    "Symbol": "SCIA",
+    "CoinName": "Stem Cell",
+    "FullName": "Stem Cell (SCIA)"
+  },
+  {
     "Symbol": "TXP",
     "CoinName": "Trade Pharma Network",
     "FullName": "Trade Pharma Network (TXP)"
@@ -14675,14 +14790,34 @@ const coinlist = [
     "FullName": "Triffic (GPS)"
   },
   {
+    "Symbol": "WTXH",
+    "CoinName": "WTX HUB",
+    "FullName": "WTX HUB (WTXH)"
+  },
+  {
     "Symbol": "BBG",
     "CoinName": "BigBang",
     "FullName": "BigBang (BBG)"
   },
   {
+    "Symbol": "NZE",
+    "CoinName": "Nagezeni",
+    "FullName": "Nagezeni (NZE)"
+  },
+  {
     "Symbol": "SHKG",
     "CoinName": "SharkGate",
     "FullName": "SharkGate (SHKG)"
+  },
+  {
+    "Symbol": "TENZ",
+    "CoinName": "Tenzorum",
+    "FullName": "Tenzorum (TENZ)"
+  },
+  {
+    "Symbol": "TWC",
+    "CoinName": "Twilight",
+    "FullName": "Twilight (TWC)"
   },
   {
     "Symbol": "WUG",
@@ -14693,6 +14828,11 @@ const coinlist = [
     "Symbol": "CAND",
     "CoinName": "Canlead",
     "FullName": "Canlead (CAND)"
+  },
+  {
+    "Symbol": "CTW",
+    "CoinName": "Citowise",
+    "FullName": "Citowise (CTW)"
   },
   {
     "Symbol": "CRV",
@@ -14706,8 +14846,8 @@ const coinlist = [
   },
   {
     "Symbol": "NAM",
-    "CoinName": "Namacoin ",
-    "FullName": "Namacoin  (NAM)"
+    "CoinName": "Namacoin",
+    "FullName": "Namacoin (NAM)"
   },
   {
     "Symbol": "UFT",
@@ -14730,9 +14870,29 @@ const coinlist = [
     "FullName": "Carats Token (CARAT)"
   },
   {
+    "Symbol": "ZILLA",
+    "CoinName": "ChainZilla",
+    "FullName": "ChainZilla (ZILLA)"
+  },
+  {
+    "Symbol": "TCJ",
+    "CoinName": "Coinshare",
+    "FullName": "Coinshare (TCJ)"
+  },
+  {
+    "Symbol": "MAEP",
+    "CoinName": "Maester Protocol",
+    "FullName": "Maester Protocol (MAEP)"
+  },
+  {
     "Symbol": "DN8",
     "CoinName": "Pldgr",
     "FullName": "Pldgr (DN8)"
+  },
+  {
+    "Symbol": "XNT",
+    "CoinName": "Exenium",
+    "FullName": "Exenium (XNT)"
   },
   {
     "Symbol": "PPOVR",
@@ -14740,9 +14900,9 @@ const coinlist = [
     "FullName": "POVR (PPOVR)"
   },
   {
-    "Symbol": "RIPAX",
-    "CoinName": "RipaEx",
-    "FullName": "RipaEx (RIPAX)"
+    "Symbol": "LX",
+    "CoinName": "Moonlight",
+    "FullName": "Moonlight (LX)"
   },
   {
     "Symbol": "AWAX",
@@ -14750,14 +14910,49 @@ const coinlist = [
     "FullName": "AWAX (AWAX)"
   },
   {
+    "Symbol": "VAR",
+    "CoinName": "VARcrypt",
+    "FullName": "VARcrypt (VAR)"
+  },
+  {
+    "Symbol": "TKD",
+    "CoinName": "Tokedo",
+    "FullName": "Tokedo (TKD)"
+  },
+  {
+    "Symbol": "VTAG",
+    "CoinName": "veriTAG Token",
+    "FullName": "veriTAG Token (VTAG)"
+  },
+  {
     "Symbol": "WBY",
     "CoinName": "WeBuy",
     "FullName": "WeBuy (WBY)"
   },
   {
+    "Symbol": "BBOS",
+    "CoinName": "Blackbox Foundation",
+    "FullName": "Blackbox Foundation (BBOS)"
+  },
+  {
+    "Symbol": "BFEX",
+    "CoinName": "BFEX",
+    "FullName": "BFEX (BFEX)"
+  },
+  {
+    "Symbol": "HUS",
+    "CoinName": "HUSSY",
+    "FullName": "HUSSY (HUS)"
+  },
+  {
     "Symbol": "MENU",
     "CoinName": "MenuBuzz",
     "FullName": "MenuBuzz (MENU)"
+  },
+  {
+    "Symbol": "APXT",
+    "CoinName": "ApolloX",
+    "FullName": "ApolloX (APXT)"
   },
   {
     "Symbol": "IDORU",
@@ -14770,9 +14965,19 @@ const coinlist = [
     "FullName": "WOM (WOM)"
   },
   {
-    "Symbol": "ZUR",
-    "CoinName": "Zurcoin",
-    "FullName": "Zurcoin (ZUR)"
+    "Symbol": "BONA",
+    "CoinName": "Bonafi",
+    "FullName": "Bonafi (BONA)"
+  },
+  {
+    "Symbol": "HLDY",
+    "CoinName": "HOLIDAY",
+    "FullName": "HOLIDAY (HLDY)"
+  },
+  {
+    "Symbol": "CONT",
+    "CoinName": "Contentos",
+    "FullName": "Contentos (CONT)"
   },
   {
     "Symbol": "BLACK",
@@ -14790,19 +14995,24 @@ const coinlist = [
     "FullName": "MEET.ONE (MEETONE)"
   },
   {
+    "Symbol": "IOTW",
+    "CoinName": "IOTW",
+    "FullName": "IOTW (IOTW)"
+  },
+  {
     "Symbol": "EMPR",
     "CoinName": "empowr",
     "FullName": "empowr (EMPR)"
   },
   {
-    "Symbol": "ORGT",
-    "CoinName": "Organic Token",
-    "FullName": "Organic Token (ORGT)"
+    "Symbol": "MPAY",
+    "CoinName": "Menapay",
+    "FullName": "Menapay (MPAY)"
   },
   {
-    "Symbol": "ZBC",
-    "CoinName": "Zilbercoin",
-    "FullName": "Zilbercoin (ZBC)"
+    "Symbol": "AGM",
+    "CoinName": "Argoneum",
+    "FullName": "Argoneum (AGM)"
   },
   {
     "Symbol": "PTO",
@@ -14810,24 +15020,24 @@ const coinlist = [
     "FullName": "Patentico (PTO)"
   },
   {
-    "Symbol": "BSC",
-    "CoinName": "BowsCoin",
-    "FullName": "BowsCoin (BSC)"
-  },
-  {
-    "Symbol": "VEST",
-    "CoinName": "VestChain",
-    "FullName": "VestChain (VEST)"
-  },
-  {
     "Symbol": "AS",
     "CoinName": "AmaStar",
     "FullName": "AmaStar (AS)"
   },
   {
-    "Symbol": "GTN",
+    "Symbol": "OSF",
+    "CoinName": "One Solution",
+    "FullName": "One Solution (OSF)"
+  },
+  {
+    "Symbol": "DLPT",
+    "CoinName": "Deliverers Power Token",
+    "FullName": "Deliverers Power Token (DLPT)"
+  },
+  {
+    "Symbol": "GREENT",
     "CoinName": "Greentoken",
-    "FullName": "Greentoken (GTN)"
+    "FullName": "Greentoken (GREENT)"
   },
   {
     "Symbol": "VIDI",
@@ -14835,9 +15045,9 @@ const coinlist = [
     "FullName": "Vidion (VIDI)"
   },
   {
-    "Symbol": "SUQA",
-    "CoinName": "SUQA",
-    "FullName": "SUQA (SUQA)"
+    "Symbol": "SIN",
+    "CoinName": "SINOVATE",
+    "FullName": "SINOVATE (SIN)"
   },
   {
     "Symbol": "OPQ",
@@ -14850,6 +15060,11 @@ const coinlist = [
     "FullName": "Enzym (ZYM)"
   },
   {
+    "Symbol": "RPB",
+    "CoinName": "Republia",
+    "FullName": "Republia (RPB)"
+  },
+  {
     "Symbol": "DYNCOIN",
     "CoinName": "Dyncoin",
     "FullName": "Dyncoin (DYNCOIN)"
@@ -14860,9 +15075,24 @@ const coinlist = [
     "FullName": "MiMiner (MIT)"
   },
   {
+    "Symbol": "VANM",
+    "CoinName": "VANM",
+    "FullName": "VANM (VANM)"
+  },
+  {
     "Symbol": "PSF",
     "CoinName": "Prime Shipping Foundation",
     "FullName": "Prime Shipping Foundation (PSF)"
+  },
+  {
+    "Symbol": "LITION",
+    "CoinName": "Lition",
+    "FullName": "Lition (LITION)"
+  },
+  {
+    "Symbol": "NEW",
+    "CoinName": "Newton",
+    "FullName": "Newton (NEW)"
   },
   {
     "Symbol": "TITAN",
@@ -14870,9 +15100,19 @@ const coinlist = [
     "FullName": "Titan (TITAN)"
   },
   {
+    "Symbol": "MZG",
+    "CoinName": "Moozicore",
+    "FullName": "Moozicore (MZG)"
+  },
+  {
     "Symbol": "VIAZ",
     "CoinName": "Viaz",
     "FullName": "Viaz (VIAZ)"
+  },
+  {
+    "Symbol": "BTZC",
+    "CoinName": "BeatzCoin",
+    "FullName": "BeatzCoin (BTZC)"
   },
   {
     "Symbol": "ECR",
@@ -14880,29 +15120,14 @@ const coinlist = [
     "FullName": "EcoVerse (ECR)"
   },
   {
+    "Symbol": "RF",
+    "CoinName": "Raido Financial",
+    "FullName": "Raido Financial (RF)"
+  },
+  {
     "Symbol": "ARMS",
     "CoinName": "2Acoin",
     "FullName": "2Acoin (ARMS)"
-  },
-  {
-    "Symbol": "ARG",
-    "CoinName": "Argentum",
-    "FullName": "Argentum (ARG)"
-  },
-  {
-    "Symbol": "NUSD",
-    "CoinName": "Nomin USD",
-    "FullName": "Nomin USD (NUSD)"
-  },
-  {
-    "Symbol": "BWK",
-    "CoinName": "Bulwark",
-    "FullName": "Bulwark (BWK)"
-  },
-  {
-    "Symbol": "PLA",
-    "CoinName": "PlayChip",
-    "FullName": "PlayChip (PLA)"
   },
   {
     "Symbol": "MPXT",
@@ -14910,9 +15135,19 @@ const coinlist = [
     "FullName": "Myplacex (MPXT)"
   },
   {
+    "Symbol": "XELS",
+    "CoinName": "XELS Coin",
+    "FullName": "XELS Coin (XELS)"
+  },
+  {
+    "Symbol": "PGF7T",
+    "CoinName": "PGF500",
+    "FullName": "PGF500 (PGF7T)"
+  },
+  {
     "Symbol": "IDAC ",
-    "CoinName": "IDAC ",
-    "FullName": "IDAC  (IDAC)"
+    "CoinName": "IDAC",
+    "FullName": "IDAC (IDAC)"
   },
   {
     "Symbol": "UCOINT",
@@ -14925,9 +15160,9 @@ const coinlist = [
     "FullName": "Ydentity (YDY)"
   },
   {
-    "Symbol": "MONK",
-    "CoinName": "Monkey Project",
-    "FullName": "Monkey Project (MONK)"
+    "Symbol": "FTUM",
+    "CoinName": "Fatum",
+    "FullName": "Fatum (FTUM)"
   },
   {
     "Symbol": "SPON",
@@ -14935,39 +15170,34 @@ const coinlist = [
     "FullName": "Instant Sponsor Token (SPON)"
   },
   {
-    "Symbol": "IQ",
-    "CoinName": "Everipedia",
-    "FullName": "Everipedia (IQ)"
+    "Symbol": "DLXV",
+    "CoinName": "Delta-X",
+    "FullName": "Delta-X (DLXV)"
   },
   {
-    "Symbol": "VTUUR",
-    "CoinName": "VTUUR",
-    "FullName": "VTUUR (VTUUR)"
+    "Symbol": "OCEANT",
+    "CoinName": "Poseidon Foundation",
+    "FullName": "Poseidon Foundation (OCEANT)"
   },
   {
-    "Symbol": "MHP",
-    "CoinName": "MedicoHealth",
-    "FullName": "MedicoHealth (MHP)"
+    "Symbol": "TECO",
+    "CoinName": "TerraEcoCoin",
+    "FullName": "TerraEcoCoin (TECO)"
   },
   {
-    "Symbol": "ILK",
-    "CoinName": "Inlock",
-    "FullName": "Inlock (ILK)"
+    "Symbol": "GOALS",
+    "CoinName": "UnitedFans",
+    "FullName": "UnitedFans (GOALS)"
   },
   {
-    "Symbol": "TLNT",
-    "CoinName": "Talent Token",
-    "FullName": "Talent Token (TLNT)"
+    "Symbol": "ETHIX",
+    "CoinName": "EthicHub",
+    "FullName": "EthicHub (ETHIX)"
   },
   {
-    "Symbol": "CP",
+    "Symbol": "CDP",
     "CoinName": "CrowdPrecision",
-    "FullName": "CrowdPrecision (CP)"
-  },
-  {
-    "Symbol": "ZNA",
-    "CoinName": "Zenome",
-    "FullName": "Zenome (ZNA)"
+    "FullName": "CrowdPrecision (CDP)"
   },
   {
     "Symbol": "TTB",
@@ -14975,9 +15205,19 @@ const coinlist = [
     "FullName": "TrustaBit (TTB)"
   },
   {
+    "Symbol": "CHK",
+    "CoinName": "Chek",
+    "FullName": "Chek (CHK)"
+  },
+  {
     "Symbol": "VLTX",
     "CoinName": "Volentix",
     "FullName": "Volentix (VLTX)"
+  },
+  {
+    "Symbol": "PRPT",
+    "CoinName": "Purple Token",
+    "FullName": "Purple Token (PRPT)"
   },
   {
     "Symbol": "OASC",
@@ -14985,14 +15225,39 @@ const coinlist = [
     "FullName": "Oasis City (OASC)"
   },
   {
-    "Symbol": "NZE",
-    "CoinName": "Nagezeni",
-    "FullName": "Nagezeni (NZE)"
+    "Symbol": "TREE",
+    "CoinName": "HyperionX",
+    "FullName": "HyperionX (TREE)"
   },
   {
     "Symbol": "GDL",
     "CoinName": "GodlyCoin",
     "FullName": "GodlyCoin (GDL)"
+  },
+  {
+    "Symbol": "LNT",
+    "CoinName": "Litenett",
+    "FullName": "Litenett (LNT)"
+  },
+  {
+    "Symbol": "FTRC",
+    "CoinName": "FutureCoin",
+    "FullName": "FutureCoin (FTRC)"
+  },
+  {
+    "Symbol": "HBX",
+    "CoinName": "Hyperbridge",
+    "FullName": "Hyperbridge (HBX)"
+  },
+  {
+    "Symbol": "LAO",
+    "CoinName": "LC Token",
+    "FullName": "LC Token (LAO)"
+  },
+  {
+    "Symbol": "GOVT",
+    "CoinName": "The Government Network",
+    "FullName": "The Government Network (GOVT)"
   },
   {
     "Symbol": "TBRS",
@@ -15010,6 +15275,11 @@ const coinlist = [
     "FullName": "Coindaily (DAILY)"
   },
   {
+    "Symbol": "SREUR",
+    "CoinName": "SocialRemit",
+    "FullName": "SocialRemit (SREUR)"
+  },
+  {
     "Symbol": "MAZC",
     "CoinName": "MyMazzu",
     "FullName": "MyMazzu (MAZC)"
@@ -15025,14 +15295,54 @@ const coinlist = [
     "FullName": "Energi (NRG)"
   },
   {
-    "Symbol": "CAPP",
-    "CoinName": "Cappasity",
-    "FullName": "Cappasity (CAPP)"
+    "Symbol": "PLNX",
+    "CoinName": "Planumex",
+    "FullName": "Planumex (PLNX)"
   },
   {
-    "Symbol": "STEX",
-    "CoinName": "STEX",
-    "FullName": "STEX (STEX)"
+    "Symbol": "IPT",
+    "CoinName": "Crypt-ON",
+    "FullName": "Crypt-ON (IPT)"
+  },
+  {
+    "Symbol": "IGTT",
+    "CoinName": "IGT",
+    "FullName": "IGT (IGTT)"
+  },
+  {
+    "Symbol": "SRXIO",
+    "CoinName": "Securix",
+    "FullName": "Securix (SRXIO)"
+  },
+  {
+    "Symbol": "GZB",
+    "CoinName": "Gigzi",
+    "FullName": "Gigzi (GZB)"
+  },
+  {
+    "Symbol": "FNX",
+    "CoinName": "FinanceX",
+    "FullName": "FinanceX (FNX)"
+  },
+  {
+    "Symbol": "GGP",
+    "CoinName": "GGPro",
+    "FullName": "GGPro (GGP)"
+  },
+  {
+    "Symbol": "IFUM",
+    "CoinName": "Infleum",
+    "FullName": "Infleum (IFUM)"
+  },
+  {
+    "Symbol": "ATC",
+    "CoinName": "AutoBlock",
+    "FullName": "AutoBlock (ATC)"
+  },
+  {
+    "Symbol": "DOOH",
+    "CoinName": "Bidooh",
+    "FullName": "Bidooh (DOOH)"
   },
   {
     "Symbol": "IOUX",
@@ -15040,14 +15350,49 @@ const coinlist = [
     "FullName": "IOU (IOUX)"
   },
   {
+    "Symbol": "BQTX",
+    "CoinName": "BQT",
+    "FullName": "BQT (BQTX)"
+  },
+  {
     "Symbol": "NVOY",
     "CoinName": "Envoy",
     "FullName": "Envoy (NVOY)"
   },
   {
+    "Symbol": "CYBR",
+    "CoinName": "CYBR",
+    "FullName": "CYBR (CYBR)"
+  },
+  {
+    "Symbol": "LLG",
+    "CoinName": "Loligo",
+    "FullName": "Loligo (LLG)"
+  },
+  {
+    "Symbol": "LCR",
+    "CoinName": "Lucre",
+    "FullName": "Lucre (LCR)"
+  },
+  {
     "Symbol": "SNPC",
     "CoinName": "SnapCoin",
     "FullName": "SnapCoin (SNPC)"
+  },
+  {
+    "Symbol": "VTM",
+    "CoinName": "Victorieum",
+    "FullName": "Victorieum (VTM)"
+  },
+  {
+    "Symbol": "NRX",
+    "CoinName": "Neironix",
+    "FullName": "Neironix (NRX)"
+  },
+  {
+    "Symbol": "BCNA",
+    "CoinName": "BitCanna",
+    "FullName": "BitCanna (BCNA)"
   },
   {
     "Symbol": "BTSG",
@@ -15075,29 +15420,24 @@ const coinlist = [
     "FullName": "Cyber Capital Invest (CCI)"
   },
   {
+    "Symbol": "RDS",
+    "CoinName": "Reger Diamond",
+    "FullName": "Reger Diamond (RDS)"
+  },
+  {
     "Symbol": "GMS",
     "CoinName": "Gemstra",
     "FullName": "Gemstra (GMS)"
   },
   {
-    "Symbol": "LVX",
-    "CoinName": "LVX",
-    "FullName": "LVX (LVX)"
+    "Symbol": "SGAT",
+    "CoinName": "SGAT",
+    "FullName": "SGAT (SGAT)"
   },
   {
-    "Symbol": "PLNX",
-    "CoinName": "Planumex",
-    "FullName": "Planumex (PLNX)"
-  },
-  {
-    "Symbol": "OIO",
-    "CoinName": "Online",
-    "FullName": "Online (OIO)"
-  },
-  {
-    "Symbol": "EQY",
-    "CoinName": "Eqwity",
-    "FullName": "Eqwity (EQY)"
+    "Symbol": "SILKT",
+    "CoinName": "SilkChain",
+    "FullName": "SilkChain (SILKT)"
   },
   {
     "Symbol": "BITM",
@@ -15105,19 +15445,64 @@ const coinlist = [
     "FullName": "BitMoney (BITM)"
   },
   {
+    "Symbol": "TCHN",
+    "CoinName": "Tachain",
+    "FullName": "Tachain (TCHN)"
+  },
+  {
+    "Symbol": "FIII",
+    "CoinName": "Fiii",
+    "FullName": "Fiii (FIII)"
+  },
+  {
+    "Symbol": "ICHN",
+    "CoinName": "i-chain",
+    "FullName": "i-chain (ICHN)"
+  },
+  {
+    "Symbol": "LVX",
+    "CoinName": "Level01",
+    "FullName": "Level01 (LVX)"
+  },
+  {
+    "Symbol": "AENT",
+    "CoinName": "AEN",
+    "FullName": "AEN (AENT)"
+  },
+  {
+    "Symbol": "MBN",
+    "CoinName": "Membrana",
+    "FullName": "Membrana (MBN)"
+  },
+  {
+    "Symbol": "LYFE",
+    "CoinName": "Lyfe",
+    "FullName": "Lyfe (LYFE)"
+  },
+  {
+    "Symbol": "REMCO",
+    "CoinName": "Remco",
+    "FullName": "Remco (REMCO)"
+  },
+  {
+    "Symbol": "SaTT",
+    "CoinName": "SaTT",
+    "FullName": "SaTT (SaTT)"
+  },
+  {
+    "Symbol": "GEMA",
+    "CoinName": "Gemera",
+    "FullName": "Gemera (GEMA)"
+  },
+  {
     "Symbol": "SCH",
     "CoinName": "Sia Cash Coin",
     "FullName": "Sia Cash Coin (SCH)"
   },
   {
-    "Symbol": "CAN*",
-    "CoinName": "Content and AD Network",
-    "FullName": "Content and AD Network (CAN*)"
-  },
-  {
-    "Symbol": "TOT",
-    "CoinName": "TotCoin",
-    "FullName": "TotCoin (TOT)"
+    "Symbol": "VTEX",
+    "CoinName": "Vertex",
+    "FullName": "Vertex (VTEX)"
   },
   {
     "Symbol": "SRV",
@@ -15125,9 +15510,24 @@ const coinlist = [
     "FullName": "ServAdvisor (SRV)"
   },
   {
+    "Symbol": "DSLA",
+    "CoinName": "Stacktical",
+    "FullName": "Stacktical (DSLA)"
+  },
+  {
     "Symbol": "SYLO",
     "CoinName": "Sylo",
     "FullName": "Sylo (SYLO)"
+  },
+  {
+    "Symbol": "YMZ",
+    "CoinName": "Yamzu",
+    "FullName": "Yamzu (YMZ)"
+  },
+  {
+    "Symbol": "AER",
+    "CoinName": "Aeryus",
+    "FullName": "Aeryus (AER)"
   },
   {
     "Symbol": "AIBB",
@@ -15160,9 +15560,9 @@ const coinlist = [
     "FullName": "BlooCYS (CYS)"
   },
   {
-    "Symbol": "TCHB",
-    "CoinName": "Teachers Blockchain",
-    "FullName": "Teachers Blockchain (TCHB)"
+    "Symbol": "ATTR",
+    "CoinName": "Attrace",
+    "FullName": "Attrace (ATTR)"
   },
   {
     "Symbol": "CTY",
@@ -15170,9 +15570,24 @@ const coinlist = [
     "FullName": "Connecty (CTY)"
   },
   {
+    "Symbol": "BC",
+    "CoinName": "Beverage.cash",
+    "FullName": "Beverage.cash (BC)"
+  },
+  {
+    "Symbol": "DDL",
+    "CoinName": "Donocle",
+    "FullName": "Donocle (DDL)"
+  },
+  {
     "Symbol": "EZX",
     "CoinName": "EZ Exchange",
     "FullName": "EZ Exchange (EZX)"
+  },
+  {
+    "Symbol": "COY",
+    "CoinName": "Coin Analyst",
+    "FullName": "Coin Analyst (COY)"
   },
   {
     "Symbol": "FNL",
@@ -15180,9 +15595,19 @@ const coinlist = [
     "FullName": "Finlocale (FNL)"
   },
   {
+    "Symbol": "B2G",
+    "CoinName": "Bitcoiin2Gen",
+    "FullName": "Bitcoiin2Gen (B2G)"
+  },
+  {
+    "Symbol": "CSQ",
+    "CoinName": "cosquare",
+    "FullName": "cosquare (CSQ)"
+  },
+  {
     "Symbol": "HBE",
-    "CoinName": "healthbank ",
-    "FullName": "healthbank  (HBE)"
+    "CoinName": "healthbank",
+    "FullName": "healthbank (HBE)"
   },
   {
     "Symbol": "HV",
@@ -15200,674 +15625,39 @@ const coinlist = [
     "FullName": "KRATOS (TOS)"
   },
   {
-    "Symbol": "LEN",
-    "CoinName": "Liqnet",
-    "FullName": "Liqnet (LEN)"
-  },
-  {
-    "Symbol": "LQ8",
-    "CoinName": "Liquid8",
-    "FullName": "Liquid8 (LQ8)"
-  },
-  {
-    "Symbol": "DPP",
-    "CoinName": "Digital Assets Power Play",
-    "FullName": "Digital Assets Power Play (DPP)"
-  },
-  {
-    "Symbol": "BIOC",
-    "CoinName": "BioCrypt",
-    "FullName": "BioCrypt (BIOC)"
-  },
-  {
-    "Symbol": "ZER",
-    "CoinName": "Zero",
-    "FullName": "Zero (ZER)"
-  },
-  {
-    "Symbol": "XPR",
-    "CoinName": "Permian",
-    "FullName": "Permian (XPR)"
-  },
-  {
-    "Symbol": "B2G",
-    "CoinName": "Bitcoiin2Gen",
-    "FullName": "Bitcoiin2Gen (B2G)"
-  },
-  {
-    "Symbol": "IMVR",
-    "CoinName": "ImmVRse",
-    "FullName": "ImmVRse (IMVR)"
-  },
-  {
-    "Symbol": "PETL",
-    "CoinName": "Petlife ",
-    "FullName": "Petlife  (PETL)"
-  },
-  {
-    "Symbol": "BITCAR",
-    "CoinName": "BitCar",
-    "FullName": "BitCar (BITCAR)"
-  },
-  {
-    "Symbol": "PPS",
-    "CoinName": "PopulStay",
-    "FullName": "PopulStay (PPS)"
-  },
-  {
-    "Symbol": "SEELE",
-    "CoinName": "Seele",
-    "FullName": "Seele (SEELE)"
-  },
-  {
-    "Symbol": "ZT",
-    "CoinName": "ZB Global",
-    "FullName": "ZB Global (ZT)"
-  },
-  {
-    "Symbol": "REP",
-    "CoinName": "Augur",
-    "FullName": "Augur (REP)"
-  },
-  {
-    "Symbol": "SMILO",
-    "CoinName": "Smilo",
-    "FullName": "Smilo (SMILO)"
-  },
-  {
-    "Symbol": "CENNZ",
-    "CoinName": "Centrality Token",
-    "FullName": "Centrality Token (CENNZ)"
-  },
-  {
-    "Symbol": "TTU",
-    "CoinName": "TaTaTu",
-    "FullName": "TaTaTu (TTU)"
-  },
-  {
-    "Symbol": "TTC",
-    "CoinName": "TitCoin",
-    "FullName": "TitCoin (TTC)"
-  },
-  {
-    "Symbol": "GEO",
-    "CoinName": "GeoCoin",
-    "FullName": "GeoCoin (GEO)"
-  },
-  {
-    "Symbol": "GOVT",
-    "CoinName": "The Government Network",
-    "FullName": "The Government Network (GOVT)"
-  },
-  {
-    "Symbol": "TRN",
-    "CoinName": "Ternion",
-    "FullName": "Ternion (TRN)"
-  },
-  {
-    "Symbol": "TCJ",
-    "CoinName": "Coinshare",
-    "FullName": "Coinshare (TCJ)"
-  },
-  {
-    "Symbol": "CSNO",
-    "CoinName": "BitDice",
-    "FullName": "BitDice (CSNO)"
-  },
-  {
-    "Symbol": "KUBOS",
-    "CoinName": "KubosCoin",
-    "FullName": "KubosCoin (KUBOS)"
-  },
-  {
-    "Symbol": "KUBO",
-    "CoinName": "KUBO",
-    "FullName": "KUBO (KUBO)"
-  },
-  {
-    "Symbol": "VRF",
-    "CoinName": "Verifier",
-    "FullName": "Verifier (VRF)"
-  },
-  {
-    "Symbol": "WBBC",
-    "CoinName": "World Bit Bank",
-    "FullName": "World Bit Bank (WBBC)"
-  },
-  {
-    "Symbol": "AXIS",
-    "CoinName": "LaneAxis",
-    "FullName": "LaneAxis (AXIS)"
-  },
-  {
-    "Symbol": "FTRC",
-    "CoinName": "FutureCoin",
-    "FullName": "FutureCoin (FTRC)"
-  },
-  {
-    "Symbol": "CRYP",
-    "CoinName": "CrypticCoin",
-    "FullName": "CrypticCoin (CRYP)"
-  },
-  {
-    "Symbol": "IVC",
-    "CoinName": "Investy Coin",
-    "FullName": "Investy Coin (IVC)"
-  },
-  {
-    "Symbol": "MIODIO",
-    "CoinName": "MIODIOCOIN",
-    "FullName": "MIODIOCOIN (MIODIO)"
-  },
-  {
-    "Symbol": "ARDR",
-    "CoinName": "Ardor",
-    "FullName": "Ardor (ARDR)"
-  },
-  {
-    "Symbol": "IGNIS",
-    "CoinName": "Ignis",
-    "FullName": "Ignis (IGNIS)"
-  },
-  {
-    "Symbol": "VRS",
-    "CoinName": "Veros",
-    "FullName": "Veros (VRS)"
-  },
-  {
-    "Symbol": "DFS",
-    "CoinName": "Digital Fantasy Sports",
-    "FullName": "Digital Fantasy Sports (DFS)"
-  },
-  {
-    "Symbol": "ELES",
-    "CoinName": "Elements Estates",
-    "FullName": "Elements Estates (ELES)"
-  },
-  {
-    "Symbol": "BKX",
-    "CoinName": "BANKEX",
-    "FullName": "BANKEX (BKX)"
-  },
-  {
-    "Symbol": "SMOKE",
-    "CoinName": "Smoke",
-    "FullName": "Smoke (SMOKE)"
-  },
-  {
-    "Symbol": "BCO*",
-    "CoinName": "BridgeCoin",
-    "FullName": "BridgeCoin (BCO)"
-  },
-  {
-    "Symbol": "FLC",
-    "CoinName": "Fieldcoin",
-    "FullName": "Fieldcoin (FLC)"
-  },
-  {
-    "Symbol": "CSTL",
-    "CoinName": "Castle",
-    "FullName": "Castle (CSTL)"
-  },
-  {
-    "Symbol": "XBY",
-    "CoinName": "XTRABYTES",
-    "FullName": "XTRABYTES (XBY)"
-  },
-  {
-    "Symbol": "LTCP",
-    "CoinName": "LitecoinPro",
-    "FullName": "LitecoinPro (LTCP)"
-  },
-  {
-    "Symbol": "IQN",
-    "CoinName": "IQeon",
-    "FullName": "IQeon (IQN)"
-  },
-  {
-    "Symbol": "ONE",
-    "CoinName": "Menlo One",
-    "FullName": "Menlo One (ONE)"
-  },
-  {
-    "Symbol": "ITL",
-    "CoinName": "Italian Lira",
-    "FullName": "Italian Lira (ITL)"
-  },
-  {
-    "Symbol": "OMX",
-    "CoinName": "Project Shivom",
-    "FullName": "Project Shivom (OMX)"
-  },
-  {
-    "Symbol": "GBX",
-    "CoinName": "GoByte",
-    "FullName": "GoByte (GBX)"
-  },
-  {
-    "Symbol": "SMART",
-    "CoinName": "SmartCash",
-    "FullName": "SmartCash (SMART)"
-  },
-  {
-    "Symbol": "MYB",
-    "CoinName": "MyBit",
-    "FullName": "MyBit (MYB)"
-  },
-  {
-    "Symbol": "SLY",
-    "CoinName": "SELFLLERY",
-    "FullName": "SELFLLERY (SLY)"
-  },
-  {
-    "Symbol": "FUNDZ",
-    "CoinName": "FundFantasy",
-    "FullName": "FundFantasy (FUNDZ)"
-  },
-  {
-    "Symbol": "DAX",
-    "CoinName": "DAEX",
-    "FullName": "DAEX (DAX)"
-  },
-  {
-    "Symbol": "IAG",
-    "CoinName": "IAGON",
-    "FullName": "IAGON (IAG)"
-  },
-  {
-    "Symbol": "AAA",
-    "CoinName": "AAA Reserve Currency",
-    "FullName": "AAA Reserve Currency (AAA)"
-  },
-  {
-    "Symbol": "NRVE",
-    "CoinName": "Narrative",
-    "FullName": "Narrative (NRVE)"
-  },
-  {
-    "Symbol": "HAND",
-    "CoinName": "ShowHand",
-    "FullName": "ShowHand (HAND)"
-  },
-  {
-    "Symbol": "RMESH",
-    "CoinName": "RightMesh",
-    "FullName": "RightMesh (RMESH)"
-  },
-  {
-    "Symbol": "BASIS",
-    "CoinName": "Basis",
-    "FullName": "Basis (BASIS)"
-  },
-  {
-    "Symbol": "SGA",
-    "CoinName": "SAGA",
-    "FullName": "SAGA (SGA)"
-  },
-  {
-    "Symbol": "CUSD",
-    "CoinName": "Carbon",
-    "FullName": "Carbon (CUSD)"
-  },
-  {
-    "Symbol": "KUSD",
-    "CoinName": "Kowala",
-    "FullName": "Kowala (KUSD)"
-  },
-  {
-    "Symbol": "ARAW",
-    "CoinName": "Araw",
-    "FullName": "Araw (ARAW)"
-  },
-  {
-    "Symbol": "METM",
-    "CoinName": "MetaMorph",
-    "FullName": "MetaMorph (METM)"
-  },
-  {
-    "Symbol": "TALAO",
-    "CoinName": "Talao",
-    "FullName": "Talao (TALAO)"
-  },
-  {
-    "Symbol": "IZX",
-    "CoinName": "IZX",
-    "FullName": "IZX (IZX)"
-  },
-  {
-    "Symbol": "HQT",
-    "CoinName": "HyperQuant",
-    "FullName": "HyperQuant (HQT)"
-  },
-  {
-    "Symbol": "W12",
-    "CoinName": "W12 Protocol",
-    "FullName": "W12 Protocol (W12)"
-  },
-  {
-    "Symbol": "MYDFS",
-    "CoinName": "MyDFS",
-    "FullName": "MyDFS (MYDFS)"
-  },
-  {
-    "Symbol": "VTOS",
-    "CoinName": "VTOS",
-    "FullName": "VTOS (VTOS)"
-  },
-  {
-    "Symbol": "GBO",
-    "CoinName": "Gabro.io",
-    "FullName": "Gabro.io (GBO)"
-  },
-  {
-    "Symbol": "LTZ",
-    "CoinName": "Litecoinz",
-    "FullName": "Litecoinz (LTZ)"
-  },
-  {
-    "Symbol": "MTZ",
-    "CoinName": "Monetizr",
-    "FullName": "Monetizr (MTZ)"
-  },
-  {
-    "Symbol": "TBL",
-    "CoinName": "Tombola",
-    "FullName": "Tombola (TBL)"
-  },
-  {
-    "Symbol": "BXY",
-    "CoinName": "Beaxy",
-    "FullName": "Beaxy (BXY)"
-  },
-  {
-    "Symbol": "KUE",
-    "CoinName": "Kuende",
-    "FullName": "Kuende (KUE)"
-  },
-  {
-    "Symbol": "H3O",
-    "CoinName": "Hydrominer",
-    "FullName": "Hydrominer (H3O)"
-  },
-  {
-    "Symbol": "ANGEL",
-    "CoinName": "Crypto Angel",
-    "FullName": "Crypto Angel (ANGEL)"
-  },
-  {
-    "Symbol": "VNX",
-    "CoinName": "VisionX",
-    "FullName": "VisionX (VNX)"
-  },
-  {
-    "Symbol": "TWISTR",
-    "CoinName": "TWIST",
-    "FullName": "TWIST (TWISTR)"
-  },
-  {
-    "Symbol": "CXA",
-    "CoinName": "CryptovationX",
-    "FullName": "CryptovationX (CXA)"
-  },
-  {
-    "Symbol": "P2PS",
-    "CoinName": "P2P Solutions Foundation",
-    "FullName": "P2P Solutions Foundation (P2PS)"
-  },
-  {
-    "Symbol": "ABBC",
-    "CoinName": "Alibabacoin",
-    "FullName": "Alibabacoin (ABBC)"
-  },
-  {
-    "Symbol": "VEX",
-    "CoinName": "Vexanium",
-    "FullName": "Vexanium (VEX)"
-  },
-  {
-    "Symbol": "COVEX",
-    "CoinName": "CoVEX",
-    "FullName": "CoVEX (COVEX)"
-  },
-  {
-    "Symbol": "LK",
-    "CoinName": "Liker",
-    "FullName": "Liker (LK)"
-  },
-  {
-    "Symbol": "VENA",
-    "CoinName": "Vena Network",
-    "FullName": "Vena Network (VENA)"
-  },
-  {
-    "Symbol": "NMK",
-    "CoinName": "Namek",
-    "FullName": "Namek (NMK)"
-  },
-  {
-    "Symbol": "RAINC ",
-    "CoinName": "RainCheck",
-    "FullName": "RainCheck (RAINC)"
-  },
-  {
-    "Symbol": "TKD",
-    "CoinName": "Tokedo",
-    "FullName": "Tokedo (TKD)"
-  },
-  {
-    "Symbol": "BBOS",
-    "CoinName": "Blackbox Foundation",
-    "FullName": "Blackbox Foundation (BBOS)"
-  },
-  {
-    "Symbol": "APXT",
-    "CoinName": "ApolloX",
-    "FullName": "ApolloX (APXT)"
-  },
-  {
-    "Symbol": "BONA",
-    "CoinName": "Bonafi",
-    "FullName": "Bonafi (BONA)"
-  },
-  {
-    "Symbol": "COS",
-    "CoinName": "Contentos",
-    "FullName": "Contentos (COS)"
-  },
-  {
-    "Symbol": "IOTW",
-    "CoinName": "IOTW",
-    "FullName": "IOTW (IOTW)"
-  },
-  {
-    "Symbol": "MPAY",
-    "CoinName": "Menapay",
-    "FullName": "Menapay (MPAY)"
-  },
-  {
-    "Symbol": "MTCN",
-    "CoinName": "Multiven",
-    "FullName": "Multiven (MTCN)"
-  },
-  {
-    "Symbol": "RPB",
-    "CoinName": "Republia",
-    "FullName": "Republia (RPB)"
-  },
-  {
-    "Symbol": "LITION",
-    "CoinName": "Lition",
-    "FullName": "Lition (LITION)"
-  },
-  {
-    "Symbol": "RF",
-    "CoinName": "Raido Financial",
-    "FullName": "Raido Financial (RF)"
-  },
-  {
-    "Symbol": "NBOX",
-    "CoinName": "Unboxed",
-    "FullName": "Unboxed (NBOX)"
-  },
-  {
-    "Symbol": "PGF7T",
-    "CoinName": "PGF500",
-    "FullName": "PGF500 (PGF7T)"
-  },
-  {
-    "Symbol": "OCEAN",
-    "CoinName": "Poseidon Foundation",
-    "FullName": "Poseidon Foundation (OCEAN)"
-  },
-  {
-    "Symbol": "ETHIX",
-    "CoinName": "EthicHub",
-    "FullName": "EthicHub (ETHIX)"
-  },
-  {
-    "Symbol": "CHK",
-    "CoinName": "Chek",
-    "FullName": "Chek (CHK)"
-  },
-  {
-    "Symbol": "TREE",
-    "CoinName": "HyperionX",
-    "FullName": "HyperionX (TREE)"
-  },
-  {
-    "Symbol": "HBX",
-    "CoinName": "Hyperbridge",
-    "FullName": "Hyperbridge (HBX)"
-  },
-  {
-    "Symbol": "SREUR",
-    "CoinName": "SocialRemit",
-    "FullName": "SocialRemit (SREUR)"
-  },
-  {
-    "Symbol": "IGTT",
-    "CoinName": "IGT",
-    "FullName": "IGT (IGTT)"
-  },
-  {
-    "Symbol": "SRXIO",
-    "CoinName": "Securix",
-    "FullName": "Securix (SRXIO)"
-  },
-  {
-    "Symbol": "FNX",
-    "CoinName": "FinanceX",
-    "FullName": "FinanceX (FNX)"
-  },
-  {
-    "Symbol": "GGP",
-    "CoinName": "GGPro",
-    "FullName": "GGPro (GGP)"
-  },
-  {
-    "Symbol": "IFUM",
-    "CoinName": "Infleum",
-    "FullName": "Infleum (IFUM)"
-  },
-  {
-    "Symbol": "ATC",
-    "CoinName": "AutoBlock",
-    "FullName": "AutoBlock (ATC)"
-  },
-  {
-    "Symbol": "DOOH",
-    "CoinName": "Bidooh",
-    "FullName": "Bidooh (DOOH)"
-  },
-  {
-    "Symbol": "CYBR",
-    "CoinName": "CYBR",
-    "FullName": "CYBR (CYBR)"
-  },
-  {
-    "Symbol": "LLG",
-    "CoinName": "Loligo",
-    "FullName": "Loligo (LLG)"
-  },
-  {
-    "Symbol": "NRX",
-    "CoinName": "Neironix",
-    "FullName": "Neironix (NRX)"
-  },
-  {
-    "Symbol": "RDS",
-    "CoinName": "Reger Diamond",
-    "FullName": "Reger Diamond (RDS)"
-  },
-  {
-    "Symbol": "SGAT",
-    "CoinName": "SGAT",
-    "FullName": "SGAT (SGAT)"
-  },
-  {
-    "Symbol": "SILKT",
-    "CoinName": "SilkChain",
-    "FullName": "SilkChain (SILKT)"
-  },
-  {
-    "Symbol": "TCHN",
-    "CoinName": "Tachain",
-    "FullName": "Tachain (TCHN)"
-  },
-  {
-    "Symbol": "LYFE",
-    "CoinName": "Lyfe",
-    "FullName": "Lyfe (LYFE)"
-  },
-  {
-    "Symbol": "GEMA",
-    "CoinName": "Gemera",
-    "FullName": "Gemera (GEMA)"
-  },
-  {
-    "Symbol": "VTEX",
-    "CoinName": "Vertex",
-    "FullName": "Vertex (VTEX)"
-  },
-  {
-    "Symbol": "YMZ",
-    "CoinName": "Yamzu",
-    "FullName": "Yamzu (YMZ)"
-  },
-  {
-    "Symbol": "AER",
-    "CoinName": "Aeryus",
-    "FullName": "Aeryus (AER)"
-  },
-  {
-    "Symbol": "ATTR",
-    "CoinName": "Attrace",
-    "FullName": "Attrace (ATTR)"
-  },
-  {
-    "Symbol": "BC",
-    "CoinName": "Beverage.cash",
-    "FullName": "Beverage.cash (BC)"
-  },
-  {
-    "Symbol": "BOLTT",
-    "CoinName": "BolttCoin",
-    "FullName": "BolttCoin (BOLTT)"
-  },
-  {
-    "Symbol": "COY",
-    "CoinName": "Coin Analyst",
-    "FullName": "Coin Analyst (COY)"
-  },
-  {
     "Symbol": "CPROP",
     "CoinName": "CPROP",
     "FullName": "CPROP (CPROP)"
   },
   {
+    "Symbol": "MOOLYA",
+    "CoinName": "moolyacoin",
+    "FullName": "moolyacoin (MOOLYA)"
+  },
+  {
+    "Symbol": "PON",
+    "CoinName": "Ponder",
+    "FullName": "Ponder (PON)"
+  },
+  {
     "Symbol": "CREV",
     "CoinName": "CryptoRevolution",
     "FullName": "CryptoRevolution (CREV)"
+  },
+  {
+    "Symbol": "VAD",
+    "CoinName": "Varanida",
+    "FullName": "Varanida (VAD)"
+  },
+  {
+    "Symbol": "IDC",
+    "CoinName": "IdealCoin",
+    "FullName": "IdealCoin (IDC)"
+  },
+  {
+    "Symbol": "LBR",
+    "CoinName": "LaborCrypto",
+    "FullName": "LaborCrypto (LBR)"
   },
   {
     "Symbol": "EMX",
@@ -15880,9 +15670,49 @@ const coinlist = [
     "FullName": "ETERBASE (XBASE)"
   },
   {
+    "Symbol": "LEN",
+    "CoinName": "Liqnet",
+    "FullName": "Liqnet (LEN)"
+  },
+  {
+    "Symbol": "KUBO",
+    "CoinName": "KUBO",
+    "FullName": "KUBO (KUBO)"
+  },
+  {
+    "Symbol": "FABA",
+    "CoinName": "Faba Invest",
+    "FullName": "Faba Invest (FABA)"
+  },
+  {
+    "Symbol": "LQ8",
+    "CoinName": "Liquid8",
+    "FullName": "Liquid8 (LQ8)"
+  },
+  {
+    "Symbol": "GC",
+    "CoinName": "Gric Coin",
+    "FullName": "Gric Coin (GC)"
+  },
+  {
+    "Symbol": "INFLR",
+    "CoinName": "Inflr",
+    "FullName": "Inflr (INFLR)"
+  },
+  {
     "Symbol": "LIB",
     "CoinName": "Libellum",
     "FullName": "Libellum (LIB)"
+  },
+  {
+    "Symbol": "XPR",
+    "CoinName": "Permian",
+    "FullName": "Permian (XPR)"
+  },
+  {
+    "Symbol": "PETL",
+    "CoinName": "Petlife",
+    "FullName": "Petlife (PETL)"
   },
   {
     "Symbol": "XDMC",
@@ -15890,9 +15720,64 @@ const coinlist = [
     "FullName": "MPCX (XDMC)"
   },
   {
+    "Symbol": "PPS",
+    "CoinName": "PopulStay",
+    "FullName": "PopulStay (PPS)"
+  },
+  {
+    "Symbol": "SMILO",
+    "CoinName": "Smilo",
+    "FullName": "Smilo (SMILO)"
+  },
+  {
+    "Symbol": "BCVB",
+    "CoinName": "BCV Blue Chip",
+    "FullName": "BCV Blue Chip (BCVB)"
+  },
+  {
+    "Symbol": "TREX",
+    "CoinName": "TreeBlock",
+    "FullName": "TreeBlock (TREX)"
+  },
+  {
+    "Symbol": "VNS",
+    "CoinName": "Venus",
+    "FullName": "Venus (VNS)"
+  },
+  {
+    "Symbol": "VRF",
+    "CoinName": "Verifier",
+    "FullName": "Verifier (VRF)"
+  },
+  {
+    "Symbol": "AUX",
+    "CoinName": "Auxilium",
+    "FullName": "Auxilium (Auxilium)"
+  },
+  {
     "Symbol": "LYQD",
     "CoinName": "eLYQD",
     "FullName": "eLYQD (LYQD)"
+  },
+  {
+    "Symbol": "CBP",
+    "CoinName": "ComBox",
+    "FullName": "ComBox (CBP)"
+  },
+  {
+    "Symbol": "SMOKE",
+    "CoinName": "Smoke",
+    "FullName": "Smoke (SMOKE)"
+  },
+  {
+    "Symbol": "EDN",
+    "CoinName": "EdenChain",
+    "FullName": "EdenChain (EDN)"
+  },
+  {
+    "Symbol": "AVALA",
+    "CoinName": "Travala",
+    "FullName": "Travala (AVALA)"
   },
   {
     "Symbol": "NOS",
@@ -15905,24 +15790,9 @@ const coinlist = [
     "FullName": "Dollar Token 1 (DT1)"
   },
   {
-    "Symbol": "MYO",
-    "CoinName": "Mycro",
-    "FullName": "Mycro (MYO)"
-  },
-  {
     "Symbol": "FTT",
     "CoinName": "FarmaTrust",
     "FullName": "FarmaTrust (FTT)"
-  },
-  {
-    "Symbol": "WTL",
-    "CoinName": "Welltrado",
-    "FullName": "Welltrado (WTL)"
-  },
-  {
-    "Symbol": "JMC",
-    "CoinName": "Junson Ming Chan Coin",
-    "FullName": "Junson Ming Chan Coin (JMC)"
   },
   {
     "Symbol": "STACS",
@@ -15930,14 +15800,19 @@ const coinlist = [
     "FullName": "STACS Token (STACS)"
   },
   {
+    "Symbol": "JMC",
+    "CoinName": "Junson Ming Chan Coin",
+    "FullName": "Junson Ming Chan Coin (JMC)"
+  },
+  {
     "Symbol": "FOAM",
     "CoinName": "Foam",
     "FullName": "Foam (FOAM)"
   },
   {
-    "Symbol": "TKS",
-    "CoinName": "Tokes",
-    "FullName": "Tokes (TKS)"
+    "Symbol": "FRED",
+    "CoinName": "FREDEnergy",
+    "FullName": "FREDEnergy (FRED)"
   },
   {
     "Symbol": "CNCT",
@@ -15945,9 +15820,9 @@ const coinlist = [
     "FullName": "CONNECT (CNCT)"
   },
   {
-    "Symbol": "FRED",
-    "CoinName": "FREDEnergy",
-    "FullName": "FREDEnergy (FRED)"
+    "Symbol": "ENGT",
+    "CoinName": "Engagement Token",
+    "FullName": "Engagement Token (ENGT)"
   },
   {
     "Symbol": "VRTY",
@@ -15960,29 +15835,24 @@ const coinlist = [
     "FullName": "TokenStars TEAM Token (TEAMT)"
   },
   {
-    "Symbol": "ENGT",
-    "CoinName": "Engagement Token",
-    "FullName": "Engagement Token (ENGT)"
-  },
-  {
-    "Symbol": "SGO",
-    "CoinName": "Selfie GO",
-    "FullName": "Selfie GO (SGO)"
-  },
-  {
-    "Symbol": "VULC",
-    "CoinName": "Vulcano",
-    "FullName": "Vulcano (VULC)"
-  },
-  {
     "Symbol": "ZND",
     "CoinName": "Zenad",
     "FullName": "Zenad (ZND)"
   },
   {
+    "Symbol": "3XD",
+    "CoinName": "3DChain",
+    "FullName": "3DChain (3XD)"
+  },
+  {
     "Symbol": "FPC",
     "CoinName": "Futurepia",
     "FullName": "Futurepia (FPC)"
+  },
+  {
+    "Symbol": "SYNCO",
+    "CoinName": "Synco",
+    "FullName": "Synco (SYNCO)"
   },
   {
     "Symbol": "SPY",
@@ -16000,44 +15870,9 @@ const coinlist = [
     "FullName": "H-Education World (HIDU)"
   },
   {
-    "Symbol": "MRN",
-    "CoinName": "Mercoin",
-    "FullName": "Mercoin (MRN)"
-  },
-  {
-    "Symbol": "OCTO*",
-    "CoinName": "OctoBit Coin",
-    "FullName": "OctoBit Coin (OCTO*)"
-  },
-  {
-    "Symbol": "COG",
-    "CoinName": "Cognitio",
-    "FullName": "Cognitio (COG)"
-  },
-  {
-    "Symbol": "FLIP",
-    "CoinName": "BitFlip",
-    "FullName": "BitFlip (FLIP)"
-  },
-  {
-    "Symbol": "LX",
-    "CoinName": "Moonlight",
-    "FullName": "Moonlight (LX)"
-  },
-  {
-    "Symbol": "EDN",
-    "CoinName": "EdenChain",
-    "FullName": "EdenChain (EDN)"
-  },
-  {
-    "Symbol": "AUX",
-    "CoinName": "Auxilium",
-    "FullName": "Auxilium (Auxilium)"
-  },
-  {
-    "Symbol": "SYNCO",
-    "CoinName": "Synco",
-    "FullName": "Synco (SYNCO)"
+    "Symbol": "USE",
+    "CoinName": "Usechain Token",
+    "FullName": "Usechain Token (USE)"
   },
   {
     "Symbol": "NGIN",
@@ -16050,14 +15885,19 @@ const coinlist = [
     "FullName": "Koto (KOTO)"
   },
   {
-    "Symbol": "IRC",
-    "CoinName": "IRONCOIN",
-    "FullName": "IRONCOIN (IRC)"
-  },
-  {
     "Symbol": "SUSD",
     "CoinName": "sUSD",
     "FullName": "sUSD (SUSD)"
+  },
+  {
+    "Symbol": "GENX",
+    "CoinName": "Genesis Network",
+    "FullName": "Genesis Network (GENX)"
+  },
+  {
+    "Symbol": "XSC",
+    "CoinName": "Hyperspace",
+    "FullName": "Hyperspace (XSC)"
   },
   {
     "Symbol": "VTL",
@@ -16075,16 +15915,6 @@ const coinlist = [
     "FullName": "SpritzCoin (SPRTZ)"
   },
   {
-    "Symbol": "HPSP",
-    "CoinName": "Hyperspace",
-    "FullName": "Hyperspace (HPSP)"
-  },
-  {
-    "Symbol": "GLDR",
-    "CoinName": "Golder Coin",
-    "FullName": "Golder Coin (GLDR)"
-  },
-  {
     "Symbol": "C25",
     "CoinName": "C25 Coin",
     "FullName": "C25 Coin (C25)"
@@ -16095,49 +15925,14 @@ const coinlist = [
     "FullName": "MVL (MVL)"
   },
   {
-    "Symbol": "ZEPH",
-    "CoinName": "ZEPHYR",
-    "FullName": "ZEPHYR (ZEPH)"
+    "Symbol": "LYN",
+    "CoinName": "LYNCHPIN Token",
+    "FullName": "LYNCHPIN Token (LYN)"
   },
   {
-    "Symbol": "USE",
-    "CoinName": "Usechain Token",
-    "FullName": "Usechain Token (USE)"
-  },
-  {
-    "Symbol": "GENX",
-    "CoinName": "Genesis Network",
-    "FullName": "Genesis Network (GENX)"
-  },
-  {
-    "Symbol": "INX",
-    "CoinName": "InnovaMinex",
-    "FullName": "InnovaMinex (INX)"
-  },
-  {
-    "Symbol": "EQC",
-    "CoinName": "Ethereum Qchain Token",
-    "FullName": "Ethereum Qchain Token (EQC)"
-  },
-  {
-    "Symbol": "STOR",
-    "CoinName": "Self Storage Coin",
-    "FullName": "Self Storage Coin (STOR)"
-  },
-  {
-    "Symbol": "FTUM",
-    "CoinName": "Fatum ",
-    "FullName": "Fatum  (FTUM)"
-  },
-  {
-    "Symbol": "FTM",
-    "CoinName": "Fantom",
-    "FullName": "Fantom (FTM)"
-  },
-  {
-    "Symbol": "URX",
-    "CoinName": "URANIUMX",
-    "FullName": "URANIUMX (URX)"
+    "Symbol": "STASH",
+    "CoinName": "BitStash",
+    "FullName": "BitStash (STASH)"
   },
   {
     "Symbol": "HERB",
@@ -16145,9 +15940,19 @@ const coinlist = [
     "FullName": "HerbCoin (HERB)"
   },
   {
-    "Symbol": "TCH",
-    "CoinName": "TigerCash",
-    "FullName": "TigerCash (TCH)"
+    "Symbol": "AQUA",
+    "CoinName": "Aquachain",
+    "FullName": "Aquachain (AQUA)"
+  },
+  {
+    "Symbol": "XQR",
+    "CoinName": "Qredit",
+    "FullName": "Qredit (XQR)"
+  },
+  {
+    "Symbol": "URX",
+    "CoinName": "URANIUMX",
+    "FullName": "URANIUMX (URX)"
   },
   {
     "Symbol": "HASH",
@@ -16155,339 +15960,9 @@ const coinlist = [
     "FullName": "Hashbon (HASH)"
   },
   {
-    "Symbol": "ABELE",
-    "CoinName": "Abele",
-    "FullName": "Abele (ABELE)"
-  },
-  {
-    "Symbol": "RBDT",
-    "CoinName": "RoBust Defense Token",
-    "FullName": "RoBust Defense Token (RBDT)"
-  },
-  {
-    "Symbol": "CBP",
-    "CoinName": "ComBox",
-    "FullName": "ComBox (CBP)"
-  },
-  {
-    "Symbol": "MNZ",
-    "CoinName": "Monaize",
-    "FullName": "Monaize (MNZ)"
-  },
-  {
     "Symbol": "KSYS",
     "CoinName": "K-Systems",
     "FullName": "K-Systems (KSYS)"
-  },
-  {
-    "Symbol": "MUSIC",
-    "CoinName": "Musicoin",
-    "FullName": "Musicoin (MUSIC)"
-  },
-  {
-    "Symbol": "ZUUM",
-    "CoinName": "Zuum",
-    "FullName": "Zuum (ZUUM)"
-  },
-  {
-    "Symbol": "SEC",
-    "CoinName": "SecureCryptoPayments",
-    "FullName": "SecureCryptoPayments (SEC)"
-  },
-  {
-    "Symbol": "TREX",
-    "CoinName": "TreeBlock",
-    "FullName": "TreeBlock (TREX)"
-  },
-  {
-    "Symbol": "DPT",
-    "CoinName": "Deliverers Power Token",
-    "FullName": "Deliverers Power Token (DPT)"
-  },
-  {
-    "Symbol": "PRPL",
-    "CoinName": "Purple Token",
-    "FullName": "Purple Token (PRPL)"
-  },
-  {
-    "Symbol": "BTZC",
-    "CoinName": "BeatzCoin",
-    "FullName": "BeatzCoin (BTZC)"
-  },
-  {
-    "Symbol": "MNVM",
-    "CoinName": "Novam",
-    "FullName": "Novam (MNVM)"
-  },
-  {
-    "Symbol": "BCNA",
-    "CoinName": "BitCanna",
-    "FullName": "BitCanna (BCNA)"
-  },
-  {
-    "Symbol": "DLXV",
-    "CoinName": "Delta-X",
-    "FullName": "Delta-X (DLXV)"
-  },
-  {
-    "Symbol": "CLRTY",
-    "CoinName": "Clarity",
-    "FullName": "Clarity (CLRTY)"
-  },
-  {
-    "Symbol": "VEO",
-    "CoinName": "Viewo",
-    "FullName": "Viewo (VEO)"
-  },
-  {
-    "Symbol": "LNKC",
-    "CoinName": "LINKCHAIN",
-    "FullName": "LINKCHAIN (LNKC)"
-  },
-  {
-    "Symbol": "CSQ",
-    "CoinName": "cosquare",
-    "FullName": "cosquare (CSQ)"
-  },
-  {
-    "Symbol": "RWD",
-    "CoinName": "Reward Vision",
-    "FullName": "Reward Vision (RWD)"
-  },
-  {
-    "Symbol": "ATT",
-    "CoinName": "Aeternum",
-    "FullName": "Aeternum (ATT)"
-  },
-  {
-    "Symbol": "ICHN",
-    "CoinName": "i-chain",
-    "FullName": "i-chain (ICHN)"
-  },
-  {
-    "Symbol": "3XD",
-    "CoinName": "3DChain",
-    "FullName": "3DChain (3XD)"
-  },
-  {
-    "Symbol": "PON",
-    "CoinName": "Ponder",
-    "FullName": "Ponder (PON)"
-  },
-  {
-    "Symbol": "ZILLA",
-    "CoinName": "ChainZilla",
-    "FullName": "ChainZilla (ZILLA)"
-  },
-  {
-    "Symbol": "PLTX",
-    "CoinName": "PlutusX",
-    "FullName": "PlutusX (PLTX)"
-  },
-  {
-    "Symbol": "LBR",
-    "CoinName": "LaborCrypto",
-    "FullName": "LaborCrypto (LBR)"
-  },
-  {
-    "Symbol": "VAR",
-    "CoinName": "VARcrypt",
-    "FullName": "VARcrypt (VAR)"
-  },
-  {
-    "Symbol": "VAD",
-    "CoinName": "Varanida",
-    "FullName": "Varanida (VAD)"
-  },
-  {
-    "Symbol": "LAO",
-    "CoinName": "LC Token",
-    "FullName": "LC Token (LAO)"
-  },
-  {
-    "Symbol": "LUMA",
-    "CoinName": "LUMA Token",
-    "FullName": "LUMA Token (LUMA)"
-  },
-  {
-    "Symbol": "INVX",
-    "CoinName": "Investx",
-    "FullName": "Investx (INVX)"
-  },
-  {
-    "Symbol": "BFEX",
-    "CoinName": "BFEX",
-    "FullName": "BFEX (BFEX)"
-  },
-  {
-    "Symbol": "EGDC",
-    "CoinName": "EasyGuide",
-    "FullName": "EasyGuide (EGDC)"
-  },
-  {
-    "Symbol": "INFLR",
-    "CoinName": "Inflr",
-    "FullName": "Inflr (INFLR)"
-  },
-  {
-    "Symbol": "XNT",
-    "CoinName": "Exenium",
-    "FullName": "Exenium (XNT)"
-  },
-  {
-    "Symbol": "HLDY",
-    "CoinName": "HOLIDAY",
-    "FullName": "HOLIDAY (HLDY)"
-  },
-  {
-    "Symbol": "F2K",
-    "CoinName": "Farm2Kitchen",
-    "FullName": "Farm2Kitchen (F2K)"
-  },
-  {
-    "Symbol": "BCV",
-    "CoinName": "BCV Blue Chip",
-    "FullName": "BCV Blue Chip (BCV)"
-  },
-  {
-    "Symbol": "QOBI",
-    "CoinName": "Qobit",
-    "FullName": "Qobit (QOBI)"
-  },
-  {
-    "Symbol": "HUS",
-    "CoinName": "HUSSY",
-    "FullName": "HUSSY (HUS)"
-  },
-  {
-    "Symbol": "GOALS",
-    "CoinName": "UnitedFans",
-    "FullName": "UnitedFans (GOALS)"
-  },
-  {
-    "Symbol": "OSF",
-    "CoinName": "One Solution",
-    "FullName": "One Solution (OSF)"
-  },
-  {
-    "Symbol": "BTMG",
-    "CoinName": "Bitcademy Football",
-    "FullName": "Bitcademy Football (BTMG)"
-  },
-  {
-    "Symbol": "MBN",
-    "CoinName": "Membrana",
-    "FullName": "Membrana (MBN)"
-  },
-  {
-    "Symbol": "GTX",
-    "CoinName": "GALLACTIC",
-    "FullName": "GALLACTIC (GTX)"
-  },
-  {
-    "Symbol": "FORK",
-    "CoinName": "Gastro Advisor Token",
-    "FullName": "Gastro Advisor Token (FORK)"
-  },
-  {
-    "Symbol": "CRF",
-    "CoinName": "CrowdForce ",
-    "FullName": "CrowdForce  (CRF)"
-  },
-  {
-    "Symbol": "TECO",
-    "CoinName": "TerraEcoCoin",
-    "FullName": "TerraEcoCoin (TECO)"
-  },
-  {
-    "Symbol": "MAP",
-    "CoinName": "Maester Protocol",
-    "FullName": "Maester Protocol (MAP)"
-  },
-  {
-    "Symbol": "SCIA",
-    "CoinName": "Stem Cell",
-    "FullName": "Stem Cell (SCIA)"
-  },
-  {
-    "Symbol": "STIPS",
-    "CoinName": "Stips",
-    "FullName": "Stips (STIPS)"
-  },
-  {
-    "Symbol": "IDC",
-    "CoinName": "IdealCoin",
-    "FullName": "IdealCoin (IDC)"
-  },
-  {
-    "Symbol": "DESI",
-    "CoinName": "Desico",
-    "FullName": "Desico (DESI)"
-  },
-  {
-    "Symbol": "TENZ",
-    "CoinName": "Tenzorum",
-    "FullName": "Tenzorum (TENZ)"
-  },
-  {
-    "Symbol": "ENCN",
-    "CoinName": "EndChain",
-    "FullName": "EndChain (ENCN)"
-  },
-  {
-    "Symbol": "VTAG",
-    "CoinName": "veriTAG Token",
-    "FullName": "veriTAG Token (VTAG)"
-  },
-  {
-    "Symbol": "MOOLYA",
-    "CoinName": "moolyacoin",
-    "FullName": "moolyacoin (MOOLYA)"
-  },
-  {
-    "Symbol": "AEN",
-    "CoinName": "Aenco",
-    "FullName": "Aenco (AEN)"
-  },
-  {
-    "Symbol": "LAX",
-    "CoinName": "LAPO",
-    "FullName": "LAPO (LAX)"
-  },
-  {
-    "Symbol": "KRP",
-    "CoinName": "Kryptoin",
-    "FullName": "Kryptoin (KRP)"
-  },
-  {
-    "Symbol": "JVY",
-    "CoinName": "Javvy",
-    "FullName": "Javvy (JVY)"
-  },
-  {
-    "Symbol": "CTW",
-    "CoinName": "Citowise",
-    "FullName": "Citowise (CTW)"
-  },
-  {
-    "Symbol": "LNT",
-    "CoinName": "Litenett",
-    "FullName": "Litenett (LNT)"
-  },
-  {
-    "Symbol": "VANM",
-    "CoinName": "VANM",
-    "FullName": "VANM (VANM)"
-  },
-  {
-    "Symbol": "HETA",
-    "CoinName": "HetaChain",
-    "FullName": "HetaChain (HETA)"
-  },
-  {
-    "Symbol": "SLST",
-    "CoinName": "SmartLands",
-    "FullName": "SmartLands (SLST)"
   },
   {
     "Symbol": "MTEL",
@@ -16500,19 +15975,14 @@ const coinlist = [
     "FullName": "MulTra (MTT)"
   },
   {
-    "Symbol": "GEN*",
-    "CoinName": "DAOstack",
-    "FullName": "DAOstack (GEN*)"
-  },
-  {
-    "Symbol": "GEN",
-    "CoinName": "Genstake",
-    "FullName": "Genstake (GEN)"
-  },
-  {
     "Symbol": "MITC",
     "CoinName": "MusicLife",
     "FullName": "MusicLife (MITC)"
+  },
+  {
+    "Symbol": "BBTC",
+    "CoinName": "BlakeBitcoin",
+    "FullName": "BlakeBitcoin (BBTC)"
   },
   {
     "Symbol": "UMO",
@@ -16525,44 +15995,14 @@ const coinlist = [
     "FullName": "Lithium (LIT)"
   },
   {
+    "Symbol": "MUST",
+    "CoinName": "MUST Protocol",
+    "FullName": "MUST Protocol (MUST)"
+  },
+  {
     "Symbol": "ELT",
     "CoinName": "Electron",
     "FullName": "Electron (ELT)"
-  },
-  {
-    "Symbol": "TIOX",
-    "CoinName": "Trade Token X",
-    "FullName": "Trade Token X (TIOX)"
-  },
-  {
-    "Symbol": "LST",
-    "CoinName": "Lendroid Support Token",
-    "FullName": "Lendroid Support Token (LST)"
-  },
-  {
-    "Symbol": "BLC",
-    "CoinName": "BlakeCoin",
-    "FullName": "BlakeCoin (BLC)"
-  },
-  {
-    "Symbol": "PHO",
-    "CoinName": "Photon",
-    "FullName": "Photon (PHO)"
-  },
-  {
-    "Symbol": "BBTC",
-    "CoinName": "BlakeBitcoin",
-    "FullName": "BlakeBitcoin (BBTC)"
-  },
-  {
-    "Symbol": "XEC",
-    "CoinName": "Eternal Coin",
-    "FullName": "Eternal Coin (XEC)"
-  },
-  {
-    "Symbol": "SVD",
-    "CoinName": "savedroid",
-    "FullName": "savedroid (SVD)"
   },
   {
     "Symbol": "XNB",
@@ -16570,29 +16010,14 @@ const coinlist = [
     "FullName": "Xeonbit (XNB)"
   },
   {
-    "Symbol": "LPC",
-    "CoinName": "Little Phil",
-    "FullName": "Little Phil (LPC)"
-  },
-  {
-    "Symbol": "XRN",
-    "CoinName": "Saronite",
-    "FullName": "Saronite (XRN)"
-  },
-  {
     "Symbol": "RBTC",
     "CoinName": "Smart Bitcoin",
     "FullName": "Smart Bitcoin (RBTC)"
   },
   {
-    "Symbol": "MHC",
-    "CoinName": "MetaHash",
-    "FullName": "MetaHash (MHC)"
-  },
-  {
-    "Symbol": "TRK",
-    "CoinName": "TruckCoin",
-    "FullName": "TruckCoin (TRK)"
+    "Symbol": "BXC",
+    "CoinName": "BtcEX",
+    "FullName": "BtcEX (BXC)"
   },
   {
     "Symbol": "PIRATE",
@@ -16600,19 +16025,14 @@ const coinlist = [
     "FullName": "PirateCash (PIRATE)"
   },
   {
-    "Symbol": "CHAT",
-    "CoinName": "OpenChat",
-    "FullName": "OpenChat (CHAT)"
+    "Symbol": "EXO",
+    "CoinName": "Exosis",
+    "FullName": "Exosis (EXO)"
   },
   {
     "Symbol": "ONAM",
     "CoinName": "ONAM",
     "FullName": "ONAM (ONAM)"
-  },
-  {
-    "Symbol": "XET",
-    "CoinName": "Eternal Token",
-    "FullName": "Eternal Token (XET)"
   },
   {
     "Symbol": "BIH",
@@ -16630,79 +16050,9 @@ const coinlist = [
     "FullName": "Conjure (CJR)"
   },
   {
-    "Symbol": "NPX",
-    "CoinName": "Napoleon X",
-    "FullName": "Napoleon X (NPX)"
-  },
-  {
     "Symbol": "BLTG",
     "CoinName": "Block-Logic",
     "FullName": "Block-Logic (BLTG)"
-  },
-  {
-    "Symbol": "VTM",
-    "CoinName": "Victorieum",
-    "FullName": "Victorieum (VTM)"
-  },
-  {
-    "Symbol": "MZG",
-    "CoinName": "Moozicore",
-    "FullName": "Moozicore (MZG)"
-  },
-  {
-    "Symbol": "XELS",
-    "CoinName": "XELS Coin",
-    "FullName": "XELS Coin (XELS)"
-  },
-  {
-    "Symbol": "TWC",
-    "CoinName": "Twilight",
-    "FullName": "Twilight (TWC)"
-  },
-  {
-    "Symbol": "MOBU",
-    "CoinName": "MOBU",
-    "FullName": "MOBU (MOBU)"
-  },
-  {
-    "Symbol": "GZB",
-    "CoinName": "Gigzi",
-    "FullName": "Gigzi (GZB)"
-  },
-  {
-    "Symbol": "BRIK",
-    "CoinName": "BrikBit",
-    "FullName": "BrikBit (BRIK)"
-  },
-  {
-    "Symbol": "BFC",
-    "CoinName": "Betform",
-    "FullName": "Betform (BFC)"
-  },
-  {
-    "Symbol": "BQTX",
-    "CoinName": "BQT",
-    "FullName": "BQT (BQTX)"
-  },
-  {
-    "Symbol": "AENT",
-    "CoinName": "AEN",
-    "FullName": "AEN (AENT)"
-  },
-  {
-    "Symbol": "WTXH",
-    "CoinName": "WTX HUB",
-    "FullName": "WTX HUB (WTXH)"
-  },
-  {
-    "Symbol": "SaTT",
-    "CoinName": "SaTT",
-    "FullName": "SaTT (SaTT)"
-  },
-  {
-    "Symbol": "DREAM",
-    "CoinName": "DreamTeam Token",
-    "FullName": "DreamTeam Token (DREAM)"
   },
   {
     "Symbol": "AGVC",
@@ -16715,19 +16065,9 @@ const coinlist = [
     "FullName": "ASG (ASGC)"
   },
   {
-    "Symbol": "FLO",
-    "CoinName": "Flo",
-    "FullName": "Flo (FLO)"
-  },
-  {
     "Symbol": "MIMI",
     "CoinName": "MIMI Money",
     "FullName": "MIMI Money (MIMI)"
-  },
-  {
-    "Symbol": "FIII",
-    "CoinName": "Fiii",
-    "FullName": "Fiii (FIII)"
   },
   {
     "Symbol": "PXG",
@@ -16750,39 +16090,14 @@ const coinlist = [
     "FullName": "Securosys (SET)"
   },
   {
-    "Symbol": "AMO",
-    "CoinName": "AMO Coin",
-    "FullName": "AMO Coin (AMO)"
-  },
-  {
-    "Symbol": "SNTVT",
-    "CoinName": "Sentivate",
-    "FullName": "Sentivate (SNTVT)"
-  },
-  {
-    "Symbol": "TIT",
-    "CoinName": "TittieCoin",
-    "FullName": "TittieCoin (TIT)"
-  },
-  {
-    "Symbol": "TERN",
-    "CoinName": "Ternio",
-    "FullName": "Ternio (TERN)"
-  },
-  {
-    "Symbol": "ERC20",
-    "CoinName": "Index ERC20",
-    "FullName": "Index ERC20 (ERC20)"
-  },
-  {
     "Symbol": "BEER",
     "CoinName": "BEER Coin",
     "FullName": "BEER Coin (BEER)"
   },
   {
-    "Symbol": "NRP",
-    "CoinName": "Neural Protocol",
-    "FullName": "Neural Protocol (NRP)"
+    "Symbol": "AERGO",
+    "CoinName": "AERGO ",
+    "FullName": "AERGO  (AERGO)"
   },
   {
     "Symbol": "TIMI",
@@ -16790,9 +16105,14 @@ const coinlist = [
     "FullName": "Timicoin (TIMI)"
   },
   {
-    "Symbol": "AERGO",
-    "CoinName": "AERGO ",
-    "FullName": "AERGO  (AERGO)"
+    "Symbol": "NRP",
+    "CoinName": "Neural Protocol",
+    "FullName": "Neural Protocol (NRP)"
+  },
+  {
+    "Symbol": "SNTVT",
+    "CoinName": "Sentivate",
+    "FullName": "Sentivate (SNTVT)"
   },
   {
     "Symbol": "CEN",
@@ -16805,24 +16125,9 @@ const coinlist = [
     "FullName": "Hashgard (GARD)"
   },
   {
-    "Symbol": "BSV",
-    "CoinName": "Bitcoin SV",
-    "FullName": "Bitcoin SV (BSV)"
-  },
-  {
-    "Symbol": "WOWX",
-    "CoinName": "WOWX",
-    "FullName": "WOWX (WOWX)"
-  },
-  {
-    "Symbol": "HBZ",
-    "CoinName": "HBZ Coin",
-    "FullName": "HBZ Coin (HBZ)"
-  },
-  {
-    "Symbol": "AGM",
-    "CoinName": "Argoneum",
-    "FullName": "Argoneum (AGM)"
+    "Symbol": "UNX",
+    "CoinName": "UNEOX",
+    "FullName": "UNEOX (UNX)"
   },
   {
     "Symbol": "OWC",
@@ -16830,14 +16135,24 @@ const coinlist = [
     "FullName": "Oduwa (OWC)"
   },
   {
-    "Symbol": "CRM",
-    "CoinName": "Cream",
-    "FullName": "Cream (CRM)"
+    "Symbol": "WOWX",
+    "CoinName": "WOWX",
+    "FullName": "WOWX (WOWX)"
   },
   {
-    "Symbol": "LTHN",
-    "CoinName": "Lethean",
-    "FullName": "Lethean (LTHN)"
+    "Symbol": "SRX",
+    "CoinName": "Solarex",
+    "FullName": "Solarex (SRX)"
+  },
+  {
+    "Symbol": "THO",
+    "CoinName": "Athero",
+    "FullName": "Athero (THO)"
+  },
+  {
+    "Symbol": "TOSS",
+    "CoinName": "PROOF OF TOSS",
+    "FullName": "PROOF OF TOSS (TOSS)"
   },
   {
     "Symbol": "KMX",
@@ -16853,6 +16168,11 @@ const coinlist = [
     "Symbol": "SG",
     "CoinName": "SocialGood",
     "FullName": "SocialGood (SG)"
+  },
+  {
+    "Symbol": "SUNEX",
+    "CoinName": "The Sun Exchange",
+    "FullName": "The Sun Exchange (SUNEX)"
   },
   {
     "Symbol": "VIDY",
@@ -16880,39 +16200,9 @@ const coinlist = [
     "FullName": "Bitbose (BOSE)"
   },
   {
-    "Symbol": "BIS",
-    "CoinName": "Bismuth",
-    "FullName": "Bismuth (BIS)"
-  },
-  {
-    "Symbol": "THO",
-    "CoinName": "Athero",
-    "FullName": "Athero (THO)"
-  },
-  {
-    "Symbol": "IPT",
-    "CoinName": "Crypt-ON",
-    "FullName": "Crypt-ON (IPT)"
-  },
-  {
-    "Symbol": "MUST",
-    "CoinName": "MUST Protocol",
-    "FullName": "MUST Protocol (MUST)"
-  },
-  {
-    "Symbol": "REMCO",
-    "CoinName": "Remco",
-    "FullName": "Remco (REMCO)"
-  },
-  {
-    "Symbol": "GRIN",
-    "CoinName": "Grin",
-    "FullName": "Grin (GRIN)"
-  },
-  {
-    "Symbol": "JOYT",
-    "CoinName": "JoyToken",
-    "FullName": "JoyToken (JOYT)"
+    "Symbol": "JOY",
+    "CoinName": "Joycoin",
+    "FullName": "Joycoin (JOY)"
   },
   {
     "Symbol": "WETH",
@@ -16925,64 +16215,14 @@ const coinlist = [
     "FullName": "Godbex (GBE)"
   },
   {
-    "Symbol": "BEAM",
-    "CoinName": "Beam",
-    "FullName": "Beam (BEAM)"
-  },
-  {
-    "Symbol": "MILC",
-    "CoinName": "MIcro Licensing Coin",
-    "FullName": "MIcro Licensing Coin (MILC)"
-  },
-  {
-    "Symbol": "WRC",
-    "CoinName": "Worldcore",
-    "FullName": "Worldcore (WRC)"
-  },
-  {
-    "Symbol": "RGT",
-    "CoinName": "Retail.Global",
-    "FullName": "Retail.Global (RGT)"
-  },
-  {
-    "Symbol": "CGT",
-    "CoinName": "Coingrid",
-    "FullName": "Coingrid (CGT)"
-  },
-  {
-    "Symbol": "BMG",
-    "CoinName": "Borneo",
-    "FullName": "Borneo (BMG)"
-  },
-  {
-    "Symbol": "VNS",
-    "CoinName": "Venus",
-    "FullName": "Venus (VNS)"
-  },
-  {
-    "Symbol": "LYN",
-    "CoinName": "LYNCHPIN Token",
-    "FullName": "LYNCHPIN Token (LYN)"
-  },
-  {
     "Symbol": "HRBE",
     "CoinName": "Harambee Token",
     "FullName": "Harambee Token (HRBE)"
   },
   {
-    "Symbol": "DSLA",
-    "CoinName": "Stacktical",
-    "FullName": "Stacktical (DSLA)"
-  },
-  {
-    "Symbol": "OUT",
-    "CoinName": "Netscouters",
-    "FullName": "Netscouters (OUT)"
-  },
-  {
-    "Symbol": "UNX",
-    "CoinName": "UNEOX",
-    "FullName": "UNEOX (UNX)"
+    "Symbol": "BEAM",
+    "CoinName": "Beam",
+    "FullName": "Beam (BEAM)"
   },
   {
     "Symbol": "RIF",
@@ -16990,19 +16230,39 @@ const coinlist = [
     "FullName": "RIF Token (RIF)"
   },
   {
-    "Symbol": "MPG",
-    "CoinName": "Max Property Group",
-    "FullName": "Max Property Group (MPG)"
+    "Symbol": "MILC",
+    "CoinName": "MIcro Licensing Coin",
+    "FullName": "MIcro Licensing Coin (MILC)"
   },
   {
-    "Symbol": "FAIRC",
-    "CoinName": "Faireum Token",
-    "FullName": "Faireum Token (FAIRC)"
+    "Symbol": "PINMO",
+    "CoinName": "Pinmo",
+    "FullName": "Pinmo (PINMO)"
   },
   {
-    "Symbol": "MBTC",
-    "CoinName": "MicroBitcoin",
-    "FullName": "MicroBitcoin (MBTC)"
+    "Symbol": "POPC",
+    "CoinName": "PopChest",
+    "FullName": "PopChest (POPC)"
+  },
+  {
+    "Symbol": "RGT",
+    "CoinName": "Retail.Global",
+    "FullName": "Retail.Global (RGT)"
+  },
+  {
+    "Symbol": "SCOP",
+    "CoinName": "Scopuly",
+    "FullName": "Scopuly (SCOP)"
+  },
+  {
+    "Symbol": "BMG",
+    "CoinName": "Borneo",
+    "FullName": "Borneo (BMG)"
+  },
+  {
+    "Symbol": "OXY2",
+    "CoinName": "Cryptoxygen",
+    "FullName": "Cryptoxygen (OXY2)"
   },
   {
     "Symbol": "VC",
@@ -17010,14 +16270,14 @@ const coinlist = [
     "FullName": "Vecap (VC)"
   },
   {
+    "Symbol": "FAIRC",
+    "CoinName": "Faireum Token",
+    "FullName": "Faireum Token (FAIRC)"
+  },
+  {
     "Symbol": "BPN",
     "CoinName": "beepnow",
     "FullName": "beepnow (BPN)"
-  },
-  {
-    "Symbol": "DUSK",
-    "CoinName": "Dusk Network",
-    "FullName": "Dusk Network (DUSK)"
   },
   {
     "Symbol": "DYC",
@@ -17025,9 +16285,9 @@ const coinlist = [
     "FullName": "Dycoin (DYC)"
   },
   {
-    "Symbol": "BANCA",
-    "CoinName": "BANCA",
-    "FullName": "BANCA (BANCA)"
+    "Symbol": "DUSK",
+    "CoinName": "Dusk Network",
+    "FullName": "Dusk Network (DUSK)"
   },
   {
     "Symbol": "LN",
@@ -17035,14 +16295,14 @@ const coinlist = [
     "FullName": "LINK (LN)"
   },
   {
-    "Symbol": "RWE",
-    "CoinName": "Real-World Evidence",
-    "FullName": "Real-World Evidence (RWE)"
-  },
-  {
     "Symbol": "FTR",
     "CoinName": "FactR",
     "FullName": "FactR (FTR)"
+  },
+  {
+    "Symbol": "RWE",
+    "CoinName": "Real-World Evidence",
+    "FullName": "Real-World Evidence (RWE)"
   },
   {
     "Symbol": "YSH",
@@ -17050,9 +16310,19 @@ const coinlist = [
     "FullName": "Yoshi (YSH)"
   },
   {
+    "Symbol": "TASH",
+    "CoinName": "Smart Trip Platform",
+    "FullName": "Smart Trip Platform (TASH)"
+  },
+  {
     "Symbol": "TXM",
     "CoinName": "TMONEY",
     "FullName": "TMONEY (TXM)"
+  },
+  {
+    "Symbol": "TRAVEL",
+    "CoinName": "Travelvee",
+    "FullName": "Travelvee (TRAVEL)"
   },
   {
     "Symbol": "ACA",
@@ -17090,11 +16360,6 @@ const coinlist = [
     "FullName": "LipChain (LIPS)"
   },
   {
-    "Symbol": "NEW",
-    "CoinName": "Newton",
-    "FullName": "Newton (NEW)"
-  },
-  {
     "Symbol": "MIBO",
     "CoinName": "miBoodle",
     "FullName": "miBoodle (MIBO)"
@@ -17120,11 +16385,6 @@ const coinlist = [
     "FullName": "RecordsKeeper (XRK)"
   },
   {
-    "Symbol": "AVALA",
-    "CoinName": "Travala",
-    "FullName": "Travala (AVALA)"
-  },
-  {
     "Symbol": "RMOB",
     "CoinName": "RewardMob",
     "FullName": "RewardMob (RMOB)"
@@ -17145,11 +16405,6 @@ const coinlist = [
     "FullName": "Suapp (SUT)"
   },
   {
-    "Symbol": "BXC",
-    "CoinName": "BtcEX",
-    "FullName": "BtcEX (BXC)"
-  },
-  {
     "Symbol": "WHO",
     "CoinName": "Truwho",
     "FullName": "Truwho (WHO)"
@@ -17158,6 +16413,11 @@ const coinlist = [
     "Symbol": "ID",
     "CoinName": "TrigID",
     "FullName": "TrigID (ID)"
+  },
+  {
+    "Symbol": "VRX Token",
+    "CoinName": "VIARIUM",
+    "FullName": "VIARIUM (VRX Token)"
   },
   {
     "Symbol": "WDX",
@@ -17175,414 +16435,14 @@ const coinlist = [
     "FullName": "Amos (AMOS)"
   },
   {
+    "Symbol": "ESW",
+    "CoinName": "eSwitch®",
+    "FullName": "eSwitch® (ESW)"
+  },
+  {
     "Symbol": "XBANK",
     "CoinName": "Bancryp",
     "FullName": "Bancryp (XBANK)"
-  },
-  {
-    "Symbol": "USDT",
-    "CoinName": "Tether",
-    "FullName": "Tether (USDT)"
-  },
-  {
-    "Symbol": "ETC",
-    "CoinName": "Ethereum Classic",
-    "FullName": "Ethereum Classic (ETC)"
-  },
-  {
-    "Symbol": "ZRX",
-    "CoinName": "0x",
-    "FullName": "0x (ZRX)"
-  },
-  {
-    "Symbol": "XEM",
-    "CoinName": "NEM",
-    "FullName": "NEM (XEM)"
-  },
-  {
-    "Symbol": "HT",
-    "CoinName": "Huobi Token",
-    "FullName": "Huobi Token (HT)"
-  },
-  {
-    "Symbol": "QKC",
-    "CoinName": "QuarkChain",
-    "FullName": "QuarkChain (QKC)"
-  },
-  {
-    "Symbol": "DOGE",
-    "CoinName": "Dogecoin",
-    "FullName": "Dogecoin (DOGE)"
-  },
-  {
-    "Symbol": "OMG",
-    "CoinName": "OmiseGo",
-    "FullName": "OmiseGo (OMG)"
-  },
-  {
-    "Symbol": "BTG",
-    "CoinName": "Bitcoin Gold",
-    "FullName": "Bitcoin Gold (BTG)"
-  },
-  {
-    "Symbol": "ZIL",
-    "CoinName": "Zilliqa",
-    "FullName": "Zilliqa (ZIL)"
-  },
-  {
-    "Symbol": "QTUM",
-    "CoinName": "QTUM",
-    "FullName": "QTUM (QTUM)"
-  },
-  {
-    "Symbol": "LINK",
-    "CoinName": "ChainLink",
-    "FullName": "ChainLink (LINK)"
-  },
-  {
-    "Symbol": "PAI*",
-    "CoinName": "Project Pai",
-    "FullName": "Project Pai (PAI*)"
-  },
-  {
-    "Symbol": "LSK",
-    "CoinName": "Lisk",
-    "FullName": "Lisk (LSK)"
-  },
-  {
-    "Symbol": "BAT",
-    "CoinName": "Basic Attention Token",
-    "FullName": "Basic Attention Token (BAT)"
-  },
-  {
-    "Symbol": "ICX",
-    "CoinName": "ICON Project",
-    "FullName": "ICON Project (ICX)"
-  },
-  {
-    "Symbol": "NANO",
-    "CoinName": "Nano",
-    "FullName": "Nano (NANO)"
-  },
-  {
-    "Symbol": "DGB",
-    "CoinName": "DigiByte",
-    "FullName": "DigiByte (DGB)"
-  },
-  {
-    "Symbol": "BCD",
-    "CoinName": "Bitcoin Diamond",
-    "FullName": "Bitcoin Diamond (BCD)"
-  },
-  {
-    "Symbol": "MITH",
-    "CoinName": "Mithril",
-    "FullName": "Mithril (MITH)"
-  },
-  {
-    "Symbol": "BTS",
-    "CoinName": "Bitshares",
-    "FullName": "Bitshares (BTS)"
-  },
-  {
-    "Symbol": "BTM*",
-    "CoinName": "Bytom",
-    "FullName": "Bytom (BTM*)"
-  },
-  {
-    "Symbol": "IOST",
-    "CoinName": "IOS token",
-    "FullName": "IOS token (IOST)"
-  },
-  {
-    "Symbol": "POLY*",
-    "CoinName": "Polymath Network",
-    "FullName": "Polymath Network (POLY*)"
-  },
-  {
-    "Symbol": "XVG",
-    "CoinName": "Verge",
-    "FullName": "Verge (XVG)"
-  },
-  {
-    "Symbol": "SC",
-    "CoinName": "Siacoin",
-    "FullName": "Siacoin (SC)"
-  },
-  {
-    "Symbol": "WTC",
-    "CoinName": "Waltonchain",
-    "FullName": "Waltonchain (WTC)"
-  },
-  {
-    "Symbol": "WAVES",
-    "CoinName": "Waves",
-    "FullName": "Waves (WAVES)"
-  },
-  {
-    "Symbol": "QASH",
-    "CoinName": "Quoine Liquid",
-    "FullName": "Quoine Liquid (QASH)"
-  },
-  {
-    "Symbol": "HOT*",
-    "CoinName": "Holo",
-    "FullName": "Holo (HOT*)"
-  },
-  {
-    "Symbol": "POWR",
-    "CoinName": "Power Ledger",
-    "FullName": "Power Ledger (POWR)"
-  },
-  {
-    "Symbol": "FUN",
-    "CoinName": "FunFair",
-    "FullName": "FunFair (FUN)"
-  },
-  {
-    "Symbol": "GNT",
-    "CoinName": "Golem Network Token",
-    "FullName": "Golem Network Token (GNT)"
-  },
-  {
-    "Symbol": "NAS",
-    "CoinName": "Nebulas",
-    "FullName": "Nebulas (NAS)"
-  },
-  {
-    "Symbol": "TUSD",
-    "CoinName": "True USD",
-    "FullName": "True USD (TUSD)"
-  },
-  {
-    "Symbol": "MCO",
-    "CoinName": "Crypto.com",
-    "FullName": "Crypto.com (MCO)"
-  },
-  {
-    "Symbol": "KMD",
-    "CoinName": "Komodo",
-    "FullName": "Komodo (KMD)"
-  },
-  {
-    "Symbol": "OCN",
-    "CoinName": "Odyssey",
-    "FullName": "Odyssey (OCN)"
-  },
-  {
-    "Symbol": "CVC",
-    "CoinName": "Civic",
-    "FullName": "Civic (CVC)"
-  },
-  {
-    "Symbol": "CMT",
-    "CoinName": "CyberMiles",
-    "FullName": "CyberMiles (CMT)"
-  },
-  {
-    "Symbol": "BNT",
-    "CoinName": "Bancor Network Token",
-    "FullName": "Bancor Network Token (BNT)"
-  },
-  {
-    "Symbol": "ELF",
-    "CoinName": "aelf",
-    "FullName": "aelf (ELF)"
-  },
-  {
-    "Symbol": "BIX",
-    "CoinName": "BiboxCoin",
-    "FullName": "BiboxCoin (BIX)"
-  },
-  {
-    "Symbol": "KNC",
-    "CoinName": "Kyber Network",
-    "FullName": "Kyber Network (KNC)"
-  },
-  {
-    "Symbol": "GXS",
-    "CoinName": "GXChain",
-    "FullName": "GXChain (GXS)"
-  },
-  {
-    "Symbol": "HSR",
-    "CoinName": "Hshare",
-    "FullName": "Hshare (HSR)"
-  },
-  {
-    "Symbol": "PIVX",
-    "CoinName": "Private Instant Verified Transaction",
-    "FullName": "Private Instant Verified Transaction (PIVX)"
-  },
-  {
-    "Symbol": "MFT",
-    "CoinName": "Mainframe",
-    "FullName": "Mainframe (MFT)"
-  },
-  {
-    "Symbol": "GTO",
-    "CoinName": "GIFTO",
-    "FullName": "GIFTO (GTO)"
-  },
-  {
-    "Symbol": "GVT",
-    "CoinName": "Genesis Vision",
-    "FullName": "Genesis Vision (GVT)"
-  },
-  {
-    "Symbol": "MGO",
-    "CoinName": "MobileGo",
-    "FullName": "MobileGo (MGO)"
-  },
-  {
-    "Symbol": "UBTC",
-    "CoinName": "UnitedBitcoin",
-    "FullName": "UnitedBitcoin (UBTC)"
-  },
-  {
-    "Symbol": "SRN",
-    "CoinName": "SirinLabs",
-    "FullName": "SirinLabs (SRN)"
-  },
-  {
-    "Symbol": "POE",
-    "CoinName": "Po.et",
-    "FullName": "Po.et (POE)"
-  },
-  {
-    "Symbol": "XBB",
-    "CoinName": "BrickBlock",
-    "FullName": "BrickBlock (XBB)"
-  },
-  {
-    "Symbol": "MDA",
-    "CoinName": "Moeda",
-    "FullName": "Moeda (MDA)"
-  },
-  {
-    "Symbol": "XIN",
-    "CoinName": "Infinity Economics",
-    "FullName": "Infinity Economics (XIN)"
-  },
-  {
-    "Symbol": "APIS",
-    "CoinName": "APIS",
-    "FullName": "APIS (APIS)"
-  },
-  {
-    "Symbol": "BMX",
-    "CoinName": "BitMart Coin",
-    "FullName": "BitMart Coin (BMX)"
-  },
-  {
-    "Symbol": "PST",
-    "CoinName": "Primas",
-    "FullName": "Primas (PST)"
-  },
-  {
-    "Symbol": "CCL",
-    "CoinName": "CyClean",
-    "FullName": "CyClean (CCL)"
-  },
-  {
-    "Symbol": "RVN",
-    "CoinName": "Ravencoin",
-    "FullName": "Ravencoin (RVN)"
-  },
-  {
-    "Symbol": "POA",
-    "CoinName": "Poa Network",
-    "FullName": "Poa Network (POA)"
-  },
-  {
-    "Symbol": "MOD",
-    "CoinName": "Modum",
-    "FullName": "Modum (MOD)"
-  },
-  {
-    "Symbol": "INS",
-    "CoinName": "Insolar",
-    "FullName": "Insolar (INS)"
-  },
-  {
-    "Symbol": "ARN",
-    "CoinName": "Aeron",
-    "FullName": "Aeron (ARN)"
-  },
-  {
-    "Symbol": "BCPT",
-    "CoinName": "BlockMason Credit Protocol",
-    "FullName": "BlockMason Credit Protocol (BCPT)"
-  },
-  {
-    "Symbol": "LUN",
-    "CoinName": "Lunyr",
-    "FullName": "Lunyr (LUN)"
-  },
-  {
-    "Symbol": "MTN*",
-    "CoinName": "Medicalchain",
-    "FullName": "Medicalchain (MTN*)"
-  },
-  {
-    "Symbol": "VIB",
-    "CoinName": "Viberate",
-    "FullName": "Viberate (VIB)"
-  },
-  {
-    "Symbol": "OKB",
-    "CoinName": "Okex",
-    "FullName": "Okex (OKB)"
-  },
-  {
-    "Symbol": "ELA",
-    "CoinName": "Elastos",
-    "FullName": "Elastos (ELA)"
-  },
-  {
-    "Symbol": "MEET",
-    "CoinName": "CoinMeet",
-    "FullName": "CoinMeet (MEET)"
-  },
-  {
-    "Symbol": "PAX",
-    "CoinName": "Paxos Standard",
-    "FullName": "Paxos Standard (PAX)"
-  },
-  {
-    "Symbol": "POLY",
-    "CoinName": "PolyBit",
-    "FullName": "PolyBit (POLY)"
-  },
-  {
-    "Symbol": "ABT",
-    "CoinName": "ArcBlock",
-    "FullName": "ArcBlock (ABT)"
-  },
-  {
-    "Symbol": "ETF",
-    "CoinName": "EthereumFog",
-    "FullName": "EthereumFog (ETF)"
-  },
-  {
-    "Symbol": "ONT",
-    "CoinName": "Ontology",
-    "FullName": "Ontology (ONT)"
-  },
-  {
-    "Symbol": "WAN",
-    "CoinName": "Wanchain",
-    "FullName": "Wanchain (WAN)"
-  },
-  {
-    "Symbol": "AION",
-    "CoinName": "Aion",
-    "FullName": "Aion (AION)"
-  },
-  {
-    "Symbol": "RLC",
-    "CoinName": "iEx.ec",
-    "FullName": "iEx.ec (RLC)"
   },
   {
     "Symbol": "OX",
@@ -17600,19 +16460,19 @@ const coinlist = [
     "FullName": "ClearAid (CAID)"
   },
   {
-    "Symbol": "STRS",
-    "CoinName": "STARS ",
-    "FullName": "STARS  (STRS)"
-  },
-  {
-    "Symbol": "HLX",
-    "CoinName": "Helix3",
-    "FullName": "Helix3 (HLX)"
+    "Symbol": "GUAR",
+    "CoinName": "Guarium",
+    "FullName": "Guarium (GUAR)"
   },
   {
     "Symbol": "LTE",
     "CoinName": "Local Token Exchange",
     "FullName": "Local Token Exchange (LTE)"
+  },
+  {
+    "Symbol": "HLX",
+    "CoinName": "Helix3",
+    "FullName": "Helix3 (HLX)"
   },
   {
     "Symbol": "MEL",
@@ -17625,19 +16485,9 @@ const coinlist = [
     "FullName": "Nexxo (NEXXO)"
   },
   {
-    "Symbol": "QNT",
+    "Symbol": "QNTR",
     "CoinName": "Quantor",
-    "FullName": "Quantor (QNT)"
-  },
-  {
-    "Symbol": "XUC",
-    "CoinName": "Exchange Union",
-    "FullName": "Exchange Union (XUC)"
-  },
-  {
-    "Symbol": "BITS",
-    "CoinName": "BitstarCoin",
-    "FullName": "BitstarCoin (BITS)"
+    "FullName": "Quantor (QNTR)"
   },
   {
     "Symbol": "BTCUS",
@@ -17655,9 +16505,9 @@ const coinlist = [
     "FullName": "Molecule (MOL)"
   },
   {
-    "Symbol": "STASH",
-    "CoinName": "BitStash",
-    "FullName": "BitStash (STASH)"
+    "Symbol": "REME",
+    "CoinName": "REME-Coin",
+    "FullName": "REME-Coin (REME)"
   },
   {
     "Symbol": "RENC",
@@ -17670,14 +16520,19 @@ const coinlist = [
     "FullName": "Travelertoken (TLT)"
   },
   {
-    "Symbol": "SRX",
-    "CoinName": "Solarex",
-    "FullName": "Solarex (SRX)"
-  },
-  {
     "Symbol": "EMOT",
     "CoinName": "Sentigraph.io",
     "FullName": "Sentigraph.io (EMOT)"
+  },
+  {
+    "Symbol": "USAT",
+    "CoinName": "USAT",
+    "FullName": "USAT (USAT)"
+  },
+  {
+    "Symbol": "VOLAIR",
+    "CoinName": "VolAir",
+    "FullName": "VolAir (VOLAIR)"
   },
   {
     "Symbol": "AIRT",
@@ -17685,474 +16540,9 @@ const coinlist = [
     "FullName": "Aircraft (AIRT)"
   },
   {
-    "Symbol": "VOL",
-    "CoinName": "VolAir",
-    "FullName": "VolAir (VOL)"
-  },
-  {
-    "Symbol": "LUX**",
-    "CoinName": "Luxmi Coin",
-    "FullName": "Luxmi Coin (LUX**)"
-  },
-  {
-    "Symbol": "XMG",
-    "CoinName": "Coin Magi",
-    "FullName": "Coin Magi (XMG)"
-  },
-  {
-    "Symbol": "THC",
-    "CoinName": "The Hempcoin",
-    "FullName": "The Hempcoin (THC)"
-  },
-  {
-    "Symbol": "RPC",
-    "CoinName": "RonPaulCoin",
-    "FullName": "RonPaulCoin (RPC)"
-  },
-  {
-    "Symbol": "TASH",
-    "CoinName": "Smart Trip Platform",
-    "FullName": "Smart Trip Platform (TASH)"
-  },
-  {
-    "Symbol": "NVDX",
-    "CoinName": "Nodvix",
-    "FullName": "Nodvix (NVDX)"
-  },
-  {
-    "Symbol": "TRAVEL",
-    "CoinName": "Travelvee",
-    "FullName": "Travelvee (TRAVEL)"
-  },
-  {
-    "Symbol": "LCR",
-    "CoinName": "Lucre",
-    "FullName": "Lucre (LCR)"
-  },
-  {
-    "Symbol": "IMP",
-    "CoinName": "Brain Space",
-    "FullName": "Brain Space (IMP)"
-  },
-  {
-    "Symbol": "KVT",
-    "CoinName": "Kinesis Velocity Token ",
-    "FullName": "Kinesis Velocity Token  (KVT)"
-  },
-  {
-    "Symbol": "REME",
-    "CoinName": "REME-Coin",
-    "FullName": "REME-Coin (REME)"
-  },
-  {
-    "Symbol": "OXY2",
-    "CoinName": "Cryptoxygen",
-    "FullName": "Cryptoxygen (OXY2)"
-  },
-  {
-    "Symbol": "eSwitch",
-    "CoinName": "ShareMeAll",
-    "FullName": "ShareMeAll (eSwitch)"
-  },
-  {
-    "Symbol": "JOY",
-    "CoinName": "Joycoin",
-    "FullName": "Joycoin (JOY)"
-  },
-  {
-    "Symbol": "DYN",
-    "CoinName": "Dynamic",
-    "FullName": "Dynamic (DYN)"
-  },
-  {
-    "Symbol": "BKT",
-    "CoinName": "Blocktrade token",
-    "FullName": "Blocktrade token (BKT)"
-  },
-  {
-    "Symbol": "GALI",
-    "CoinName": "Galilel",
-    "FullName": "Galilel (GALI)"
-  },
-  {
-    "Symbol": "EXO",
-    "CoinName": "Exosis",
-    "FullName": "Exosis (EXO)"
-  },
-  {
-    "Symbol": "AE",
-    "CoinName": "Aeternity",
-    "FullName": "Aeternity (AE)"
-  },
-  {
-    "Symbol": "XQR",
-    "CoinName": "Qredit",
-    "FullName": "Qredit (XQR)"
-  },
-  {
-    "Symbol": "QRL",
-    "CoinName": "Quantum Resistant Ledger",
-    "FullName": "Quantum Resistant Ledger (QRL)"
-  },
-  {
-    "Symbol": "ILC",
-    "CoinName": "ILCoin",
-    "FullName": "ILCoin (ILC)"
-  },
-  {
-    "Symbol": "ETHO",
-    "CoinName": "ETHER-1",
-    "FullName": "ETHER-1 (ETHO)"
-  },
-  {
-    "Symbol": "XSH",
-    "CoinName": "SHIELD",
-    "FullName": "SHIELD (XSH)"
-  },
-  {
-    "Symbol": "BOXY",
-    "CoinName": "BoxyCoin",
-    "FullName": "BoxyCoin (BOXY)"
-  },
-  {
-    "Symbol": "GOLF",
-    "CoinName": "GolfCoin",
-    "FullName": "GolfCoin (GOLF)"
-  },
-  {
-    "Symbol": "XPY",
-    "CoinName": "PayCoin",
-    "FullName": "PayCoin (XPY)"
-  },
-  {
-    "Symbol": "FRN",
-    "CoinName": "Francs",
-    "FullName": "Francs (FRN)"
-  },
-  {
-    "Symbol": "VAL",
-    "CoinName": "Valorbit",
-    "FullName": "Valorbit (VAL)"
-  },
-  {
-    "Symbol": "COMP",
-    "CoinName": "Compound Coin",
-    "FullName": "Compound Coin (COMP)"
-  },
-  {
-    "Symbol": "CTL",
-    "CoinName": "Citadel",
-    "FullName": "Citadel (CTL)"
-  },
-  {
-    "Symbol": "CXT",
-    "CoinName": "Coinonat",
-    "FullName": "Coinonat (CXT)"
-  },
-  {
-    "Symbol": "NKC",
-    "CoinName": "Nukecoinz",
-    "FullName": "Nukecoinz (NKC)"
-  },
-  {
-    "Symbol": "CRAVE*",
-    "CoinName": "Crave-NG",
-    "FullName": "Crave-NG (CRAVE*)"
-  },
-  {
-    "Symbol": "TRF",
-    "CoinName": "Travelflex",
-    "FullName": "Travelflex (TRF)"
-  },
-  {
-    "Symbol": "TER",
-    "CoinName": "TerraNovaCoin",
-    "FullName": "TerraNovaCoin (TER)"
-  },
-  {
-    "Symbol": "BTCS*",
-    "CoinName": "Bitcoin Supreme",
-    "FullName": "Bitcoin Supreme (BTCS*)"
-  },
-  {
-    "Symbol": "EC",
-    "CoinName": "Eclipse",
-    "FullName": "Eclipse (EC)"
-  },
-  {
-    "Symbol": "PTC",
-    "CoinName": "PesetaCoin",
-    "FullName": "PesetaCoin (PTC)"
-  },
-  {
-    "Symbol": "CHBR",
-    "CoinName": "CryptoHub",
-    "FullName": "CryptoHub (CHBR)"
-  },
-  {
-    "Symbol": "LINDA",
-    "CoinName": "Linda",
-    "FullName": "Linda (LINDA)"
-  },
-  {
-    "Symbol": "ACCO",
-    "CoinName": "Accolade",
-    "FullName": "Accolade (ACCO)"
-  },
-  {
-    "Symbol": "XCPO",
-    "CoinName": "Copico",
-    "FullName": "Copico (XCPO)"
-  },
-  {
-    "Symbol": "SGL",
-    "CoinName": "Sigil",
-    "FullName": "Sigil (SGL)"
-  },
-  {
-    "Symbol": "MDC*",
-    "CoinName": "MadCoin",
-    "FullName": "MadCoin (MDC*)"
-  },
-  {
-    "Symbol": "SUNEX",
-    "CoinName": "The Sun Exchange",
-    "FullName": "The Sun Exchange (SUNEX)"
-  },
-  {
-    "Symbol": "VIVO",
-    "CoinName": "VIVO Coin",
-    "FullName": "VIVO Coin (VIVO)"
-  },
-  {
-    "Symbol": "CBS",
-    "CoinName": "Cerberus",
-    "FullName": "Cerberus (CBS)"
-  },
-  {
-    "Symbol": "XP",
-    "CoinName": "Experience Points",
-    "FullName": "Experience Points (XP)"
-  },
-  {
-    "Symbol": "PINMO",
-    "CoinName": "Pinmo",
-    "FullName": "Pinmo (PINMO)"
-  },
-  {
-    "Symbol": "UNRC",
-    "CoinName": "UniversalRoyalCoin",
-    "FullName": "UniversalRoyalCoin (UNRC)"
-  },
-  {
-    "Symbol": "XT3",
-    "CoinName": "Xt3ch",
-    "FullName": "Xt3ch (XT3)"
-  },
-  {
-    "Symbol": "EMC",
-    "CoinName": "Emercoin",
-    "FullName": "Emercoin (EMC)"
-  },
-  {
-    "Symbol": "C2",
-    "CoinName": "Coin.2",
-    "FullName": "Coin.2 (C2)"
-  },
-  {
-    "Symbol": "OMGC",
-    "CoinName": "OmiseGO Classic",
-    "FullName": "OmiseGO Classic (OMGC)"
-  },
-  {
-    "Symbol": "ELM",
-    "CoinName": "Elements",
-    "FullName": "Elements (ELM)"
-  },
-  {
-    "Symbol": "BCI",
-    "CoinName": "Bitcoin Interest",
-    "FullName": "Bitcoin Interest (BCI)"
-  },
-  {
-    "Symbol": "ACTN",
-    "CoinName": "Action Coin",
-    "FullName": "Action Coin (ACTN)"
-  },
-  {
-    "Symbol": "AQUA",
-    "CoinName": "Aquachain",
-    "FullName": "Aquachain (AQUA)"
-  },
-  {
-    "Symbol": "GO",
-    "CoinName": "GoChain",
-    "FullName": "GoChain (GO)"
-  },
-  {
-    "Symbol": "SBTC",
-    "CoinName": "Super Bitcoin",
-    "FullName": "Super Bitcoin (SBTC)"
-  },
-  {
-    "Symbol": "DUO",
-    "CoinName": "ParallelCoin",
-    "FullName": "ParallelCoin (DUO)"
-  },
-  {
-    "Symbol": "FABA",
-    "CoinName": "Faba Invest",
-    "FullName": "Faba Invest (FABA)"
-  },
-  {
-    "Symbol": "BITB",
-    "CoinName": "BitBean",
-    "FullName": "BitBean (BITB)"
-  },
-  {
-    "Symbol": "HNY",
-    "CoinName": "BitFence",
-    "FullName": "BitFence (HNY)"
-  },
-  {
-    "Symbol": "GRE",
-    "CoinName": "GreenCoin",
-    "FullName": "GreenCoin (GRE)"
-  },
-  {
-    "Symbol": "EURS",
-    "CoinName": "STASIS EURS",
-    "FullName": "STASIS EURS (EURS)"
-  },
-  {
-    "Symbol": "LYNK",
-    "CoinName": "Lynked.World",
-    "FullName": "Lynked.World (LYNK)"
-  },
-  {
-    "Symbol": "PRA",
-    "CoinName": "ProChain",
-    "FullName": "ProChain (PRA)"
-  },
-  {
-    "Symbol": "BTCC",
-    "CoinName": "Bitcoin Core",
-    "FullName": "Bitcoin Core (BTCC)"
-  },
-  {
-    "Symbol": "NMR",
-    "CoinName": "Numeraire",
-    "FullName": "Numeraire (NMR)"
-  },
-  {
-    "Symbol": "CET",
-    "CoinName": "CoinEx token",
-    "FullName": "CoinEx token (CET)"
-  },
-  {
-    "Symbol": "OC",
-    "CoinName": "OrangeCoin",
-    "FullName": "OrangeCoin (OC)"
-  },
-  {
-    "Symbol": "HEX",
-    "CoinName": "HexCoin",
-    "FullName": "HexCoin (HEX)"
-  },
-  {
-    "Symbol": "BBK",
-    "CoinName": "BitBlocks",
-    "FullName": "BitBlocks (BBK)"
-  },
-  {
-    "Symbol": "DAR",
-    "CoinName": "Darcrus",
-    "FullName": "Darcrus (DAR)"
-  },
-  {
-    "Symbol": "JC",
-    "CoinName": "JesusCoin",
-    "FullName": "JesusCoin (JC)"
-  },
-  {
-    "Symbol": "VTN",
-    "CoinName": "Voltroon",
-    "FullName": "Voltroon (VTN)"
-  },
-  {
-    "Symbol": "WORM",
-    "CoinName": "HealthyWorm",
-    "FullName": "HealthyWorm (WORM)"
-  },
-  {
-    "Symbol": "WTT",
-    "CoinName": "Giga Watt",
-    "FullName": "Giga Watt (WTT)"
-  },
-  {
-    "Symbol": "EBC",
-    "CoinName": "EBCoin",
-    "FullName": "EBCoin (EBC)"
-  },
-  {
-    "Symbol": "BGG",
-    "CoinName": "Bgogo Token",
-    "FullName": "Bgogo Token (BGG)"
-  },
-  {
-    "Symbol": "DMT",
-    "CoinName": "DMarket",
-    "FullName": "DMarket (DMT)"
-  },
-  {
-    "Symbol": "EMD",
-    "CoinName": "Emerald",
-    "FullName": "Emerald (EMD)"
-  },
-  {
-    "Symbol": "WOBTC",
-    "CoinName": "WorldBTC",
-    "FullName": "WorldBTC (WOBTC)"
-  },
-  {
     "Symbol": "VTRD",
     "CoinName": "VTradeExchange",
     "FullName": "VTradeExchange (VTRD)"
-  },
-  {
-    "Symbol": "HEDGE",
-    "CoinName": "Hedgecoin",
-    "FullName": "Hedgecoin (HEDGE)"
-  },
-  {
-    "Symbol": "HEDG",
-    "CoinName": "HedgeTrade",
-    "FullName": "HedgeTrade (HEDG)"
-  },
-  {
-    "Symbol": "WBTC",
-    "CoinName": "Wrapped Bitcoin",
-    "FullName": "Wrapped Bitcoin (WBTC)"
-  },
-  {
-    "Symbol": "ERE",
-    "CoinName": "Erecoin",
-    "FullName": "Erecoin (ERE)"
-  },
-  {
-    "Symbol": "PLAI",
-    "CoinName": "Plair",
-    "FullName": "Plair (PLAI)"
-  },
-  {
-    "Symbol": "VET",
-    "CoinName": "Vechain",
-    "FullName": "Vechain (VET)"
-  },
-  {
-    "Symbol": "MONA",
-    "CoinName": "MonaCoin",
-    "FullName": "MonaCoin (MONA)"
   },
   {
     "Symbol": "BTT",
@@ -18160,39 +16550,29 @@ const coinlist = [
     "FullName": "BitTorrent (BTT)"
   },
   {
-    "Symbol": "WRL",
-    "CoinName": "WHIRL",
-    "FullName": "WHIRL (WRL)"
+    "Symbol": "GALI",
+    "CoinName": "Galilel",
+    "FullName": "Galilel (GALI)"
   },
   {
-    "Symbol": "GC",
-    "CoinName": "Gric Coin",
-    "FullName": "Gric Coin (GC)"
+    "Symbol": "PLAI",
+    "CoinName": "Plair",
+    "FullName": "Plair (PLAI)"
   },
   {
-    "Symbol": "DDL",
-    "CoinName": "Donocle",
-    "FullName": "Donocle (DDL)"
+    "Symbol": "BGG",
+    "CoinName": "Bgogo Token",
+    "FullName": "Bgogo Token (BGG)"
   },
   {
-    "Symbol": "CIX100",
-    "CoinName": "Cryptoindex",
-    "FullName": "Cryptoindex (CIX100)"
+    "Symbol": "HEDG",
+    "CoinName": "HedgeTrade",
+    "FullName": "HedgeTrade (HEDG)"
   },
   {
-    "Symbol": "TOSS",
-    "CoinName": "PROOF OF TOSS",
-    "FullName": "PROOF OF TOSS (TOSS)"
-  },
-  {
-    "Symbol": "FIH",
-    "CoinName": "Fidelity House",
-    "FullName": "Fidelity House (FIH)"
-  },
-  {
-    "Symbol": "GUAR",
-    "CoinName": "Guarium",
-    "FullName": "Guarium (GUAR)"
+    "Symbol": "ERE",
+    "CoinName": "Erecoin",
+    "FullName": "Erecoin (ERE)"
   },
   {
     "Symbol": "BTU",
@@ -18208,5 +16588,5640 @@ const coinlist = [
     "Symbol": "XBX",
     "CoinName": "BiteX",
     "FullName": "BiteX (XBX)"
+  },
+  {
+    "Symbol": "QNT",
+    "CoinName": "Quant",
+    "FullName": "Quant (QNT)"
+  },
+  {
+    "Symbol": "FFUEL",
+    "CoinName": "getFIFO",
+    "FullName": "getFIFO (FFUEL)"
+  },
+  {
+    "Symbol": "NSP",
+    "CoinName": "NOMAD.space",
+    "FullName": "NOMAD.space (NSP)"
+  },
+  {
+    "Symbol": "PTNX",
+    "CoinName": "Platin",
+    "FullName": "Platin (PTNX)"
+  },
+  {
+    "Symbol": "SNcoin",
+    "CoinName": "ScientificCoin",
+    "FullName": "ScientificCoin (SNcoin)"
+  },
+  {
+    "Symbol": "TTNT",
+    "CoinName": "TITA Project",
+    "FullName": "TITA Project (TTNT)"
+  },
+  {
+    "Symbol": "FLC",
+    "CoinName": "Fieldcoin",
+    "FullName": "Fieldcoin (FLC (1))"
+  },
+  {
+    "Symbol": "BWT2",
+    "CoinName": "Bitwin 2.0",
+    "FullName": "Bitwin 2.0 (BWT2)"
+  },
+  {
+    "Symbol": "OATH",
+    "CoinName": "OATH Protocol",
+    "FullName": "OATH Protocol (OATH)"
+  },
+  {
+    "Symbol": "SBA",
+    "CoinName": "simplyBrand",
+    "FullName": "simplyBrand (SBA)"
+  },
+  {
+    "Symbol": "DXG",
+    "CoinName": "DexAge",
+    "FullName": "DexAge (DXG)"
+  },
+  {
+    "Symbol": "EXTP",
+    "CoinName": "TradePlace",
+    "FullName": "TradePlace (EXTP)"
+  },
+  {
+    "Symbol": "ZEX",
+    "CoinName": "Zaddex",
+    "FullName": "Zaddex (ZEX)"
+  },
+  {
+    "Symbol": "XCZ",
+    "CoinName": "XCOYNZ",
+    "FullName": "XCOYNZ (XCZ)"
+  },
+  {
+    "Symbol": "CBUK",
+    "CoinName": "CurveBlock",
+    "FullName": "CurveBlock (CBUK)"
+  },
+  {
+    "Symbol": "HIX",
+    "CoinName": "HELIX Orange",
+    "FullName": "HELIX Orange (HIX)"
+  },
+  {
+    "Symbol": "TGN",
+    "CoinName": "TerraGreen",
+    "FullName": "TerraGreen (TGN)"
+  },
+  {
+    "Symbol": "COGS",
+    "CoinName": "Cogmento",
+    "FullName": "Cogmento (COGS)"
+  },
+  {
+    "Symbol": "XRM",
+    "CoinName": "Aerum",
+    "FullName": "Aerum (XRM)"
+  },
+  {
+    "Symbol": "CCOIN",
+    "CoinName": "Creditcoin",
+    "FullName": "Creditcoin (CCOIN)"
+  },
+  {
+    "Symbol": "APZ",
+    "CoinName": "Alprockz",
+    "FullName": "Alprockz (APZ)"
+  },
+  {
+    "Symbol": "ICHX",
+    "CoinName": "IceChain",
+    "FullName": "IceChain (ICHX)"
+  },
+  {
+    "Symbol": "IMP",
+    "CoinName": "CoinIMP",
+    "FullName": "CoinIMP (IMP)"
+  },
+  {
+    "Symbol": "FORCE",
+    "CoinName": "TriForce Tokens",
+    "FullName": "TriForce Tokens (FORCE)"
+  },
+  {
+    "Symbol": "BTMX",
+    "CoinName": "BitMax Token",
+    "FullName": "BitMax Token (BTMX)"
+  },
+  {
+    "Symbol": "LTO",
+    "CoinName": "LTO Network",
+    "FullName": "LTO Network (LTO)"
+  },
+  {
+    "Symbol": "QUSD",
+    "CoinName": "QUSD",
+    "FullName": "QUSD (QUSD)"
+  },
+  {
+    "Symbol": "BTH",
+    "CoinName": "Bithereum",
+    "FullName": "Bithereum (BTH)"
+  },
+  {
+    "Symbol": "PLG",
+    "CoinName": "Pledgecamp",
+    "FullName": "Pledgecamp (PLG)"
+  },
+  {
+    "Symbol": "PVP",
+    "CoinName": "PVPChain",
+    "FullName": "PVPChain (PVP)"
+  },
+  {
+    "Symbol": "EMANATE",
+    "CoinName": "EMANATE",
+    "FullName": "EMANATE (EMANATE)"
+  },
+  {
+    "Symbol": "RAIZER",
+    "CoinName": "RAIZER",
+    "FullName": "RAIZER (RAIZER)"
+  },
+  {
+    "Symbol": "CP",
+    "CoinName": "CryptoProfile",
+    "FullName": "CryptoProfile (CP)"
+  },
+  {
+    "Symbol": "DAYTA",
+    "CoinName": "Dayta",
+    "FullName": "Dayta (DAYTA)"
+  },
+  {
+    "Symbol": "ORV",
+    "CoinName": "Orvium",
+    "FullName": "Orvium (ORV)"
+  },
+  {
+    "Symbol": "CWT",
+    "CoinName": "Coinware",
+    "FullName": "Coinware (CWT)"
+  },
+  {
+    "Symbol": "AQU",
+    "CoinName": "aQuest",
+    "FullName": "aQuest (AQU)"
+  },
+  {
+    "Symbol": "CXG",
+    "CoinName": "Coinxes",
+    "FullName": "Coinxes (CXG)"
+  },
+  {
+    "Symbol": "CHFT",
+    "CoinName": "Crypto Holding",
+    "FullName": "Crypto Holding (CHFT)"
+  },
+  {
+    "Symbol": "VNTY",
+    "CoinName": "VENOTY",
+    "FullName": "VENOTY (VNTY)"
+  },
+  {
+    "Symbol": "MAI",
+    "CoinName": "Mindsync",
+    "FullName": "Mindsync (MAI)"
+  },
+  {
+    "Symbol": "BTR",
+    "CoinName": "Bither",
+    "FullName": "Bither (BTR)"
+  },
+  {
+    "Symbol": "SSX",
+    "CoinName": "SOMESING",
+    "FullName": "SOMESING (SSX)"
+  },
+  {
+    "Symbol": "KLK",
+    "CoinName": "Klickzie",
+    "FullName": "Klickzie (KLK)"
+  },
+  {
+    "Symbol": "LVN",
+    "CoinName": "LivenPay",
+    "FullName": "LivenPay (LVN)"
+  },
+  {
+    "Symbol": "FFCT",
+    "CoinName": "FortFC",
+    "FullName": "FortFC (FFCT)"
+  },
+  {
+    "Symbol": "AZU",
+    "CoinName": "Azultec",
+    "FullName": "Azultec (AZU)"
+  },
+  {
+    "Symbol": "ARQ",
+    "CoinName": "ArQmA",
+    "FullName": "ArQmA (ARQ)"
+  },
+  {
+    "Symbol": "WU",
+    "CoinName": "WULET",
+    "FullName": "WULET (WU)"
+  },
+  {
+    "Symbol": "ZUC",
+    "CoinName": "Zeux",
+    "FullName": "Zeux (ZUC)"
+  },
+  {
+    "Symbol": "FFM",
+    "CoinName": "Files.fm Library",
+    "FullName": "Files.fm Library (FFM)"
+  },
+  {
+    "Symbol": "DRF",
+    "CoinName": "Drife",
+    "FullName": "Drife (DRF)"
+  },
+  {
+    "Symbol": "GTIB",
+    "CoinName": "Global Trust Coin",
+    "FullName": "Global Trust Coin (GTIB)"
+  },
+  {
+    "Symbol": "VEO",
+    "CoinName": "Amoveo",
+    "FullName": "Amoveo (VEO)"
+  },
+  {
+    "Symbol": "DLA",
+    "CoinName": "Dolla",
+    "FullName": "Dolla (DLA)"
+  },
+  {
+    "Symbol": "AFO",
+    "CoinName": "AllForOneBusiness",
+    "FullName": "AllForOneBusiness (AFO)"
+  },
+  {
+    "Symbol": "BB1",
+    "CoinName": "Bitbond",
+    "FullName": "Bitbond (BB1)"
+  },
+  {
+    "Symbol": "FET",
+    "CoinName": "Fetch.AI",
+    "FullName": "Fetch.AI (FET)"
+  },
+  {
+    "Symbol": "DAGT",
+    "CoinName": "Digital Asset Guarantee Token",
+    "FullName": "Digital Asset Guarantee Token (DAGT)"
+  },
+  {
+    "Symbol": "GVE",
+    "CoinName": "Globalvillage Ecosystem",
+    "FullName": "Globalvillage Ecosystem (GVE)"
+  },
+  {
+    "Symbol": "IDT",
+    "CoinName": "InvestDigital",
+    "FullName": "InvestDigital (IDT)"
+  },
+  {
+    "Symbol": "KUV",
+    "CoinName": "Kuverit",
+    "FullName": "Kuverit (KUV)"
+  },
+  {
+    "Symbol": "ARCX",
+    "CoinName": "ArcadierX",
+    "FullName": "ArcadierX (ARCX)"
+  },
+  {
+    "Symbol": "BOLTT",
+    "CoinName": "BolttCoin",
+    "FullName": "BolttCoin (BOLTT)"
+  },
+  {
+    "Symbol": "ENCX",
+    "CoinName": "Encrybit",
+    "FullName": "Encrybit (ENCX)"
+  },
+  {
+    "Symbol": "VALID",
+    "CoinName": "Validator Token",
+    "FullName": "Validator Token (VALID)"
+  },
+  {
+    "Symbol": "TYM",
+    "CoinName": "Tryvium",
+    "FullName": "Tryvium (TYM)"
+  },
+  {
+    "Symbol": "VENUS",
+    "CoinName": "VenusEnergy",
+    "FullName": "VenusEnergy (VENUS)"
+  },
+  {
+    "Symbol": "HYGH",
+    "CoinName": "HYGH",
+    "FullName": "HYGH (HYGH)"
+  },
+  {
+    "Symbol": "ALCE",
+    "CoinName": "Alcedo",
+    "FullName": "Alcedo (ALCE)"
+  },
+  {
+    "Symbol": "NODIS",
+    "CoinName": "Nodis",
+    "FullName": "Nodis (NODIS)"
+  },
+  {
+    "Symbol": "MNC",
+    "CoinName": "MainCoin",
+    "FullName": "MainCoin (MNC)"
+  },
+  {
+    "Symbol": "USDS",
+    "CoinName": "StableUSD",
+    "FullName": "StableUSD (USDS)"
+  },
+  {
+    "Symbol": "HVE",
+    "CoinName": "UHIVE",
+    "FullName": "UHIVE (HVE)"
+  },
+  {
+    "Symbol": "XR",
+    "CoinName": "Gofind XR",
+    "FullName": "Gofind XR (XR)"
+  },
+  {
+    "Symbol": "ALP",
+    "CoinName": "Alphacon",
+    "FullName": "Alphacon (ALP)"
+  },
+  {
+    "Symbol": "EMU",
+    "CoinName": "eMusic",
+    "FullName": "eMusic (EMU)"
+  },
+  {
+    "Symbol": "GST",
+    "CoinName": "GameStars",
+    "FullName": "GameStars (GST)"
+  },
+  {
+    "Symbol": "ARS",
+    "CoinName": "Artcoin",
+    "FullName": "Artcoin (ARS)"
+  },
+  {
+    "Symbol": "NRM",
+    "CoinName": "Neuromachine",
+    "FullName": "Neuromachine (NRM)"
+  },
+  {
+    "Symbol": "APOD",
+    "CoinName": "AirPod",
+    "FullName": "AirPod (APOD)"
+  },
+  {
+    "Symbol": "AX",
+    "CoinName": "AlphaX",
+    "FullName": "AlphaX (AX)"
+  },
+  {
+    "Symbol": "CWEX",
+    "CoinName": "Crypto Wine Exchange",
+    "FullName": "Crypto Wine Exchange (CWEX)"
+  },
+  {
+    "Symbol": "CLDX",
+    "CoinName": "Cloverdex",
+    "FullName": "Cloverdex (CLDX)"
+  },
+  {
+    "Symbol": "ECTE",
+    "CoinName": "EurocoinToken",
+    "FullName": "EurocoinToken (ECTE)"
+  },
+  {
+    "Symbol": "LABX",
+    "CoinName": "Stakinglab",
+    "FullName": "Stakinglab (LABX)"
+  },
+  {
+    "Symbol": "GGC",
+    "CoinName": "Gingr",
+    "FullName": "Gingr (GGC)"
+  },
+  {
+    "Symbol": "AGT",
+    "CoinName": "AGATE",
+    "FullName": "AGATE (AGT)"
+  },
+  {
+    "Symbol": "ENV",
+    "CoinName": "Envienta",
+    "FullName": "Envienta (ENV)"
+  },
+  {
+    "Symbol": "ANKR",
+    "CoinName": "Ankr Network",
+    "FullName": "Ankr Network (ANKR)"
+  },
+  {
+    "Symbol": "GEP",
+    "CoinName": "Gaia",
+    "FullName": "Gaia (GEP)"
+  },
+  {
+    "Symbol": "IZA",
+    "CoinName": "Inzura",
+    "FullName": "Inzura (IZA)"
+  },
+  {
+    "Symbol": "GBA",
+    "CoinName": "Geeba",
+    "FullName": "Geeba (GBA)"
+  },
+  {
+    "Symbol": "ITU",
+    "CoinName": "iTrue",
+    "FullName": "iTrue (ITU)"
+  },
+  {
+    "Symbol": "FANZ",
+    "CoinName": "FanChain",
+    "FullName": "FanChain (FANZ)"
+  },
+  {
+    "Symbol": "CSPN",
+    "CoinName": "Crypto Sports",
+    "FullName": "Crypto Sports (CSPN)"
+  },
+  {
+    "Symbol": "CCH",
+    "CoinName": "Coinchase",
+    "FullName": "Coinchase (CCH)"
+  },
+  {
+    "Symbol": "HAVEN",
+    "CoinName": "Safe Haven",
+    "FullName": "Safe Haven (HAVEN)"
+  },
+  {
+    "Symbol": "XOV",
+    "CoinName": "XOVBank",
+    "FullName": "XOVBank (XOV)"
+  },
+  {
+    "Symbol": "eQUAD",
+    "CoinName": "Quadrant Protocol",
+    "FullName": "Quadrant Protocol (eQUAD)"
+  },
+  {
+    "Symbol": "CUR",
+    "CoinName": "Cura Network",
+    "FullName": "Cura Network (CUR)"
+  },
+  {
+    "Symbol": "CREDIT",
+    "CoinName": "Credit",
+    "FullName": "Credit (CREDIT)"
+  },
+  {
+    "Symbol": "ERA",
+    "CoinName": "ETHA",
+    "FullName": "ETHA (ERA)"
+  },
+  {
+    "Symbol": "MAKE",
+    "CoinName": "MAKE",
+    "FullName": "MAKE (MAKE)"
+  },
+  {
+    "Symbol": "KIBIS",
+    "CoinName": "KIBIS",
+    "FullName": "KIBIS (KIBIS)"
+  },
+  {
+    "Symbol": "SPKZ",
+    "CoinName": "Spokkz",
+    "FullName": "Spokkz (SPKZ)"
+  },
+  {
+    "Symbol": "VOGOV",
+    "CoinName": "VogoV",
+    "FullName": "VogoV (VOGOV)"
+  },
+  {
+    "Symbol": "AWC",
+    "CoinName": "Atomic Wallet Coin",
+    "FullName": "Atomic Wallet Coin (AWC)"
+  },
+  {
+    "Symbol": "DIS",
+    "CoinName": "DiscoveryIoT",
+    "FullName": "DiscoveryIoT (DIS)"
+  },
+  {
+    "Symbol": "SCRIBE",
+    "CoinName": "Scribe Network",
+    "FullName": "Scribe Network (SCRIBE)"
+  },
+  {
+    "Symbol": "INX",
+    "CoinName": "InMax",
+    "FullName": "InMax (INX)"
+  },
+  {
+    "Symbol": "SQR",
+    "CoinName": "Squeezer",
+    "FullName": "Squeezer (SQR)"
+  },
+  {
+    "Symbol": "GNC",
+    "CoinName": "Greencoin",
+    "FullName": "Greencoin (GNC)"
+  },
+  {
+    "Symbol": "WVR",
+    "CoinName": "Weave",
+    "FullName": "Weave (WVR)"
+  },
+  {
+    "Symbol": "PHT",
+    "CoinName": "Photon Token",
+    "FullName": "Photon Token (PHT)"
+  },
+  {
+    "Symbol": "WHN",
+    "CoinName": "Windhan Energy",
+    "FullName": "Windhan Energy (WHN)"
+  },
+  {
+    "Symbol": "CRO",
+    "CoinName": "Crypto.com Chain Token",
+    "FullName": "Crypto.com Chain Token (CRO)"
+  },
+  {
+    "Symbol": "LYTX",
+    "CoinName": "LYTIX",
+    "FullName": "LYTIX (LYTX)"
+  },
+  {
+    "Symbol": "TJA",
+    "CoinName": "TapJets",
+    "FullName": "TapJets (TJA)"
+  },
+  {
+    "Symbol": "InBit",
+    "CoinName": "PrepayWay",
+    "FullName": "PrepayWay (InBit)"
+  },
+  {
+    "Symbol": "DIO",
+    "CoinName": "Decimated",
+    "FullName": "Decimated (DIO)"
+  },
+  {
+    "Symbol": "LIC",
+    "CoinName": "Ligercoin",
+    "FullName": "Ligercoin (LIC)"
+  },
+  {
+    "Symbol": "SCA",
+    "CoinName": "SiaClassic",
+    "FullName": "SiaClassic (SCA)"
+  },
+  {
+    "Symbol": "XOS",
+    "CoinName": "Excalibur OS",
+    "FullName": "Excalibur OS (XOS)"
+  },
+  {
+    "Symbol": "VSYS",
+    "CoinName": "V Systems",
+    "FullName": "V Systems (VSYS)"
+  },
+  {
+    "Symbol": "LAC",
+    "CoinName": "LOVE Air Coffee",
+    "FullName": "LOVE Air Coffee (LAC)"
+  },
+  {
+    "Symbol": "QCP",
+    "CoinName": "Crypto Potential",
+    "FullName": "Crypto Potential (QCP)"
+  },
+  {
+    "Symbol": "UGT",
+    "CoinName": "Universal Games Token",
+    "FullName": "Universal Games Token (UGT)"
+  },
+  {
+    "Symbol": "BWL",
+    "CoinName": "Bitwala Token",
+    "FullName": "Bitwala Token (BWL)"
+  },
+  {
+    "Symbol": "ZEON",
+    "CoinName": "Zeon Network",
+    "FullName": "Zeon Network (ZEON)"
+  },
+  {
+    "Symbol": "WATT",
+    "CoinName": "WorkChain.io",
+    "FullName": "WorkChain.io (WATT)"
+  },
+  {
+    "Symbol": "XRX",
+    "CoinName": "Global Property Register",
+    "FullName": "Global Property Register (XRX)"
+  },
+  {
+    "Symbol": "PARQ",
+    "CoinName": "PARQ",
+    "FullName": "PARQ (PARQ)"
+  },
+  {
+    "Symbol": "T4M",
+    "CoinName": "Tap4.Menu",
+    "FullName": "Tap4.Menu (T4M)"
+  },
+  {
+    "Symbol": "TFF",
+    "CoinName": "TheFaustFlick",
+    "FullName": "TheFaustFlick (TFF)"
+  },
+  {
+    "Symbol": "ANY",
+    "CoinName": "Anything App",
+    "FullName": "Anything App (ANY)"
+  },
+  {
+    "Symbol": "ELOC",
+    "CoinName": "eLocations",
+    "FullName": "eLocations (ELOC)"
+  },
+  {
+    "Symbol": "IZZY",
+    "CoinName": "Izzy",
+    "FullName": "Izzy (IZZY)"
+  },
+  {
+    "Symbol": "SONT",
+    "CoinName": "Sonata.ai",
+    "FullName": "Sonata.ai (SONT)"
+  },
+  {
+    "Symbol": "SWI",
+    "CoinName": "Swinca",
+    "FullName": "Swinca (SWI)"
+  },
+  {
+    "Symbol": "LUNES",
+    "CoinName": "Lunes",
+    "FullName": "Lunes (LUNES)"
+  },
+  {
+    "Symbol": "EDEXA",
+    "CoinName": "edeXa Security Token",
+    "FullName": "edeXa Security Token (EDEXA)"
+  },
+  {
+    "Symbol": "CELR",
+    "CoinName": "Celer Network",
+    "FullName": "Celer Network (CELR)"
+  },
+  {
+    "Symbol": "PPI",
+    "CoinName": "Primpy",
+    "FullName": "Primpy (PPI)"
+  },
+  {
+    "Symbol": "ANTE",
+    "CoinName": "ANTE",
+    "FullName": "ANTE (ANTE)"
+  },
+  {
+    "Symbol": "TRXDICE",
+    "CoinName": "TRONdice",
+    "FullName": "TRONdice (TRXDICE)"
+  },
+  {
+    "Symbol": "AFTT",
+    "CoinName": "Africa Trading Chain",
+    "FullName": "Africa Trading Chain (AFTT)"
+  },
+  {
+    "Symbol": "TRXWIN",
+    "CoinName": "TronWin",
+    "FullName": "TronWin (TRXWIN)"
+  },
+  {
+    "Symbol": "IGG",
+    "CoinName": "IG Gold",
+    "FullName": "IG Gold (IGG)"
+  },
+  {
+    "Symbol": "MIG",
+    "CoinName": "Migranet",
+    "FullName": "Migranet (MIG)"
+  },
+  {
+    "Symbol": "BWN",
+    "CoinName": "BitWings",
+    "FullName": "BitWings (BWN)"
+  },
+  {
+    "Symbol": "IPUX",
+    "CoinName": "IPUX",
+    "FullName": "IPUX (IPUX)"
+  },
+  {
+    "Symbol": "PCC",
+    "CoinName": "PCORE",
+    "FullName": "PCORE (PCC)"
+  },
+  {
+    "Symbol": "DARB",
+    "CoinName": "Darb Token",
+    "FullName": "Darb Token (DARB)"
+  },
+  {
+    "Symbol": "MBTX",
+    "CoinName": "MinedBlock",
+    "FullName": "MinedBlock (MBTX)"
+  },
+  {
+    "Symbol": "CFun",
+    "CoinName": "CFun",
+    "FullName": "CFun (CFun)"
+  },
+  {
+    "Symbol": "SLC",
+    "CoinName": "SLICE",
+    "FullName": "SLICE (SLC)"
+  },
+  {
+    "Symbol": "AAS",
+    "CoinName": "aassio",
+    "FullName": "aassio (AAS)"
+  },
+  {
+    "Symbol": "2GT",
+    "CoinName": "2GETHER",
+    "FullName": "2GETHER (2GT)"
+  },
+  {
+    "Symbol": "VOLLAR",
+    "CoinName": "Vollar",
+    "FullName": "Vollar (VOLLAR)"
+  },
+  {
+    "Symbol": "DXN",
+    "CoinName": "DEXON",
+    "FullName": "DEXON (DXN)"
+  },
+  {
+    "Symbol": "LWA",
+    "CoinName": "Leap With Alice",
+    "FullName": "Leap With Alice (LWA)"
+  },
+  {
+    "Symbol": "AFCT",
+    "CoinName": "Allforcrypto",
+    "FullName": "Allforcrypto (AFCT)"
+  },
+  {
+    "Symbol": "INET",
+    "CoinName": "Insure Network",
+    "FullName": "Insure Network (INET)"
+  },
+  {
+    "Symbol": "WHY",
+    "CoinName": "Whisky Token",
+    "FullName": "Whisky Token (WHY)"
+  },
+  {
+    "Symbol": "URIS",
+    "CoinName": "Uris",
+    "FullName": "Uris (URIS)"
+  },
+  {
+    "Symbol": "ADUX",
+    "CoinName": "Adult X Token",
+    "FullName": "Adult X Token (ADUX)"
+  },
+  {
+    "Symbol": "HRD",
+    "CoinName": "Hoard",
+    "FullName": "Hoard (HRD)"
+  },
+  {
+    "Symbol": "BINC",
+    "CoinName": "BINCOIN",
+    "FullName": "BINCOIN (BINC)"
+  },
+  {
+    "Symbol": "QCO",
+    "CoinName": "Qravity",
+    "FullName": "Qravity (QCO)"
+  },
+  {
+    "Symbol": "SHER",
+    "CoinName": "Shercoin",
+    "FullName": "Shercoin (SHER)"
+  },
+  {
+    "Symbol": "ZEROB",
+    "CoinName": "ZeroBank",
+    "FullName": "ZeroBank (ZEROB)"
+  },
+  {
+    "Symbol": "ISG",
+    "CoinName": "ISG",
+    "FullName": "ISG (ISG)"
+  },
+  {
+    "Symbol": "TAGZ",
+    "CoinName": "TAGZ",
+    "FullName": "TAGZ (TAGZ)"
+  },
+  {
+    "Symbol": "SKP",
+    "CoinName": "Skelpy",
+    "FullName": "Skelpy (SKP)"
+  },
+  {
+    "Symbol": "MCRC",
+    "CoinName": "MyCreditChain",
+    "FullName": "MyCreditChain (MCRC)"
+  },
+  {
+    "Symbol": "XGN",
+    "CoinName": "Golden Currency",
+    "FullName": "Golden Currency (XGN)"
+  },
+  {
+    "Symbol": "YPTO",
+    "CoinName": "YPTOspace",
+    "FullName": "YPTOspace (YPTO)"
+  },
+  {
+    "Symbol": "UBE",
+    "CoinName": "Ubecoin",
+    "FullName": "Ubecoin (UBE)"
+  },
+  {
+    "Symbol": "ETGP",
+    "CoinName": "Ethereum Gold Project",
+    "FullName": "Ethereum Gold Project (ETGP)"
+  },
+  {
+    "Symbol": "GFCS",
+    "CoinName": "Global Funeral Care",
+    "FullName": "Global Funeral Care (GFCS)"
+  },
+  {
+    "Symbol": "RDT",
+    "CoinName": "Reindeer",
+    "FullName": "Reindeer (RDT)"
+  },
+  {
+    "Symbol": "IX",
+    "CoinName": "X-Block",
+    "FullName": "X-Block (IX)"
+  },
+  {
+    "Symbol": "ALIC",
+    "CoinName": "AliCoin",
+    "FullName": "AliCoin (ALIC)"
+  },
+  {
+    "Symbol": "HCXP",
+    "CoinName": "HCX PAY",
+    "FullName": "HCX PAY (HCXP)"
+  },
+  {
+    "Symbol": "AGRO",
+    "CoinName": "Bit Agro",
+    "FullName": "Bit Agro (AGRO)"
+  },
+  {
+    "Symbol": "TFUEL",
+    "CoinName": "Theta Fuel",
+    "FullName": "Theta Fuel (TFUEL)"
+  },
+  {
+    "Symbol": "BYTS",
+    "CoinName": "Bytus",
+    "FullName": "Bytus (BYTS)"
+  },
+  {
+    "Symbol": "GRT",
+    "CoinName": "GoRecruit",
+    "FullName": "GoRecruit (GRT)"
+  },
+  {
+    "Symbol": "EUCX",
+    "CoinName": "EUCX",
+    "FullName": "EUCX (EUCX)"
+  },
+  {
+    "Symbol": "MYTV",
+    "CoinName": "MyTVchain",
+    "FullName": "MyTVchain (MYTV)"
+  },
+  {
+    "Symbol": "AML",
+    "CoinName": "AMANPURI",
+    "FullName": "AMANPURI (AML)"
+  },
+  {
+    "Symbol": "B66",
+    "CoinName": "Block66",
+    "FullName": "Block66 (B66)"
+  },
+  {
+    "Symbol": "LEVL",
+    "CoinName": "Levolution",
+    "FullName": "Levolution (LEVL)"
+  },
+  {
+    "Symbol": "DHC",
+    "CoinName": "dClinic",
+    "FullName": "dClinic (DHC)"
+  },
+  {
+    "Symbol": "UGAS",
+    "CoinName": "Ultrain",
+    "FullName": "Ultrain (UGAS)"
+  },
+  {
+    "Symbol": "PNP",
+    "CoinName": "LogisticsX",
+    "FullName": "LogisticsX (PNP)"
+  },
+  {
+    "Symbol": "PRY",
+    "CoinName": "PRIMARY",
+    "FullName": "PRIMARY (PRY)"
+  },
+  {
+    "Symbol": "MXM",
+    "CoinName": "Maximine",
+    "FullName": "Maximine (MXM)"
+  },
+  {
+    "Symbol": "TTC",
+    "CoinName": "TTC PROTOCOL",
+    "FullName": "TTC PROTOCOL (TTC)"
+  },
+  {
+    "Symbol": "BCNX",
+    "CoinName": "BCNEX",
+    "FullName": "BCNEX (BCNX)"
+  },
+  {
+    "Symbol": "SWG",
+    "CoinName": "Swing",
+    "FullName": "Swing (SWG)"
+  },
+  {
+    "Symbol": "EVED",
+    "CoinName": "Evedo",
+    "FullName": "Evedo (EVED)"
+  },
+  {
+    "Symbol": "HTER",
+    "CoinName": "Biogen",
+    "FullName": "Biogen (HTER)"
+  },
+  {
+    "Symbol": "GESE",
+    "CoinName": "Gese",
+    "FullName": "Gese (GESE)"
+  },
+  {
+    "Symbol": "BZRX",
+    "CoinName": "bZx",
+    "FullName": "bZx (BZRX)"
+  },
+  {
+    "Symbol": "YBK",
+    "CoinName": "YourBlock",
+    "FullName": "YourBlock (YBK)"
+  },
+  {
+    "Symbol": "GIF",
+    "CoinName": "Gift Token",
+    "FullName": "Gift Token (GIF)"
+  },
+  {
+    "Symbol": "2KEY",
+    "CoinName": "2Key",
+    "FullName": "2Key (2KEY)"
+  },
+  {
+    "Symbol": "STG",
+    "CoinName": "STAYGE",
+    "FullName": "STAYGE (STG)"
+  },
+  {
+    "Symbol": "DEVX",
+    "CoinName": "Developeo",
+    "FullName": "Developeo (DEVX)"
+  },
+  {
+    "Symbol": "TMB",
+    "CoinName": "Teambrella",
+    "FullName": "Teambrella (TMB)"
+  },
+  {
+    "Symbol": "HBRS",
+    "CoinName": "HubrisOne",
+    "FullName": "HubrisOne (HBRS)"
+  },
+  {
+    "Symbol": "XPL",
+    "CoinName": "Exclusive Platform",
+    "FullName": "Exclusive Platform (XPL)"
+  },
+  {
+    "Symbol": "MTSH",
+    "CoinName": "Mitoshi",
+    "FullName": "Mitoshi (MTSH)"
+  },
+  {
+    "Symbol": "DAGO",
+    "CoinName": "Dago Mining",
+    "FullName": "Dago Mining (DAGO)"
+  },
+  {
+    "Symbol": "EMI",
+    "CoinName": "EIPlatform",
+    "FullName": "EIPlatform (EMI)"
+  },
+  {
+    "Symbol": "TEMPO",
+    "CoinName": "Tempo",
+    "FullName": "Tempo (TEMPO)"
+  },
+  {
+    "Symbol": "PPR",
+    "CoinName": "Papyrus",
+    "FullName": "Papyrus (PPR)"
+  },
+  {
+    "Symbol": "REW",
+    "CoinName": "Review.Network",
+    "FullName": "Review.Network (REW)"
+  },
+  {
+    "Symbol": "ORBS",
+    "CoinName": "Orbs",
+    "FullName": "Orbs (ORBS)"
+  },
+  {
+    "Symbol": "STE",
+    "CoinName": "Streamex",
+    "FullName": "Streamex (STE)"
+  },
+  {
+    "Symbol": "TPLAY",
+    "CoinName": "TruePlay",
+    "FullName": "TruePlay (TPLAY)"
+  },
+  {
+    "Symbol": "TELE",
+    "CoinName": "Miracle Tele",
+    "FullName": "Miracle Tele (TELE)"
+  },
+  {
+    "Symbol": "GYM",
+    "CoinName": "Gym Rewards",
+    "FullName": "Gym Rewards (GYM)"
+  },
+  {
+    "Symbol": "UDOO",
+    "CoinName": "Howdoo",
+    "FullName": "Howdoo (UDOO)"
+  },
+  {
+    "Symbol": "FAT",
+    "CoinName": "Fatcoin",
+    "FullName": "Fatcoin (FAT)"
+  },
+  {
+    "Symbol": "KICKS",
+    "CoinName": "SESSIA",
+    "FullName": "SESSIA (KICKS)"
+  },
+  {
+    "Symbol": "SPORTG",
+    "CoinName": "SportGift",
+    "FullName": "SportGift (SPORTG)"
+  },
+  {
+    "Symbol": "CRES",
+    "CoinName": "Cresio",
+    "FullName": "Cresio (CRES)"
+  },
+  {
+    "Symbol": "AES",
+    "CoinName": "Artis Aes Evolution",
+    "FullName": "Artis Aes Evolution (AES)"
+  },
+  {
+    "Symbol": "AIBK",
+    "CoinName": "AIB Utility Token",
+    "FullName": "AIB Utility Token (AIBK)"
+  },
+  {
+    "Symbol": "NCC",
+    "CoinName": "NeuroChain",
+    "FullName": "NeuroChain (NCC)"
+  },
+  {
+    "Symbol": "STONE",
+    "CoinName": "DataBloc",
+    "FullName": "DataBloc (STONE)"
+  },
+  {
+    "Symbol": "OILD",
+    "CoinName": "OilWellCoin",
+    "FullName": "OilWellCoin (OILD)"
+  },
+  {
+    "Symbol": "VLM",
+    "CoinName": "Volum",
+    "FullName": "Volum (VLM)"
+  },
+  {
+    "Symbol": "LOLC",
+    "CoinName": "LOL Coin",
+    "FullName": "LOL Coin (LOLC)"
+  },
+  {
+    "Symbol": "RFOX",
+    "CoinName": "RedFOX Labs",
+    "FullName": "RedFOX Labs (RFOX)"
+  },
+  {
+    "Symbol": "CTLX",
+    "CoinName": "Cash Telex",
+    "FullName": "Cash Telex (CTLX)"
+  },
+  {
+    "Symbol": "CSM",
+    "CoinName": "Consentium",
+    "FullName": "Consentium (CSM)"
+  },
+  {
+    "Symbol": "BTNY",
+    "CoinName": "Bitney",
+    "FullName": "Bitney (BTNY)"
+  },
+  {
+    "Symbol": "LOTES",
+    "CoinName": "Loteo",
+    "FullName": "Loteo (LOTES)"
+  },
+  {
+    "Symbol": "LOTEU",
+    "CoinName": "Loteo",
+    "FullName": "Loteo (LOTEU)"
+  },
+  {
+    "Symbol": "RVO",
+    "CoinName": "AhrvoDEEX",
+    "FullName": "AhrvoDEEX (RVO)"
+  },
+  {
+    "Symbol": "GTH",
+    "CoinName": "Gath3r",
+    "FullName": "Gath3r (GTH)"
+  },
+  {
+    "Symbol": "IRYO",
+    "CoinName": "Iryo",
+    "FullName": "Iryo (IRYO)"
+  },
+  {
+    "Symbol": "KBT",
+    "CoinName": "Kartblock",
+    "FullName": "Kartblock (KBT)"
+  },
+  {
+    "Symbol": "USDX",
+    "CoinName": "USDX Stablecoin",
+    "FullName": "USDX Stablecoin (USDX)"
+  },
+  {
+    "Symbol": "LHT",
+    "CoinName": "LHT Coin",
+    "FullName": "LHT Coin (LHT)"
+  },
+  {
+    "Symbol": "PLAT",
+    "CoinName": "Platinum",
+    "FullName": "Platinum (PLAT)"
+  },
+  {
+    "Symbol": "NYCREC",
+    "CoinName": "NYCREC",
+    "FullName": "NYCREC (NYCREC)"
+  },
+  {
+    "Symbol": "HPT",
+    "CoinName": "Huobi Pool Token",
+    "FullName": "Huobi Pool Token (HPT)"
+  },
+  {
+    "Symbol": "NSD",
+    "CoinName": "Nasdacoin",
+    "FullName": "Nasdacoin (NSD)"
+  },
+  {
+    "Symbol": "SOLVE",
+    "CoinName": "SOLVE",
+    "FullName": "SOLVE (SOLVE)"
+  },
+  {
+    "Symbol": "BOLT",
+    "CoinName": "Bolt",
+    "FullName": "Bolt (BOLT)"
+  },
+  {
+    "Symbol": "BLOC",
+    "CoinName": "Blockcloud",
+    "FullName": "Blockcloud (BLOC)"
+  },
+  {
+    "Symbol": "SPT",
+    "CoinName": "SPECTRUM",
+    "FullName": "SPECTRUM (SPT)"
+  },
+  {
+    "Symbol": "FBB",
+    "CoinName": "FilmBusinessBuster",
+    "FullName": "FilmBusinessBuster (FBB)"
+  },
+  {
+    "Symbol": "BSAFE",
+    "CoinName": "BlockSafe",
+    "FullName": "BlockSafe (BSAFE)"
+  },
+  {
+    "Symbol": "DBTN",
+    "CoinName": "Universa Native token",
+    "FullName": "Universa Native token (DBTN)"
+  },
+  {
+    "Symbol": "WBX",
+    "CoinName": "WINBIX",
+    "FullName": "WINBIX (WBX)"
+  },
+  {
+    "Symbol": "HET",
+    "CoinName": "HavEther",
+    "FullName": "HavEther (HET)"
+  },
+  {
+    "Symbol": "DARC",
+    "CoinName": "Konstellation",
+    "FullName": "Konstellation (DARC)"
+  },
+  {
+    "Symbol": "CMA",
+    "CoinName": "Crypto Market Ads",
+    "FullName": "Crypto Market Ads (CMA)"
+  },
+  {
+    "Symbol": "MAPR",
+    "CoinName": "Maya Preferred 223",
+    "FullName": "Maya Preferred 223 (MAPR)"
+  },
+  {
+    "Symbol": "THR",
+    "CoinName": "Thorecoin",
+    "FullName": "Thorecoin (THR)"
+  },
+  {
+    "Symbol": "MATIC",
+    "CoinName": "Matic Network",
+    "FullName": "Matic Network (MATIC)"
+  },
+  {
+    "Symbol": "PBET",
+    "CoinName": "PBET",
+    "FullName": "PBET (PBET)"
+  },
+  {
+    "Symbol": "SST",
+    "CoinName": "AllSesame",
+    "FullName": "AllSesame (SST)"
+  },
+  {
+    "Symbol": "PUX",
+    "CoinName": "pukkamex",
+    "FullName": "pukkamex (PUX)"
+  },
+  {
+    "Symbol": "YANU",
+    "CoinName": "Yanu",
+    "FullName": "Yanu (YANU)"
+  },
+  {
+    "Symbol": "XCB",
+    "CoinName": "Crypto Birds",
+    "FullName": "Crypto Birds (XCB)"
+  },
+  {
+    "Symbol": "RSF",
+    "CoinName": "Royal Sting",
+    "FullName": "Royal Sting (RSF)"
+  },
+  {
+    "Symbol": "WMD",
+    "CoinName": "WindMine",
+    "FullName": "WindMine (WMD)"
+  },
+  {
+    "Symbol": "TT",
+    "CoinName": "Thunder Token",
+    "FullName": "Thunder Token (TT)"
+  },
+  {
+    "Symbol": "TOYKEN",
+    "CoinName": "Toyken",
+    "FullName": "Toyken (TOYKEN)"
+  },
+  {
+    "Symbol": "XAL",
+    "CoinName": "AuxChips",
+    "FullName": "AuxChips (XAL)"
+  },
+  {
+    "Symbol": "TAS",
+    "CoinName": "TARUSH",
+    "FullName": "TARUSH (TAS)"
+  },
+  {
+    "Symbol": "COVA",
+    "CoinName": "COVA",
+    "FullName": "COVA (COVA)"
+  },
+  {
+    "Symbol": "LAMB",
+    "CoinName": "Lambda",
+    "FullName": "Lambda (LAMB)"
+  },
+  {
+    "Symbol": "FXC",
+    "CoinName": "Flexacoin",
+    "FullName": "Flexacoin (FXC)"
+  },
+  {
+    "Symbol": "GEX",
+    "CoinName": "Gexan",
+    "FullName": "Gexan (GEX)"
+  },
+  {
+    "Symbol": "DREP",
+    "CoinName": "DREP",
+    "FullName": "DREP (DREP)"
+  },
+  {
+    "Symbol": "VDL",
+    "CoinName": "Vidulum",
+    "FullName": "Vidulum (VDL)"
+  },
+  {
+    "Symbol": "TMN",
+    "CoinName": "TranslateMe",
+    "FullName": "TranslateMe (TMN)"
+  },
+  {
+    "Symbol": "TCR",
+    "CoinName": "TecraCoin",
+    "FullName": "TecraCoin (TCR)"
+  },
+  {
+    "Symbol": "FUNX",
+    "CoinName": "Function X",
+    "FullName": "Function X (FUNX)"
+  },
+  {
+    "Symbol": "ASST",
+    "CoinName": "AssetStream",
+    "FullName": "AssetStream (ASST)"
+  },
+  {
+    "Symbol": "BEET",
+    "CoinName": "Beetle Coin",
+    "FullName": "Beetle Coin (BEET)"
+  },
+  {
+    "Symbol": "IFX",
+    "CoinName": "IdeaFeX",
+    "FullName": "IdeaFeX (IFX)"
+  },
+  {
+    "Symbol": "MART",
+    "CoinName": "Monart",
+    "FullName": "Monart (MART)"
+  },
+  {
+    "Symbol": "TC",
+    "CoinName": "Titan Coin",
+    "FullName": "Titan Coin (TC)"
+  },
+  {
+    "Symbol": "DAPPT",
+    "CoinName": "Dapp Token",
+    "FullName": "Dapp Token (DAPPT)"
+  },
+  {
+    "Symbol": "TTN",
+    "CoinName": "Titan Coin",
+    "FullName": "Titan Coin (TTN)"
+  },
+  {
+    "Symbol": "GNTO",
+    "CoinName": "GoldeNugget Token",
+    "FullName": "GoldeNugget Token (GNTO)"
+  },
+  {
+    "Symbol": "OCEAN",
+    "CoinName": "Ocean Protocol",
+    "FullName": "Ocean Protocol (OCEAN)"
+  },
+  {
+    "Symbol": "LMXC",
+    "CoinName": "LimonX",
+    "FullName": "LimonX (LMXC)"
+  },
+  {
+    "Symbol": "UTPL",
+    "CoinName": "Utopialand",
+    "FullName": "Utopialand (UTPL)"
+  },
+  {
+    "Symbol": "GDR",
+    "CoinName": "Guider.Travel",
+    "FullName": "Guider.Travel (GDR)"
+  },
+  {
+    "Symbol": "LNX",
+    "CoinName": "Lunox Token",
+    "FullName": "Lunox Token (LNX)"
+  },
+  {
+    "Symbol": "ORIGIN",
+    "CoinName": "Origin Foundation",
+    "FullName": "Origin Foundation (ORIGIN)"
+  },
+  {
+    "Symbol": "NTO",
+    "CoinName": "Neutro Protocol",
+    "FullName": "Neutro Protocol (NTO)"
+  },
+  {
+    "Symbol": "TXT",
+    "CoinName": "TuneTrade",
+    "FullName": "TuneTrade (TXT)"
+  },
+  {
+    "Symbol": "ARRR",
+    "CoinName": "Pirate Chain",
+    "FullName": "Pirate Chain (ARRR)"
+  },
+  {
+    "Symbol": "SCONE",
+    "CoinName": "Sportcash One",
+    "FullName": "Sportcash One (SCONE)"
+  },
+  {
+    "Symbol": "MAR",
+    "CoinName": "Martian Network",
+    "FullName": "Martian Network (MAR)"
+  },
+  {
+    "Symbol": "OWN",
+    "CoinName": "OWNDATA",
+    "FullName": "OWNDATA (OWN)"
+  },
+  {
+    "Symbol": "VLS",
+    "CoinName": "Veles",
+    "FullName": "Veles (VLS)"
+  },
+  {
+    "Symbol": "AWR",
+    "CoinName": "Award",
+    "FullName": "Award (AWR)"
+  },
+  {
+    "Symbol": "QQQ",
+    "CoinName": "Poseidon Network",
+    "FullName": "Poseidon Network (QQQ)"
+  },
+  {
+    "Symbol": "UVU",
+    "CoinName": "CCUniverse",
+    "FullName": "CCUniverse (UVU)"
+  },
+  {
+    "Symbol": "KOZ",
+    "CoinName": "Kozjin",
+    "FullName": "Kozjin (KOZ)"
+  },
+  {
+    "Symbol": "SMAT",
+    "CoinName": "Smathium",
+    "FullName": "Smathium (SMAT)"
+  },
+  {
+    "Symbol": "IOWN",
+    "CoinName": "iOWN Token",
+    "FullName": "iOWN Token (IOWN)"
+  },
+  {
+    "Symbol": "QBIT",
+    "CoinName": "Qubitica",
+    "FullName": "Qubitica (QBIT)"
+  },
+  {
+    "Symbol": "BCX",
+    "CoinName": "BitcoinX",
+    "FullName": "BitcoinX (BCX)"
+  },
+  {
+    "Symbol": "LEO",
+    "CoinName": "LEO Token",
+    "FullName": "LEO Token (LEO)"
+  },
+  {
+    "Symbol": "BST",
+    "CoinName": "BlockStamp",
+    "FullName": "BlockStamp (BST)"
+  },
+  {
+    "Symbol": "AYA",
+    "CoinName": "Aryacoin",
+    "FullName": "Aryacoin (AYA)"
+  },
+  {
+    "Symbol": "BUSDC",
+    "CoinName": "BUSD",
+    "FullName": "BUSD (BUSDC)"
+  },
+  {
+    "Symbol": "VCN",
+    "CoinName": "VeganNation",
+    "FullName": "VeganNation (VCN)"
+  },
+  {
+    "Symbol": "BAC",
+    "CoinName": "BACoin",
+    "FullName": "BACoin (BAC)"
+  },
+  {
+    "Symbol": "BLAST",
+    "CoinName": "BLAST",
+    "FullName": "BLAST (BLAST)"
+  },
+  {
+    "Symbol": "PRDX",
+    "CoinName": "ParamountDax",
+    "FullName": "ParamountDax (PRDX)"
+  },
+  {
+    "Symbol": "ZOPT",
+    "CoinName": "Zoptax",
+    "FullName": "Zoptax (ZOPT)"
+  },
+  {
+    "Symbol": "FILM",
+    "CoinName": "Filmpass",
+    "FullName": "Filmpass (FILM)"
+  },
+  {
+    "Symbol": "VDX",
+    "CoinName": "Vodi X",
+    "FullName": "Vodi X (VDX)"
+  },
+  {
+    "Symbol": "PHB",
+    "CoinName": "Red Pulse Phoenix Binance",
+    "FullName": "Red Pulse Phoenix Binance (PHB)"
+  },
+  {
+    "Symbol": "RSR",
+    "CoinName": "Reserve Rights",
+    "FullName": "Reserve Rights (RSR)"
+  },
+  {
+    "Symbol": "ONE",
+    "CoinName": "Harmony",
+    "FullName": "Harmony (ONE)"
+  },
+  {
+    "Symbol": "CKUSD",
+    "CoinName": "CKUSD",
+    "FullName": "CKUSD (CKUSD)"
+  },
+  {
+    "Symbol": "CTPT",
+    "CoinName": "Contents Protocol",
+    "FullName": "Contents Protocol (CTPT)"
+  },
+  {
+    "Symbol": "ESBC",
+    "CoinName": "ESBC",
+    "FullName": "ESBC (ESBC)"
+  },
+  {
+    "Symbol": "GRAYLL",
+    "CoinName": "GRAYLL",
+    "FullName": "GRAYLL (GRAYLL)"
+  },
+  {
+    "Symbol": "BRC",
+    "CoinName": "Baer Chain",
+    "FullName": "Baer Chain (BRC)"
+  },
+  {
+    "Symbol": "MOC",
+    "CoinName": "Mossland",
+    "FullName": "Mossland (MOC)"
+  },
+  {
+    "Symbol": "SERV",
+    "CoinName": "Serve",
+    "FullName": "Serve (SERV)"
+  },
+  {
+    "Symbol": "PTON",
+    "CoinName": "Foresting",
+    "FullName": "Foresting (PTON)"
+  },
+  {
+    "Symbol": "DPN",
+    "CoinName": "DIPNET",
+    "FullName": "DIPNET (DPN)"
+  },
+  {
+    "Symbol": "VBK",
+    "CoinName": "VeriBlock",
+    "FullName": "VeriBlock (VBK)"
+  },
+  {
+    "Symbol": "THEMIS",
+    "CoinName": "Themis",
+    "FullName": "Themis (THEMIS)"
+  },
+  {
+    "Symbol": "YCC",
+    "CoinName": "Yuan Chain Coin",
+    "FullName": "Yuan Chain Coin (YCC)"
+  },
+  {
+    "Symbol": "USDK",
+    "CoinName": "USDK",
+    "FullName": "USDK (USDK)"
+  },
+  {
+    "Symbol": "MIX",
+    "CoinName": "MIXMARVEL",
+    "FullName": "MIXMARVEL (MIX)"
+  },
+  {
+    "Symbol": "PLY",
+    "CoinName": "PlayCoin",
+    "FullName": "PlayCoin (PLY)"
+  },
+  {
+    "Symbol": "CHR",
+    "CoinName": "Chromia",
+    "FullName": "Chromia (CHR)"
+  },
+  {
+    "Symbol": "BWX",
+    "CoinName": "Blue Whale",
+    "FullName": "Blue Whale (BWX)"
+  },
+  {
+    "Symbol": "VST",
+    "CoinName": "Vostok",
+    "FullName": "Vostok (VST)"
+  },
+  {
+    "Symbol": "BORA",
+    "CoinName": "BORA",
+    "FullName": "BORA (BORA)"
+  },
+  {
+    "Symbol": "WIB",
+    "CoinName": "Wibson",
+    "FullName": "Wibson (WIB)"
+  },
+  {
+    "Symbol": "BOXX",
+    "CoinName": "Blockparty",
+    "FullName": "Blockparty (BOXX)"
+  },
+  {
+    "Symbol": "UT",
+    "CoinName": "Ulord",
+    "FullName": "Ulord (UT)"
+  },
+  {
+    "Symbol": "BU",
+    "CoinName": "BUMO",
+    "FullName": "BUMO (BU)"
+  },
+  {
+    "Symbol": "DX",
+    "CoinName": "DxChain Token",
+    "FullName": "DxChain Token (DX)"
+  },
+  {
+    "Symbol": "MTV",
+    "CoinName": "MultiVAC",
+    "FullName": "MultiVAC (MTV)"
+  },
+  {
+    "Symbol": "TRIAS",
+    "CoinName": "Trias",
+    "FullName": "Trias (TRIAS)"
+  },
+  {
+    "Symbol": "WINT",
+    "CoinName": "WinToken",
+    "FullName": "WinToken (WINT)"
+  },
+  {
+    "Symbol": "VNT",
+    "CoinName": "VNT Chain",
+    "FullName": "VNT Chain (VNT)"
+  },
+  {
+    "Symbol": "OGO",
+    "CoinName": "Origo",
+    "FullName": "Origo (OGO)"
+  },
+  {
+    "Symbol": "DVT",
+    "CoinName": "DeVault",
+    "FullName": "DeVault (DVT)"
+  },
+  {
+    "Symbol": "BOMB",
+    "CoinName": "BOMB",
+    "FullName": "BOMB (BOMB)"
+  },
+  {
+    "Symbol": "CARRY",
+    "CoinName": "Carry",
+    "FullName": "Carry (CARRY)"
+  },
+  {
+    "Symbol": "BRYLL",
+    "CoinName": "Bryllite",
+    "FullName": "Bryllite (BRYLL)"
+  },
+  {
+    "Symbol": "WXT",
+    "CoinName": "Wirex Token",
+    "FullName": "Wirex Token (WXT)"
+  },
+  {
+    "Symbol": "BOXT",
+    "CoinName": "BOX Token",
+    "FullName": "BOX Token (BOXT)"
+  },
+  {
+    "Symbol": "KAT",
+    "CoinName": "Kambria",
+    "FullName": "Kambria (KAT)"
+  },
+  {
+    "Symbol": "SPENDC",
+    "CoinName": "SpendCoin",
+    "FullName": "SpendCoin (SPENDC)"
+  },
+  {
+    "Symbol": "BEST",
+    "CoinName": "BEST",
+    "FullName": "BEST (BEST)"
+  },
+  {
+    "Symbol": "CAM",
+    "CoinName": "Consumption Avatar Matrix",
+    "FullName": "Consumption Avatar Matrix (CAM)"
+  },
+  {
+    "Symbol": "HYDRO",
+    "CoinName": "Hydro",
+    "FullName": "Hydro (HYDRO)"
+  },
+  {
+    "Symbol": "BTN",
+    "CoinName": "BitNewChain",
+    "FullName": "BitNewChain (BTN)"
+  },
+  {
+    "Symbol": "ATP",
+    "CoinName": "Atlas Protocol",
+    "FullName": "Atlas Protocol (ATP)"
+  },
+  {
+    "Symbol": "BCV",
+    "CoinName": "BitCapitalVendor",
+    "FullName": "BitCapitalVendor (BCV)"
+  },
+  {
+    "Symbol": "BKN",
+    "CoinName": "BlockState",
+    "FullName": "BlockState (BKN)"
+  },
+  {
+    "Symbol": "INB",
+    "CoinName": "Insight Chain",
+    "FullName": "Insight Chain (INB)"
+  },
+  {
+    "Symbol": "WICC",
+    "CoinName": "WaykiChain",
+    "FullName": "WaykiChain (WICC)"
+  },
+  {
+    "Symbol": "EKT",
+    "CoinName": "EDUCare",
+    "FullName": "EDUCare (EKT)"
+  },
+  {
+    "Symbol": "BIHU",
+    "CoinName": "Key",
+    "FullName": "Key (BIHU)"
+  },
+  {
+    "Symbol": "1SG",
+    "CoinName": "1SG",
+    "FullName": "1SG (1SG)"
+  },
+  {
+    "Symbol": "TOP",
+    "CoinName": "TOP Network",
+    "FullName": "TOP Network (TOP)"
+  },
+  {
+    "Symbol": "KT",
+    "CoinName": "Kuai Token",
+    "FullName": "Kuai Token (KT)"
+  },
+  {
+    "Symbol": "INE",
+    "CoinName": "IntelliShare",
+    "FullName": "IntelliShare (INE)"
+  },
+  {
+    "Symbol": "STPT",
+    "CoinName": "STP Network",
+    "FullName": "STP Network (STPT)"
+  },
+  {
+    "Symbol": "ARTF",
+    "CoinName": "Artfinity Token",
+    "FullName": "Artfinity Token (ARTF)"
+  },
+  {
+    "Symbol": "AT",
+    "CoinName": "AWARE",
+    "FullName": "AWARE (AT)"
+  },
+  {
+    "Symbol": "CVNT",
+    "CoinName": "Content Value Network",
+    "FullName": "Content Value Network (CVNT)"
+  },
+  {
+    "Symbol": "DEX",
+    "CoinName": "DEX",
+    "FullName": "DEX (DEX)"
+  },
+  {
+    "Symbol": "ELD",
+    "CoinName": "Electrum Dark",
+    "FullName": "Electrum Dark (ELD)"
+  },
+  {
+    "Symbol": "UOS",
+    "CoinName": "UOS",
+    "FullName": "UOS (UOS)"
+  },
+  {
+    "Symbol": "UND",
+    "CoinName": "United Network Distribution",
+    "FullName": "United Network Distribution (UND)"
+  },
+  {
+    "Symbol": "PEOS",
+    "CoinName": "pEOS",
+    "FullName": "pEOS (PEOS)"
+  },
+  {
+    "Symbol": "BHD",
+    "CoinName": "Bitcoin HD",
+    "FullName": "Bitcoin HD (BHD)"
+  },
+  {
+    "Symbol": "GTN",
+    "CoinName": "GlitzKoin",
+    "FullName": "GlitzKoin (GTN)"
+  },
+  {
+    "Symbol": "VIPS",
+    "CoinName": "Vipstar Coin",
+    "FullName": "Vipstar Coin (VIPS)"
+  },
+  {
+    "Symbol": "BBGC",
+    "CoinName": "BigBang Game",
+    "FullName": "BigBang Game (BBGC)"
+  },
+  {
+    "Symbol": "LINA",
+    "CoinName": "Lina",
+    "FullName": "Lina (LINA)"
+  },
+  {
+    "Symbol": "INFC",
+    "CoinName": "Influence Chain",
+    "FullName": "Influence Chain (INFC)"
+  },
+  {
+    "Symbol": "BTNT",
+    "CoinName": "BitNautic",
+    "FullName": "BitNautic (BTNT)"
+  },
+  {
+    "Symbol": "WGP",
+    "CoinName": "W Green Pay",
+    "FullName": "W Green Pay (WGP)"
+  },
+  {
+    "Symbol": "NPXSXEM",
+    "CoinName": "Pundi X NEM",
+    "FullName": "Pundi X NEM (NPXSXEM)"
+  },
+  {
+    "Symbol": "YOU",
+    "CoinName": "YOU Chain",
+    "FullName": "YOU Chain (YOU)"
+  },
+  {
+    "Symbol": "USCC",
+    "CoinName": "USC",
+    "FullName": "USC (USCC)"
+  },
+  {
+    "Symbol": "ANDC",
+    "CoinName": "Android chain",
+    "FullName": "Android chain (ANDC)"
+  },
+  {
+    "Symbol": "WGC",
+    "CoinName": "WeGen Platform",
+    "FullName": "WeGen Platform (WGC)"
+  },
+  {
+    "Symbol": "GMB",
+    "CoinName": "GMB",
+    "FullName": "GMB (GMB)"
+  },
+  {
+    "Symbol": "MRS",
+    "CoinName": "Marginless",
+    "FullName": "Marginless (MRS)"
+  },
+  {
+    "Symbol": "FUND",
+    "CoinName": "FUNDChains",
+    "FullName": "FUNDChains (FUND)"
+  },
+  {
+    "Symbol": "OCC",
+    "CoinName": "Octoin Coin",
+    "FullName": "Octoin Coin (OCC)"
+  },
+  {
+    "Symbol": "NNB",
+    "CoinName": "NNB Token",
+    "FullName": "NNB Token (NNB)"
+  },
+  {
+    "Symbol": "USDQ",
+    "CoinName": "USDQ",
+    "FullName": "USDQ (USDQ)"
+  },
+  {
+    "Symbol": "ULT",
+    "CoinName": "Ultiledger",
+    "FullName": "Ultiledger (ULT)"
+  },
+  {
+    "Symbol": "WWB",
+    "CoinName": "Wowbit",
+    "FullName": "Wowbit (WWB)"
+  },
+  {
+    "Symbol": "VANT",
+    "CoinName": "Vanta Network",
+    "FullName": "Vanta Network (VANT)"
+  },
+  {
+    "Symbol": "SNET",
+    "CoinName": "Snetwork",
+    "FullName": "Snetwork (SNET)"
+  },
+  {
+    "Symbol": "IRIS",
+    "CoinName": "IRIS Network",
+    "FullName": "IRIS Network (IRIS)"
+  },
+  {
+    "Symbol": "BTCB",
+    "CoinName": "Bitcoin BEP2",
+    "FullName": "Bitcoin BEP2 (BTCB)"
+  },
+  {
+    "Symbol": "IONC",
+    "CoinName": "IONChain",
+    "FullName": "IONChain (IONC)"
+  },
+  {
+    "Symbol": "SSP",
+    "CoinName": "Smartshare",
+    "FullName": "Smartshare (SSP)"
+  },
+  {
+    "Symbol": "CNUS",
+    "CoinName": "CoinUs",
+    "FullName": "CoinUs (CNUS)"
+  },
+  {
+    "Symbol": "ABL",
+    "CoinName": "Airbloc",
+    "FullName": "Airbloc (ABL)"
+  },
+  {
+    "Symbol": "SDA",
+    "CoinName": "SDChain",
+    "FullName": "SDChain (SDA)"
+  },
+  {
+    "Symbol": "SMARTUP",
+    "CoinName": "Smartup",
+    "FullName": "Smartup (SMARTUP)"
+  },
+  {
+    "Symbol": "HYN",
+    "CoinName": "Hyperion",
+    "FullName": "Hyperion (HYN)"
+  },
+  {
+    "Symbol": "UIP",
+    "CoinName": "UnlimitedIP",
+    "FullName": "UnlimitedIP (UIP)"
+  },
+  {
+    "Symbol": "MIR",
+    "CoinName": "MIR COIN",
+    "FullName": "MIR COIN (MIR)"
+  },
+  {
+    "Symbol": "JCT",
+    "CoinName": "Japan Content Token",
+    "FullName": "Japan Content Token (JCT)"
+  },
+  {
+    "Symbol": "FTI",
+    "CoinName": "FansTime",
+    "FullName": "FansTime (FTI)"
+  },
+  {
+    "Symbol": "DOS",
+    "CoinName": "DOS Network",
+    "FullName": "DOS Network (DOS)"
+  },
+  {
+    "Symbol": "LIBRA",
+    "CoinName": "Facebook Libra",
+    "FullName": "Facebook Libra (LIBRA)"
+  },
+  {
+    "Symbol": "DLO",
+    "CoinName": "Delio",
+    "FullName": "Delio (DLO)"
+  },
+  {
+    "Symbol": "DUOT",
+    "CoinName": "DUO Network",
+    "FullName": "DUO Network (DUOT)"
+  },
+  {
+    "Symbol": "OCE",
+    "CoinName": "OceanEX Token",
+    "FullName": "OceanEX Token (OCE)"
+  },
+  {
+    "Symbol": "ALGO",
+    "CoinName": "Algorand",
+    "FullName": "Algorand (ALGO)"
+  },
+  {
+    "Symbol": "AIRX",
+    "CoinName": "Aircoins",
+    "FullName": "Aircoins (AIRX)"
+  },
+  {
+    "Symbol": "RAVEN",
+    "CoinName": "Raven Protocol",
+    "FullName": "Raven Protocol (RAVEN)"
+  },
+  {
+    "Symbol": "MIN",
+    "CoinName": "MINDOL",
+    "FullName": "MINDOL (MIN)"
+  },
+  {
+    "Symbol": "MBL",
+    "CoinName": "MovieBloc",
+    "FullName": "MovieBloc (MBL)"
+  },
+  {
+    "Symbol": "B91",
+    "CoinName": "B91",
+    "FullName": "B91 (B91)"
+  },
+  {
+    "Symbol": "AIDT",
+    "CoinName": "AIDUS TOKEN",
+    "FullName": "AIDUS TOKEN (AIDT)"
+  },
+  {
+    "Symbol": "ALI",
+    "CoinName": "AiLink Token",
+    "FullName": "AiLink Token (ALI)"
+  },
+  {
+    "Symbol": "CLB",
+    "CoinName": "Cloudbric",
+    "FullName": "Cloudbric (CLB)"
+  },
+  {
+    "Symbol": "CZR",
+    "CoinName": "CanonChain",
+    "FullName": "CanonChain (CZR)"
+  },
+  {
+    "Symbol": "DELTA",
+    "CoinName": "DeltaChain",
+    "FullName": "DeltaChain (DELTA)"
+  },
+  {
+    "Symbol": "GSE",
+    "CoinName": "GSENetwork",
+    "FullName": "GSENetwork (GSE)"
+  },
+  {
+    "Symbol": "KNT",
+    "CoinName": "Knekted",
+    "FullName": "Knekted (KNT)"
+  },
+  {
+    "Symbol": "KWATT",
+    "CoinName": "4New",
+    "FullName": "4New (KWATT)"
+  },
+  {
+    "Symbol": "MAS",
+    "CoinName": "Midas Protocol",
+    "FullName": "Midas Protocol (MAS)"
+  },
+  {
+    "Symbol": "UCH",
+    "CoinName": "UChain",
+    "FullName": "UChain (UCH)"
+  },
+  {
+    "Symbol": "VDG",
+    "CoinName": "VeriDocGlobal",
+    "FullName": "VeriDocGlobal (VDG)"
+  },
+  {
+    "Symbol": "YEED",
+    "CoinName": "Yggdrash",
+    "FullName": "Yggdrash (YEED)"
+  },
+  {
+    "Symbol": "PRS",
+    "CoinName": "PressOne",
+    "FullName": "PressOne (PRS)"
+  },
+  {
+    "Symbol": "EHRT",
+    "CoinName": "Eight Hours Token",
+    "FullName": "Eight Hours Token (EHRT)"
+  },
+  {
+    "Symbol": "XRC",
+    "CoinName": "Bitcoin Rhodium",
+    "FullName": "Bitcoin Rhodium (XRC)"
+  },
+  {
+    "Symbol": "TERA",
+    "CoinName": "TERA",
+    "FullName": "TERA (TERA)"
+  },
+  {
+    "Symbol": "MXC",
+    "CoinName": "Machine Xchange Coin",
+    "FullName": "Machine Xchange Coin (MXC)"
+  },
+  {
+    "Symbol": "JAR",
+    "CoinName": "Jarvis+",
+    "FullName": "Jarvis+ (JAR)"
+  },
+  {
+    "Symbol": "VOCO",
+    "CoinName": "Provoco",
+    "FullName": "Provoco (VOCO)"
+  },
+  {
+    "Symbol": "EOSDT",
+    "CoinName": "EOSDT",
+    "FullName": "EOSDT (EOSDT)"
+  },
+  {
+    "Symbol": "TNS",
+    "CoinName": "Transcodium",
+    "FullName": "Transcodium (TNS)"
+  },
+  {
+    "Symbol": "NBOT",
+    "CoinName": "Naka Bodhi Token",
+    "FullName": "Naka Bodhi Token (NBOT)"
+  },
+  {
+    "Symbol": "RATING",
+    "CoinName": "DPRating",
+    "FullName": "DPRating (RATING)"
+  },
+  {
+    "Symbol": "CNNS",
+    "CoinName": "CNNS",
+    "FullName": "CNNS (CNNS)"
+  },
+  {
+    "Symbol": "AMPL",
+    "CoinName": "Ampleforth",
+    "FullName": "Ampleforth (AMPL)"
+  },
+  {
+    "Symbol": "SOP",
+    "CoinName": "SoPay",
+    "FullName": "SoPay (SOP)"
+  },
+  {
+    "Symbol": "LEMO",
+    "CoinName": "LemoChain",
+    "FullName": "LemoChain (LEMO)"
+  },
+  {
+    "Symbol": "TYPE",
+    "CoinName": "Typerium",
+    "FullName": "Typerium (TYPE)"
+  },
+  {
+    "Symbol": "CYL",
+    "CoinName": "Crystal Token",
+    "FullName": "Crystal Token (CYL)"
+  },
+  {
+    "Symbol": "HLT",
+    "CoinName": "HyperLoot",
+    "FullName": "HyperLoot (HLT)"
+  },
+  {
+    "Symbol": "E2C",
+    "CoinName": "Electronic Energy Coin",
+    "FullName": "Electronic Energy Coin (E2C)"
+  },
+  {
+    "Symbol": "TAC",
+    "CoinName": "Traceability Chain",
+    "FullName": "Traceability Chain (TAC)"
+  },
+  {
+    "Symbol": "TENX",
+    "CoinName": "TenX Token",
+    "FullName": "TenX Token (TENX)"
+  },
+  {
+    "Symbol": "EKG",
+    "CoinName": "Ekon Gold",
+    "FullName": "Ekon Gold (EKG)"
+  },
+  {
+    "Symbol": "SLV",
+    "CoinName": "Silverway",
+    "FullName": "Silverway (SLV)"
+  },
+  {
+    "Symbol": "ERD",
+    "CoinName": "Elrond",
+    "FullName": "Elrond (ERD)"
+  },
+  {
+    "Symbol": "PHV",
+    "CoinName": "PATHHIVE",
+    "FullName": "PATHHIVE (PHV)"
+  },
+  {
+    "Symbol": "ONOT",
+    "CoinName": "ONO",
+    "FullName": "ONO (ONOT)"
+  },
+  {
+    "Symbol": "IMPT",
+    "CoinName": "Ether Kingdoms Token",
+    "FullName": "Ether Kingdoms Token (IMPT)"
+  },
+  {
+    "Symbol": "BITRUE",
+    "CoinName": "Bitrue Coin",
+    "FullName": "Bitrue Coin (BITRUE)"
+  },
+  {
+    "Symbol": "SWAPS",
+    "CoinName": "SWAPS Network",
+    "FullName": "SWAPS Network (SWAPS)"
+  },
+  {
+    "Symbol": "CONUN",
+    "CoinName": "CONUN",
+    "FullName": "CONUN (CONUN)"
+  },
+  {
+    "Symbol": "FNB",
+    "CoinName": "FNB protocol",
+    "FullName": "FNB protocol (FNB)"
+  },
+  {
+    "Symbol": "GNY",
+    "CoinName": "GNY",
+    "FullName": "GNY (GNY)"
+  },
+  {
+    "Symbol": "SRK",
+    "CoinName": "SparkPoint",
+    "FullName": "SparkPoint (SRK)"
+  },
+  {
+    "Symbol": "ACDC",
+    "CoinName": "Volt",
+    "FullName": "Volt (ACDC)"
+  },
+  {
+    "Symbol": "YEC",
+    "CoinName": "Ycash",
+    "FullName": "Ycash (YEC)"
+  },
+  {
+    "Symbol": "TOKO",
+    "CoinName": "ToKoin",
+    "FullName": "ToKoin (TOKO)"
+  },
+  {
+    "Symbol": "ECO",
+    "CoinName": "Ormeus Ecosystem",
+    "FullName": "Ormeus Ecosystem (ECO)"
+  },
+  {
+    "Symbol": "ADN",
+    "CoinName": "Aladdin",
+    "FullName": "Aladdin (ADN)"
+  },
+  {
+    "Symbol": "FTN",
+    "CoinName": "Fountain",
+    "FullName": "Fountain (FTN)"
+  },
+  {
+    "Symbol": "GRN",
+    "CoinName": "GreenPower",
+    "FullName": "GreenPower (GRN)"
+  },
+  {
+    "Symbol": "NTY",
+    "CoinName": "Nexty",
+    "FullName": "Nexty (NTY)"
+  },
+  {
+    "Symbol": "TEMCO",
+    "CoinName": "TEMCO",
+    "FullName": "TEMCO (TEMCO)"
+  },
+  {
+    "Symbol": "ADRX",
+    "CoinName": "Adrenaline Chain",
+    "FullName": "Adrenaline Chain (ADRX)"
+  },
+  {
+    "Symbol": "DAC",
+    "CoinName": "Davinci Coin",
+    "FullName": "Davinci Coin (DAC)"
+  },
+  {
+    "Symbol": "MESG",
+    "CoinName": "MESG",
+    "FullName": "MESG (MESG)"
+  },
+  {
+    "Symbol": "SHX",
+    "CoinName": "Stronghold Token",
+    "FullName": "Stronghold Token (SHX)"
+  },
+  {
+    "Symbol": "UPX",
+    "CoinName": "uPlexa",
+    "FullName": "uPlexa (UPX)"
+  },
+  {
+    "Symbol": "FST",
+    "CoinName": "1irstcoin",
+    "FullName": "1irstcoin (FST)"
+  },
+  {
+    "Symbol": "BCT",
+    "CoinName": "Bitcratic Token",
+    "FullName": "Bitcratic Token (BCT)"
+  },
+  {
+    "Symbol": "TRTT",
+    "CoinName": "Trittium",
+    "FullName": "Trittium (TRTT)"
+  },
+  {
+    "Symbol": "ARPA",
+    "CoinName": "ARPA Chain",
+    "FullName": "ARPA Chain (ARPA)"
+  },
+  {
+    "Symbol": "THCH",
+    "CoinName": "Thorecash",
+    "FullName": "Thorecash (THCH)"
+  },
+  {
+    "Symbol": "ABX",
+    "CoinName": "Arbidex",
+    "FullName": "Arbidex (ABX)"
+  },
+  {
+    "Symbol": "HXRO",
+    "CoinName": "Hxro",
+    "FullName": "Hxro (HXRO)"
+  },
+  {
+    "Symbol": "MONT",
+    "CoinName": "Monarch Token",
+    "FullName": "Monarch Token (MONT)"
+  },
+  {
+    "Symbol": "WIN",
+    "CoinName": "WINk",
+    "FullName": "WINk (WIN)"
+  },
+  {
+    "Symbol": "NUT",
+    "CoinName": "Native Utility Token",
+    "FullName": "Native Utility Token (NUT)"
+  },
+  {
+    "Symbol": "TN",
+    "CoinName": "TurtleNetwork",
+    "FullName": "TurtleNetwork (TN)"
+  },
+  {
+    "Symbol": "PBQ",
+    "CoinName": "PUBLIQ",
+    "FullName": "PUBLIQ (PBQ)"
+  },
+  {
+    "Symbol": "ZDR",
+    "CoinName": "Zloadr",
+    "FullName": "Zloadr (ZDR)"
+  },
+  {
+    "Symbol": "DOCT",
+    "CoinName": "DocTailor",
+    "FullName": "DocTailor (DOCT)"
+  },
+  {
+    "Symbol": "DTEP",
+    "CoinName": "DECOIN",
+    "FullName": "DECOIN (DTEP)"
+  },
+  {
+    "Symbol": "TCHAIN",
+    "CoinName": "Tchain",
+    "FullName": "Tchain (TCHAIN)"
+  },
+  {
+    "Symbol": "XRTC",
+    "CoinName": "Retailcoin",
+    "FullName": "Retailcoin (XRTC)"
+  },
+  {
+    "Symbol": "VRSC",
+    "CoinName": "Verus Coin",
+    "FullName": "Verus Coin (VRSC)"
+  },
+  {
+    "Symbol": "LUNA",
+    "CoinName": "Terra",
+    "FullName": "Terra (LUNA)"
+  },
+  {
+    "Symbol": "VOL",
+    "CoinName": "Volume Network",
+    "FullName": "Volume Network (VOL)"
+  },
+  {
+    "Symbol": "PIXL",
+    "CoinName": "Piction Network",
+    "FullName": "Piction Network (PIXL)"
+  },
+  {
+    "Symbol": "FTXT",
+    "CoinName": "FTX Token",
+    "FullName": "FTX Token (FTXT)"
+  },
+  {
+    "Symbol": "NAT",
+    "CoinName": "Natmin",
+    "FullName": "Natmin (NAT)"
+  },
+  {
+    "Symbol": "TRV",
+    "CoinName": "TrustVerse",
+    "FullName": "TrustVerse (TRV)"
+  },
+  {
+    "Symbol": "RET",
+    "CoinName": "RealTract",
+    "FullName": "RealTract (RET)"
+  },
+  {
+    "Symbol": "GMAT",
+    "CoinName": "GoWithMi",
+    "FullName": "GoWithMi (GMAT)"
+  },
+  {
+    "Symbol": "HUM",
+    "CoinName": "Humanscape",
+    "FullName": "Humanscape (HUM)"
+  },
+  {
+    "Symbol": "PERL",
+    "CoinName": "Perlin",
+    "FullName": "Perlin (PERL)"
+  },
+  {
+    "Symbol": "LOL",
+    "CoinName": "EMOGI Network",
+    "FullName": "EMOGI Network (LOL)"
+  },
+  {
+    "Symbol": "BCAC",
+    "CoinName": "Business Credit Alliance Chain",
+    "FullName": "Business Credit Alliance Chain (BCAC)"
+  },
+  {
+    "Symbol": "XD",
+    "CoinName": "Data Transaction Token",
+    "FullName": "Data Transaction Token (XD)"
+  },
+  {
+    "Symbol": "OTO",
+    "CoinName": "OTOCASH",
+    "FullName": "OTOCASH (OTO)"
+  },
+  {
+    "Symbol": "BQQQ",
+    "CoinName": "Bitsdaq Token",
+    "FullName": "Bitsdaq Token (BQQQ)"
+  },
+  {
+    "Symbol": "SIX",
+    "CoinName": "SIX Network",
+    "FullName": "SIX Network (SIX)"
+  },
+  {
+    "Symbol": "LOCUS",
+    "CoinName": "Locus Chain",
+    "FullName": "Locus Chain (LOCUS)"
+  },
+  {
+    "Symbol": "PVT",
+    "CoinName": "Pivot Token",
+    "FullName": "Pivot Token (PVT)"
+  },
+  {
+    "Symbol": "COZP",
+    "CoinName": "COZPlus",
+    "FullName": "COZPlus (COZP)"
+  },
+  {
+    "Symbol": "OGOD",
+    "CoinName": "GOTOGOD",
+    "FullName": "GOTOGOD (OGOD)"
+  },
+  {
+    "Symbol": "SERO",
+    "CoinName": "Super Zero",
+    "FullName": "Super Zero (SERO)"
+  },
+  {
+    "Symbol": "EM",
+    "CoinName": "Eminer",
+    "FullName": "Eminer (EM)"
+  },
+  {
+    "Symbol": "FOIN",
+    "CoinName": "Foin",
+    "FullName": "Foin (FOIN)"
+  },
+  {
+    "Symbol": "FKX",
+    "CoinName": "FortKnoxster",
+    "FullName": "FortKnoxster (FKX)"
+  },
+  {
+    "Symbol": "YTA",
+    "CoinName": "YottaChain",
+    "FullName": "YottaChain (YTA)"
+  },
+  {
+    "Symbol": "LXT",
+    "CoinName": "LITEX",
+    "FullName": "LITEX (LXT)"
+  },
+  {
+    "Symbol": "IMG",
+    "CoinName": "ImageCoin",
+    "FullName": "ImageCoin (IMG)"
+  },
+  {
+    "Symbol": "TSHP",
+    "CoinName": "12Ships",
+    "FullName": "12Ships (TSHP)"
+  },
+  {
+    "Symbol": "SXP",
+    "CoinName": "Swipe",
+    "FullName": "Swipe (SXP)"
+  },
+  {
+    "Symbol": "FRM",
+    "CoinName": "Ferrum Network",
+    "FullName": "Ferrum Network (FRM)"
+  },
+  {
+    "Symbol": "BOTX",
+    "CoinName": "BOTXCOIN",
+    "FullName": "BOTXCOIN (BOTX)"
+  },
+  {
+    "Symbol": "DPT",
+    "CoinName": "Diamond Platform Token",
+    "FullName": "Diamond Platform Token (DPT)"
+  },
+  {
+    "Symbol": "GT",
+    "CoinName": "Gatechain Token",
+    "FullName": "Gatechain Token (GT)"
+  },
+  {
+    "Symbol": "TRAT",
+    "CoinName": "Tratok",
+    "FullName": "Tratok (TRAT)"
+  },
+  {
+    "Symbol": "CHZ",
+    "CoinName": "Chiliz",
+    "FullName": "Chiliz (CHZ)"
+  },
+  {
+    "Symbol": "OPNN",
+    "CoinName": "Opennity",
+    "FullName": "Opennity (OPNN)"
+  },
+  {
+    "Symbol": "SINS",
+    "CoinName": "SafeInsure",
+    "FullName": "SafeInsure (SINS)"
+  },
+  {
+    "Symbol": "BHT",
+    "CoinName": "BHEX Token",
+    "FullName": "BHEX Token (BHT)"
+  },
+  {
+    "Symbol": "BDX",
+    "CoinName": "Beldex",
+    "FullName": "Beldex (BDX)"
+  },
+  {
+    "Symbol": "DXR",
+    "CoinName": "DEXTER",
+    "FullName": "DEXTER (DXR)"
+  },
+  {
+    "Symbol": "PC",
+    "CoinName": "Promotion Coin",
+    "FullName": "Promotion Coin (PC)"
+  },
+  {
+    "Symbol": "BUT",
+    "CoinName": "BitUP Token",
+    "FullName": "BitUP Token (BUT)"
+  },
+  {
+    "Symbol": "GOS",
+    "CoinName": "Gosama",
+    "FullName": "Gosama (GOS)"
+  },
+  {
+    "Symbol": "DEFI",
+    "CoinName": "Defi",
+    "FullName": "Defi (DEFI)"
+  },
+  {
+    "Symbol": "BXK",
+    "CoinName": "Bitbook Gambling",
+    "FullName": "Bitbook Gambling (BXK)"
+  },
+  {
+    "Symbol": "KNOW",
+    "CoinName": "KNOW",
+    "FullName": "KNOW (KNOW)"
+  },
+  {
+    "Symbol": "WFX",
+    "CoinName": "WebFlix",
+    "FullName": "WebFlix (WFX)"
+  },
+  {
+    "Symbol": "XPC",
+    "CoinName": "eXPerience Chain",
+    "FullName": "eXPerience Chain (XPC)"
+  },
+  {
+    "Symbol": "COCOS",
+    "CoinName": "COCOS BCX",
+    "FullName": "COCOS BCX (COCOS)"
+  },
+  {
+    "Symbol": "ACD",
+    "CoinName": "Alliance Cargo Direct",
+    "FullName": "Alliance Cargo Direct (ACD)"
+  },
+  {
+    "Symbol": "AKRO",
+    "CoinName": "Akropolis",
+    "FullName": "Akropolis (AKRO)"
+  },
+  {
+    "Symbol": "AMON",
+    "CoinName": "AmonD",
+    "FullName": "AmonD (AMON)"
+  },
+  {
+    "Symbol": "BENZI",
+    "CoinName": "Ben Zi Token",
+    "FullName": "Ben Zi Token (BENZI)"
+  },
+  {
+    "Symbol": "BGBP",
+    "CoinName": "Binance GBP Stable Coin",
+    "FullName": "Binance GBP Stable Coin (BGBP)"
+  },
+  {
+    "Symbol": "BHP",
+    "CoinName": "Blockchain of Hash Power",
+    "FullName": "Blockchain of Hash Power (BHP)"
+  },
+  {
+    "Symbol": "XCHF",
+    "CoinName": "CryptoFranc",
+    "FullName": "CryptoFranc (XCHF)"
+  },
+  {
+    "Symbol": "BXA",
+    "CoinName": "Blockchain Exchange Alliance",
+    "FullName": "Blockchain Exchange Alliance (BXA)"
+  },
+  {
+    "Symbol": "CBNT",
+    "CoinName": "Create Breaking News Together",
+    "FullName": "Create Breaking News Together (CBNT)"
+  },
+  {
+    "Symbol": "DEEP",
+    "CoinName": "DeepCloud AI",
+    "FullName": "DeepCloud AI (DEEP)"
+  },
+  {
+    "Symbol": "DOC",
+    "CoinName": "Dochain",
+    "FullName": "Dochain (DOC)"
+  },
+  {
+    "Symbol": "DTC",
+    "CoinName": "Data Transaction",
+    "FullName": "Data Transaction (DTC)"
+  },
+  {
+    "Symbol": "DVP",
+    "CoinName": "Decentralized Vulnerability Platform",
+    "FullName": "Decentralized Vulnerability Platform (DVP)"
+  },
+  {
+    "Symbol": "DWC",
+    "CoinName": "Digital Wallet",
+    "FullName": "Digital Wallet (DWC)"
+  },
+  {
+    "Symbol": "ELAC",
+    "CoinName": "ELA Coin",
+    "FullName": "ELA Coin (ELAC)"
+  },
+  {
+    "Symbol": "ETSC",
+    "CoinName": "​Ether star blockchain",
+    "FullName": "​Ether star blockchain (ETSC)"
+  },
+  {
+    "Symbol": "FMEX",
+    "CoinName": "FMex",
+    "FullName": "FMex (FMEX)"
+  },
+  {
+    "Symbol": "FOR",
+    "CoinName": "Force Protocol",
+    "FullName": "Force Protocol (FOR)"
+  },
+  {
+    "Symbol": "FTK",
+    "CoinName": "FToken",
+    "FullName": "FToken (FTK)"
+  },
+  {
+    "Symbol": "FLEX",
+    "CoinName": "FLEX Coin",
+    "FullName": "FLEX Coin (FLEX)"
+  },
+  {
+    "Symbol": "GE",
+    "CoinName": "GEchain",
+    "FullName": "GEchain (GE)"
+  },
+  {
+    "Symbol": "GOT",
+    "CoinName": "ParkinGo",
+    "FullName": "ParkinGo (GOT)"
+  },
+  {
+    "Symbol": "INFT",
+    "CoinName": "Infinito",
+    "FullName": "Infinito (INFT)"
+  },
+  {
+    "Symbol": "ITOC",
+    "CoinName": "ITOChain",
+    "FullName": "ITOChain (ITOC)"
+  },
+  {
+    "Symbol": "JCB",
+    "CoinName": "Wine Chain",
+    "FullName": "Wine Chain (JCB)"
+  },
+  {
+    "Symbol": "KSC",
+    "CoinName": "KStarCoin",
+    "FullName": "KStarCoin (KSC)"
+  },
+  {
+    "Symbol": "LHD",
+    "CoinName": "LitecoinHD",
+    "FullName": "LitecoinHD (LHD)"
+  },
+  {
+    "Symbol": "LKN",
+    "CoinName": "LinkCoin Token",
+    "FullName": "LinkCoin Token (LKN)"
+  },
+  {
+    "Symbol": "LPK",
+    "CoinName": "Kripton",
+    "FullName": "Kripton (LPK)"
+  },
+  {
+    "Symbol": "MMT",
+    "CoinName": "Master MIX Token",
+    "FullName": "Master MIX Token (MMT)"
+  },
+  {
+    "Symbol": "OSC",
+    "CoinName": "iOscar",
+    "FullName": "iOscar (OSC)"
+  },
+  {
+    "Symbol": "PIB",
+    "CoinName": "Pibble",
+    "FullName": "Pibble (PIB)"
+  },
+  {
+    "Symbol": "PNK",
+    "CoinName": "Kleros",
+    "FullName": "Kleros (PNK)"
+  },
+  {
+    "Symbol": "PROM",
+    "CoinName": "Prometeus",
+    "FullName": "Prometeus (PROM)"
+  },
+  {
+    "Symbol": "PROT",
+    "CoinName": "PROT",
+    "FullName": "PROT (PROT)"
+  },
+  {
+    "Symbol": "QQBC",
+    "CoinName": "QQBC IPFS BLOCKCHAIN",
+    "FullName": "QQBC IPFS BLOCKCHAIN (QQBC)"
+  },
+  {
+    "Symbol": "SPIN",
+    "CoinName": "SPIN Protocol",
+    "FullName": "SPIN Protocol (SPIN)"
+  },
+  {
+    "Symbol": "TCNX",
+    "CoinName": "Tercet Network",
+    "FullName": "Tercet Network (TCNX)"
+  },
+  {
+    "Symbol": "THX",
+    "CoinName": "Thorenext",
+    "FullName": "Thorenext (THX)"
+  },
+  {
+    "Symbol": "THEX",
+    "CoinName": "Thore Exchange",
+    "FullName": "Thore Exchange (THEX)"
+  },
+  {
+    "Symbol": "TCHTRX",
+    "CoinName": "ThoreCashTRX",
+    "FullName": "ThoreCashTRX (TCHTRX)"
+  },
+  {
+    "Symbol": "UAT",
+    "CoinName": "UltrAlpha",
+    "FullName": "UltrAlpha (UAT)"
+  },
+  {
+    "Symbol": "UENC",
+    "CoinName": "UniversalEnergyChain",
+    "FullName": "UniversalEnergyChain (UENC)"
+  },
+  {
+    "Symbol": "ULTRA",
+    "CoinName": "Ultra",
+    "FullName": "Ultra (ULTRA)"
+  },
+  {
+    "Symbol": "URAC",
+    "CoinName": "Uranus",
+    "FullName": "Uranus (URAC)"
+  },
+  {
+    "Symbol": "USDSB",
+    "CoinName": "USDSB",
+    "FullName": "USDSB (USDSB)"
+  },
+  {
+    "Symbol": "VINCI",
+    "CoinName": "VINCI",
+    "FullName": "VINCI (VINCI)"
+  },
+  {
+    "Symbol": "WLO",
+    "CoinName": "WOLLO",
+    "FullName": "WOLLO (WLO)"
+  },
+  {
+    "Symbol": "XENO",
+    "CoinName": "Xenoverse",
+    "FullName": "Xenoverse (XENO)"
+  },
+  {
+    "Symbol": "XND",
+    "CoinName": "ndau",
+    "FullName": "ndau (XND)"
+  },
+  {
+    "Symbol": "XSR",
+    "CoinName": "Xensor",
+    "FullName": "Xensor (XSR)"
+  },
+  {
+    "Symbol": "ZAIF",
+    "CoinName": "Zaif Token",
+    "FullName": "Zaif Token (ZAIF)"
+  },
+  {
+    "Symbol": "ETM",
+    "CoinName": "En-Tan-Mo",
+    "FullName": "En-Tan-Mo (ETM)"
+  },
+  {
+    "Symbol": "AMIO",
+    "CoinName": "Amino Network",
+    "FullName": "Amino Network (AMIO)"
+  },
+  {
+    "Symbol": "FAB",
+    "CoinName": "FABRK Token",
+    "FullName": "FABRK Token (FAB)"
+  },
+  {
+    "Symbol": "VD",
+    "CoinName": "VinDax Coin",
+    "FullName": "VinDax Coin (VD)"
+  },
+  {
+    "Symbol": "NYE",
+    "CoinName": "NewYork Exchange",
+    "FullName": "NewYork Exchange (NYE)"
+  },
+  {
+    "Symbol": "LTK",
+    "CoinName": "LinkToken",
+    "FullName": "LinkToken (LTK)"
+  },
+  {
+    "Symbol": "STREAM",
+    "CoinName": "STREAMIT COIN",
+    "FullName": "STREAMIT COIN (STREAM)"
+  },
+  {
+    "Symbol": "BPRO",
+    "CoinName": "BitCloud Pro",
+    "FullName": "BitCloud Pro (BPRO)"
+  },
+  {
+    "Symbol": "TOL",
+    "CoinName": "Tolar",
+    "FullName": "Tolar (TOL)"
+  },
+  {
+    "Symbol": "CVCC",
+    "CoinName": "CryptoVerificationCoin",
+    "FullName": "CryptoVerificationCoin (CVCC)"
+  },
+  {
+    "Symbol": "EVT",
+    "CoinName": "EveriToken",
+    "FullName": "EveriToken (EVT)"
+  },
+  {
+    "Symbol": "NTBC",
+    "CoinName": "Note Blockchain",
+    "FullName": "Note Blockchain (NTBC)"
+  },
+  {
+    "Symbol": "MEX",
+    "CoinName": "MEX",
+    "FullName": "MEX (MEX)"
+  },
+  {
+    "Symbol": "ATN",
+    "CoinName": "ATN",
+    "FullName": "ATN (ATN)"
+  },
+  {
+    "Symbol": "NASH",
+    "CoinName": "NeoWorld Cash",
+    "FullName": "NeoWorld Cash (NASH)"
+  },
+  {
+    "Symbol": "CUST",
+    "CoinName": "Custody Token",
+    "FullName": "Custody Token (CUST)"
+  },
+  {
+    "Symbol": "QCH",
+    "CoinName": "QChi",
+    "FullName": "QChi (QCH)"
+  },
+  {
+    "Symbol": "FO",
+    "CoinName": "FIBOS",
+    "FullName": "FIBOS (FO)"
+  },
+  {
+    "Symbol": "SON",
+    "CoinName": "Simone",
+    "FullName": "Simone (SON)"
+  },
+  {
+    "Symbol": "BKBT",
+    "CoinName": "BeeKan",
+    "FullName": "BeeKan (BKBT)"
+  },
+  {
+    "Symbol": "BQT",
+    "CoinName": "Blockchain Quotations Index Token",
+    "FullName": "Blockchain Quotations Index Token (BQT)"
+  },
+  {
+    "Symbol": "BLOCM",
+    "CoinName": "BLOC.MONEY",
+    "FullName": "BLOC.MONEY (BLOCM)"
+  },
+  {
+    "Symbol": "WSD",
+    "CoinName": "White Standard",
+    "FullName": "White Standard (WSD)"
+  },
+  {
+    "Symbol": "SDS",
+    "CoinName": "Alchemint Standards",
+    "FullName": "Alchemint Standards (SDS)"
+  },
+  {
+    "Symbol": "ZT",
+    "CoinName": "ZTCoin",
+    "FullName": "ZTCoin (ZT)"
+  },
+  {
+    "Symbol": "GOM",
+    "CoinName": "Gomics",
+    "FullName": "Gomics (GOM)"
+  },
+  {
+    "Symbol": "BAND",
+    "CoinName": "Band Protocol",
+    "FullName": "Band Protocol (BAND)"
+  },
+  {
+    "Symbol": "OF",
+    "CoinName": "OFCOIN",
+    "FullName": "OFCOIN (OF)"
+  },
+  {
+    "Symbol": "FLETA",
+    "CoinName": "FLETA",
+    "FullName": "FLETA (FLETA)"
+  },
+  {
+    "Symbol": "CBM",
+    "CoinName": "CryptoBonusMiles",
+    "FullName": "CryptoBonusMiles (CBM)"
+  },
+  {
+    "Symbol": "EMRX",
+    "CoinName": "Emirex Token",
+    "FullName": "Emirex Token (EMRX)"
+  },
+  {
+    "Symbol": "HBAR",
+    "CoinName": "Hedera Hashgraph",
+    "FullName": "Hedera Hashgraph (HBAR)"
+  },
+  {
+    "Symbol": "IZI",
+    "CoinName": "IZIChain",
+    "FullName": "IZIChain (IZI)"
+  },
+  {
+    "Symbol": "UC",
+    "CoinName": "YouLive Coin",
+    "FullName": "YouLive Coin (UC)"
+  },
+  {
+    "Symbol": "TOSC",
+    "CoinName": "T.OS",
+    "FullName": "T.OS (TOSC)"
+  },
+  {
+    "Symbol": "OVC",
+    "CoinName": "OVCODE",
+    "FullName": "OVCODE (OVC)"
+  },
+  {
+    "Symbol": "BUSD",
+    "CoinName": "BUSD",
+    "FullName": "BUSD (BUSD)"
+  },
+  {
+    "Symbol": "WIKEN",
+    "CoinName": "WITH",
+    "FullName": "WITH (WIKEN)"
+  },
+  {
+    "Symbol": "MCC",
+    "CoinName": "Magic Cube Coin",
+    "FullName": "Magic Cube Coin (MCC)"
+  },
+  {
+    "Symbol": "HVNT",
+    "CoinName": "HiveNet Token",
+    "FullName": "HiveNet Token (HVNT)"
+  },
+  {
+    "Symbol": "PAXG",
+    "CoinName": "PAX Gold",
+    "FullName": "PAX Gold (PAXG)"
+  },
+  {
+    "Symbol": "MEXC",
+    "CoinName": "MEXC Token",
+    "FullName": "MEXC Token (MEXC)"
+  },
+  {
+    "Symbol": "NSS",
+    "CoinName": "NSS Coin",
+    "FullName": "NSS Coin (NSS)"
+  },
+  {
+    "Symbol": "TRP",
+    "CoinName": "Tronipay",
+    "FullName": "Tronipay (TRP)"
+  },
+  {
+    "Symbol": "MB",
+    "CoinName": "MineBee",
+    "FullName": "MineBee (MB)"
+  },
+  {
+    "Symbol": "CENT",
+    "CoinName": "CENTERCOIN",
+    "FullName": "CENTERCOIN (CENT)"
+  },
+  {
+    "Symbol": "MB8",
+    "CoinName": "MB8 Coin",
+    "FullName": "MB8 Coin (MB8)"
+  },
+  {
+    "Symbol": "HSN",
+    "CoinName": "Hyper Speed Network",
+    "FullName": "Hyper Speed Network (HSN)"
+  },
+  {
+    "Symbol": "ZUM",
+    "CoinName": "ZumCoin",
+    "FullName": "ZumCoin (ZUM)"
+  },
+  {
+    "Symbol": "PIPL",
+    "CoinName": "PiplCoin",
+    "FullName": "PiplCoin (PIPL)"
+  },
+  {
+    "Symbol": "BNANA",
+    "CoinName": "Chimpion",
+    "FullName": "Chimpion (BNANA)"
+  },
+  {
+    "Symbol": "VNDC",
+    "CoinName": "VNDC",
+    "FullName": "VNDC (VNDC)"
+  },
+  {
+    "Symbol": "MX",
+    "CoinName": "MX Token",
+    "FullName": "MX Token (MX)"
+  },
+  {
+    "Symbol": "GAPS",
+    "CoinName": "Gaps Chain",
+    "FullName": "Gaps Chain (GAPS)"
+  },
+  {
+    "Symbol": "DDAM",
+    "CoinName": "DDAM",
+    "FullName": "DDAM (DDAM)"
+  },
+  {
+    "Symbol": "PLAC",
+    "CoinName": "PLANET",
+    "FullName": "PLANET (PLAC)"
+  },
+  {
+    "Symbol": "MOGU",
+    "CoinName": "Mogu",
+    "FullName": "Mogu (MOGU)"
+  },
+  {
+    "Symbol": "CXCELL",
+    "CoinName": "CAPITAL X CELL",
+    "FullName": "CAPITAL X CELL (CXCELL)"
+  },
+  {
+    "Symbol": "BGONE",
+    "CoinName": "BigONE Token",
+    "FullName": "BigONE Token (BGONE)"
+  },
+  {
+    "Symbol": "DEQ",
+    "CoinName": "Dequant",
+    "FullName": "Dequant (DEQ)"
+  },
+  {
+    "Symbol": "BCB",
+    "CoinName": "BCB Blockchain",
+    "FullName": "BCB Blockchain (BCB)"
+  },
+  {
+    "Symbol": "LBK",
+    "CoinName": "LBK",
+    "FullName": "LBK (LBK)"
+  },
+  {
+    "Symbol": "GSTT",
+    "CoinName": "GSTT",
+    "FullName": "GSTT (GSTT)"
+  },
+  {
+    "Symbol": "ME",
+    "CoinName": "All.me",
+    "FullName": "All.me (ME)"
+  },
+  {
+    "Symbol": "DMS",
+    "CoinName": "Documentchain",
+    "FullName": "Documentchain (DMS)"
+  },
+  {
+    "Symbol": "SCTK",
+    "CoinName": "SharesChain",
+    "FullName": "SharesChain (SCTK)"
+  },
+  {
+    "Symbol": "RON",
+    "CoinName": "RON",
+    "FullName": "RON (RON)"
+  },
+  {
+    "Symbol": "SINX",
+    "CoinName": "SINX Token",
+    "FullName": "SINX Token (SINX)"
+  },
+  {
+    "Symbol": "HAZ",
+    "CoinName": "Hazza",
+    "FullName": "Hazza (HAZ)"
+  },
+  {
+    "Symbol": "AIPE",
+    "CoinName": "AI Prediction Ecosystem",
+    "FullName": "AI Prediction Ecosystem (AIPE)"
+  },
+  {
+    "Symbol": "MISS",
+    "CoinName": "MISS",
+    "FullName": "MISS (MISS)"
+  },
+  {
+    "Symbol": "DKKT",
+    "CoinName": "DKK Token",
+    "FullName": "DKK Token (DKKT)"
+  },
+  {
+    "Symbol": "BTY",
+    "CoinName": "Bityuan",
+    "FullName": "Bityuan (BTY)"
+  },
+  {
+    "Symbol": "CSAC",
+    "CoinName": "Credit Safe Application Chain",
+    "FullName": "Credit Safe Application Chain (CSAC)"
+  },
+  {
+    "Symbol": "TEM",
+    "CoinName": "Temtum",
+    "FullName": "Temtum (TEM)"
+  },
+  {
+    "Symbol": "BSTX",
+    "CoinName": "Blockstack",
+    "FullName": "Blockstack (BSTX)"
+  },
+  {
+    "Symbol": "KAVA",
+    "CoinName": "Kava",
+    "FullName": "Kava (KAVA)"
+  },
+  {
+    "Symbol": "DMC",
+    "CoinName": "Dream21",
+    "FullName": "Dream21 (DMC)"
+  },
+  {
+    "Symbol": "CKB",
+    "CoinName": "Nervos Network",
+    "FullName": "Nervos Network (CKB)"
+  },
+  {
+    "Symbol": "KISC",
+    "CoinName": "Kaiser",
+    "FullName": "Kaiser (KISC)"
+  },
+  {
+    "Symbol": "VBT",
+    "CoinName": "VB Token",
+    "FullName": "VB Token (VBT)"
+  },
+  {
+    "Symbol": "G50",
+    "CoinName": "G50",
+    "FullName": "G50 (G50)"
+  },
+  {
+    "Symbol": "SEOS",
+    "CoinName": "Smart Eye Operating System",
+    "FullName": "Smart Eye Operating System (SEOS)"
+  },
+  {
+    "Symbol": "ODC",
+    "CoinName": "Overseas Direct Certification",
+    "FullName": "Overseas Direct Certification (ODC)"
+  },
+  {
+    "Symbol": "GALT",
+    "CoinName": "Galtcoin",
+    "FullName": "Galtcoin (GALT)"
+  },
+  {
+    "Symbol": "LTBTC",
+    "CoinName": "Lightning Bitcoin",
+    "FullName": "Lightning Bitcoin (LTBTC)"
+  },
+  {
+    "Symbol": "TENA",
+    "CoinName": "Tena",
+    "FullName": "Tena (TENA)"
+  },
+  {
+    "Symbol": "XDGB",
+    "CoinName": "DigitalBits",
+    "FullName": "DigitalBits (XDGB)"
+  },
+  {
+    "Symbol": "SPLA",
+    "CoinName": "SmartPlay",
+    "FullName": "SmartPlay (SPLA)"
+  },
+  {
+    "Symbol": "UNICORN",
+    "CoinName": "UNICORN Token",
+    "FullName": "UNICORN Token (UNICORN)"
+  },
+  {
+    "Symbol": "EONC",
+    "CoinName": "Dimension",
+    "FullName": "Dimension (EONC)"
+  },
+  {
+    "Symbol": "PRCM",
+    "CoinName": "Precium",
+    "FullName": "Precium (PRCM)"
+  },
+  {
+    "Symbol": "BFCH",
+    "CoinName": "Big Fun Chain",
+    "FullName": "Big Fun Chain (BFCH)"
+  },
+  {
+    "Symbol": "LIGHT",
+    "CoinName": "LightChain",
+    "FullName": "LightChain (LIGHT)"
+  },
+  {
+    "Symbol": "TRDS",
+    "CoinName": "Traders Token",
+    "FullName": "Traders Token (TRDS)"
+  },
+  {
+    "Symbol": "ETHPLO",
+    "CoinName": "ETHplode",
+    "FullName": "ETHplode (ETHPLO)"
+  },
+  {
+    "Symbol": "YAP",
+    "CoinName": "Yap Stone",
+    "FullName": "Yap Stone (YAP)"
+  },
+  {
+    "Symbol": "LKU",
+    "CoinName": "Lukiu",
+    "FullName": "Lukiu (LKU)"
+  },
+  {
+    "Symbol": "SUTER",
+    "CoinName": "Suterusu",
+    "FullName": "Suterusu (SUTER)"
+  },
+  {
+    "Symbol": "FMCT",
+    "CoinName": "FirmaChain",
+    "FullName": "FirmaChain (FMCT)"
+  },
+  {
+    "Symbol": "NODE",
+    "CoinName": "Whole Network",
+    "FullName": "Whole Network (NODE)"
+  },
+  {
+    "Symbol": "LINKA",
+    "CoinName": "LINKA",
+    "FullName": "LINKA (LINKA)"
+  },
+  {
+    "Symbol": "ZVC",
+    "CoinName": "ZVCHAIN",
+    "FullName": "ZVCHAIN (ZVC)"
+  },
+  {
+    "Symbol": "OROX",
+    "CoinName": "Cointorox",
+    "FullName": "Cointorox (OROX)"
+  },
+  {
+    "Symbol": "ACU",
+    "CoinName": "Aitheon",
+    "FullName": "Aitheon (ACU)"
+  },
+  {
+    "Symbol": "OLXA",
+    "CoinName": "OLXA",
+    "FullName": "OLXA (OLXA)"
+  },
+  {
+    "Symbol": "WIX",
+    "CoinName": "Wixlar",
+    "FullName": "Wixlar (WIX)"
+  },
+  {
+    "Symbol": "YO",
+    "CoinName": "Yobit Token",
+    "FullName": "Yobit Token (YO)"
+  },
+  {
+    "Symbol": "BRZE",
+    "CoinName": "Breezecoin",
+    "FullName": "Breezecoin (BRZE)"
+  },
+  {
+    "Symbol": "BCZERO",
+    "CoinName": "Buggyra Coin Zero",
+    "FullName": "Buggyra Coin Zero (BCZERO)"
+  },
+  {
+    "Symbol": "ECOREAL",
+    "CoinName": "Ecoreal Estate",
+    "FullName": "Ecoreal Estate (ECOREAL)"
+  },
+  {
+    "Symbol": "S4F",
+    "CoinName": "S4FE",
+    "FullName": "S4FE (S4F)"
+  },
+  {
+    "Symbol": "BIPX",
+    "CoinName": "Bispex",
+    "FullName": "Bispex (BIPX)"
+  },
+  {
+    "Symbol": "VELAS",
+    "CoinName": "Velas",
+    "FullName": "Velas (VELAS)"
+  },
+  {
+    "Symbol": "BOK",
+    "CoinName": "Blockium",
+    "FullName": "Blockium (BOK)"
+  },
+  {
+    "Symbol": "TEP",
+    "CoinName": "Tepleton",
+    "FullName": "Tepleton (TEP)"
+  },
+  {
+    "Symbol": "TSR",
+    "CoinName": "Tesra",
+    "FullName": "Tesra (TSR)"
+  },
+  {
+    "Symbol": "RUNE",
+    "CoinName": "Thorchain",
+    "FullName": "Thorchain (RUNE)"
+  },
+  {
+    "Symbol": "HNB",
+    "CoinName": "HashNet BitEco",
+    "FullName": "HashNet BitEco (HNB)"
+  },
+  {
+    "Symbol": "DILI",
+    "CoinName": "D Community",
+    "FullName": "D Community (DILI)"
+  },
+  {
+    "Symbol": "CAI",
+    "CoinName": "Cai Token",
+    "FullName": "Cai Token (CAI)"
+  },
+  {
+    "Symbol": "FLG",
+    "CoinName": "Folgory Coin",
+    "FullName": "Folgory Coin (FLG)"
+  },
+  {
+    "Symbol": "MCH",
+    "CoinName": "Meconcash",
+    "FullName": "Meconcash (MCH)"
+  },
+  {
+    "Symbol": "7E",
+    "CoinName": "7ELEVEN",
+    "FullName": "7ELEVEN (7E)"
+  },
+  {
+    "Symbol": "XTX",
+    "CoinName": "Xtock",
+    "FullName": "Xtock (XTX)"
+  },
+  {
+    "Symbol": "LOBS",
+    "CoinName": "Lobstex",
+    "FullName": "Lobstex (LOBS)"
+  },
+  {
+    "Symbol": "BUX",
+    "CoinName": "Buxcoin",
+    "FullName": "Buxcoin (BUX)"
+  },
+  {
+    "Symbol": "MGX",
+    "CoinName": "MargiX",
+    "FullName": "MargiX (MGX)"
+  },
+  {
+    "Symbol": "DAD",
+    "CoinName": "DAD",
+    "FullName": "DAD (DAD)"
+  },
+  {
+    "Symbol": "EUM",
+    "CoinName": "Elitium",
+    "FullName": "Elitium (EUM)"
+  },
+  {
+    "Symbol": "SOVE",
+    "CoinName": "Soverain",
+    "FullName": "Soverain (SOVE)"
+  },
+  {
+    "Symbol": "BCS",
+    "CoinName": "Business Credit Substitute",
+    "FullName": "Business Credit Substitute (BCS)"
+  },
+  {
+    "Symbol": "THP",
+    "CoinName": "TurboHigh Performance",
+    "FullName": "TurboHigh Performance (THP)"
+  },
+  {
+    "Symbol": "TKC",
+    "CoinName": "TurkeyChain",
+    "FullName": "TurkeyChain (TKC)"
+  },
+  {
+    "Symbol": "LT",
+    "CoinName": "Loctite Assets Token",
+    "FullName": "Loctite Assets Token (LT)"
+  },
+  {
+    "Symbol": "MSN",
+    "CoinName": "Manson Coin",
+    "FullName": "Manson Coin (MSN)"
+  },
+  {
+    "Symbol": "W1",
+    "CoinName": "W1",
+    "FullName": "W1 (W1)"
+  },
+  {
+    "Symbol": "OFBC",
+    "CoinName": "OneFinBank Coin",
+    "FullName": "OneFinBank Coin (OFBC)"
+  },
+  {
+    "Symbol": "CB",
+    "CoinName": "COINBIG",
+    "FullName": "COINBIG (CB)"
+  },
+  {
+    "Symbol": "TD",
+    "CoinName": "Trade Chain",
+    "FullName": "Trade Chain (TD)"
+  },
+  {
+    "Symbol": "DRINK",
+    "CoinName": "DrinkChain",
+    "FullName": "DrinkChain (DRINK)"
+  },
+  {
+    "Symbol": "SNL",
+    "CoinName": "Sport and Leisure",
+    "FullName": "Sport and Leisure (SNL)"
+  },
+  {
+    "Symbol": "EOSC",
+    "CoinName": "EOSForce",
+    "FullName": "EOSForce (EOSC)"
+  },
+  {
+    "Symbol": "GLOS",
+    "CoinName": "GLOS",
+    "FullName": "GLOS (GLOS)"
+  },
+  {
+    "Symbol": "SEA",
+    "CoinName": "Second Exchange Alliance",
+    "FullName": "Second Exchange Alliance (SEA)"
+  },
+  {
+    "Symbol": "CBE",
+    "CoinName": "The Chain of Business Entertainment",
+    "FullName": "The Chain of Business Entertainment (CBE)"
+  },
+  {
+    "Symbol": "KLAY",
+    "CoinName": "Klaytn",
+    "FullName": "Klaytn (KLAY)"
+  },
+  {
+    "Symbol": "DZCC",
+    "CoinName": "DZCC",
+    "FullName": "DZCC (DZCC)"
+  },
+  {
+    "Symbol": "TRCB",
+    "CoinName": "TRCB Chain",
+    "FullName": "TRCB Chain (TRCB)"
+  },
+  {
+    "Symbol": "TROY",
+    "CoinName": "Troy",
+    "FullName": "Troy (TROY)"
+  },
+  {
+    "Symbol": "MPL",
+    "CoinName": "M+Plus",
+    "FullName": "M+Plus (MPL)"
+  },
+  {
+    "Symbol": "UIN",
+    "CoinName": "Alliance Chain",
+    "FullName": "Alliance Chain (UIN)"
+  },
+  {
+    "Symbol": "XFC",
+    "CoinName": "Football Coin",
+    "FullName": "Football Coin (XFC)"
+  },
+  {
+    "Symbol": "WOW",
+    "CoinName": "Wownero",
+    "FullName": "Wownero (WOW)"
+  },
+  {
+    "Symbol": "USD-N",
+    "CoinName": "Neutrino",
+    "FullName": "Neutrino (USD-N)"
+  },
+  {
+    "Symbol": "ROAD",
+    "CoinName": "ROAD",
+    "FullName": "ROAD (ROAD)"
+  },
+  {
+    "Symbol": "BRZ",
+    "CoinName": "Brazilian Digital Token",
+    "FullName": "Brazilian Digital Token (BRZ)"
+  },
+  {
+    "Symbol": "GKI",
+    "CoinName": "GKi",
+    "FullName": "GKi (GKI)"
+  },
+  {
+    "Symbol": "FBN",
+    "CoinName": "Five balance",
+    "FullName": "Five balance (FBN)"
+  },
+  {
+    "Symbol": "EVY",
+    "CoinName": "EveryCoin",
+    "FullName": "EveryCoin (EVY)"
+  },
+  {
+    "Symbol": "PTN",
+    "CoinName": "PalletOneToken",
+    "FullName": "PalletOneToken (PTN)"
+  },
+  {
+    "Symbol": "KSM",
+    "CoinName": "Kusama",
+    "FullName": "Kusama (KSM)"
+  },
+  {
+    "Symbol": "TDE",
+    "CoinName": "Trade Ecology Token",
+    "FullName": "Trade Ecology Token (TDE)"
+  },
+  {
+    "Symbol": "ECP",
+    "CoinName": "ECP+ Technology",
+    "FullName": "ECP+ Technology (ECP)"
+  },
+  {
+    "Symbol": "XBG",
+    "CoinName": "BitGrin",
+    "FullName": "BitGrin (XBG)"
+  },
+  {
+    "Symbol": "PP",
+    "CoinName": "ProducePay Chain",
+    "FullName": "ProducePay Chain (PP)"
+  },
+  {
+    "Symbol": "CNTM",
+    "CoinName": "Connectome",
+    "FullName": "Connectome (CNTM)"
+  },
+  {
+    "Symbol": "MINTME",
+    "CoinName": "MintMe.com Coin",
+    "FullName": "MintMe.com Coin (MINTME)"
+  },
+  {
+    "Symbol": "SCAP",
+    "CoinName": "SafeCapital",
+    "FullName": "SafeCapital (SCAP)"
+  },
+  {
+    "Symbol": "FN",
+    "CoinName": "Filenet",
+    "FullName": "Filenet (FN)"
+  },
+  {
+    "Symbol": "DYNMT",
+    "CoinName": "Dynamite",
+    "FullName": "Dynamite (DYNMT)"
+  },
+  {
+    "Symbol": "MDM",
+    "CoinName": "Medium",
+    "FullName": "Medium (MDM)"
+  },
+  {
+    "Symbol": "CCA",
+    "CoinName": "Counos Coin",
+    "FullName": "Counos Coin (CCA)"
+  },
+  {
+    "Symbol": "DFP",
+    "CoinName": "Digital Fund Coin",
+    "FullName": "Digital Fund Coin (DFP)"
+  },
+  {
+    "Symbol": "QTCON",
+    "CoinName": "Quiztok",
+    "FullName": "Quiztok (QTCON)"
+  },
+  {
+    "Symbol": "GTSE",
+    "CoinName": "Global Tourism Sharing Ecology",
+    "FullName": "Global Tourism Sharing Ecology (GTSE)"
+  },
+  {
+    "Symbol": "API",
+    "CoinName": "Application Programming Interface",
+    "FullName": "Application Programming Interface (API)"
+  },
+  {
+    "Symbol": "RES",
+    "CoinName": "Resistance",
+    "FullName": "Resistance (RES)"
+  },
+  {
+    "Symbol": "AMAL",
+    "CoinName": "AMAL",
+    "FullName": "AMAL (AMAL)"
+  },
+  {
+    "Symbol": "BIUT",
+    "CoinName": "Bit Trust System",
+    "FullName": "Bit Trust System (BIUT)"
+  },
+  {
+    "Symbol": "MLGC",
+    "CoinName": "Marshal Lion Group Coin",
+    "FullName": "Marshal Lion Group Coin (MLGC)"
+  },
+  {
+    "Symbol": "PSC",
+    "CoinName": "PSC Token",
+    "FullName": "PSC Token (PSC)"
+  },
+  {
+    "Symbol": "XDC",
+    "CoinName": "Xinfin Network",
+    "FullName": "Xinfin Network (XDC)"
+  },
+  {
+    "Symbol": "ALN",
+    "CoinName": "Aluna",
+    "FullName": "Aluna (ALN)"
+  },
+  {
+    "Symbol": "DMTC",
+    "CoinName": "Demeter Chain",
+    "FullName": "Demeter Chain (DMTC)"
+  },
+  {
+    "Symbol": "TFB",
+    "CoinName": "Truefeedback Token",
+    "FullName": "Truefeedback Token (TFB)"
+  },
+  {
+    "Symbol": "DAMO",
+    "CoinName": "Coinzen",
+    "FullName": "Coinzen (DAMO)"
+  },
+  {
+    "Symbol": "XSPC",
+    "CoinName": "SpectreSecurityCoin",
+    "FullName": "SpectreSecurityCoin (XSPC)"
+  },
+  {
+    "Symbol": "OXT",
+    "CoinName": "Orchid Protocol",
+    "FullName": "Orchid Protocol (OXT)"
+  },
+  {
+    "Symbol": "USDG",
+    "CoinName": "USDG",
+    "FullName": "USDG (USDG)"
+  },
+  {
+    "Symbol": "MAP",
+    "CoinName": "Marcopolo",
+    "FullName": "Marcopolo (MAP)"
+  },
+  {
+    "Symbol": "LVIP",
+    "CoinName": "Limitless VIP",
+    "FullName": "Limitless VIP (LVIP)"
+  },
+  {
+    "Symbol": "BOA",
+    "CoinName": "BOSAGORA",
+    "FullName": "BOSAGORA (BOA)"
+  },
+  {
+    "Symbol": "PLF",
+    "CoinName": "PlayFuel",
+    "FullName": "PlayFuel (PLF)"
+  },
+  {
+    "Symbol": "CHARS",
+    "CoinName": "CHARS",
+    "FullName": "CHARS (CHARS)"
+  },
+  {
+    "Symbol": "TYT",
+    "CoinName": "Tianya Token",
+    "FullName": "Tianya Token (TYT)"
+  },
+  {
+    "Symbol": "NVL",
+    "CoinName": "Nevula",
+    "FullName": "Nevula (NVL)"
+  },
+  {
+    "Symbol": "DAI",
+    "CoinName": "Multi Collateral Dai",
+    "FullName": "Multi Collateral Dai (DAI)"
+  },
+  {
+    "Symbol": "WBTC",
+    "CoinName": "Wrapped Bitcoin",
+    "FullName": "Wrapped Bitcoin (WBTC)"
+  },
+  {
+    "Symbol": "FCQ",
+    "CoinName": "Fortem Capital",
+    "FullName": "Fortem Capital (FCQ)"
+  },
+  {
+    "Symbol": "BTCK",
+    "CoinName": "Bitcoin Turbo Koin",
+    "FullName": "Bitcoin Turbo Koin (BTCK)"
+  },
+  {
+    "Symbol": "DAVP",
+    "CoinName": "Davion",
+    "FullName": "Davion (DAVP)"
+  },
+  {
+    "Symbol": "XTPL",
+    "CoinName": "TrustPlus",
+    "FullName": "TrustPlus (XTPL)"
+  },
+  {
+    "Symbol": "WABI",
+    "CoinName": "Tael",
+    "FullName": "Tael (WABI)"
+  },
+  {
+    "Symbol": "ZYN",
+    "CoinName": "Zynecoin",
+    "FullName": "Zynecoin (ZYN)"
+  },
+  {
+    "Symbol": "CUSDC",
+    "CoinName": "Compound USD Coin",
+    "FullName": "Compound USD Coin (CUSDC)"
+  },
+  {
+    "Symbol": "CSAI",
+    "CoinName": "Compound SAI",
+    "FullName": "Compound SAI (CSAI)"
+  },
+  {
+    "Symbol": "CWBTC",
+    "CoinName": "Compound Wrapped BTC",
+    "FullName": "Compound Wrapped BTC (CWBTC)"
+  },
+  {
+    "Symbol": "OGN",
+    "CoinName": "Origin Protocol",
+    "FullName": "Origin Protocol (OGN)"
+  },
+  {
+    "Symbol": "TLOS",
+    "CoinName": "Telos",
+    "FullName": "Telos (TLOS)"
+  },
+  {
+    "Symbol": "HNC",
+    "CoinName": "Hellenic Coin",
+    "FullName": "Hellenic Coin (HNC)"
+  },
+  {
+    "Symbol": "BEPRO",
+    "CoinName": "BetProtocol",
+    "FullName": "BetProtocol (BEPRO)"
+  },
+  {
+    "Symbol": "BTW",
+    "CoinName": "BitWhite",
+    "FullName": "BitWhite (BTW)"
+  },
+  {
+    "Symbol": "FOTA",
+    "CoinName": "Fortuna",
+    "FullName": "Fortuna (FOTA)"
+  },
+  {
+    "Symbol": "DDD",
+    "CoinName": "Scry.info",
+    "FullName": "Scry.info (DDD)"
+  },
+  {
+    "Symbol": "CRDTS",
+    "CoinName": "Credits",
+    "FullName": "Credits (CRDTS)"
+  },
+  {
+    "Symbol": "MOAC",
+    "CoinName": "MOAC",
+    "FullName": "MOAC (MOAC)"
+  },
+  {
+    "Symbol": "CETH",
+    "CoinName": "Compound Ethereum",
+    "FullName": "Compound Ethereum (CETH)"
+  },
+  {
+    "Symbol": "CZRX",
+    "CoinName": "Compound 0x",
+    "FullName": "Compound 0x (CZRX)"
+  },
+  {
+    "Symbol": "CBAT",
+    "CoinName": "Compound Basic Attention Token",
+    "FullName": "Compound Basic Attention Token (CBAT)"
+  },
+  {
+    "Symbol": "CDAI",
+    "CoinName": "Compound Dai",
+    "FullName": "Compound Dai (CDAI)"
+  },
+  {
+    "Symbol": "CREP",
+    "CoinName": "Compound Augur",
+    "FullName": "Compound Augur (CREP)"
+  },
+  {
+    "Symbol": "EXMR",
+    "CoinName": "EXMR FDN",
+    "FullName": "EXMR FDN (EXMR)"
+  },
+  {
+    "Symbol": "SXDT",
+    "CoinName": "SPECTRE Dividend Token",
+    "FullName": "SPECTRE Dividend Token (SXDT)"
+  },
+  {
+    "Symbol": "SXUT",
+    "CoinName": "SPECTRE Utility Token",
+    "FullName": "SPECTRE Utility Token (SXUT)"
+  },
+  {
+    "Symbol": "LDC",
+    "CoinName": "LeadCoin",
+    "FullName": "LeadCoin (LDC)"
+  },
+  {
+    "Symbol": "NSR",
+    "CoinName": "NuShares",
+    "FullName": "NuShares (NSR)"
+  },
+  {
+    "Symbol": "RUFF",
+    "CoinName": "Ruff",
+    "FullName": "Ruff (RUFF)"
+  },
+  {
+    "Symbol": "RCT",
+    "CoinName": "RealChain",
+    "FullName": "RealChain (RCT)"
+  },
+  {
+    "Symbol": "XTP",
+    "CoinName": "Tap",
+    "FullName": "Tap (XTP)"
+  },
+  {
+    "Symbol": "TRB",
+    "CoinName": "Tellor",
+    "FullName": "Tellor (TRB)"
+  },
+  {
+    "Symbol": "LHC",
+    "CoinName": "LHCoin",
+    "FullName": "LHCoin (LHC)"
+  },
+  {
+    "Symbol": "XDP",
+    "CoinName": "DogeParty",
+    "FullName": "DogeParty (XDP)"
+  },
+  {
+    "Symbol": "USX",
+    "CoinName": "Unified Society USDEX",
+    "FullName": "Unified Society USDEX (USX)"
+  },
+  {
+    "Symbol": "EVC",
+    "CoinName": "Eventchain",
+    "FullName": "Eventchain (EVC)"
+  },
+  {
+    "Symbol": "HT",
+    "CoinName": "Huobi Token",
+    "FullName": "Huobi Token (HT)"
+  },
+  {
+    "Symbol": "CRW",
+    "CoinName": "Crown Coin",
+    "FullName": "Crown Coin (CRW)"
+  },
+  {
+    "Symbol": "GEN",
+    "CoinName": "Genstake",
+    "FullName": "Genstake (GEN)"
+  },
+  {
+    "Symbol": "MNV",
+    "CoinName": "MonetaVerde",
+    "FullName": "MonetaVerde (MNV)"
+  },
+  {
+    "Symbol": "BTA",
+    "CoinName": "Bata",
+    "FullName": "Bata (BTA)"
+  },
+  {
+    "Symbol": "EXM",
+    "CoinName": "EXMO Coin",
+    "FullName": "EXMO Coin (EXM)"
+  },
+  {
+    "Symbol": "BUY",
+    "CoinName": "Buying.com",
+    "FullName": "Buying.com (BUY)"
+  },
+  {
+    "Symbol": "YACHTCO",
+    "CoinName": "Yachtco",
+    "FullName": "Yachtco (YACHTCO)"
+  },
+  {
+    "Symbol": "CRU",
+    "CoinName": "Curium",
+    "FullName": "Curium (CRU)"
+  },
+  {
+    "Symbol": "QKC",
+    "CoinName": "QuarkChain",
+    "FullName": "QuarkChain (QKC)"
+  },
+  {
+    "Symbol": "UBQ",
+    "CoinName": "Ubiq",
+    "FullName": "Ubiq (UBQ)"
+  },
+  {
+    "Symbol": "XCP",
+    "CoinName": "CounterParty",
+    "FullName": "CounterParty (XCP)"
+  },
+  {
+    "Symbol": "MAN",
+    "CoinName": "People",
+    "FullName": "People (MAN)"
+  },
+  {
+    "Symbol": "ELA",
+    "CoinName": "Elastos",
+    "FullName": "Elastos (ELA)"
+  },
+  {
+    "Symbol": "SHIFT",
+    "CoinName": "Shift",
+    "FullName": "Shift (SHIFT)"
+  },
+  {
+    "Symbol": "DGB",
+    "CoinName": "DigiByte",
+    "FullName": "DigiByte (DGB)"
+  },
+  {
+    "Symbol": "VET",
+    "CoinName": "VeChain",
+    "FullName": "VeChain (VET)"
+  },
+  {
+    "Symbol": "SVD",
+    "CoinName": "savedroid",
+    "FullName": "savedroid (SVD)"
+  },
+  {
+    "Symbol": "VEN",
+    "CoinName": "VeChain Old",
+    "FullName": "VeChain Old (VEN)"
+  },
+  {
+    "Symbol": "RFR",
+    "CoinName": "Refereum",
+    "FullName": "Refereum (RFR)"
+  },
+  {
+    "Symbol": "XYO",
+    "CoinName": "XY Oracle",
+    "FullName": "XY Oracle (XYO)"
+  },
+  {
+    "Symbol": "CEDEX",
+    "CoinName": "CEDEX Coin",
+    "FullName": "CEDEX Coin (CEDEX)"
+  },
+  {
+    "Symbol": "CUT",
+    "CoinName": "CUTcoin",
+    "FullName": "CUTcoin (CUT)"
+  },
+  {
+    "Symbol": "PYN",
+    "CoinName": "Paycent",
+    "FullName": "Paycent (PYN)"
+  },
+  {
+    "Symbol": "BSOV",
+    "CoinName": "BitcoinSoV",
+    "FullName": "BitcoinSoV (BSOV)"
+  },
+  {
+    "Symbol": "DGLD",
+    "CoinName": "Digital Gold",
+    "FullName": "Digital Gold (DGLD)"
+  },
+  {
+    "Symbol": "PIZZA",
+    "CoinName": "PizzaCoin",
+    "FullName": "PizzaCoin (PIZZA)"
+  },
+  {
+    "Symbol": "WARP",
+    "CoinName": "WarpCoin",
+    "FullName": "WarpCoin (WARP)"
+  },
+  {
+    "Symbol": "MUDRA",
+    "CoinName": "MudraCoin",
+    "FullName": "MudraCoin (MUDRA)"
+  },
+  {
+    "Symbol": "STCN",
+    "CoinName": "Stakecoin",
+    "FullName": "Stakecoin (STCN)"
+  },
+  {
+    "Symbol": "ELI",
+    "CoinName": "GoCrypto",
+    "FullName": "GoCrypto (ELI)"
+  },
+  {
+    "Symbol": "FRAZ",
+    "CoinName": "FrazCoin",
+    "FullName": "FrazCoin (FRAZ)"
+  },
+  {
+    "Symbol": "LINX",
+    "CoinName": "Linx",
+    "FullName": "Linx (LINX)"
+  },
+  {
+    "Symbol": "XCXT",
+    "CoinName": "CoinonatX",
+    "FullName": "CoinonatX (XCXT)"
+  },
+  {
+    "Symbol": "BRK",
+    "CoinName": "BreakoutCoin",
+    "FullName": "BreakoutCoin (BRK)"
+  },
+  {
+    "Symbol": "RUSTBITS",
+    "CoinName": "Rustbits",
+    "FullName": "Rustbits (RUSTBITS)"
+  },
+  {
+    "Symbol": "SUMO",
+    "CoinName": "Sumokoin",
+    "FullName": "Sumokoin (SUMO)"
+  },
+  {
+    "Symbol": "OMNI",
+    "CoinName": "Omni",
+    "FullName": "Omni (OMNI)"
+  },
+  {
+    "Symbol": "ADS",
+    "CoinName": "Adshares",
+    "FullName": "Adshares (ADS)"
+  },
+  {
+    "Symbol": "CBFT",
+    "CoinName": "CoinBene Future Token",
+    "FullName": "CoinBene Future Token (CBFT)"
+  },
+  {
+    "Symbol": "GRIN",
+    "CoinName": "Grin",
+    "FullName": "Grin (GRIN)"
+  },
+  {
+    "Symbol": "RISE",
+    "CoinName": "Rise",
+    "FullName": "Rise (RISE)"
+  },
+  {
+    "Symbol": "XWC",
+    "CoinName": "WhiteCoin",
+    "FullName": "WhiteCoin (XWC)"
+  },
+  {
+    "Symbol": "ACT",
+    "CoinName": "ACT",
+    "FullName": "ACT (ACT)"
+  },
+  {
+    "Symbol": "BCN",
+    "CoinName": "ByteCoin",
+    "FullName": "ByteCoin (BCN)"
+  },
+  {
+    "Symbol": "SC",
+    "CoinName": "Siacoin",
+    "FullName": "Siacoin (SC)"
+  },
+  {
+    "Symbol": "XBY",
+    "CoinName": "XTRABYTES",
+    "FullName": "XTRABYTES (XBY)"
+  },
+  {
+    "Symbol": "ZIL",
+    "CoinName": "Zilliqa",
+    "FullName": "Zilliqa (ZIL)"
+  },
+  {
+    "Symbol": "OMG",
+    "CoinName": "OmiseGo",
+    "FullName": "OmiseGo (OMG)"
+  },
+  {
+    "Symbol": "HOT",
+    "CoinName": "Hydro Protocol",
+    "FullName": "Hydro Protocol (HOT)"
+  },
+  {
+    "Symbol": "CLUD",
+    "CoinName": "CludCoin",
+    "FullName": "CludCoin (CLUD)"
+  },
+  {
+    "Symbol": "ODN",
+    "CoinName": "Obsidian",
+    "FullName": "Obsidian (ODN)"
+  },
+  {
+    "Symbol": "HXT",
+    "CoinName": "HextraCoin",
+    "FullName": "HextraCoin (HXT)"
+  },
+  {
+    "Symbol": "NTM",
+    "CoinName": "NetM",
+    "FullName": "NetM (NTM)"
+  },
+  {
+    "Symbol": "ATCC",
+    "CoinName": "ATC Coin",
+    "FullName": "ATC Coin (ATCC)"
+  },
+  {
+    "Symbol": "MITH",
+    "CoinName": "Mithril",
+    "FullName": "Mithril (MITH)"
+  },
+  {
+    "Symbol": "XCS",
+    "CoinName": "CybCSec Coin",
+    "FullName": "CybCSec Coin (XCS)"
+  },
+  {
+    "Symbol": "PHX",
+    "CoinName": "Red Pulse Phoenix",
+    "FullName": "Red Pulse Phoenix (PHX)"
+  },
+  {
+    "Symbol": "PLMT",
+    "CoinName": "Pallium",
+    "FullName": "Pallium (PLMT)"
+  },
+  {
+    "Symbol": "RNTB",
+    "CoinName": "BitRent",
+    "FullName": "BitRent (RNTB)"
+  },
+  {
+    "Symbol": "TDZ",
+    "CoinName": "Tradelize",
+    "FullName": "Tradelize (TDZ)"
+  },
+  {
+    "Symbol": "PAVO",
+    "CoinName": "Pavocoin",
+    "FullName": "Pavocoin (PAVO)"
+  },
+  {
+    "Symbol": "LDN",
+    "CoinName": "Lydiancoin",
+    "FullName": "Lydiancoin (LDN)"
+  },
+  {
+    "Symbol": "BUBO",
+    "CoinName": "Budbo",
+    "FullName": "Budbo (BUBO)"
+  },
+  {
+    "Symbol": "USOAMIC",
+    "CoinName": "USOAMIC",
+    "FullName": "USOAMIC (USOAMIC)"
+  },
+  {
+    "Symbol": "FLUZ",
+    "CoinName": "FluzFluz",
+    "FullName": "FluzFluz (FLUZ)"
+  },
+  {
+    "Symbol": "IPSX",
+    "CoinName": "IP Exchange",
+    "FullName": "IP Exchange (IPSX)"
+  },
+  {
+    "Symbol": "MIO",
+    "CoinName": "Miner One token",
+    "FullName": "Miner One token (MIO)"
+  },
+  {
+    "Symbol": "AIC",
+    "CoinName": "AI Crypto",
+    "FullName": "AI Crypto (AIC)"
+  },
+  {
+    "Symbol": "WAXP",
+    "CoinName": "Worldwide Asset eXchange",
+    "FullName": "Worldwide Asset eXchange (WAXP)"
+  },
+  {
+    "Symbol": "TRUE",
+    "CoinName": "True Chain",
+    "FullName": "True Chain (TRUE)"
+  },
+  {
+    "Symbol": "REE",
+    "CoinName": "ReeCoin",
+    "FullName": "ReeCoin (REE)"
+  },
+  {
+    "Symbol": "WOMEN",
+    "CoinName": "WomenCoin",
+    "FullName": "WomenCoin (WOMEN)"
+  },
+  {
+    "Symbol": "LION",
+    "CoinName": "CoinLion",
+    "FullName": "CoinLion (LION)"
+  },
+  {
+    "Symbol": "MAY",
+    "CoinName": "Theresa May Coin",
+    "FullName": "Theresa May Coin (MAY)"
+  },
+  {
+    "Symbol": "MASP",
+    "CoinName": "Market.space",
+    "FullName": "Market.space (MASP)"
+  },
+  {
+    "Symbol": "XTL",
+    "CoinName": "Stellite",
+    "FullName": "Stellite (XTL)"
+  },
+  {
+    "Symbol": "PIRL",
+    "CoinName": "Pirl",
+    "FullName": "Pirl (PIRL)"
+  },
+  {
+    "Symbol": "UCN",
+    "CoinName": "UC Coin",
+    "FullName": "UC Coin (UCN)"
+  },
+  {
+    "Symbol": "XIOS",
+    "CoinName": "Xios",
+    "FullName": "Xios (XIOS)"
+  },
+  {
+    "Symbol": "HUR",
+    "CoinName": "Hurify",
+    "FullName": "Hurify (HUR)"
+  },
+  {
+    "Symbol": "CMCT",
+    "CoinName": "Crowd Machine",
+    "FullName": "Crowd Machine (CMCT)"
+  },
+  {
+    "Symbol": "CMTC",
+    "CoinName": "CometCoin",
+    "FullName": "CometCoin (CMTC)"
+  },
+  {
+    "Symbol": "LATX",
+    "CoinName": "LatiumX",
+    "FullName": "LatiumX (LATX)"
+  },
+  {
+    "Symbol": "PDC",
+    "CoinName": "Project Decorum",
+    "FullName": "Project Decorum (PDC)"
+  },
+  {
+    "Symbol": "HOLD",
+    "CoinName": "HOLD",
+    "FullName": "HOLD (HOLD)"
+  },
+  {
+    "Symbol": "EZT",
+    "CoinName": "EZToken",
+    "FullName": "EZToken (EZT)"
+  },
+  {
+    "Symbol": "LTBX",
+    "CoinName": "Litbinex Coin",
+    "FullName": "Litbinex Coin (LTBX)"
+  },
+  {
+    "Symbol": "SOL",
+    "CoinName": "Sola",
+    "FullName": "Sola (SOL)"
+  },
+  {
+    "Symbol": "VIC",
+    "CoinName": "Victorium",
+    "FullName": "Victorium (VIC)"
+  },
+  {
+    "Symbol": "NFN",
+    "CoinName": "Nafen",
+    "FullName": "Nafen (NFN)"
+  },
+  {
+    "Symbol": "VLD",
+    "CoinName": "Valid",
+    "FullName": "Valid (VLD)"
+  },
+  {
+    "Symbol": "GSI",
+    "CoinName": "Globex SCI",
+    "FullName": "Globex SCI (GSI)"
+  },
+  {
+    "Symbol": "YOVI",
+    "CoinName": "YobitVirtualCoin",
+    "FullName": "YobitVirtualCoin (YOVI)"
+  },
+  {
+    "Symbol": "VIP",
+    "CoinName": "VIP Tokens",
+    "FullName": "VIP Tokens (VIP)"
+  },
+  {
+    "Symbol": "PBC",
+    "CoinName": "PabyosiCoin",
+    "FullName": "PabyosiCoin (PBC)"
+  },
+  {
+    "Symbol": "KEK",
+    "CoinName": "KekCoin",
+    "FullName": "KekCoin (KEK)"
+  },
+  {
+    "Symbol": "REV",
+    "CoinName": "Revenu",
+    "FullName": "Revenu (REV)"
+  },
+  {
+    "Symbol": "FLVR",
+    "CoinName": "FlavorCoin",
+    "FullName": "FlavorCoin (FLVR)"
+  },
+  {
+    "Symbol": "ALTCOM",
+    "CoinName": "AltCommunity Coin",
+    "FullName": "AltCommunity Coin (ALTCOM)"
+  },
+  {
+    "Symbol": "DEUR",
+    "CoinName": "DigiEuro",
+    "FullName": "DigiEuro (DEUR)"
+  },
+  {
+    "Symbol": "PURA",
+    "CoinName": "Pura",
+    "FullName": "Pura (PURA)"
+  },
+  {
+    "Symbol": "ELLA",
+    "CoinName": "Ellaism",
+    "FullName": "Ellaism (ELLA)"
+  },
+  {
+    "Symbol": "FLY",
+    "CoinName": "FlyCoin",
+    "FullName": "FlyCoin (FLY)"
+  },
+  {
+    "Symbol": "SAFEX",
+    "CoinName": "SafeExchangeCoin",
+    "FullName": "SafeExchangeCoin (SAFEX)"
+  },
+  {
+    "Symbol": "REDI",
+    "CoinName": "REDi",
+    "FullName": "REDi (REDi)"
+  },
+  {
+    "Symbol": "MNX",
+    "CoinName": "MinexCoin",
+    "FullName": "MinexCoin (MNX)"
+  },
+  {
+    "Symbol": "BEAR",
+    "CoinName": "3X Short Bitcoin",
+    "FullName": "3X Short Bitcoin (BEAR)"
+  },
+  {
+    "Symbol": "ZEL",
+    "CoinName": "Zelcash",
+    "FullName": "Zelcash (ZEL)"
+  },
+  {
+    "Symbol": "BKC",
+    "CoinName": "Balkancoin",
+    "FullName": "Balkancoin (BKC)"
+  },
+  {
+    "Symbol": "BITG",
+    "CoinName": "Bitcoin Green",
+    "FullName": "Bitcoin Green (BITG)"
+  },
+  {
+    "Symbol": "DEV",
+    "CoinName": "Deviant Coin",
+    "FullName": "Deviant Coin (DEV)"
+  },
+  {
+    "Symbol": "CHT",
+    "CoinName": "Countinghouse Fund",
+    "FullName": "Countinghouse Fund (CHT)"
+  },
+  {
+    "Symbol": "FTW",
+    "CoinName": "FutureWorks",
+    "FullName": "FutureWorks (FTW)"
+  },
+  {
+    "Symbol": "ARTE",
+    "CoinName": "Artemine",
+    "FullName": "Artemine (ARTE)"
+  },
+  {
+    "Symbol": "PHC",
+    "CoinName": "Profit Hunters Coin",
+    "FullName": "Profit Hunters Coin (PHC)"
+  },
+  {
+    "Symbol": "ETHM",
+    "CoinName": "Ethereum Meta",
+    "FullName": "Ethereum Meta (ETHM)"
+  },
+  {
+    "Symbol": "UBC",
+    "CoinName": "Ubcoin",
+    "FullName": "Ubcoin (UBC)"
+  },
+  {
+    "Symbol": "SENC",
+    "CoinName": "Sentinel Chain",
+    "FullName": "Sentinel Chain (SENC)"
+  },
+  {
+    "Symbol": "PAT",
+    "CoinName": "PATRON",
+    "FullName": "PATRON (PAT)"
+  },
+  {
+    "Symbol": "LIGER",
+    "CoinName": "Ligercoin",
+    "FullName": "Ligercoin (LIGER)"
+  },
+  {
+    "Symbol": "CHFN",
+    "CoinName": "NOKU CHF",
+    "FullName": "NOKU CHF (CHFN)"
+  },
+  {
+    "Symbol": "LEU",
+    "CoinName": "CryptoLEU",
+    "FullName": "CryptoLEU (LEU)"
+  },
+  {
+    "Symbol": "SWC",
+    "CoinName": "Scanetchain Token",
+    "FullName": "Scanetchain Token (SWC)"
+  },
+  {
+    "Symbol": "SEM",
+    "CoinName": "Semux",
+    "FullName": "Semux (SEM)"
+  },
+  {
+    "Symbol": "ROOBEE",
+    "CoinName": "ROOBEE",
+    "FullName": "ROOBEE (ROOBEE)"
+  },
+  {
+    "Symbol": "BBK",
+    "CoinName": "BitBlocks",
+    "FullName": "BitBlocks (BBK)"
+  },
+  {
+    "Symbol": "NCT",
+    "CoinName": "PolySwarm",
+    "FullName": "PolySwarm (NCT)"
+  },
+  {
+    "Symbol": "UUU",
+    "CoinName": "U Network",
+    "FullName": "U Network (UUU)"
+  },
+  {
+    "Symbol": "XHV",
+    "CoinName": "Haven Protocol",
+    "FullName": "Haven Protocol (XHV)"
+  },
+  {
+    "Symbol": "EQC",
+    "CoinName": "Ethereum Qchain Token",
+    "FullName": "Ethereum Qchain Token (EQC)"
+  },
+  {
+    "Symbol": "ADH",
+    "CoinName": "Adhive",
+    "FullName": "Adhive (ADH)"
+  },
+  {
+    "Symbol": "XIN",
+    "CoinName": "Infinity Economics",
+    "FullName": "Infinity Economics (XIN)"
+  },
+  {
+    "Symbol": "NLG",
+    "CoinName": "Gulden",
+    "FullName": "Gulden (NLG)"
+  },
+  {
+    "Symbol": "BTCP",
+    "CoinName": "Bitcoin Private",
+    "FullName": "Bitcoin Private (BTCP)"
+  },
+  {
+    "Symbol": "EMC2",
+    "CoinName": "Einsteinium",
+    "FullName": "Einsteinium (EMC2)"
+  },
+  {
+    "Symbol": "BTG",
+    "CoinName": "Bitcoin Gold",
+    "FullName": "Bitcoin Gold (BTG)"
+  },
+  {
+    "Symbol": "XDN",
+    "CoinName": "DigitalNote ",
+    "FullName": "DigitalNote  (XDN)"
+  },
+  {
+    "Symbol": "VIA",
+    "CoinName": "ViaCoin",
+    "FullName": "ViaCoin (VIA)"
+  },
+  {
+    "Symbol": "NXS",
+    "CoinName": "Nexus",
+    "FullName": "Nexus (NXS)"
+  },
+  {
+    "Symbol": "AEON",
+    "CoinName": "AEON",
+    "FullName": "AEON (AEON)"
+  },
+  {
+    "Symbol": "AION",
+    "CoinName": "Aion",
+    "FullName": "Aion (AION)"
+  },
+  {
+    "Symbol": "BTM",
+    "CoinName": "Bytom",
+    "FullName": "Bytom (BTM)"
+  },
+  {
+    "Symbol": "STRAT",
+    "CoinName": "Stratis",
+    "FullName": "Stratis (STRAT)"
+  },
+  {
+    "Symbol": "BLOCK",
+    "CoinName": "BlockNet",
+    "FullName": "BlockNet (BLOCK)"
+  },
+  {
+    "Symbol": "NEBL",
+    "CoinName": "Neblio",
+    "FullName": "Neblio (NEBL)"
+  },
+  {
+    "Symbol": "ZEN",
+    "CoinName": "Horizen",
+    "FullName": "Horizen (ZEN)"
+  },
+  {
+    "Symbol": "GO",
+    "CoinName": "GoChain",
+    "FullName": "GoChain (GO)"
+  },
+  {
+    "Symbol": "HEXC",
+    "CoinName": "HexCoin",
+    "FullName": "HexCoin (HEXC)"
+  },
+  {
+    "Symbol": "HEX",
+    "CoinName": "HEX",
+    "FullName": "HEX (HEX)"
+  },
+  {
+    "Symbol": "CYBER",
+    "CoinName": "CyberWay",
+    "FullName": "CyberWay (CYBER)"
+  },
+  {
+    "Symbol": "NRV",
+    "CoinName": "NERVE",
+    "FullName": "NERVE (NRV)"
+  },
+  {
+    "Symbol": "RKN",
+    "CoinName": "RAKON",
+    "FullName": "RAKON (RKN)"
+  },
+  {
+    "Symbol": "KOK",
+    "CoinName": "KOK Coin",
+    "FullName": "KOK Coin (KOK)"
+  },
+  {
+    "Symbol": "KSH",
+    "CoinName": "Kahsh",
+    "FullName": "Kahsh (KSH)"
+  },
+  {
+    "Symbol": "HTDF",
+    "CoinName": "Orient Walt",
+    "FullName": "Orient Walt (HTDF)"
+  },
+  {
+    "Symbol": "EGGC",
+    "CoinName": "EggCoin",
+    "FullName": "EggCoin (EGGC)"
+  },
+  {
+    "Symbol": "EGG",
+    "CoinName": "Nestree",
+    "FullName": "Nestree (EGG)"
+  },
+  {
+    "Symbol": "KRT",
+    "CoinName": "TerraKRW",
+    "FullName": "TerraKRW (KRT)"
+  },
+  {
+    "Symbol": "N8V",
+    "CoinName": "NativeCoin",
+    "FullName": "NativeCoin (N8V)"
+  },
+  {
+    "Symbol": "EBK",
+    "CoinName": "Ebakus",
+    "FullName": "Ebakus (EBK)"
+  },
+  {
+    "Symbol": "PEG",
+    "CoinName": "PegNet",
+    "FullName": "PegNet (PEG)"
+  },
+  {
+    "Symbol": "ERK",
+    "CoinName": "Eureka Coin",
+    "FullName": "Eureka Coin (ERK)"
+  },
+  {
+    "Symbol": "JWL",
+    "CoinName": "Jewels",
+    "FullName": "Jewels (JWL)"
+  },
+  {
+    "Symbol": "ICX",
+    "CoinName": "ICON Project",
+    "FullName": "ICON Project (ICX)"
+  },
+  {
+    "Symbol": "BNP",
+    "CoinName": "BenePit",
+    "FullName": "BenePit (BNP)"
+  },
+  {
+    "Symbol": "TUDA",
+    "CoinName": "Tutor's Diary",
+    "FullName": "Tutor's Diary (TUDA)"
+  },
+  {
+    "Symbol": "FLAS",
+    "CoinName": "Flas Exchange Token",
+    "FullName": "Flas Exchange Token (FLAS)"
+  },
+  {
+    "Symbol": "FIELD",
+    "CoinName": "Fieldcoin",
+    "FullName": "Fieldcoin (FIELD)"
+  },
+  {
+    "Symbol": "UNTD",
+    "CoinName": "YOUnited",
+    "FullName": "YOUnited (UNTD)"
+  },
+  {
+    "Symbol": "TCST",
+    "CoinName": "TCST Coin",
+    "FullName": "TCST Coin (TCST)"
+  },
+  {
+    "Symbol": "TREEC",
+    "CoinName": "TreeCoin",
+    "FullName": "TreeCoin (TREEC)"
+  },
+  {
+    "Symbol": "GEC",
+    "CoinName": "Geco.one",
+    "FullName": "Geco.one (GEC)"
+  },
+  {
+    "Symbol": "ENCN",
+    "CoinName": "EndChain",
+    "FullName": "EndChain (ENCN)"
+  },
+  {
+    "Symbol": "LUT",
+    "CoinName": "Cinemadrom",
+    "FullName": "Cinemadrom (LUT)"
+  },
+  {
+    "Symbol": "APM",
+    "CoinName": "apM Coin",
+    "FullName": "apM Coin (APM)"
+  },
+  {
+    "Symbol": "IDRT",
+    "CoinName": "Rupiah Token",
+    "FullName": "Rupiah Token (IDRT)"
+  },
+  {
+    "Symbol": "BLTV",
+    "CoinName": "BLTV Token",
+    "FullName": "BLTV Token (BLTV)"
+  },
+  {
+    "Symbol": "APIX",
+    "CoinName": "APIX",
+    "FullName": "APIX (APIX)"
+  },
+  {
+    "Symbol": "RRB",
+    "CoinName": "Renrenbit",
+    "FullName": "Renrenbit (RRB)"
+  },
+  {
+    "Symbol": "MESH",
+    "CoinName": "MeshBox",
+    "FullName": "MeshBox (MESH)"
+  },
+  {
+    "Symbol": "MTCN",
+    "CoinName": "Multiven",
+    "FullName": "Multiven (MTCN)"
+  },
+  {
+    "Symbol": "ZUUM",
+    "CoinName": "Zuum",
+    "FullName": "Zuum (ZUUM)"
+  },
+  {
+    "Symbol": "CR",
+    "CoinName": "CryptoRiyal",
+    "FullName": "CryptoRiyal (CR)"
+  },
+  {
+    "Symbol": "ULED",
+    "CoinName": "Ledder",
+    "FullName": "Ledder (ULED)"
+  },
+  {
+    "Symbol": "BDLR",
+    "CoinName": "GOVEARN",
+    "FullName": "GOVEARN (BDLR)"
+  },
+  {
+    "Symbol": "ECA",
+    "CoinName": "Electra",
+    "FullName": "Electra (ECA)"
+  },
+  {
+    "Symbol": "KR",
+    "CoinName": "Krypton",
+    "FullName": "Krypton (KR)"
+  },
+  {
+    "Symbol": "BERN",
+    "CoinName": "BERNcash",
+    "FullName": "BERNcash (BERN)"
+  },
+  {
+    "Symbol": "SIB",
+    "CoinName": "SibCoin",
+    "FullName": "SibCoin (SIB)"
+  },
+  {
+    "Symbol": "BTC2",
+    "CoinName": "Bitcoin 2",
+    "FullName": "Bitcoin 2 (BTC2)"
+  },
+  {
+    "Symbol": "VALOR",
+    "CoinName": "Smart Valor",
+    "FullName": "Smart Valor (VALOR)"
+  },
+  {
+    "Symbol": "WIKI",
+    "CoinName": "Wiki Token",
+    "FullName": "Wiki Token (WIKI)"
+  },
+  {
+    "Symbol": "HINT",
+    "CoinName": "Hintchain",
+    "FullName": "Hintchain (HINT)"
+  },
+  {
+    "Symbol": "PCI",
+    "CoinName": "PayProtocol Paycoin",
+    "FullName": "PayProtocol Paycoin (PCI)"
+  },
+  {
+    "Symbol": "BNA",
+    "CoinName": "BananaTok",
+    "FullName": "BananaTok (BNA)"
+  },
+  {
+    "Symbol": "AXL",
+    "CoinName": "AXiaL",
+    "FullName": "AXiaL (AXL)"
+  },
+  {
+    "Symbol": "GOD",
+    "CoinName": "Bitcoin God",
+    "FullName": "Bitcoin God (GOD)"
+  },
+  {
+    "Symbol": "ALY",
+    "CoinName": "Ally",
+    "FullName": "Ally (ALY)"
+  },
+  {
+    "Symbol": "CODY",
+    "CoinName": "Coindy",
+    "FullName": "Coindy (CODY)"
+  },
+  {
+    "Symbol": "SPOK",
+    "CoinName": "Spock",
+    "FullName": "Spock (SPOK)"
+  },
+  {
+    "Symbol": "USDH",
+    "CoinName": "HonestCoin",
+    "FullName": "HonestCoin (USDH)"
+  },
+  {
+    "Symbol": "KDA",
+    "CoinName": "Kadena",
+    "FullName": "Kadena (KDA)"
+  },
+  {
+    "Symbol": "BKK",
+    "CoinName": "BKEX Token",
+    "FullName": "BKEX Token (BKK)"
+  },
+  {
+    "Symbol": "CET",
+    "CoinName": "CoinEx token",
+    "FullName": "CoinEx token (CET)"
+  },
+  {
+    "Symbol": "GARK",
+    "CoinName": "Game Ark",
+    "FullName": "Game Ark (GARK)"
+  },
+  {
+    "Symbol": "IDHUB",
+    "CoinName": "IDHUB",
+    "FullName": "IDHUB (IDHUB)"
+  },
+  {
+    "Symbol": "LM",
+    "CoinName": "LM Token",
+    "FullName": "LM Token (LM)"
+  },
+  {
+    "Symbol": "BIKI",
+    "CoinName": "BIKI",
+    "FullName": "BIKI (BIKI)"
+  },
+  {
+    "Symbol": "DLX",
+    "CoinName": "DAppLinks",
+    "FullName": "DAppLinks (DLX)"
+  },
+  {
+    "Symbol": "DALI",
+    "CoinName": "Dalichain",
+    "FullName": "Dalichain (DALI)"
+  },
+  {
+    "Symbol": "FLDT",
+    "CoinName": "FairyLand",
+    "FullName": "FairyLand (FLDT)"
+  },
+  {
+    "Symbol": "HUSD",
+    "CoinName": "HUSD",
+    "FullName": "HUSD (HUSD)"
+  },
+  {
+    "Symbol": "IOEX",
+    "CoinName": "ioeX",
+    "FullName": "ioeX (IOEX)"
+  },
+  {
+    "Symbol": "APC",
+    "CoinName": "AlpaCoin",
+    "FullName": "AlpaCoin (APC)"
+  },
+  {
+    "Symbol": "IPX",
+    "CoinName": "Tachyon Protocol",
+    "FullName": "Tachyon Protocol (IPX)"
+  },
+  {
+    "Symbol": "XDCE",
+    "CoinName": "XinFin Coin",
+    "FullName": "XinFin Coin (XDCE)"
+  },
+  {
+    "Symbol": "PART",
+    "CoinName": "Particl",
+    "FullName": "Particl (PART)"
+  },
+  {
+    "Symbol": "TCO",
+    "CoinName": "ThinkCoin",
+    "FullName": "ThinkCoin (TCO)"
+  },
+  {
+    "Symbol": "ETY",
+    "CoinName": "Ethereum Cloud",
+    "FullName": "Ethereum Cloud (ETY)"
+  },
+  {
+    "Symbol": "LBXC",
+    "CoinName": "LUX BIO EXCHANGE COIN",
+    "FullName": "LUX BIO EXCHANGE COIN (LBXC)"
+  },
+  {
+    "Symbol": "JOB",
+    "CoinName": "Jobchain",
+    "FullName": "Jobchain (JOB)"
+  },
+  {
+    "Symbol": "VEIL",
+    "CoinName": "VEIL",
+    "FullName": "VEIL (VEIL)"
+  },
+  {
+    "Symbol": "BTBL",
+    "CoinName": "Bitball",
+    "FullName": "Bitball (BTBL)"
+  },
+  {
+    "Symbol": "FTM",
+    "CoinName": "Fantom",
+    "FullName": "Fantom (FTM)"
+  },
+  {
+    "Symbol": "ATOM",
+    "CoinName": "Cosmos",
+    "FullName": "Cosmos (ATOM)"
+  },
+  {
+    "Symbol": "MEC",
+    "CoinName": "MegaCoin",
+    "FullName": "MegaCoin (MEC)"
+  },
+  {
+    "Symbol": "ETN",
+    "CoinName": "Electroneum",
+    "FullName": "Electroneum (ETN)"
+  },
+  {
+    "Symbol": "POT",
+    "CoinName": "PotCoin",
+    "FullName": "PotCoin (POT)"
+  },
+  {
+    "Symbol": "ATM",
+    "CoinName": "ATMChain",
+    "FullName": "ATMChain (ATM)"
+  },
+  {
+    "Symbol": "BCD",
+    "CoinName": "Bitcoin Diamond",
+    "FullName": "Bitcoin Diamond (BCD)"
+  },
+  {
+    "Symbol": "NMC",
+    "CoinName": "Namecoin",
+    "FullName": "Namecoin (NMC)"
+  },
+  {
+    "Symbol": "RDD",
+    "CoinName": "Reddcoin",
+    "FullName": "Reddcoin (RDD)"
+  },
+  {
+    "Symbol": "SYS",
+    "CoinName": "SysCoin",
+    "FullName": "SysCoin (SYS)"
+  },
+  {
+    "Symbol": "IOC",
+    "CoinName": "IOCoin",
+    "FullName": "IOCoin (IOC)"
+  },
+  {
+    "Symbol": "SMART",
+    "CoinName": "SmartCash",
+    "FullName": "SmartCash (SMART)"
+  },
+  {
+    "Symbol": "XZC",
+    "CoinName": "ZCoin",
+    "FullName": "ZCoin (XZC)"
+  },
+  {
+    "Symbol": "CLOAK",
+    "CoinName": "CloakCoin",
+    "FullName": "CloakCoin (CLOAK)"
+  },
+  {
+    "Symbol": "RVN",
+    "CoinName": "Ravencoin",
+    "FullName": "Ravencoin (RVN)"
+  },
+  {
+    "Symbol": "WAVES",
+    "CoinName": "Waves",
+    "FullName": "Waves (WAVES)"
+  },
+  {
+    "Symbol": "DOGE",
+    "CoinName": "Dogecoin",
+    "FullName": "Dogecoin (DOGE)"
+  },
+  {
+    "Symbol": "XVG",
+    "CoinName": "Verge",
+    "FullName": "Verge (XVG)"
+  },
+  {
+    "Symbol": "SKY",
+    "CoinName": "Skycoin",
+    "FullName": "Skycoin (SKY)"
+  },
+  {
+    "Symbol": "HPB",
+    "CoinName": "High Performance Blockchain",
+    "FullName": "High Performance Blockchain (HPB)"
+  },
+  {
+    "Symbol": "PPC",
+    "CoinName": "PeerCoin",
+    "FullName": "PeerCoin (PPC)"
+  },
+  {
+    "Symbol": "BURST",
+    "CoinName": "BurstCoin",
+    "FullName": "BurstCoin (BURST)"
+  },
+  {
+    "Symbol": "POA",
+    "CoinName": "Poa Network",
+    "FullName": "Poa Network (POA)"
+  },
+  {
+    "Symbol": "AE",
+    "CoinName": "Aeternity",
+    "FullName": "Aeternity (AE)"
+  },
+  {
+    "Symbol": "GBYTE",
+    "CoinName": "Obyte",
+    "FullName": "Obyte (GBYTE)"
+  },
+  {
+    "Symbol": "BLK",
+    "CoinName": "BlackCoin",
+    "FullName": "BlackCoin (BLK)"
+  },
+  {
+    "Symbol": "NAS",
+    "CoinName": "Nebulas",
+    "FullName": "Nebulas (NAS)"
+  },
+  {
+    "Symbol": "HC",
+    "CoinName": "HyperCash",
+    "FullName": "HyperCash (HC)"
+  },
+  {
+    "Symbol": "IOST",
+    "CoinName": "IOS token",
+    "FullName": "IOS token (IOST)"
+  },
+  {
+    "Symbol": "GXS",
+    "CoinName": "GXChain",
+    "FullName": "GXChain (GXS)"
+  },
+  {
+    "Symbol": "KMD",
+    "CoinName": "Komodo",
+    "FullName": "Komodo (KMD)"
+  },
+  {
+    "Symbol": "WTC",
+    "CoinName": "Waltonchain",
+    "FullName": "Waltonchain (WTC)"
+  },
+  {
+    "Symbol": "NXT",
+    "CoinName": "Nxt",
+    "FullName": "Nxt (NXT)"
+  },
+  {
+    "Symbol": "XAS",
+    "CoinName": "Asch",
+    "FullName": "Asch (XAS)"
+  },
+  {
+    "Symbol": "RHOC",
+    "CoinName": "RChain",
+    "FullName": "RChain (RHOC)"
+  },
+  {
+    "Symbol": "WAN",
+    "CoinName": "Wanchain",
+    "FullName": "Wanchain (WAN)"
+  },
+  {
+    "Symbol": "ARK",
+    "CoinName": "ARK",
+    "FullName": "ARK (ARK)"
+  },
+  {
+    "Symbol": "NAV",
+    "CoinName": "NavCoin",
+    "FullName": "NavCoin (NAV)"
+  },
+  {
+    "Symbol": "ENG",
+    "CoinName": "Enigma",
+    "FullName": "Enigma (ENG)"
+  },
+  {
+    "Symbol": "NULS",
+    "CoinName": "Nuls",
+    "FullName": "Nuls (NULS)"
+  },
+  {
+    "Symbol": "QTUM",
+    "CoinName": "QTUM",
+    "FullName": "QTUM (QTUM)"
+  },
+  {
+    "Symbol": "ARDR",
+    "CoinName": "Ardor",
+    "FullName": "Ardor (ARDR)"
+  },
+  {
+    "Symbol": "PIVX",
+    "CoinName": "Private Instant Verified Transaction",
+    "FullName": "Private Instant Verified Transaction (PIVX)"
+  },
+  {
+    "Symbol": "LSK",
+    "CoinName": "Lisk",
+    "FullName": "Lisk (LSK)"
+  },
+  {
+    "Symbol": "VTC",
+    "CoinName": "Vertcoin",
+    "FullName": "Vertcoin (VTC)"
+  },
+  {
+    "Symbol": "NANO",
+    "CoinName": "Nano",
+    "FullName": "Nano (NANO)"
+  },
+  {
+    "Symbol": "ONT",
+    "CoinName": "Ontology",
+    "FullName": "Ontology (ONT)"
+  },
+  {
+    "Symbol": "MKEY",
+    "CoinName": "MEDIKEY",
+    "FullName": "MEDIKEY (MKEY)"
+  },
+  {
+    "Symbol": "TAUC",
+    "CoinName": "Taurus Coin",
+    "FullName": "Taurus Coin (TAUC)"
+  },
+  {
+    "Symbol": "GIB",
+    "CoinName": "Bible Coin",
+    "FullName": "Bible Coin (GIB)"
+  },
+  {
+    "Symbol": "ZANO",
+    "CoinName": "Zano",
+    "FullName": "Zano (ZANO)"
+  },
+  {
+    "Symbol": "SCDS",
+    "CoinName": "Shrine Cloud Storage Network",
+    "FullName": "Shrine Cloud Storage Network (SCDS)"
   }
-]
+];
