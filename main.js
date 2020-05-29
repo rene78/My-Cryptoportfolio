@@ -10,7 +10,7 @@ const demoportfolio = {
         "cryptoTicker": "BTC",
         "cryptoName": "Bitcoin",
         "cryptoQty": "0.5",
-        "cryptoInvestedSum": "2000"
+        "cryptoInvestedSum": "4000"
       },
       {
         "cryptoTicker": "ADA",
@@ -364,9 +364,9 @@ function displayPortfolio() {
     cryptoStyle = redOrGreen(change24H);
 
     thisHTML += "<td " + cryptoStyle + ">" + changePct24H + "</td>";
-    thisHTML += "<td " + cryptoStyle + ">" + cryptoGainLossToday.toFixed(0) + " " + fiatSymbol + "</td>";
+    thisHTML += "<td " + cryptoStyle + ">" + add1000Separators(cryptoGainLossToday.toFixed(0)) + " " + fiatSymbol + "</td>";
 
-    thisHTML += "<td " + redOrGreen(cryptoGainLoss) + ">" + cryptoGainLoss.toFixed(0) + " " + fiatSymbol + "</td>";
+    thisHTML += "<td " + redOrGreen(cryptoGainLoss) + ">" + add1000Separators(cryptoGainLoss.toFixed(0)) + " " + fiatSymbol + "</td>";
     thisHTML += "</tr>";
   }
 
@@ -377,9 +377,9 @@ function displayPortfolio() {
   thisHTML += "<td></td>";
   thisHTML += "<td></td>";
 
-  thisHTML += "<td " + redOrGreen(overallGainLossToday) + ">" + overallGainLossToday.toFixed(0) + " " + fiatSymbol + "</td>";
+  thisHTML += "<td " + redOrGreen(overallGainLossToday) + ">" + add1000Separators(overallGainLossToday.toFixed(0)) + " " + fiatSymbol + "</td>";
 
-  thisHTML += "<td " + redOrGreen(overallGainLoss) + ">" + overallGainLoss.toFixed(0) + " " + fiatSymbol + "</td>";
+  thisHTML += "<td " + redOrGreen(overallGainLoss) + ">" + add1000Separators(overallGainLoss.toFixed(0)) + " " + fiatSymbol + "</td>";
   thisHTML += "</tr>";
   thisHTML += "</tfoot>";
   thisHTML += "</table>"
@@ -410,6 +410,20 @@ function redOrGreen(value) {
     cryptoStyle = "class='cryptoUp'";
   }
   return cryptoStyle;
+}
+
+//Add a dot as thousand separator
+function add1000Separators(nStr) {
+  //Example: nStr = 1427900000.45
+  nStr += ''; //Convert input to string
+  const x = nStr.split('.');//Split string at . into arrays [ '1427900000', '45' ]
+  let x1 = x[0]; // 1427900000
+  const x2 = x.length > 1 ? ',' + x[1] : ''; //,45
+  const rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + '.' + '$2'); // 1427900.000 --> 1427.900.000 --> 1.427.900.000
+  }
+  return x1 + x2; // 1.427.900.000,45
 }
 
 // Sort DISPLAY PORTFOLIO table by clicking on the table headers
