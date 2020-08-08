@@ -364,9 +364,9 @@ function displayPortfolio() {
     cryptoStyle = redOrGreen(change24H);
 
     thisHTML += "<td " + cryptoStyle + ">" + changePct24H + "</td>";
-    thisHTML += "<td " + cryptoStyle + ">" + add1000Separators(cryptoGainLossToday.toFixed(0)) + " " + fiatSymbol + "</td>";
+    thisHTML += "<td " + cryptoStyle + ">" + cryptoGainLossToday.toFixed(0) + " " + fiatSymbol + "</td>";
 
-    thisHTML += "<td " + redOrGreen(cryptoGainLoss) + ">" + add1000Separators(cryptoGainLoss.toFixed(0)) + " " + fiatSymbol + "</td>";
+    thisHTML += "<td " + redOrGreen(cryptoGainLoss) + ">" + cryptoGainLoss.toFixed(0) + " " + fiatSymbol + "</td>";
     thisHTML += "</tr>";
   }
 
