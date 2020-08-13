@@ -213,7 +213,7 @@ th {
   background-size: 1.5em;
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
   .header li select {
     padding: 20px 30px 20px 20px;
     background-position-x: 96%;
@@ -225,7 +225,7 @@ th {
   cursor: pointer;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .header li {
     float: left;
   }
@@ -315,7 +315,7 @@ th {
 }
 
 /*Set width to 70%*/
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   #portfolio-table {
     width: 70%;
   }
@@ -344,8 +344,15 @@ th {
   height: 100px; */
 }
 
-/*Set width to 40%*/
-@media (min-width: 600px) {
+/*Set width to 70%*/
+@media (min-width: 700px) {
+  .chart {
+    width: 70%;
+  }
+}
+
+/*Set width to 40% for higher resolution displays. Else chart is too large*/
+@media (min-width: 1050px) {
   .chart {
     width: 40%;
   }
