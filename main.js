@@ -357,7 +357,7 @@ function displayPortfolio() {
       lastPrice = parseFloat(lastPrice).toFixed(0);
     }
 
-    thisHTML += "<td><a href='https://coinmarketcap.com/currencies/" + fullName + "' target=_blank>" + fullName + "</a></td>";
+    thisHTML += "<td><a href='https://coinmarketcap.com/currencies/" + fullName.toLowerCase() + "' target=_blank>" + fullName + "</a></td>";
     thisHTML += "<td>" + lastPrice + " " + fiatSymbol + "</td>";
 
     //Change color of changePct24H and cryptoGainLossToday number according to value (-, 0, + -> red, black, green)
