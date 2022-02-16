@@ -517,7 +517,7 @@ function showAllArrows() {
 function createChartData() {
   let chartLabels = [], coinOverallValue = [];
 
-  for (i = 0; i < Object.keys(coinPrices['RAW']).length; i++) {
+  for (i = 0; i < portfolio.token.length; i++) {
     var cryptoTicker = portfolio.token[i].cryptoTicker;
     var cryptoQty = portfolio.token[i].cryptoQty;
     let check = coinPrices['RAW'][cryptoTicker];
