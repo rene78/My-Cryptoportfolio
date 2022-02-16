@@ -321,8 +321,10 @@ function displayPortfolio() {
   thisHTML += "<tbody>";
   thisHTML += "<tr>";
 
-  for (i = 0; i < Object.keys(coinPrices['RAW']).length; i++) {
+  for (i = 0; i < portfolio.token.length; i++) {
     var cryptoTicker = portfolio.token[i].cryptoTicker;
+    let check = coinPrices['RAW'][cryptoTicker];
+    if (typeof check == 'undefined') { continue; } //If a ticker symbol is not available on cryptocompare it will be skipped
     var fullName = portfolio.token[i].cryptoName;
     var cryptoQty = portfolio.token[i].cryptoQty;
     var cryptoInvestedSum = portfolio.token[i].cryptoInvestedSum;
@@ -518,6 +520,8 @@ function createChartData() {
   for (i = 0; i < Object.keys(coinPrices['RAW']).length; i++) {
     var cryptoTicker = portfolio.token[i].cryptoTicker;
     var cryptoQty = portfolio.token[i].cryptoQty;
+    let check = coinPrices['RAW'][cryptoTicker];
+    if (typeof check == 'undefined') { continue; } //If a ticker symbol is not available on cryptocompare it will be skipped
     var lastPrice = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['PRICE'];
     var fiatSymbol = coinPrices['DISPLAY'][cryptoTicker][portfolio.fiat]['TOSYMBOL'];
 
