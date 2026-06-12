@@ -261,8 +261,8 @@ function downloadCoinPrices() {
   //console.log('allTicker: ' + allTickers);
 
   //Create API request URL
-  var coinAPI = "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=" + allTickers + "&tsyms=" + portfolio.fiat;
-  //console.log('coinAPI: ' + coinAPI);
+  const coinAPI = "https://api.coingecko.com/api/v3/simple/price?symbols=" + allTickers + "&include_24hr_change=true&vs_currencies=" + portfolio.fiat;
+  // console.log('coinAPI: ' + coinAPI);
 
   //Hide fetch and undhide 5 lines below to show portfolio with locally saved demo prices
   // coinPrices = coinpricesExample;
@@ -279,7 +279,7 @@ function downloadCoinPrices() {
       return res.json();
     })
     .then(prices => {
-      //console.log(prices);
+      // console.log(prices);
       coinPrices = prices;
       displayPortfolio();
       createChartData();
@@ -299,7 +299,7 @@ function downloadCoinPrices() {
 function displayPortfolio() {
   var myContainer = document.getElementById("display-portfolio");
 
-  //GET-Anfrage an cryptocompare API
+  //GET request to CoinGecko API
   var thisHTML = "";
   thisHTML += "<table id='portfolio-table'>";
   thisHTML += "<thead>";
@@ -316,28 +316,32 @@ function displayPortfolio() {
   var overallGainLoss = 0;
   var overallGainLossToday = 0;
   var cryptoStyle = "class='cryptoUp'";
-  var fiatSymbol = fiats.find(i => i.code === portfolio.fiat).symbol;
+  var fiatSymbol = fiats.find(i => i.code === portfolio.fiat).symbol; //e.g. "€", "$", "£" etc.
 
   thisHTML += "<tbody>";
   thisHTML += "<tr>";
 
   for (i = 0; i < portfolio.token.length; i++) {
-    var cryptoTicker = portfolio.token[i].cryptoTicker;
-    let check = coinPrices['RAW'][cryptoTicker];
-    if (typeof check == 'undefined') { continue; } //If a ticker symbol is not available on cryptocompare it will be skipped
+    var cryptoTicker = portfolio.token[i].cryptoTicker.toLowerCase();
+    // console.log(cryptoTicker);
+    let check = coinPrices[cryptoTicker];
+    // console.log(check);
+    if (typeof check == 'undefined') { continue; } //If a ticker symbol is not available on CoinGecko it will be skipped
     var fullName = portfolio.token[i].cryptoName;
     var cryptoQty = portfolio.token[i].cryptoQty;
     var cryptoInvestedSum = portfolio.token[i].cryptoInvestedSum;
-    var lastPrice = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['PRICE'];
-    var changePct24H = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['CHANGEPCT24HOUR'];
-    var change24H = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['CHANGE24HOUR'];
-    // var fiatSymbol = coinPrices['DISPLAY'][cryptoTicker][portfolio.fiat]['TOSYMBOL'];
+    var lastPrice = coinPrices[cryptoTicker][portfolio.fiat.toLowerCase()];
+    // console.log(lastPrice);
+    var changePct24H = coinPrices[cryptoTicker][portfolio.fiat.toLowerCase()+"_24h_change"];
+    // console.log(changePct24H);
+    var change24H = lastPrice * changePct24H / 100;
+    // console.log(change24H);
 
     var cryptoGainLoss = 0;
     var cryptoGainLossToday = 0;
     var cryptoBuyingPrice = 0;
 
-    //Some values on CryptoCompare return "null". That would break ".toFixed" below:
+    //Some values on CoinGecko return "null". That would break ".toFixed" below:
     if (changePct24H != null) {
       changePct24H = changePct24H.toFixed(1).concat(" %"); //Example: 2.36: toFixed: Only one digit after the comma (2.4). Concat: Add percentage sign (2.4%).
     }
@@ -516,14 +520,14 @@ function showAllArrows() {
 //Render chart
 function createChartData() {
   let chartLabels = [], coinOverallValue = [];
+  let fiatSymbol = fiats.find(i => i.code === portfolio.fiat).symbol;
 
   for (i = 0; i < portfolio.token.length; i++) {
-    var cryptoTicker = portfolio.token[i].cryptoTicker;
+    var cryptoTicker = portfolio.token[i].cryptoTicker.toLowerCase();
     var cryptoQty = portfolio.token[i].cryptoQty;
-    let check = coinPrices['RAW'][cryptoTicker];
-    if (typeof check == 'undefined') { continue; } //If a ticker symbol is not available on cryptocompare it will be skipped
-    var lastPrice = coinPrices['RAW'][cryptoTicker][portfolio.fiat]['PRICE'];
-    var fiatSymbol = coinPrices['DISPLAY'][cryptoTicker][portfolio.fiat]['TOSYMBOL'];
+    let check = coinPrices[cryptoTicker];
+    if (typeof check == 'undefined') { continue; } //If a ticker symbol is not available on CoinGecko it will be skipped
+    var lastPrice = coinPrices[cryptoTicker][portfolio.fiat.toLowerCase()];
 
     chartLabels.push(portfolio.token[i].cryptoName);
     coinOverallValue.push(Math.round(cryptoQty * lastPrice));
